@@ -1,18 +1,21 @@
-import express, {Application, Request, Response, NextFunction} from 'express';
+import express, {Application, Request, Response, NextFunction, Router} from 'express';
 import mongoose from 'mongoose';
-import { usersSchema } from "../src/features/shared/db-models/user";
-import { admin } from "../src/features/shared/repositories/Initial";
+import { Init } from "../src/features/shared/repositories/Initial";
+import  userModel  from "./features/shared/db-models/user";
+import bodyParser from 'body-parser';
+import { userRouter } from "../src/features/user/handlers/userHandler";
+
 
 const app: Application = express();
-const init = admin;
+const init = Init.prototype;
+init.Check(userModel);
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.use('/user',userRouter);
 
 mongoose.connect("mongodb://localhost/educationdb", { useCreateIndex: true, useNewUrlParser: true })
-.then(db=>console.log('connection!!!'));
-
-app.get('/',(req: Request, res: Response, next: NextFunction)=> {
-    res.send('Server works');
-});
-
 
 
 app.listen(8000, () => console.log('server running'))

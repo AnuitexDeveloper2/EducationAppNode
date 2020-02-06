@@ -1,6 +1,6 @@
 import mongoose,{model,Document} from 'mongoose';
 import { Role } from '../enums/role';
-import { ObjectID } from 'mongodb';
+import  {User}  from "../../user/api";
 
 const schema = mongoose.Schema;
 
@@ -15,15 +15,8 @@ export const usersSchema = new schema({
     role: { type: Role, required: true, default: Role.User }
 });
 
+interface userModel extends User,mongoose.Document {}
 
-const userModel = model<User>('User', usersSchema);
+const userModel = model<userModel>('User', usersSchema);
 export default userModel;
 
-export interface User extends Document {
-    _id: ObjectID | string,
-    userName: string,
-    email: string,
-    firstName: string,
-    lastName: string,
-    passwordHash: string
-}
