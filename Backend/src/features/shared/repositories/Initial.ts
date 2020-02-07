@@ -2,33 +2,37 @@ import Users from '../db-models/user'
 import { Role } from '../enums/role'
 import bcrypt from "bcryptjs";
 import userModel from '../db-models/user';
-import mongoose, { model } from 'mongoose';
 import authorModel from '../db-models/author';
 import Authors from '../db-models/author';
+import printingEditionModel from '../db-models/printing-edition';
+import  PrintingEditions  from '../db-models/printing-edition';
+import { PrintingEdition } from '../../printing-editions/api';
+import { PrintingEditionType } from '../enums/printingEditionType';
 
 
 export class Init {
 
     admin: Users;
     author: Authors; 
+    printingEdition: PrintingEditions;
     private  checkModel = userModel;
 
    constructor () {
        this.admin = new Users();
        this.author = new Authors()
+       this.printingEdition = new PrintingEditions();
    }
     
    public async Check() {
        this.initAdmin();
-       this.initAuthor()
+       this.initAuthor();
+       this.initProdiuct();
     }
     
-     private async initAdmin(): Promise<userModel>{
+     private async initAdmin(): Promise<userModel> {
 
         let result = await userModel.find();
         if (result.length == 0) {
-            
-            
             const admin: userModel = new Users({
                 userName: 'Morgenshtern88',
                 firstName: 'Vladimir',
@@ -46,9 +50,7 @@ export class Init {
         return this.admin
     }
 
-    private async initAuthor(): Promise<authorModel>  {
-
-
+    private async initAuthor(): Promise<authorModel> {
         let result = await authorModel.find();
         if (result.length == 0) {
             const author: authorModel = new Authors({
@@ -58,6 +60,28 @@ export class Init {
             return author;
                 }
         return this.author;
+    }
+
+    private async initProdiuct(): Promise<printingEditionModel> {
+
+        let result = await printingEditionModel.find();
+
+        if (result.length == 0) {
+            const printingEdition: printingEditionModel = new PrintingEditions ({
+                title: 'The Colour of Magic',
+                description: 'The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett',
+                cover_image: 'http/:',
+                type: PrintingEditionType.Book,
+                price: 25,
+                currency: 'USD',
+                author_ids: '5e3d1c71c818e21204ac2b8b'
+            })          
+            printingEdition.save();
+            return printingEdition;
+        }
+
+        return this.printingEdition
+
     }
 }
 

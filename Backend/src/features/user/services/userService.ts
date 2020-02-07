@@ -1,14 +1,28 @@
 import * as repository from '../repositories/userRepositiry'
 import {User} from "../api";
 import userModel from '../../shared/db-models/user';
+import { Error } from '../../shared/constants/error';
+import { Properties } from '../../shared/constants/properties';
 
-export async function registerAsync(userModel: User): Promise<string> {
-   
-    const result = await repository.registerAsync(userModel)
-    if (!result) {
-        throw 'No register User';
+export async function registerAsync(userParam: User): Promise<Array<string>> {
+
+    let model = new userModel();
+    model.error = new Array<string>();
+    let wasExist = await repository.findByEmail(userParam.email);
+    if (wasExist) {
+        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
+        return model.error;
     }
-    return 'register succeed';
+    
+    wasExist = await repository.findByUserName(userParam.userName);
+    
+    if (wasExist) {
+        model.error.push(Error.UserName + userParam.email + Error.IsAlreadyTaken);
+        return model.error;
+    }
+
+    const result = await repository.registerAsync(userParam)
+    return userParam.error;
 }
 
 export async function getByIdAsync(userParam: User): Promise<User> {
@@ -16,8 +30,6 @@ export async function getByIdAsync(userParam: User): Promise<User> {
     let result = await repository.getUserAsync(userParam)
 
     return result;
-      
-   
 }
 
 export async function getAllAsync() {
@@ -25,13 +37,42 @@ export async function getAllAsync() {
 }
 
 export async function logInAsync(userParam: userModel) {
+   
     if (userParam.email === null || userParam.passwordHash === null) {
         return null;
     }
-   return await repository.signInAsync(userParam)
+
+    let result = await repository.signInAsync(userParam);
+   return await result
 }
 
-export async function editAsync(userParam: userModel) {
-    
-    return await repository.editAsync(userParam)
+export async function editAsync(userParam: User) : Promise<Array<string>> {
+    let model = new userModel();
+    model.error = new Array<string>();
+    let user = await repository.findById(userParam.Id);
+    if (user == null) {
+        model.error.push(Error.userNotFound);
+        return model.error;
+    }
+
+    if (user.email !== userParam.email && await userModel.findOne({ email: userParam.email })) {
+        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
+        return model.error;
+    }
+
+    if (user.userName !== userParam.userName && await userModel.findOne({ userName: userParam.userName })) {
+        model.error.push(Error.UserName + userParam.userName + Error.IsAlreadyTaken);
+        return model.error; 
+    }
+
+     let result = await repository.editAsync(userParam,user);
+     if (!result) {
+         model.error.push(Error.NotUserEdit);
+     }
+    return model.error;
+}
+
+export async function removeAsync(userParam: userModel) {
+
+    return await repository.removeOneAsync(userParam);
 }
