@@ -1,6 +1,6 @@
-import mongoose,{model,Document} from 'mongoose';
+import mongoose, {model} from 'mongoose';
 import { Role } from '../enums/role';
-import  {User}  from "../../user/api";
+import { User }  from "../../user/api";
 
 const schema = mongoose.Schema;
 
