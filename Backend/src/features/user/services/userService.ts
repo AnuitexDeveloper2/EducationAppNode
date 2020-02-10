@@ -4,26 +4,7 @@ import userModel from '../../shared/db-models/user';
 import { Error } from '../../shared/constants/error';
 import { Properties } from '../../shared/constants/properties';
 
-export async function registerAsync(userParam: User): Promise<Array<string>> {
 
-    let model = new userModel();
-    model.error = new Array<string>();
-    let wasExist = await repository.findByEmail(userParam.email);
-    if (wasExist) {
-        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
-        return model.error;
-    }
-    
-    wasExist = await repository.findByUserName(userParam.userName);
-    
-    if (wasExist) {
-        model.error.push(Error.UserName + userParam.email + Error.IsAlreadyTaken);
-        return model.error;
-    }
-
-    const result = await repository.registerAsync(userParam)
-    return userParam.error;
-}
 
 export async function getByIdAsync(userParam: User): Promise<User> {
    
@@ -36,15 +17,7 @@ export async function getAllAsync() {
     return await userModel.find().select('-hash');
 }
 
-export async function logInAsync(userParam: userModel) {
-   
-    if (userParam.email === null || userParam.passwordHash === null) {
-        return null;
-    }
 
-    let result = await repository.signInAsync(userParam);
-   return await result
-}
 
 export async function editAsync(userParam: User) : Promise<Array<string>> {
     let model = new userModel();

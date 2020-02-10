@@ -1,0 +1,42 @@
+import { User, ResetPassword } from "../user/api";
+import userModel from "../shared/db-models/user";
+import * as repository from "../auth/auth.repository";
+import { Error } from "../shared/constants/error";
+import * as userRepository from "../user/repositories/userRepositiry"
+
+export async function registerAsync(userParam: User): Promise<Array<string>> {
+
+    let model = new userModel();
+    model.error = new Array<string>();
+    let wasExist = await userRepository.findByEmail(userParam.email);
+    if (wasExist) {
+        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
+        return model.error;
+    }
+    
+    wasExist = await userRepository.findByUserName(userParam.userName);
+    
+    if (wasExist) {
+        model.error.push(Error.UserName + userParam.email + Error.IsAlreadyTaken);
+        return model.error;
+    }
+
+    const result = await repository.registerAsync(userParam)
+    return userParam.error;
+}
+
+
+export async function logInAsync(userParam: userModel): Promise<string> {
+   
+    if (userParam.email === null || userParam.passwordHash === null) {
+        return '';
+    }
+
+    let result = await repository.signInAsync(userParam);
+   return await result
+}
+
+export async function changePasswordAsync(userParam: ResetPassword) {
+
+    return true;
+}

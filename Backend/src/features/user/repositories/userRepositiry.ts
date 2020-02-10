@@ -2,9 +2,6 @@ import userModel  from "../../shared/db-models/user";
 import {User} from"../api";
 import bcrypt from "bcryptjs";
 import {Error} from '../../shared/constants/error';
-import jwt from 'jsonwebtoken';
-import { Role } from "../../shared/enums/role";
-const config = require('../../../../config')
    
 
 export async function getUserAsync (userParam: User)  {
@@ -15,44 +12,8 @@ export async function getUserAsync (userParam: User)  {
         return result;
     };
 
-    export async function registerAsync (userParam: User): Promise<boolean> {
-       
-      
-        let checkUser = await userModel.findOne({email: userParam.email})
-
-
-        if (checkUser != null) {
-            false
-        }
-        let user = new userModel(userParam);
-        var salt = bcrypt.genSaltSync(10);
-        user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);
-        let result = await userModel.create(user)
-
-        if (result == null) {
-        return false;
-            }
-
-         return true;
-    }
-
-    export async function signInAsync(userParam: userModel): Promise<boolean> {
-        let res = await userModel.findById(userParam._id)
-        let user = await userModel.findOne({ email: userParam.email })
-        if (user == null) {
-           return false;
-        }
     
-        const result = await checkPasswordAsync(userParam.passwordHash,user);
-        if (!result) {
-           return false;
-        }
-    
-        const token = jwt.sign({ sub: user.id, role: Role[user.role] }, config.secret, {expiresIn: '1h'});
-        return true;
-    }
-    
-    async function checkPasswordAsync(password: string, user: User) {
+export async function checkPasswordAsync(password: string, user: User) {
         if (!bcrypt.compareSync(password, user.passwordHash)) {
             return false
         }

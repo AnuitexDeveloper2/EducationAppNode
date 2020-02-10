@@ -1,6 +1,6 @@
 import { Role } from "../shared/enums/role";
 
-   export interface User  {
+   export interface User {
         Id: string;
         userName: string,
         email: string,
@@ -9,5 +9,11 @@ import { Role } from "../shared/enums/role";
         passwordHash: string
         role: Role
         error: Array<string>
+    }
+
+    export interface ResetPassword {
+        Id: string;
+        oldPassword: string;
+        newPassword:string;
     }
    
