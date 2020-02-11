@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import * as authService from '../auth/auth.service';
+import * as jwtHelper from "../shared/jwtHelper/jwtHelper";
 
 export async function registerAsync(req: Request,res: Response,next: NextFunction) {
    
@@ -9,13 +10,13 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
   }
 
   export async function authenticateAsync(req: Request, res: Response, next: NextFunction) {
-    authService.logInAsync(req.body)
-    .then(token => res.setHeader("token",token))
-    .catch(err => next(err));
+   const result = await authService.logInAsync(req.body)
+    .then(token => res.send(jwtHelper.generateTokens(token)))
+    .catch();
+    
   }
 
-  export async function changePassword(req: Request, res: Response, next: NextFunction) {
-    console.log(req.header);
+  export async function changePasswordAsync(req: Request, res: Response, next: NextFunction) {
     authService.changePasswordAsync(req.body)
     .then((err) => res.json({err}))
     .catch(err => next(err))

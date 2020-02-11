@@ -6,8 +6,10 @@ import { userRouter,adminRouter } from "../src/features/user/index";
 import { authRouter } from './features/auth';
 import * as env from 'dotenv';
 import * as cors from 'cors';
+import errorMiddleware from './features/shared/middleware/errorMiddleware';
 
 env.config();
+
 const app: Application = express();
 const init = Init.prototype;
 init.Check();
@@ -23,6 +25,8 @@ app.use('/auth', authRouter);
 const connectionString: any = process.env.connectionString;
 mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
 
+
+app.use(errorMiddleware);
 const PORT = process.env.PORT || 8080;
 process.env.connectionString
 app.listen(PORT, () => {

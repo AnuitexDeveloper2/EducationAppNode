@@ -26,17 +26,17 @@ export async function registerAsync(userParam: User): Promise<Array<string>> {
 }
 
 
-export async function logInAsync(userParam: userModel): Promise<string> {
+export async function logInAsync(userParam: userModel): Promise<userModel> {
    
     if (userParam.email === null || userParam.passwordHash === null) {
-        return '';
+        return userParam;
     }
 
     let result = await repository.signInAsync(userParam);
-   return await result
+   return  result
 }
 
 export async function changePasswordAsync(userParam: ResetPassword) {
 
-    return true;
+    return 'Yes mother facker';
 }

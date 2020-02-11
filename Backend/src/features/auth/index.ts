@@ -6,4 +6,4 @@ export const authRouter = Router();
 
 authRouter.post('/logIn', authHandlers.authenticateAsync);
 authRouter.post('/register', authHandlers.registerAsync);
-//authRouter.post("/change-password", [checkJwt], authHandlers.changePassword);
+authRouter.post("/change-password", [checkJwt], authHandlers.changePasswordAsync);
