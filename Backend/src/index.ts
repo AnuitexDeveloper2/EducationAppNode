@@ -3,30 +3,34 @@ import mongoose from 'mongoose';
 import { Init } from "../src/features/shared/repositories/Initial";
 import bodyParser from 'body-parser';
 import { userRouter,adminRouter } from "../src/features/user/index";
+import { authorRouter } from "../src/features/authors/index";
 import { authRouter } from './features/auth';
 import * as env from 'dotenv';
-import * as cors from 'cors';
 import errorMiddleware from './features/shared/middleware/errorMiddleware';
+import { checkJwt } from './features/shared/jwtHelper/checkJwt';
+import { grantAccess } from './features/shared/accessControle/accessController';
+import { Role } from './features/shared/enums/role';
 
 env.config();
 
 const app: Application = express();
 const init = Init.prototype;
 init.Check();
+app.use(errorMiddleware);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 //app.use(cors())
+app.use('/auth', authRouter)
+app.use('/author', authorRouter);
+app.use(checkJwt);
+app.use('/user',grantAccess(Role.User), userRouter);
+app.use('/admin',grantAccess(Role.Admin), adminRouter);
 
-app.use('/user', userRouter);
-app.use('/admin', adminRouter);
-app.use('/auth', authRouter);
-
-const connectionString: any = process.env.connectionString;
+const connectionString = process.env.connectionString;
 mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
 
 
-app.use(errorMiddleware);
 const PORT = process.env.PORT || 8080;
 process.env.connectionString
 app.listen(PORT, () => {

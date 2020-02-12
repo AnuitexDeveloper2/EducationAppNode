@@ -3,44 +3,35 @@ import * as jwt from "jsonwebtoken";
 import * as env from 'dotenv';
 import { generateTokens } from "./jwtHelper";
 import userModel from "../../shared/db-models/user";
-import { TokenExpiredError } from "jsonwebtoken";
 
 
 env.config();
 const jwtSecret: any = process.env.secret;
 export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
-
-  const accessToken = <string>req.headers["access"];
+  const accessToken = <string>req.headers["accesstoken"];
   let jwtPayload;
   let newTokens: any;
+  
   
   try {
     jwtPayload = <any>jwt.verify(accessToken, jwtSecret);
     res.locals.jwtPayload = jwtPayload;
   } catch (err) {
-    console.log(err);
+    
        if (err.name == 'TokenExpiredError') {
-      
-      const refreshToken = <string>req.headers["refresh"];
-      
-     newTokens = refreshTokens(refreshToken,res);
+      const refreshToken = <string>req.headers["refreshtoken"];
+      newTokens = refreshTokens(refreshToken,res);
       const test =newTokens.token;
-     res.setHeader("Access", test);
-     res.setHeader('Refresh', newTokens.refreshToken);
-
     }
     if (err.name == 'JsonWebTokenError' ) {
       
       res.status(401).send("token is not valid");
       return;
     }
-   
   }
 
   next();
 };
-
-
 
 
 function refreshTokens(refreshToken: string, res: Response) {
@@ -48,12 +39,13 @@ function refreshTokens(refreshToken: string, res: Response) {
   
   const jwtSecret : any = process.env.refreshTokenSecret
   try {
-    
     jwtPayload = <any>jwt.verify(refreshToken, jwtSecret);
-   
-  } catch (error) {
+    res.locals.jwtPayload = jwtPayload;
+  } catch (err) {
+    if (err.name == 'TokenExpiredError') {}
 
-    return res.status(401).send('refresh token is not valid');
+    res.status(401).send('refresh token is not valid');
+    return ;
 
   }
   
@@ -61,7 +53,7 @@ function refreshTokens(refreshToken: string, res: Response) {
   user._id = jwtPayload.id;
   user.role = jwtPayload.role;
  
- return generateTokens(user);
+ return generateTokens(user,res);
   
 
 }

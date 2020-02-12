@@ -11,7 +11,7 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
 
   export async function authenticateAsync(req: Request, res: Response, next: NextFunction) {
    const result = await authService.logInAsync(req.body)
-    .then(token => res.send(jwtHelper.generateTokens(token)))
+    .then(user => res.send(jwtHelper.generateTokens(user,res)))
     .catch();
     
   }

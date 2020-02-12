@@ -9,6 +9,7 @@ export async function registerAsync(userParam: User): Promise<Array<string>> {
     let model = new userModel();
     model.error = new Array<string>();
     let wasExist = await userRepository.findByEmail(userParam.email);
+    
     if (wasExist) {
         model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
         return model.error;
@@ -27,16 +28,15 @@ export async function registerAsync(userParam: User): Promise<Array<string>> {
 
 
 export async function logInAsync(userParam: userModel): Promise<userModel> {
-   
-    if (userParam.email === null || userParam.passwordHash === null) {
+    
+    if (userParam == null) {
         return userParam;
     }
-
+    
     let result = await repository.signInAsync(userParam);
-   return  result
+    return  result
 }
 
 export async function changePasswordAsync(userParam: ResetPassword) {
-
     return 'Yes mother facker';
 }

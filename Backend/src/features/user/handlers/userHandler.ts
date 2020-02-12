@@ -1,19 +1,15 @@
-import { Request, Response, Router, NextFunction } from "express";
+import { Request, Response, NextFunction } from "express";
 import * as userService from ".././services/userService"
-import { Action } from "routing-controllers";
 
 
 
 export async function getUserAsync(req: Request,res: Response,next: NextFunction) {
-
   await userService.getByIdAsync(req.body)
   .then((user) =>res.json({user}))
   .catch(err =>next(err))
-
 }
 
 export async function getAllAsync(req: Request, res: Response, next: NextFunction) {
-
   userService.getAllAsync()
             .then(users => res.json(users))
             .catch(err => next(err));
