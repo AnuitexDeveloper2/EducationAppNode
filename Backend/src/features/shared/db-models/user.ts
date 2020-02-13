@@ -1,6 +1,7 @@
 import mongoose, {model} from 'mongoose';
 import { Role } from '../enums/role';
 import { User }  from "../../user/api";
+import mongoosePaginate from 'mongoose-paginate'
 
 const schema = mongoose.Schema;
 
@@ -14,6 +15,8 @@ export const usersSchema = new schema({
     createdDate: { type: Date, default: Date.now },
     role: { type: Role, required: true, default: Role.User }
 });
+
+usersSchema.plugin(mongoosePaginate);
 
 interface userModel extends User,mongoose.Document {}
 const userModel = model<userModel>('User', usersSchema);

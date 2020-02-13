@@ -13,8 +13,7 @@ export  function grantAccess(currentRole: any) {
     return  (req: Request, res: Response, next: NextFunction) => {
         const accessToken = <string>req.headers["accesstoken"];
         const jwtPayload = <any>jwt.verify(accessToken, jwtSecret);
-        console.log(Role[jwtPayload.role]);
-        console.log(Role[currentRole]);
+        
         if(Role[jwtPayload.role] !== Role[currentRole] ) {
            res.status(401).send(' you are dont permission' )
            return;

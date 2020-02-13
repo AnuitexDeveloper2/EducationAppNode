@@ -28,3 +28,10 @@ export function removeAsync(req: Request, res: Response, next: NextFunction) {
       .then(() => res.json({}))
       .catch(err => next(err));
 }
+
+export async function getUsersAsync(req:Request, res: Response, next: NextFunction) {
+
+  userService.getUserAsync(req.body)
+  .then((result) =>res.json(result))
+  .catch(err => next(err));
+}

@@ -1,7 +1,5 @@
 import { Router } from "express";
 import * as userHandlers from "../user/handlers/userHandler";
-import {grantAccess} from "../shared/accessControle/accessController"
-import { Role } from "../shared/enums/role";
 
 export const userRouter = Router();
 
@@ -12,3 +10,4 @@ export const adminRouter = Router();
 
 adminRouter.post('/getAll', userHandlers.getAllAsync);
 adminRouter.post('/remove', userHandlers.removeAsync);
+adminRouter.get('/users', userHandlers.getUsersAsync);

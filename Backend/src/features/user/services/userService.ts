@@ -3,6 +3,7 @@ import {User} from "../api";
 import userModel from '../../shared/db-models/user';
 import { Error } from '../../shared/constants/error';
 import { Properties } from '../../shared/constants/properties';
+import { UserFilterModel } from '../../shared/filterModels/userFilterModel';
 
 
 
@@ -48,4 +49,9 @@ export async function editAsync(userParam: User) : Promise<Array<string>> {
 export async function removeAsync(userParam: userModel) {
 
     return await repository.removeOneAsync(userParam);
+}
+
+export async function getUserAsync(filter:UserFilterModel) {
+    const result = repository.getUsersAsync(filter);
+    return result;
 }

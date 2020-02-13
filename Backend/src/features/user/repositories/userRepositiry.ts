@@ -2,6 +2,8 @@ import userModel  from "../../shared/db-models/user";
 import {User} from"../api";
 import bcrypt from "bcryptjs";
 import {Error} from '../../shared/constants/error';
+import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
+import { BaseResponse } from "../../shared/db-models/authorResponse";
    
 
 export async function getUserAsync (userParam: User)  {
@@ -13,7 +15,7 @@ export async function getUserAsync (userParam: User)  {
     };
 
     
-export async function checkPasswordAsync(password: string, user: User) {
+    export async function checkPasswordAsync(password: string, user: User) {
         if (!bcrypt.compareSync(password, user.passwordHash)) {
             return false
         }
@@ -64,5 +66,32 @@ export async function checkPasswordAsync(password: string, user: User) {
             return false;
         }
          return true;
+    }
+
+    export async function getUsersAsync(filter: UserFilterModel) {
+        let count;
+    let query;
+    let tableSort: any = {'firstName':filter.sortType};
+    let data= new Array<userModel>();
+    if (filter.searchString !=null) {
+        query =  userModel.find( {lastName:{$regex:new RegExp( filter.searchString, 'i')}}|| { firstName: { $regex: new RegExp( filter.searchString, 'i')}});
+    }
+    if(filter.sortType == 0) {
+        tableSort = {'_id': filter.sortType};
+    }
+    
+    const options = {
+        sort: tableSort,
+        lean: true,
+        page: filter.pageNumber, 
+        limit: filter.pageSize
+    };
+    
+    await userModel.paginate(query,options).then(function(result){
+        count = result.total
+        data =  result.docs
+    }).catch();
+    const response: BaseResponse<userModel>={data:data,count:count}
+     return response;
     }
 

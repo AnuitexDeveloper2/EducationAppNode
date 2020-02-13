@@ -22,8 +22,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 //app.use(cors())
 app.use('/auth', authRouter)
-app.use('/author', authorRouter);
 app.use(checkJwt);
+app.use('/admin/author',grantAccess(Role.Admin), authorRouter);
 app.use('/user',grantAccess(Role.User), userRouter);
 app.use('/admin',grantAccess(Role.Admin), adminRouter);
 
