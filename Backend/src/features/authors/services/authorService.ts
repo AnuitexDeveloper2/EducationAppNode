@@ -1,7 +1,7 @@
-import authorModel from "../../shared/db-models/author";
+import authorModel from "../../../dataAccess/entityModels/author";
 import * as authorRepository from "../repositories/authorRepository"
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
-import { BaseResponse } from "../../shared/db-models/authorResponse";
+import { BaseResponse } from "../../shared/db-models/BaseResponse";
 
  let author = new authorModel();
  author.errors = new Array<string>();

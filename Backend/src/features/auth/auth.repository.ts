@@ -1,5 +1,5 @@
 import { User } from "../user/api";
-import userModel from "../shared/db-models/user";
+import userModel from "../../dataAccess/entityModels/user";
 import bcrypt from "bcryptjs";
 import * as userRepository from "../user/repositories/userRepositiry"
 

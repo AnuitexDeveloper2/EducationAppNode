@@ -1,11 +1,11 @@
-import Users from '../db-models/user'
+import Users from '../../../dataAccess/entityModels/user'
 import { Role } from '../enums/role'
 import bcrypt from "bcryptjs";
-import userModel from '../db-models/user';
-import authorModel from '../db-models/author';
-import Authors from '../db-models/author';
-import printingEditionModel from '../db-models/printing-edition';
-import  PrintingEditions  from '../db-models/printing-edition';
+import userModel from '../../../dataAccess/entityModels/user';
+import authorModel from '../../../dataAccess/entityModels/author';
+import Authors from '../../../dataAccess/entityModels/author';
+import printingEditionModel from '../../../dataAccess/entityModels/printing-edition';
+import  PrintingEditions  from '../../../dataAccess/entityModels/printing-edition';
 import { PrintingEdition } from '../../printing-editions/api';
 import { PrintingEditionType } from '../enums/printingEditionType';
 

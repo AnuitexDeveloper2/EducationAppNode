@@ -1,9 +1,9 @@
-import userModel  from "../../shared/db-models/user";
+import userModel  from "../../../dataAccess/entityModels/user";
 import {User} from"../api";
 import bcrypt from "bcryptjs";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
-import { BaseResponse } from "../../shared/db-models/authorResponse";
+import { BaseResponse } from "../../shared/db-models/BaseResponse";
    
 
 export async function getUserAsync (userParam: User)  {
@@ -73,11 +73,13 @@ export async function getUserAsync (userParam: User)  {
     let query;
     let tableSort: any = {'firstName':filter.sortType};
     let data= new Array<userModel>();
+
     if (filter.searchString !=null) {
-        query =  userModel.find( {lastName:{$regex:new RegExp( filter.searchString, 'i')}}|| { firstName: { $regex: new RegExp( filter.searchString, 'i')}});
+        query =  userModel.find( { $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] });
     }
+
     if(filter.sortType == 0) {
-        tableSort = {'_id': filter.sortType};
+        tableSort = { '_id': filter.sortType };
     }
     
     const options = {
@@ -91,7 +93,7 @@ export async function getUserAsync (userParam: User)  {
         count = result.total
         data =  result.docs
     }).catch();
-    const response: BaseResponse<userModel>={data:data,count:count}
+    const response: BaseResponse<userModel> = { data:data,count:count }
      return response;
     }
 

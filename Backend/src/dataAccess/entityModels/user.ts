@@ -1,6 +1,6 @@
 import mongoose, {model} from 'mongoose';
-import { Role } from '../enums/role';
-import { User }  from "../../user/api";
+import { Role } from '../../features/shared/enums/role';
+import { User }  from "../../features/user/api";
 import mongoosePaginate from 'mongoose-paginate'
 
 const schema = mongoose.Schema;

@@ -1,6 +1,6 @@
 import * as repository from '../repositories/userRepositiry'
 import {User} from "../api";
-import userModel from '../../shared/db-models/user';
+import userModel from '../../../dataAccess/entityModels/user';
 import { Error } from '../../shared/constants/error';
 import { Properties } from '../../shared/constants/properties';
 import { UserFilterModel } from '../../shared/filterModels/userFilterModel';

@@ -1,4 +1,4 @@
-import userModel from "../db-models/user";
+import userModel from "../../../dataAccess/entityModels/user";
 import jwt from 'jsonwebtoken';
 import {Response} from 'express';
 

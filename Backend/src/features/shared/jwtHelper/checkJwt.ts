@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import * as jwt from "jsonwebtoken";
 import * as env from 'dotenv';
 import { generateTokens } from "./jwtHelper";
-import userModel from "../../shared/db-models/user";
+import userModel from "../../../dataAccess/entityModels/user";
 
 
 env.config();

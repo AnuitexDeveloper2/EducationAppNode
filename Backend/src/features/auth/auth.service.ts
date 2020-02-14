@@ -1,5 +1,5 @@
 import { User, ResetPassword } from "../user/api";
-import userModel from "../shared/db-models/user";
+import userModel from "../../dataAccess/entityModels/user";
 import * as repository from "../auth/auth.repository";
 import { Error } from "../shared/constants/error";
 import * as userRepository from "../user/repositories/userRepositiry"
