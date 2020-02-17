@@ -4,6 +4,7 @@ import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEd
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { BaseFilterModel } from "../../shared/filterModels/baseFilterModel";
 import { PrintingEdition } from "../api";
+import authorModel from "../../../dataAccess/entityModels/author";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
@@ -47,13 +48,10 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     let query;
     let tableSort: any = {'name': filter.sortType};
 
-    const res = (await printingEditionModel.findOne({ title: "The Night in" }).populate('author_ids'))
+    let res = printingEditionModel.find().populate('author_ids')
 
-  
-    console.log(res);
-    
     if (filter.searchString !=null) {
-        query = printingEditionModel.find({ name: { $regex: new RegExp( filter.searchString,'i')} });
+        res = printingEditionModel.find({ $or:[{ title: { $regex:new RegExp( filter.searchString, 'i') } }, { author_ids: { $regex: new RegExp( filter.searchString, 'i') } }] });
     }
     
     if(filter.sortType == 0) {
@@ -63,7 +61,7 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     const options = {
         sort: tableSort,
         lean: true,
-        populate: 'author_ids',
+        populate: ('author_ids'),
         page: filter.pageNumber, 
         limit: filter.pageSize
     };
@@ -72,7 +70,7 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
         count = result.total
         data =  result.docs
     }).catch();
-
+    console.log(data);
    
     const response: BaseResponse<PrintingEdition> = {data: data, count:count}
     return response;

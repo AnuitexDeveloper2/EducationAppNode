@@ -1,5 +1,4 @@
 import express, {Application} from 'express';
-import mongoose from 'mongoose';
 import { Init } from "../src/features/shared/repositories/Initial";
 import bodyParser from 'body-parser';
 import { userRouter,adminRouter } from "../src/features/user/index";
@@ -11,6 +10,7 @@ import { checkJwt } from './features/shared/jwtHelper/checkJwt';
 import { grantAccess } from './features/shared/accessControle/accessController';
 import { Role } from './features/shared/enums/role';
 import { productRouter } from './features/printing-editions';
+import  {connectdb}  from '../src/dataAccess/database/connectdb';
 
 env.config();
 
@@ -29,9 +29,8 @@ app.use('/admin/author',grantAccess(Role.Admin), authorRouter);
 app.use('/user',grantAccess(Role.User), userRouter);
 app.use('/admin',grantAccess(Role.Admin), adminRouter);
 
-const connectionString = process.env.connectionString;
-mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
 
+connectdb();
 
 const PORT = process.env.PORT || 8080;
 process.env.connectionString

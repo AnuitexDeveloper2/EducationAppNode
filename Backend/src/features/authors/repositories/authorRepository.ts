@@ -1,6 +1,5 @@
 import authorModel from "../../../dataAccess/entityModels/author";
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
-import userModel from "../../../dataAccess/entityModels/user";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import  mongoose  from "mongoose";
 
@@ -60,6 +59,8 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         count = result.total
         data =  result.docs
     }).catch();
+
+    console.log(data)
     const response: BaseResponse<authorModel>={data:data,count:count}
      return response;
 }
