@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import * as authService from '../auth/auth.service';
-import * as jwtHelper from "../shared/jwtHelper/jwtHelper";
+import * as jwtHelper from "./jwtHelper/jwtHelper";
 
 export async function registerAsync(req: Request,res: Response,next: NextFunction) {
    
@@ -10,7 +10,7 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
   }
 
   export async function authenticateAsync(req: Request, res: Response, next: NextFunction) {
-   const result = await authService.logInAsync(req.body)
+   const result = await authService.logInAsync(req.body.email,req.body.passwordHash)
     .then(user => res.send(jwtHelper.generateTokens(user,res)))
     .catch();
     

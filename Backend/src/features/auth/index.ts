@@ -1,6 +1,5 @@
 import {Router} from "express";
 import * as authHandlers from "../auth/auth.handlers";
-import { checkJwt } from "../shared/jwtHelper/checkJwt";
 
 export const authRouter = Router();
 

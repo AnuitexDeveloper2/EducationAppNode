@@ -1,0 +1,314 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Seans-TypeScript-NodeJS-CRUD-REST-API-Boilerplate",
+        "description": "A minimal and easy to follow example of what you need to create a CRUD style API in NodeJs using TypeScript",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "servers": [
+        {
+            "url": "/",
+            "description": "Local Dev, or from Heroku"
+        },
+        {
+            "url": "/api/",
+            "description": "With docker-compose and nginx proxy"
+        }
+    ],
+    "tags": [
+        {
+            "name": "BookStoreAPI",
+            "description": "API "
+        }
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths":
+     {
+        "/auth/register": {
+            "post": {
+                "tags":["Auth"],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/User"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/logIn": {
+            "post":{
+                "tags":[
+                    "Auth"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/LogIn"
+                            }
+                        }
+                    }
+                },
+                 "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                }
+            
+            }
+        },
+        "/auth/change-password":
+        {
+            "post":{
+                "tags":[
+                    "Auth"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/ChangePassword"
+                            }
+                        }
+                    }
+                },
+                 "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                }
+            
+            }
+        },
+        "/admin/author/create":
+        {
+            "post":{
+                "tags":[
+                    "Author"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/Author"
+                            }
+                        }
+                    }
+                },
+                 "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Author"
+                        }
+                    }
+                }
+            
+            }
+        },
+        "/admin/author/:id" :{
+            "delete":{
+                "tags":[
+                    "Author"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/id"
+                            }
+                        }
+                    }
+                },
+                 "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Author"
+                        }
+                    }
+                }
+            
+            }
+        },
+        "/admin/author/update" :{
+            "post":{
+                "tags":[
+                    "Author"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/Author"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Author"
+                        }
+                    }
+                }
+                
+            }
+        },
+        "/admin/author/authors" :{
+            "post":{
+                "tags":[
+                    "Author"
+                ],
+                "requestBody": {
+                    "description": "",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/AuthorFilter"
+                            }
+                        }
+                    }
+                },
+                 "responses": {
+                    "200": {
+                        "description": "OK"
+                       
+                    }
+                }
+            
+            }
+        }
+    },
+        
+        
+    "definitions": {
+        "id": {
+            "properties": {
+                "_id": {
+                    "type": "string"
+                }
+            }
+        },
+        "User": {
+            "type": "object",
+            "properties": {
+                "userName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type":"string"
+                },
+                "passwordHash": {
+                    "type":"string"
+                }
+            }
+        },
+        "LogIn": {
+            "type": "object",
+            "properties": {
+               
+                "email": {
+                    "type": "string"
+                },
+                "passwordHash": {
+                    "type":"string"
+                }
+            }
+        },
+        "ChangePassword": {
+            "type": "object",
+            "properties": {
+               
+                "id": {
+                    "type": "string"
+                },
+                "oldPassword": {
+                    "type":"string"
+                },
+                "newPassword": {
+                    "type":"string"
+                }
+            }
+        },
+        "AuthorFilter": {
+            "type": "object",
+            "properties": {
+              "searchString": {
+                  "type": "string"
+              },
+              "sortType": {
+                  "type": "number"
+              },
+              "pageNumber": {
+                  "type": "number"
+              },
+              "pageSize": {
+                   "type": "number"
+              },
+              "sortTable": {
+                  "type": "string"
+              }
+         }
+        },
+        "Author": {
+            "type": "object",
+            "properties": {
+              "name": {
+                  "type":"string"
+              }
+             
+         }
+        }
+    }
+    }
+  

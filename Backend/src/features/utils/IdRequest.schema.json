@@ -1,0 +1,12 @@
+{
+    "title": "IdRequest",
+    "properties": {
+        "_id": {
+            "type": "string"
+            }
+    },
+    "additionalProperties": false,
+    "required": [
+        "_id"
+    ]
+}

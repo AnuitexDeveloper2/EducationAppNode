@@ -1,10 +1,11 @@
 import printingEditionModel from "../../../dataAccess/entityModels/printing-edition";
-import { findById } from "../../user/repositories/userRepositiry";
+import { findById, findByEmail } from "../../user/repositories/userRepositiry";
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { BaseFilterModel } from "../../shared/filterModels/baseFilterModel";
 import { PrintingEdition } from "../api";
 import authorModel from "../../../dataAccess/entityModels/author";
+import { match } from "assert";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
@@ -45,14 +46,21 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
 export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
     let data= new Array<PrintingEdition>();
     let count;
-    let query;
-    let tableSort: any = {'name': filter.sortType};
+    //let query;
+    let tableSort: any = {'title': filter.sortType};
 
-    let res = printingEditionModel.find().populate('author_ids')
-
+   let query =  printingEditionModel.find().populate('author_ids'/*{path:'author_ids', select:'name',match:{name: {$regex:new RegExp( filter.searchString, 'i') }}}*/).find({ "author_ids.name": { $regex:new RegExp( filter.searchString, 'i') } });
+  
+   
+  const res  = await query.find({ "author_ids.name": { $regex:new RegExp( filter.searchString, 'i') } })
+    
+  console.log(res)
+   
     if (filter.searchString !=null) {
-        res = printingEditionModel.find({ $or:[{ title: { $regex:new RegExp( filter.searchString, 'i') } }, { author_ids: { $regex: new RegExp( filter.searchString, 'i') } }] });
+        //query = printingEditionModel.find({ $or:[{ title: { $regex:new RegExp( filter.searchString, 'i') } }, { author_ids: { $regex: new RegExp( filter.searchString, 'i') } }] });
+        //query = printingEditionModel.populate({path:('author_ids'),match:{name: { $regex:new RegExp( filter.searchString, 'i') }} }).find({ author_ids: { $ne: undefined } });
     }
+
     
     if(filter.sortType == 0) {
         tableSort = {'_id': filter.sortType};
@@ -61,17 +69,19 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     const options = {
         sort: tableSort,
         lean: true,
-        populate: ('author_ids'),
+        //populate:({path:('author_ids'),match:{name: { $regex:new RegExp( filter.searchString, 'i') }} }),
         page: filter.pageNumber, 
-        limit: filter.pageSize
+        limit: filter.pageSize,
+      
     };
-     
+    
       await printingEditionModel.paginate(query,options).then(function(result){
         count = result.total
-        data =  result.docs
+        data =  data
     }).catch();
-    console.log(data);
-   
+
+    
     const response: BaseResponse<PrintingEdition> = {data: data, count:count}
+       
     return response;
 }

@@ -9,5 +9,5 @@ export interface PrintingEdition {
     currency: string;
     productType: PrintingEditionType;
     removed_at: boolean;
-    authors_ids: Array<authorModel>
+    author_ids: Array<authorModel>
 }

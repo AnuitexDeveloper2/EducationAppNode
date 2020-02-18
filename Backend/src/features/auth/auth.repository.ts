@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import * as userRepository from "../user/repositories/userRepositiry"
 
 
-export async function registerAsync (userParam: User): Promise<boolean> {
+export async function registerAsync (userParam: User): Promise<any> {
     let checkUser = await userModel.findOne({email: userParam.email})
 
     if (checkUser != null) {
@@ -14,21 +14,24 @@ export async function registerAsync (userParam: User): Promise<boolean> {
     let user = new userModel(userParam);
     var salt = bcrypt.genSaltSync(10);
     user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);
-    let result = await userModel.create(user)
+    try {
+        let result = await userModel.create(user)
+    } catch (error) {
+        console.log(error.errmsg)
+        return error.errmsg  
+    }
 
-    if (result == null) {
-    return false;
-        }
+    
      return true;
 }
 
-export async function signInAsync(userParam: userModel): Promise<userModel> {
-    let user = await userModel.findOne({ email: userParam.email })
+export async function signInAsync(email: string, password: string): Promise<userModel> {
+    let user = await userModel.findOne({ email: email })
     if (user == null) {
       
         return null; 
     }
-    const result = await userRepository.checkPasswordAsync(userParam.passwordHash,user);
+    const result = await userRepository.checkPasswordAsync(password,user);
     if (!result) {
        return user;
     }

@@ -11,9 +11,10 @@ const jwtSecret: any = process.env.secret;
 
 export  function grantAccess(currentRole: any) {
     return  (req: Request, res: Response, next: NextFunction) => {
+       
         const accessToken = <string>req.headers["accesstoken"];
         const jwtPayload = <any>jwt.verify(accessToken, jwtSecret);
-        
+       
         if(Role[jwtPayload.role] !== Role[currentRole] ) {
            res.status(401).send(' you are dont permission' )
            return;

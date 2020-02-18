@@ -1,39 +1,30 @@
 import { User, ResetPassword } from "../user/api";
-import userModel from "../../dataAccess/entityModels/user";
 import * as repository from "../auth/auth.repository";
-import { Error } from "../shared/constants/error";
-import * as userRepository from "../user/repositories/userRepositiry"
+import { validateWithJsonSchema } from "../utils/validateWithJsonSchema";
+import authValidateSchema from "./operations/RegisterRequest.schema.json";
+import logInVlidateSchema from "./operations/LogInRequest.schema.json";
 
-export async function registerAsync(userParam: User): Promise<Array<string>> {
+export async function registerAsync(userParam: User): Promise<any> {
 
-    let model = new userModel();
-    model.error = new Array<string>();
-    let wasExist = await userRepository.findByEmail(userParam.email);
-    
-    if (wasExist) {
-        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
-        return model.error;
+    const validateResult = validateWithJsonSchema(userParam,authValidateSchema)
+    console.log(validateResult.valid)
+    if (!validateResult.valid) {
+        return {message:"Register parameter did not valid", error: validateResult.errors}
     }
     
-    wasExist = await userRepository.findByUserName(userParam.userName);
-    
-    if (wasExist) {
-        model.error.push(Error.UserName + userParam.email + Error.IsAlreadyTaken);
-        return model.error;
-    }
-
     const result = await repository.registerAsync(userParam)
-    return userParam.error;
+    return result;
 }
 
 
-export async function logInAsync(userParam: userModel): Promise<userModel> {
-    
-    if (userParam == null) {
-        return userParam;
+export async function logInAsync(email: string, password: string): Promise<any> {
+    const model = {email: email, passwordHash: password}
+    const validateResult = validateWithJsonSchema(model,logInVlidateSchema);
+    if (!validateResult.valid) {
+        return {message:"LogIn parameters did not valid", error: validateResult.errors};
     }
     
-    let result = await repository.signInAsync(userParam);
+    let result = await repository.signInAsync(email,password);
     return  result
 }
 

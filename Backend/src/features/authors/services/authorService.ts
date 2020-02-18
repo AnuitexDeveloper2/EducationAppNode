@@ -2,37 +2,50 @@ import authorModel from "../../../dataAccess/entityModels/author";
 import * as authorRepository from "../repositories/authorRepository"
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
+import  authorVlidateSchema  from "../operations/AuthorRequest.schema.json";
+import idValidateSchema from "../../utils/IdRequest.schema.json";
 
  let author = new authorModel();
- author.errors = new Array<string>();
-export async function createAsync(authorParam: authorModel) : Promise<Array<string>> {
-   authorParam.errors = new Array<string>();
-   if (authorParam.name == null) {
-      authorParam.errors.push('field is empty');
-     return authorParam.errors; 
-    
-   }
+export async function createAsync(authorParam: authorModel): Promise<any>  {
+  const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
+   
+    if (!validateResult.valid) {
+       return {message: "Invalid AuthorCreate request", error: validateResult.errors}
+    }
+
    const result = await authorRepository.createAsync(authorParam);
    if (!result) {
-      authorParam.errors.push('did not create author');
+      return "aurhor did not create"
    }
-   return authorParam.errors;
+   return {message: "Invalid id parametr", error: validateResult.errors};
 }
 
-export async function removeAsync(id: string) {
+export async function removeAsync(id: string): Promise<any> {
+   const validateResult = validateWithJsonSchema(id,idValidateSchema)
+   if (!validateResult.valid) {
+      return "id is not valid"
+   }
    const result = await authorRepository.removeAsync(id);
    if (!result) {
-      author.errors.push('failed to delete');
+      return "author did not remove";
    }
-   return author.errors.push('removal was successful');
+   return result;
 }
 
-export async function updateAsync(authorParam: authorModel) {
+export async function updateAsync(authorParam: authorModel): Promise<any> {
+   const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    
-   if (authorParam.name == null) {
-      author.errors.push('field is empty')
+   if (!validateResult.valid) {
+      return {message: "Invalid Author Update request", error: validateResult.errors}
    }
+
+  
    const result = await authorRepository.updateAsync(authorParam);
+   if (!result) {
+      return "aurhor did not update"
+   }
+   return result;
 
 }
 

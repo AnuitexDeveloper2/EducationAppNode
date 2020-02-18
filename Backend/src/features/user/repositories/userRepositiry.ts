@@ -60,7 +60,7 @@ export async function getUserAsync (userParam: User)  {
     }
 
     export async function findByUserName(userName: string) {
-
+        
         let result = await userModel.findOne({userName: userName})
         if (result == null) {
             return false;

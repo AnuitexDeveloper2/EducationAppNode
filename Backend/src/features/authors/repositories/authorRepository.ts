@@ -13,13 +13,13 @@ export async function createAsync(authorParam: authorModel): Promise<boolean> {
     return true;
 }
 
-export async function removeAsync(id: string): Promise<boolean> {
-    const result = await authorModel.findByIdAndRemove(id)
-    
-    if (result == null) {
-        return false;
+export async function removeAsync(id: string): Promise<any> {
+    try {
+      const result = await authorModel.findByIdAndRemove(id)
+    } catch (error) {
+        return error.errmsg
     }
-
+    
     return true;
 }
 
@@ -60,7 +60,6 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         data =  result.docs
     }).catch();
 
-    console.log(data)
     const response: BaseResponse<authorModel>={data:data,count:count}
      return response;
 }
