@@ -1,11 +1,17 @@
-import  * as winston  from 'winston';
+import { createLogger, format, transports } from "winston";
+const{label,combine,timestamp, prettyPrint} = format;
 
-export let logger = new (winston.loggers)({
-    exitOnError: false,
-    level: 'info',
+const logger = createLogger({
+    format: combine(
+        timestamp(),
+        prettyPrint()
+    ),
     transports: [
-        new (winston.transports.Console)(),
-        new (winston.transports.File)({ filename: 'app.log'})
-    ]
-})
+        new transports.Console(),
+        new transports.File({filename: '../error.log', level: 'error'}),
+        new transports.File({filename: 'info.log', level: 'info'})
+    ],
+    exitOnError: false
+});
 
+export default logger;

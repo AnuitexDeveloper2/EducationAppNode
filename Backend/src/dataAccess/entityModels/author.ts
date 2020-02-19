@@ -5,7 +5,9 @@ import  mongoosePaginate  from "mongoose-paginate";
 const schema = mongoose.Schema;
 export const authorSchema = new schema({
    _id: schema.Types.ObjectId,
-   name: {type: String,required: true}
+   name: {type: String,required: true},
+   createdDate: { type: Date, default: Date.now },
+   removed_at:{type: Boolean, default:false}
 });
 authorSchema.plugin(mongoosePaginate);
 

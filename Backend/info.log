@@ -1,0 +1,75 @@
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:01:00.836Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:03:59.853Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:04:56.797Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:06:08.587Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:06:47.574Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:10:20.587Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:12:06.141Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:13:41.796Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:14:17.924Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:15:07.128Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:16:59.705Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = undefined',
+  level: 'error',
+  timestamp: '2020-02-19T10:16:59.709Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T10:17:52.488Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-19T10:17:52.492Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T10:48:46.089Z'
+}

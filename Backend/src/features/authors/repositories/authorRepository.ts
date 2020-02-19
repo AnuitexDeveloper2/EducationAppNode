@@ -14,20 +14,24 @@ export async function createAsync(authorParam: authorModel): Promise<boolean> {
 }
 
 export async function removeAsync(id: string): Promise<any> {
-    try {
-      const result = await authorModel.findByIdAndRemove(id)
-    } catch (error) {
-        return error.errmsg
+    let model = new authorModel();
+    const author =  authorModel.findById(id);
+    if ( author == null) {
+        return false;
     }
-    
+    model = await author;
+    model.removed_at = true;
+    const result = await authorModel.update(author,model);
+    if (result.nModified == 0) {
+        return false;
+    }
     return true;
 }
 
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
-    
-    if (result == null) {
+    if (result.nModified == 0) {
         return false
     }
 

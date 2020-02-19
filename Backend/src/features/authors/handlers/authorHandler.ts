@@ -20,7 +20,7 @@ export async function updateAsync(req:Request,res:Response,next: NextFunction) {
 }
 
 export async function getAuthorsAsync(req:Request,res:Response,next: NextFunction) {
-  authorService.GetAuthorsAsync(req.body)
+  authorService.getAuthorsAsync(req.body)
   .then((result) =>res.json(result))
   .catch((err) =>next(err));
 }

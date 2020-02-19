@@ -178,7 +178,7 @@
                     "content": {
                         "application/json": {
                             "schema": {
-                                "$ref": "#/definitions/Author"
+                                "$ref": "#/definitions/AuthorUpdate"
                             }
                         }
                     }
@@ -194,8 +194,8 @@
                 
             }
         },
-        "/admin/author/authors" :{
-            "post":{
+        "/admin/author/authors": {
+            "get": {
                 "tags":[
                     "Author"
                 ],
@@ -218,7 +218,56 @@
                 }
             
             }
+        },
+        "/admin/printing-edition/create": {
+            "post": {
+                "tags": [
+                    "PrintingEdition"
+                ],
+                "requestBody": {
+                    "description":"OK",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/PrintingEdition"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                       
+                    }
+                }
+            }
+        },
+        "/admin/printing-edition/:id": {
+            "delete": {
+                "tags": [
+                    "PrintingEdition"
+                ],
+                "requestBody": {
+                    "description":"OK",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/definitions/id"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                       
+                    }
+                }
+            }
         }
+
     },
         
         
@@ -299,16 +348,53 @@
                   "type": "string"
               }
          }
-        },
+    },
         "Author": {
             "type": "object",
             "properties": {
               "name": {
                   "type":"string"
               }
-             
          }
+      },
+      "AuthorUpdate": {
+        "type": "object",
+        "properties": {
+          "name": {
+              "type":"string"
+          },
+          "_id": 
+           {
+               "type": "string"
+          }
+     }
+  },
+      "PrintingEdition": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "cover_image": {
+                "type": "string"
+            },
+            "type": {
+                "type": "number"
+            },
+            "price": {
+                "type":"number"
+            },
+            "currency": {
+                "type":"string"
+            },
+            "author_ids": {
+                "type": "string"
+            }
         }
+      }
     }
-    }
+}
   

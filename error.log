@@ -1,0 +1,10 @@
+{
+  message: '>>>> authorService.create(), invalid data = undefined',
+  level: 'error',
+  timestamp: '2020-02-19T10:16:59.709Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-19T10:17:52.492Z'
+}
