@@ -4,16 +4,35 @@ import mongoosePaginate from 'mongoose-paginate'
 
 const schema = mongoose.Schema;
 
-export const printingEditionSchema = new schema({
+export const ordersSchema = new schema({
     user_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-    items: { type: Object , required: true},
-    payment_info: {type: Object, default: null},
+    items: {
+            OrderItem: [{
+                printing_edition_id: {
+                    type: mongoose.Schema.Types.ObjectId, ref: 'Printing_Edition', required: true
+                },
+                count: {
+                    type: Number, required: true
+                },
+                price: {
+                    type: Number, required: true
+                },
+                currency: {
+                    type: String, default: "USD"
+                }
+            }]
+    },
+    payment_info: {
+        Payment: {
+            transaction_id: String
+        }
+    },
     createdDate: { type: Date, default: Date.now }
 });
 
-printingEditionSchema.plugin(mongoosePaginate);
+ordersSchema.plugin(mongoosePaginate);
 
 interface ordersModel extends Orders,mongoose.Document {}
 
-const printingEditionModel = model<ordersModel>('Orders', printingEditionSchema);
-export default printingEditionModel;
+const ordersModel = model<ordersModel>('Orders', ordersSchema);
+export default ordersModel;

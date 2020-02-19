@@ -13,11 +13,10 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
    const result = await authService.logInAsync(req.body.email,req.body.passwordHash)
     .then(user => res.send(jwtHelper.generateTokens(user,res)))
     .catch();
-    
   }
 
   export async function changePasswordAsync(req: Request, res: Response, next: NextFunction) {
-    authService.changePasswordAsync(req.body)
+    authService.resetPasswordAsync(req.body)
     .then((err) => res.json({err}))
     .catch(err => next(err))
   }

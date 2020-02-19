@@ -1,9 +1,9 @@
 import Router from 'express';
-import * as authorHendler from './handlers/authorHandler'
+import {createAsync,removeAsync,updateAsync,getAuthorsAsync} from './handlers/authorHandler'
 
 export const authorRouter = Router();
 
-authorRouter.post('/create', authorHendler.createAsync);
-authorRouter.delete('/:id', authorHendler.removeAsync);
-authorRouter.post('/update', authorHendler.updateAsync);
-authorRouter.get('/authors', authorHendler.getAuthorsAsync);
+authorRouter.post('/create', createAsync);
+authorRouter.delete('/:id', removeAsync);
+authorRouter.post('/update', updateAsync);
+authorRouter.get('/authors', getAuthorsAsync);

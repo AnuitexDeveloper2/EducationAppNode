@@ -73,3 +73,668 @@
   level: 'info',
   timestamp: '2020-02-19T10:48:46.089Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:36:43.793Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:42:37.096Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:45:59.009Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance additionalProperty "lastName" exists in instance when not allowed,instance additionalProperty "passwordHash" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-19T11:45:59.011Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:46:54.822Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:46:57.927Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance additionalProperty "passwordHash" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-19T11:46:57.929Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:47:20.050Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:48:26.298Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:48:27.765Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:51:23.991Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:51:24.125Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:51:38.895Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:55:04.878Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:55:07.649Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:58:55.186Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:58:55.262Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:59:09.000Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:59:40.122Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T11:59:49.894Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T11:59:49.928Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:00:32.925Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:00:35.445Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:08:43.319Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:08:47.661Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:09:35.073Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:09:37.892Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:10:16.064Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:10:16.326Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:10:37.983Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:10:38.965Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-02-19T12:10:38.978Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:12:04.302Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:12:06.016Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:13:00.114Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:13:00.352Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-02-19T12:13:00.368Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:14:13.245Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:14:13.423Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:15:22.706Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:15:22.918Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-02-19T12:15:22.935Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:16:30.005Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:16:30.593Z'
+}
+{
+  message: ">>>> userService.edit(), result = MongoError: Performing an update on the path '_id' would modify the immutable field '_id'",
+  level: 'error',
+  timestamp: '2020-02-19T12:16:30.618Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:41:29.791Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-19T12:41:29.803Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:42:25.128Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:50:27.747Z'
+}
+{
+  message: ">>>> userService.edit(), result = MongoError: Performing an update on the path '_id' would modify the immutable field '_id'",
+  level: 'error',
+  timestamp: '2020-02-19T12:50:27.766Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:51:16.188Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:51:32.417Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = undefined',
+  level: 'info',
+  timestamp: '2020-02-19T12:51:33.230Z'
+}
+{
+  message: ">>>> userService.edit(), result = MongoError: Performing an update on the path '_id' would modify the immutable field '_id'",
+  level: 'error',
+  timestamp: '2020-02-19T12:51:33.246Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:54:01.546Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:57:45.788Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:59:22.839Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:59:23.160Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T12:59:50.463Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T12:59:50.952Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:02:45.061Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:02:45.421Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:04:36.594Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:09:51.452Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:10:31.076Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:10:50.124Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:10:50.236Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:11:35.539Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:11:35.653Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:11:52.301Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:11:54.129Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:12:17.188Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:13:08.891Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:13:25.965Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:13:49.462Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:13:49.529Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:17:21.003Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:17:21.096Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:17:44.776Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = undefined',
+  level: 'info',
+  timestamp: '2020-02-19T13:19:50.505Z'
+}
+{
+  message: ">>>> userService.edit(), result = MongoError: Performing an update on the path '_id' would modify the immutable field '_id'",
+  level: 'error',
+  timestamp: '2020-02-19T13:19:50.526Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = undefined',
+  level: 'info',
+  timestamp: '2020-02-19T13:20:45.321Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance additionalProperty "id" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-19T13:20:45.327Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:21:37.859Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:21:37.978Z'
+}
+{
+  message: '>>>> userService.edit(), result = MongoError: E11000 duplicate key error collection: educationdb.users index: userName_1 dup key: { userName: "Morgenshtern88" }',
+  level: 'error',
+  timestamp: '2020-02-19T13:21:38.007Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:22:21.242Z'
+}
+{
+  message: '>>>> userService.edit(), result = MongoError: E11000 duplicate key error collection: educationdb.users index: userName_1 dup key: { userName: "Morgenshtern" }',
+  level: 'error',
+  timestamp: '2020-02-19T13:22:21.260Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:22:28.175Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:49:05.531Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:49:09.169Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:52:02.221Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:52:06.239Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:52:40.136Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:52:40.760Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:53:32.260Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:53:32.674Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:54:27.393Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:54:28.145Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:56:22.112Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:56:22.155Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:56:58.030Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:57:18.548Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:57:19.704Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:57:33.874Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-19T13:57:33.879Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T13:59:21.370Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T13:59:21.395Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-19T13:59:21.396Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T14:00:34.185Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T14:01:30.344Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T14:01:30.687Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T14:02:42.986Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T14:02:46.435Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T14:05:14.199Z'
+}
+{
+  message: '>>>> authService.register(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T14:05:16.062Z'
+}
+{
+  message: '>>>> authService.register(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-19T14:05:16.159Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T15:40:46.201Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:41:54.625Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "sortType" exists in instance when not allowed,instance additionalProperty "searchString" exists in instance when not allowed,instance additionalProperty "pageNumber" exists in instance when not allowed,instance additionalProperty "pageSize" exists in instance when not allowed,instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-02-19T15:41:54.634Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:42:05.783Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-02-19T15:42:05.785Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:43:06.499Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-02-19T15:43:06.501Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T15:43:20.808Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:43:22.889Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T15:44:14.720Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:44:42.152Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-19T15:57:56.669Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:57:56.896Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T15:58:52.441Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-19T16:00:34.791Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-02-19T16:00:34.792Z'
+}

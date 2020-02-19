@@ -22,17 +22,23 @@ export async function getUserAsync (userParam: User)  {
         return true;
     }
 
-    export async function editAsync(userParam: User, user:userModel): Promise<boolean> {
-    
-        Object.assign(user, userParam);
-    
-        let result =  await user.save();
-    
-        if (result == null) {
-          false;
+    export async function editAsync(userParam: userModel): Promise<any> {
+       
+        const user = await userModel.findById(userParam.id);
+       
+        let result;
+
+        try {
+             result = await userModel.updateOne(user,userParam);
+        } catch (error) {
+            return error;
         }
     
-        return true;;
+        if (result.nModified == 0) {
+          return 'failed to update user';
+        }
+    
+        return ;
     }
 
     export async function removeOneAsync(userParam: userModel) {

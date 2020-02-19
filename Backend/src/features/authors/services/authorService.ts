@@ -6,7 +6,6 @@ import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
 import  authorVlidateSchema  from "../operations/AuthorRequest.schema.json";
 import idValidateSchema from "../../utils/IdRequest.schema.json";
 import logger from "../../utils/logger";
-import { loggers } from "winston";
 
  let author = new authorModel();
 export async function createAsync(authorParam: authorModel): Promise<any>  {

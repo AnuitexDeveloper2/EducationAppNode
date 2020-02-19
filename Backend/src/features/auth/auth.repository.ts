@@ -14,26 +14,33 @@ export async function registerAsync (userParam: User): Promise<any> {
     let user = new userModel(userParam);
     var salt = bcrypt.genSaltSync(10);
     user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);
+
     try {
         let result = await userModel.create(user)
     } catch (error) {
-        console.log(error.errmsg)
         return error.errmsg  
     }
-
     
-     return true;
+     return ;
 }
 
-export async function signInAsync(email: string, password: string): Promise<userModel> {
+export async function signInAsync(email: string, password: string): Promise<any> {
     let user = await userModel.findOne({ email: email })
+   
     if (user == null) {
       
-        return null; 
+        return "user is not found"; 
     }
-    const result = await userRepository.checkPasswordAsync(password,user);
-    if (!result) {
-       return user;
+    
+    const isPasswordValid = await userRepository.checkPasswordAsync(password,user);
+   
+    if (!isPasswordValid) {
+       return "invalid password";
     }
+   
       return user ;
+}
+
+export async function changePasswordAsync() {
+    
 }

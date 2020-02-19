@@ -35,7 +35,7 @@ export async function removeAsync(id: string): Promise<boolean> {
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
     try {
-        const printingEdition =  printingEditionModel.findById(printingEditionParam._id);
+        const printingEdition = printingEditionModel.findById(printingEditionParam._id);
         
         const result = await printingEditionModel.update(printingEdition,printingEditionParam);
         
@@ -45,7 +45,7 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
 
     } catch (error) {
 
-        return error;        
+        return error;
     }
    
     return true;

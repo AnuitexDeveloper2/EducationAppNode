@@ -3,16 +3,22 @@ import * as repository from "../auth/auth.repository";
 import { validateWithJsonSchema } from "../utils/validateWithJsonSchema";
 import authValidateSchema from "./operations/RegisterRequest.schema.json";
 import logInVlidateSchema from "./operations/LogInRequest.schema.json";
+import logger from "../utils/logger";
 
 export async function registerAsync(userParam: User): Promise<any> {
+    const validateResult = validateWithJsonSchema(userParam,authValidateSchema);
+    logger.info(`>>>> authService.register(), with: author = ${userParam}`);
 
-    const validateResult = validateWithJsonSchema(userParam,authValidateSchema)
-    console.log(validateResult.valid)
     if (!validateResult.valid) {
-        return {message:"Register parameter did not valid", error: validateResult.errors}
+        logger.error(`>>>> authService.register(), invalid data = ${validateResult.errors}`);
+        return {message:"Register parameter did not valid", error: validateResult.errors};
     }
     
-    const result = await repository.registerAsync(userParam)
+    const result = await repository.registerAsync(userParam);
+
+    if (!result) {
+        logger.error(`>>>> authService.register(), result = ${result}`);
+    }
     return result;
 }
 
@@ -20,14 +26,25 @@ export async function registerAsync(userParam: User): Promise<any> {
 export async function logInAsync(email: string, password: string): Promise<any> {
     const model = {email: email, passwordHash: password}
     const validateResult = validateWithJsonSchema(model,logInVlidateSchema);
+    logger.info(`>>>> authService.logIn(), with: model = ${model}`);
+
     if (!validateResult.valid) {
+        logger.error(`>>>> authService.logIn(), invalid data = ${validateResult.errors}`);
         return {message:"LogIn parameters did not valid", error: validateResult.errors};
     }
     
-    let result = await repository.signInAsync(email,password);
-    return  result
+    const result = await repository.signInAsync(email,password);
+    const test = typeof(result)
+
+    if (test == "string") {
+        logger.error(`>>>> authService.logIn(), result = ${result}`);
+        return null;
+    }
+    
+    return  result;
 }
 
-export async function changePasswordAsync(userParam: ResetPassword) {
+export async function resetPasswordAsync(userParam: ResetPassword) {
+    //const validateResult = validateWithJsonSchema(model)
     return 'Yes mother facker';
 }

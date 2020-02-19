@@ -6,7 +6,6 @@ import { Role } from "../../shared/enums/role";
 let currentRole;
 
 export const generateTokens = (userModel: userModel, response: Response) => {
-    
     if (userModel == null) {
         return userModel;
     }
@@ -44,7 +43,7 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     } catch (err) {
          if (err.name == 'TokenExpiredError') {
         const refreshToken = <string>req.headers["refreshtoken"];
-        newTokens = refreshTokens(refreshToken,res,req);
+        newTokens = refreshTokens(res,req);
       }
       if (err.name == 'JsonWebTokenError' ) {
         
@@ -53,13 +52,10 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
       }
     }
 
-
-    
-  
     next();
   };
 
-  function refreshTokens(refreshToken: string, res: Response,req: Request) {
+  function refreshTokens( res: Response,req: Request) {
     let jwtPayload;
    
     try {
@@ -71,7 +67,6 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
          return ;
       }
     }
-    console.log(jwtPayload);
     const user = new userModel();
     user._id = jwtPayload._id;
     user.role = jwtPayload.role;

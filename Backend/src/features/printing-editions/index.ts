@@ -1,11 +1,11 @@
 import { Router } from "express";
-import * as handler from "../printing-editions/handlers/printingEditionHandler";
+import {createAsync,removeAsync,updateAsync,getPrintingEditionForAdminHandlerAsync} from "../printing-editions/handlers/printingEditionHandler";
 
-export const productRouter =  Router();
+export const adminProductRouter =  Router();
 
-productRouter.post('/create', handler.createAsync);
-productRouter.delete('/:id', handler.removeAsync);
-productRouter.post('/update', handler.updateAsync);
-productRouter.get('/', handler.getPrintingEditionForAdminHandlerAsync);
+adminProductRouter.post('/create', createAsync);
+adminProductRouter.delete('/:id', removeAsync);
+adminProductRouter.post('/update', updateAsync);
+adminProductRouter.get('/', getPrintingEditionForAdminHandlerAsync);
 
-export const userRouter = Router();
+export const userProductRouter = Router();

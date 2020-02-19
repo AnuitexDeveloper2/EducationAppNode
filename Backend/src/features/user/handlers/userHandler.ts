@@ -3,7 +3,7 @@ import * as userService from ".././services/userService"
 
 
 
-export async function getUserAsync(req: Request,res: Response,next: NextFunction) {
+export async function getProfileAsync(req: Request,res: Response,next: NextFunction) {
   await userService.getByIdAsync(req.body)
   .then((user) =>res.json({user}))
   .catch(err =>next(err))

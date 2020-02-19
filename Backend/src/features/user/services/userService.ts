@@ -2,10 +2,10 @@ import * as repository from '../repositories/userRepositiry'
 import {User} from "../api";
 import userModel from '../../../dataAccess/entityModels/user';
 import { Error } from '../../shared/constants/error';
-import { Properties } from '../../shared/constants/properties';
 import { UserFilterModel } from '../../shared/filterModels/userFilterModel';
-
-
+import { validateWithJsonSchema } from '../../utils/validateWithJsonSchema';
+import userValidateSchema from "../operations/UserRequest.schema.json";
+import logger from '../../utils/logger';
 
 export async function getByIdAsync(userParam: User): Promise<User> {
    
@@ -19,31 +19,23 @@ export async function getAllAsync() {
 }
 
 
-
-export async function editAsync(userParam: User) : Promise<Array<string>> {
-    let model = new userModel();
-    model.error = new Array<string>();
-    let user = await repository.findById(userParam.Id);
-    if (user == null) {
-        model.error.push(Error.userNotFound);
-        return model.error;
+export async function editAsync(userParam: userModel) : Promise<any> {
+   const validateResult = validateWithJsonSchema(userParam, userValidateSchema);
+   logger.info(`>>>> userService.edit(), with: user = ${userParam}`)
+    console.log(userParam);
+   if (!validateResult.valid) {
+    logger.error(`>>>> userService.edit(), invalid data = ${validateResult.errors}`)
+    return {message: "Invalid UserEdit request", error: validateResult.errors}
     }
 
-    if (user.email !== userParam.email && await userModel.findOne({ email: userParam.email })) {
-        model.error.push(Error.Email + userParam.email + Error.IsAlreadyTaken);
-        return model.error;
+    const result = await repository.editAsync(userParam)
+  
+    if (result) {
+        logger.error(`>>>> userService.edit(), result = ${result}`)
+        return result;
     }
-
-    if (user.userName !== userParam.userName && await userModel.findOne({ userName: userParam.userName })) {
-        model.error.push(Error.UserName + userParam.userName + Error.IsAlreadyTaken);
-        return model.error; 
-    }
-
-     let result = await repository.editAsync(userParam,user);
-     if (!result) {
-         model.error.push(Error.NotUserEdit);
-     }
-    return model.error;
+   
+    return 'Ok';
 }
 
 export async function removeAsync(userParam: userModel) {

@@ -7,30 +7,37 @@ import  mongoose  from "mongoose";
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
     authorParam._id = new mongoose.Types.ObjectId()
     const result = await authorModel.create(authorParam);
+   
     if (result == null) {
         return false;
     }
+    
     return true;
 }
 
 export async function removeAsync(id: string): Promise<any> {
     let model = new authorModel();
     const author =  authorModel.findById(id);
+    
     if ( author == null) {
         return false;
     }
+
     model = await author;
     model.removed_at = true;
     const result = await authorModel.update(author,model);
+    
     if (result.nModified == 0) {
         return false;
     }
+
     return true;
 }
 
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
+    
     if (result.nModified == 0) {
         return false
     }
@@ -45,7 +52,7 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
     let data= new Array<authorModel>();
     
     if (filter.searchString !=null) {
-        query = authorModel.find({ name: { $regex: new RegExp( filter.searchString,'i')} });
+        query = authorModel.find( { $and:[{ name: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });
     }
     
     if(filter.sortType == 0) {
@@ -56,7 +63,8 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         sort: tableSort,
         lean: true,
         page: filter.pageNumber, 
-        limit: filter.pageSize
+        limit: filter.pageSize,
+        select: {removed_at: false}
     };
      
       await authorModel.paginate(query,options).then(function(result){
