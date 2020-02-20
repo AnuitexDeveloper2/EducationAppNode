@@ -72,6 +72,6 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         data =  result.docs
     }).catch();
 
-    const response: BaseResponse<authorModel>={data:data,count:count}
+    const response: BaseResponse<authorModel>={data: data,count: count}
      return response;
 }

@@ -5,7 +5,9 @@ env.config();
 
 
 const connectionString = process.env.connectionString;
-export  function connectdb() {
-   mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
+export async  function connectdb() {
+       mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
+      
+ 
 }  
     

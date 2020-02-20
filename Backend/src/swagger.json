@@ -266,11 +266,57 @@
                     }
                 }
             }
+        },
+    "/admin/printing-edition/update": {
+        "post": {
+            "tags": [
+                "PrintingEdition"
+            ],
+            "requestBody": {
+                "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/definitions/PrintingEdition"
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+                    }
+               }
+            }
+        },
+    
+    "/admin/printing-edition/": {
+        "get": {
+          "tags": [
+               "PrintingEdition"
+            ],
+           "requestBody": {
+              "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/definitions/PrintingEditionFilter"
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
         }
-
+    
+     }
     },
-        
-        
     "definitions": {
         "id": {
             "properties": {
@@ -372,6 +418,9 @@
       "PrintingEdition": {
         "type": "object",
         "properties": {
+            "_id": {
+                "type": "string"
+            },
             "title": {
                 "type": "string"
             },
@@ -394,7 +443,33 @@
                 "type": "string"
             }
         }
-      }
-    }
-}
-  
+      },
+      "PrintingEditionFilter": {
+        "type": "object",
+        "properties": {
+          "searchString": {
+              "type": "string"
+          },
+          "sortType": {
+              "type": "number"
+          },
+          "pageNumber": {
+              "type": "number"
+          },
+          "pageSize": {
+               "type": "number"
+          },
+          "sortTable": {
+              "type": "string"
+           },
+           "minPrice": {
+               "type": "number"
+           },
+           "maxPrice": {
+               "type": "number"
+           }
+       }
+     }
+   }
+ }
+

@@ -18,3 +18,18 @@
   level: 'error',
   timestamp: '2020-02-19T16:00:34.792Z'
 }
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-20T08:29:31.020Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-20T08:30:03.232Z'
+}
+{
+  message: '>>>> printingEditionService.getById(), invalid data = instance additionalProperty "id" exists in instance when not allowed,instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-02-20T08:31:19.832Z'
+}

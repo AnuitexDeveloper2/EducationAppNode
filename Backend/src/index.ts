@@ -8,12 +8,12 @@ import * as env from 'dotenv';
 import { checkJwt } from './features/auth/jwtHelper/jwtHelper';
 import { checkPermission } from './features/shared/accessControle/accessController';
 import { Role } from './features/shared/enums/role';
-import { adminProductRouter } from './features/printing-editions';
+import { adminProductRouter, userProductRouter } from './features/printing-editions';
 import  {connectdb}  from '../src/dataAccess/database/connectdb';
 import * as swaggerDocument from "./swagger.json";
 import swaggerUi from 'swagger-ui-express';
 import logger from './features/utils/logger';
-import { orderUserRouter } from './features/orders';
+import { orderUserRouter, orderAdminRouter } from './features/orders';
 
 env.config();
 
@@ -23,13 +23,15 @@ init.Check();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 //app.use(cors())
-app.use('/order',orderUserRouter)
 app.use('/auth', authRouter)
 app.use(checkJwt);
-app.use('/admin/printing-edition',checkPermission(Role.Admin), adminProductRouter)
-app.use('/admin/author',checkPermission(Role.Admin), authorRouter);
-app.use('/user',checkPermission(Role.User), userRouter);
-app.use('/admin',checkPermission(Role.Admin), adminRouter);
+app.use('/order', orderUserRouter)
+app.use('/admin/order',  orderAdminRouter)
+app.use('/admin/printing-edition', adminProductRouter)
+app.use('/printingEdition', userProductRouter)
+app.use('/admin/author', authorRouter);
+app.use('/user', userRouter);
+app.use('/admin/user', adminRouter);
 
 
 connectdb();

@@ -22,7 +22,7 @@ export const generateTokens = (userModel: userModel, response: Response) => {
    response.setHeader('RefreshToken',refreshToken);
   
    const respons = {
-    "status": "Logged in",
+    "status": `Hello ${userModel.userName}`,
     "AccessToken": accessToken,
     "RefreshToken": refreshToken,
 }

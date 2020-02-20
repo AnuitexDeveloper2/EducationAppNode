@@ -19,8 +19,8 @@ export async function updateAsync(req: Request, res: Response, next: NextFunctio
         .catch(err => next(err));
     }
 
-export async function getPrintingEditionForAdminHandlerAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.getAsync(req.body)
+export async function getPrintingEditionsForAdminHandlerAsync(req: Request, res: Response, next: NextFunction) {
+    printingEditionService.getPrintingEditionsAsync(req.body)
         .then(users => res.json(users))
         .catch(err => next(err));
     }

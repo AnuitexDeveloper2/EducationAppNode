@@ -11,7 +11,7 @@ import logger from "../../utils/logger";
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<any> {
      const validateResult = validateWithJsonSchema(printingEditionValidateSchema,validateWithJsonSchema);
-     logger.info(`>>>> printingEditionService.create(), with: author = ${printingEditionParam}`);
+     logger.info(`>>>> printingEditionService.create(), with: printingEditionParam = ${printingEditionParam}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> printingEditionService.create(), invalid data = ${validateResult.errors}`);
@@ -30,7 +30,7 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
 
 export async function removeAsync(id: string): Promise<any> {
     const validateResult = validateWithJsonSchema(id,idValidateSchema);
-    logger.info(`>>>> printingEditionService.remove(), with: authorId = ${id}`);
+    logger.info(`>>>> printingEditionService.remove(), with: printingEdition id = ${id}`);
     
     if (!validateResult.valid) {
         logger.error(`>>>> printingEditionService.remove(), invalid data = ${validateResult.errors}`);
@@ -48,27 +48,47 @@ export async function removeAsync(id: string): Promise<any> {
 }
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
-    const validateResult = validateWithJsonSchema(printingEditionValidateSchema,validateWithJsonSchema);
+    const validateResult = validateWithJsonSchema(printingEditionParam,printingEditionValidateSchema);
     logger.info(`>>>> printingEditionService.update(), with: printingEdition = ${printingEditionParam}`);
 
     if (!validateResult.valid) {
-        logger.error(`>>>> printingEditionService.remove(), invalid data = ${validateResult.errors}`);
+        logger.error(`>>>> printingEditionService.update(), invalid data = ${validateResult.errors}`);
         return {message: "printingEdition parameters is not valide" , error: validateResult.errors}
     }
 
     const result = await repository.updateAsync(printingEditionParam);
     
     if (!result) {
-        logger.error(`>>>> printingEditionService.remove(), result = ${result}`);
+        logger.error(`>>>> printingEditionService.update(), result = ${result}`);
         return "product did not update";
     }
 
     return result;
 }
 
-export async function getAsync(filter: PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
+
+export async function getPrintingEditionsAsync(filter: PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
 
     const result = repository.getPrintingEditionsAsync(filter);
+
+    return result;
+}
+
+export async function getById(id: number): Promise<any> {
+    const validateResult = validateWithJsonSchema(id,idValidateSchema);
+    logger.info(`>>>> printingEditionService.getById(), with: printingEdition id = ${id}`);
+
+    if (!validateResult.valid) {
+        logger.error(`>>>> printingEditionService.getById(), invalid data = ${validateResult.errors}`);
+        return {message: "id parameters is not valide", error: validateResult.errors};
+    }
+
+    const result = repository.getById(id);
+
+    if (result == null) {
+        logger.error(`>>>> printingEditionService.getById(), result = ${result}`);
+        return {message: "printingEdition did not find", error: validateResult.errors}
+    }
 
     return result;
 }

@@ -51,6 +51,13 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
     return true;
 }
 
+export async function getById(id: number): Promise<printingEditionModel> {
+   
+    const printingEdition = await printingEditionModel.findById(id).populate('author_ids');
+
+    return printingEdition;
+}
+
 export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
     let data= new Array<PrintingEdition>();
     let count;

@@ -26,7 +26,7 @@ export async function registerAsync (userParam: User): Promise<any> {
 
 export async function signInAsync(email: string, password: string): Promise<any> {
     let user = await userModel.findOne({ email: email })
-   
+    console.log(user);
     if (user == null) {
       
         return "user is not found"; 
