@@ -1,4 +1,4 @@
-import { User, ResetPassword } from "../user/api";
+import { User } from "../user/api";
 import * as repository from "../auth/auth.repository";
 import { validateWithJsonSchema } from "../utils/validateWithJsonSchema";
 import authValidateSchema from "./operations/RegisterRequest.schema.json";
@@ -7,7 +7,7 @@ import logger from "../utils/logger";
 
 export async function registerAsync(userParam: User): Promise<any> {
     const validateResult = validateWithJsonSchema(userParam,authValidateSchema);
-    logger.info(`>>>> authService.register(), with: author = ${userParam}`);
+    logger.info(`>>>> authService.register(), with: author = ${JSON.stringify(userParam)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> authService.register(), invalid data = ${validateResult.errors}`);
@@ -26,7 +26,7 @@ export async function registerAsync(userParam: User): Promise<any> {
 export async function logInAsync(email: string, password: string): Promise<any> {
     const model = {email: email, passwordHash: password}
     const validateResult = validateWithJsonSchema(model,logInVlidateSchema);
-    logger.info(`>>>> authService.logIn(), with: model = ${model}`);
+    logger.info(`>>>> authService.logIn(), with: model = ${JSON.stringify(model)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> authService.logIn(), invalid data = ${validateResult.errors}`);
@@ -44,7 +44,3 @@ export async function logInAsync(email: string, password: string): Promise<any> 
     return  result;
 }
 
-export async function resetPasswordAsync(userParam: ResetPassword) {
-    //const validateResult = validateWithJsonSchema(model)
-    return 'Yes mother facker';
-}

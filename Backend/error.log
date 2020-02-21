@@ -33,3 +33,123 @@
   level: 'error',
   timestamp: '2020-02-20T08:31:19.832Z'
 }
+{
+  message: '>>>> userService.edit(), invalid data = instance additionalProperty "passwordHash" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-20T16:52:17.909Z'
+}
+{
+  message: `>>>> userService.getById(), result = Cast to ObjectId failed for value "{ _id: '5ec19a004abf333fc8a2668' }" at path "_id" for model "User"`,
+  level: 'error',
+  timestamp: '2020-02-21T08:21:50.854Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T08:38:50.794Z'
+}
+{
+  message: '>>>> authService.register(), result = undefined',
+  level: 'error',
+  timestamp: '2020-02-21T09:13:56.625Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:20:19.723Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:21:27.864Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:22:44.284Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:25:42.538Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:27:49.848Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:30:14.212Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = function toString() { [native code] }',
+  level: 'error',
+  timestamp: '2020-02-21T09:30:38.196Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":"5e3c19a004abf333f8a2668"}',
+  level: 'error',
+  timestamp: '2020-02-21T09:33:30.927Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'error',
+  timestamp: '2020-02-21T11:00:47.047Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:03:02.309Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:18:09.634Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:19:08.581Z'
+}
+{
+  message: '>>>> userService.changePassword(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:20:14.400Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:38:33.640Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:39:12.056Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:41:09.091Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:42:04.396Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:45:47.860Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:48:17.118Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:51:34.254Z'
+}

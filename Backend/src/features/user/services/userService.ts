@@ -1,15 +1,32 @@
 import * as repository from '../repositories/userRepositiry'
-import {User} from "../api";
 import userModel from '../../../dataAccess/entityModels/user';
-import { Error } from '../../shared/constants/error';
 import { UserFilterModel } from '../../shared/filterModels/userFilterModel';
 import { validateWithJsonSchema } from '../../utils/validateWithJsonSchema';
+import  changePasswordValidateSchema  from "../operations/ChangePassword.scema.json";
+import  idValidateSchema  from '../../utils/IdRequest.schema.json'
 import userValidateSchema from "../operations/UserRequest.schema.json";
 import logger from '../../utils/logger';
+import { ResetPassword } from '../api';
 
-export async function getByIdAsync(userParam: User): Promise<User> {
-   
-    let result = await repository.getUserAsync(userParam)
+
+export async function getByIdAsync(id: any): Promise<any> {
+   const validateResult = validateWithJsonSchema(id,idValidateSchema);
+   logger.info(`>>>> userService.getById(), with user id = ${JSON.stringify(id)}`);
+    console.log(id);
+   if (!validateResult.valid) {
+       logger.error(`>>>> userService.getById(), invalid data = ${JSON.stringify(id)}`);
+       return {message: `invalid id`, error: validateResult.errors};
+   }
+
+    const result = await repository.findByIdAsync(id);
+    
+    if (typeof(result) == "string") {
+        logger.error(`>>>> userService.getById(), result = ${result}`);
+    }
+    
+    if (!result) {
+        return "User not found";
+    }
 
     return result;
 }
@@ -21,26 +38,59 @@ export async function getAllAsync() {
 
 export async function editAsync(userParam: userModel) : Promise<any> {
    const validateResult = validateWithJsonSchema(userParam, userValidateSchema);
-   logger.info(`>>>> userService.edit(), with: user = ${userParam}`)
-    console.log(userParam);
+   logger.info(`>>>> userService.edit(), with: user = ${JSON.stringify(userParam)}`)
+  
    if (!validateResult.valid) {
     logger.error(`>>>> userService.edit(), invalid data = ${validateResult.errors}`)
-    return {message: "Invalid UserEdit request", error: validateResult.errors}
+    return {message: "Invalid UserEdit request", error: validateResult.errors};
     }
 
-    const result = await repository.editAsync(userParam)
+    const result = await repository.editAsync(userParam);
   
     if (result) {
-        logger.error(`>>>> userService.edit(), result = ${result}`)
+        logger.error(`>>>> userService.edit(), result = ${result}`);
         return result;
     }
    
     return 'Ok';
 }
 
-export async function removeAsync(userParam: userModel) {
+export async function removeAsync(id: string) {
+    const validateResult = validateWithJsonSchema(id,idValidateSchema);
+    logger.info(`>>>> userService.remove(), with: user id = ${JSON.stringify(id)}`);
+    
+    if (!validateResult.valid) {
+        logger.error(`>>>> userService.remove(), invalid data = ${JSON.stringify(id)}`);
+        return {message: "Invalid id parameter", error: validateResult.errors};
+    }
 
-    return await repository.removeOneAsync(userParam);
+    const result = await repository.removeOneAsync(id);
+    
+    if(!result) {
+        return "user not found";
+    }
+
+    return "user has been deleted";
+}
+
+export async function changePassword(changePasswordParam: ResetPassword) {
+    const validateResult = validateWithJsonSchema(changePasswordParam,changePasswordValidateSchema);
+    logger.info(`>>>> userService.changePassword(), with user changePasswordParam = ${JSON.stringify(changePasswordParam)}`);
+
+    if (!validateResult.valid) {
+        logger.error(`>>>> userService.changePassword(), invalid data = ${JSON.stringify(changePasswordParam)}`);
+        return {message: "invalid changePassword parameters", error: validateResult.errors};
+    }
+
+    const result = await repository.changePasswordAsync(changePasswordParam);
+
+    if (!result) {
+        logger.error(`>>>> userService.changePassword(), result = invalid password`);
+        return "invalid password" ;
+    }
+
+    return "Ok";
+
 }
 
 export async function getUserAsync(filter:UserFilterModel) {

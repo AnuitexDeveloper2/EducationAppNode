@@ -7,7 +7,6 @@ import { authRouter } from './features/auth';
 import * as env from 'dotenv';
 import { checkJwt } from './features/auth/jwtHelper/jwtHelper';
 import { checkPermission } from './features/shared/accessControle/accessController';
-import { Role } from './features/shared/enums/role';
 import { adminProductRouter, userProductRouter } from './features/printing-editions';
 import  {connectdb}  from '../src/dataAccess/database/connectdb';
 import * as swaggerDocument from "./swagger.json";
@@ -24,9 +23,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 //app.use(cors())
 app.use('/auth', authRouter)
-app.use(checkJwt);
+//app.use(checkJwt);
 app.use('/order', orderUserRouter)
-app.use('/admin/order',  orderAdminRouter)
+app.use('/admin/order', orderAdminRouter)
 app.use('/admin/printing-edition', adminProductRouter)
 app.use('/printingEdition', userProductRouter)
 app.use('/admin/author', authorRouter);

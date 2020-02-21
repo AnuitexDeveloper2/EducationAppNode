@@ -10,7 +10,7 @@ export async function getAllAsync(req: Request, res: Response, next: NextFunctio
   export function removeAsync(req: Request, res: Response, next: NextFunction) {
   
     userService.removeAsync(req.body)
-        .then(() => res.json({}))
+        .then((result) => res.json({result}))
         .catch(err => next(err));
   }
   

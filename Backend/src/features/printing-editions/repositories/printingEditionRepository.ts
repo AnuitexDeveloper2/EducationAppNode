@@ -1,18 +1,16 @@
 import printingEditionModel from "../../../dataAccess/entityModels/printing-edition";
-import { findById, findByEmail } from "../../user/repositories/userRepositiry";
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
-import { BaseFilterModel } from "../../shared/filterModels/baseFilterModel";
 import { PrintingEdition } from "../api";
-import authorModel from "../../../dataAccess/entityModels/author";
-import { match } from "assert";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
     const result = await printingEditionModel.create(printingEditionParam);
+    
     if (result == null) {
         return false;
     }
+
     return true;
 }
 
@@ -51,7 +49,7 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
     return true;
 }
 
-export async function getById(id: number): Promise<printingEditionModel> {
+export async function getById(id: string): Promise<printingEditionModel> {
    
     const printingEdition = await printingEditionModel.findById(id).populate('author_ids');
 

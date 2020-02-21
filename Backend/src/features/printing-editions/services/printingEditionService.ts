@@ -11,7 +11,7 @@ import logger from "../../utils/logger";
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<any> {
      const validateResult = validateWithJsonSchema(printingEditionValidateSchema,validateWithJsonSchema);
-     logger.info(`>>>> printingEditionService.create(), with: printingEditionParam = ${printingEditionParam}`);
+     logger.info(`>>>> printingEditionService.create(), with: printingEditionParam = ${JSON.stringify(printingEditionParam)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> printingEditionService.create(), invalid data = ${validateResult.errors}`);
@@ -30,7 +30,7 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
 
 export async function removeAsync(id: string): Promise<any> {
     const validateResult = validateWithJsonSchema(id,idValidateSchema);
-    logger.info(`>>>> printingEditionService.remove(), with: printingEdition id = ${id}`);
+    logger.info(`>>>> printingEditionService.remove(), with: printingEdition id = ${JSON.stringify(id)}`);
     
     if (!validateResult.valid) {
         logger.error(`>>>> printingEditionService.remove(), invalid data = ${validateResult.errors}`);
@@ -49,7 +49,7 @@ export async function removeAsync(id: string): Promise<any> {
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
     const validateResult = validateWithJsonSchema(printingEditionParam,printingEditionValidateSchema);
-    logger.info(`>>>> printingEditionService.update(), with: printingEdition = ${printingEditionParam}`);
+    logger.info(`>>>> printingEditionService.update(), with: printingEdition = ${JSON.stringify(printingEditionParam)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> printingEditionService.update(), invalid data = ${validateResult.errors}`);
@@ -74,7 +74,7 @@ export async function getPrintingEditionsAsync(filter: PrintingEditionFilterMode
     return result;
 }
 
-export async function getById(id: number): Promise<any> {
+export async function getById(id: string): Promise<any> {
     const validateResult = validateWithJsonSchema(id,idValidateSchema);
     logger.info(`>>>> printingEditionService.getById(), with: printingEdition id = ${id}`);
 
@@ -85,7 +85,7 @@ export async function getById(id: number): Promise<any> {
 
     const result = repository.getById(id);
 
-    if (result == null) {
+    if (!result) {
         logger.error(`>>>> printingEditionService.getById(), result = ${result}`);
         return {message: "printingEdition did not find", error: validateResult.errors}
     }

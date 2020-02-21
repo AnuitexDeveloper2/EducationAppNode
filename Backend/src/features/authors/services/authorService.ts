@@ -10,7 +10,7 @@ import logger from "../../utils/logger";
  let author = new authorModel();
 export async function createAsync(authorParam: authorModel): Promise<any>  {
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
-   logger.info(`>>>> authorService.create(), with: author = ${authorParam}`)
+   logger.info(`>>>> authorService.create(), with: author = ${JSON.stringify(authorParam)}`)
     
    if (!validateResult.valid) {
        logger.error(`>>>> authorService.create(), invalid data = ${validateResult.errors}`)
@@ -29,7 +29,7 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
 
 export async function removeAsync(id: string): Promise<any> {
    const validateResult = validateWithJsonSchema(id,idValidateSchema)
-   logger.info(`>>>> authorService.create(), with: Id = ${id}`)
+   logger.info(`>>>> authorService.create(), with: Id = ${JSON.stringify(id)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.remove(), invalid data = ${validateResult.errors}`)
@@ -48,7 +48,7 @@ export async function removeAsync(id: string): Promise<any> {
 
 export async function updateAsync(authorParam: authorModel): Promise<any> {
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
-   logger.info(`>>>> authorService.update(), with: author = ${authorParam}`)
+   logger.info(`>>>> authorService.update(), with: author = ${JSON.stringify(authorParam)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.update(), invalid data = ${validateResult.errors}`)
@@ -66,7 +66,7 @@ export async function updateAsync(authorParam: authorModel): Promise<any> {
 }
 
 export async function getAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
-   logger.info(`>>>> authorService.getAuthors(), with: filter = ${filter}`)
+   logger.info(`>>>> authorService.getAuthors(), with: filter = ${JSON.stringify(filter)}`)
    const result = await authorRepository.GetAuthorsAsync(filter);
    return result
 }

@@ -315,7 +315,123 @@
             }
         }
     
+     },
+     "/user/me/": {
+        "get": {
+          "tags": [
+               "User"
+            ],
+           "parameters":[{
+               "in": "string",
+               "name": "_id",
+               "schema": {
+                "$ref": "#/definitions/id"
+            }
+           }],
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
+        }
+    
+     },
+     "/user/edit/": {
+        "post": {
+          "tags": [
+               "User"
+            ],
+           "requestBody": {
+              "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
+        }
+     },
+     "/admin/user/getAll/": {
+        "post": {
+          "tags": [
+               "User"
+            ],
+           "requestBody": {
+              "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
+        }
+     },
+     "/admin/user/remove/": {
+        "post": {
+          "tags": [
+               "User"
+            ],
+           "requestBody": {
+              "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/definitions/id"
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
+        }
+     },
+     "/admin/user/": {
+        "post": {
+          "tags": [
+               "User"
+            ],
+           "requestBody": {
+              "description":"OK",
+                "required": true,
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/definitions/AuthorFilter"
+                        }
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "OK"
+               
+                }
+            }
+        }
      }
+
     },
     "definitions": {
         "id": {

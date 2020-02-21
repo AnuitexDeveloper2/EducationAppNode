@@ -1408,3 +1408,948 @@
   level: 'info',
   timestamp: '2020-02-20T16:05:02.137Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:44:47.337Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:47:37.611Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:49:34.609Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:50:09.723Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:51:20.741Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:52:17.700Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-20T16:52:17.903Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance additionalProperty "passwordHash" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-20T16:52:17.909Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:55:29.703Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:56:03.343Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:56:16.691Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:57:52.812Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T16:59:18.014Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T17:01:36.594Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-20T17:01:51.010Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T07:28:55.540Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T07:32:40.318Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T07:33:31.126Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T07:40:08.784Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T07:44:33.684Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:07:59.639Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:08:09.620Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:08:32.981Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:11:57.920Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:11:59.049Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:12:12.570Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:12:35.513Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:12:57.270Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:14:10.680Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:14:11.412Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:15:34.618Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:15:40.664Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:16:39.707Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:16:43.626Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:18:21.573Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:18:33.444Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:18:33.827Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:21:50.400Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:21:50.850Z'
+}
+{
+  message: `>>>> userService.getById(), result = Cast to ObjectId failed for value "{ _id: '5ec19a004abf333fc8a2668' }" at path "_id" for model "User"`,
+  level: 'error',
+  timestamp: '2020-02-21T08:21:50.854Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:38:50.712Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:38:50.793Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T08:38:50.794Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:39:12.278Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:39:48.735Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:48:28.911Z'
+}
+{
+  message: '>>>> authorService.create(), with: Id = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:48:50.391Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:51:23.434Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:52:21.404Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:52:23.604Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:53:38.645Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:53:39.062Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:53:40.549Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:54:01.693Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:54:02.340Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:55:42.130Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:55:42.204Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:55:45.228Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:56:20.394Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:56:20.482Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T08:57:26.371Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T08:57:29.103Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:11:37.730Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:11:38.025Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:12:20.494Z'
+}
+{
+  message: '>>>> authService.register(), with: author = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:13:56.517Z'
+}
+{
+  message: '>>>> authService.register(), result = undefined',
+  level: 'error',
+  timestamp: '2020-02-21T09:13:56.625Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:15:56.822Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:16:08.941Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:17:32.401Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:17:33.831Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:18:26.111Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:18:29.029Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:18:57.630Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:18:57.677Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:19:19.165Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:20:03.027Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:20:15.964Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:20:19.721Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:20:19.723Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:21:25.847Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = "[object Object]"',
+  level: 'info',
+  timestamp: '2020-02-21T09:21:27.862Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:21:27.864Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:22:43.899Z'
+}
+{
+  message: '">>>> userService.remove(), with: user = [object Object]"',
+  level: 'info',
+  timestamp: '2020-02-21T09:22:44.282Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:22:44.284Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:25:42.197Z'
+}
+{
+  message: '">>>> userService.remove(), with: user = [object Object]"',
+  level: 'info',
+  timestamp: '2020-02-21T09:25:42.536Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:25:42.538Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:27:49.646Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = false',
+  level: 'info',
+  timestamp: '2020-02-21T09:27:49.846Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:27:49.848Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:30:13.824Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = false',
+  level: 'info',
+  timestamp: '2020-02-21T09:30:14.211Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = [object Object]',
+  level: 'error',
+  timestamp: '2020-02-21T09:30:14.212Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:30:35.894Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = false',
+  level: 'info',
+  timestamp: '2020-02-21T09:30:38.195Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = function toString() { [native code] }',
+  level: 'error',
+  timestamp: '2020-02-21T09:30:38.196Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:33:28.337Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = false',
+  level: 'info',
+  timestamp: '2020-02-21T09:33:30.925Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":"5e3c19a004abf333f8a2668"}',
+  level: 'error',
+  timestamp: '2020-02-21T09:33:30.927Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:36:09.641Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:36:19.464Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:36:28.338Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:36:41.970Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:36:51.366Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:37:16.767Z'
+}
+{
+  message: '>>>> userService.remove(), with: user = true',
+  level: 'info',
+  timestamp: '2020-02-21T09:37:26.743Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:46:28.302Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:46:44.626Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:47:04.012Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:47:27.593Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = [object Object]',
+  level: 'info',
+  timestamp: '2020-02-21T09:47:40.012Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T09:56:46.801Z'
+}
+{
+  message: '>>>> authService.register(), with: author = {"userName":"params","email":"params@yandex.com","avatar":"C:/Anuitex/avatar","firstName":"reove","lastName":"test","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-21T09:58:27.751Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T10:00:47.900Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"richter","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-21T10:00:55.693Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T10:55:34.477Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T10:56:55.672Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:00:44.866Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:00:47.040Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'error',
+  timestamp: '2020-02-21T11:00:47.047Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:01:41.796Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:01:46.183Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:02:51.172Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:03:02.220Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:03:02.309Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:05:07.660Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:05:08.264Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:08:40.052Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:08:43.263Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:10:20.110Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:10:20.587Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:11:20.861Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:12:05.802Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:12:14.237Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:13:23.505Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:13:40.219Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:13:40.291Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:14:23.719Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:14:24.102Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:14:52.636Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:14:53.570Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:17:07.625Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:17:08.005Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:18:09.550Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:18:09.634Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:18:17.070Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:18:48.522Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:18:48.867Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:19:08.500Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:19:08.581Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"swagger@gmail.com","passwordHash":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:19:12.507Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:19:36.618Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:20:11.761Z'
+}
+{
+  message: '>>>> userService.changePassword(), with user changePasswordParam = {"_id":"5e4ba967c18d4f204cb8ea35","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:20:14.306Z'
+}
+{
+  message: '>>>> userService.changePassword(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-02-21T11:20:14.400Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:26:19.967Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:33:36.853Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:34:14.142Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:38:01.410Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:38:33.638Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:38:33.640Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:39:12.054Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:39:12.056Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:40:40.437Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:41:09.082Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:41:09.091Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:41:44.227Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:42:04.392Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:42:04.396Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:42:41.668Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:43:31.636Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:44:45.053Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:45:29.423Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:45:47.858Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:45:47.860Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T11:47:11.979Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:48:05.420Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:48:17.112Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:48:17.118Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T11:51:23.063Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-21T11:51:34.245Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-21T11:51:34.254Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T12:40:44.425Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e4ba967c18d4f204cb8ea35"}',
+  level: 'info',
+  timestamp: '2020-02-21T12:41:38.744Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e4651df6e62e11f4889ac9d"}',
+  level: 'info',
+  timestamp: '2020-02-21T12:41:58.532Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e4651df6e62e11f4889ac9d"}',
+  level: 'info',
+  timestamp: '2020-02-21T12:42:09.906Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e4651df6e62e11f4889ac9d"}',
+  level: 'info',
+  timestamp: '2020-02-21T12:42:16.391Z'
+}

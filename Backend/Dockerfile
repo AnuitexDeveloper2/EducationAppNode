@@ -1,14 +1,15 @@
-FROM node:10
+FROM node
+ENV NPM_CONFIG_LOGLEVEL warn
+RUN mkdir -p /src/
 
+EXPOSE 3000
 
-EXPOSE 4000
+WORKDIR /src/
 
-WORKDIR /src
+ADD package.json /src/
 
-ADD package src/
+RUN npm install --production
 
-RUN npm install 
+ADD . /src/
 
-ADD . /src
-
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["npm", "run", "dev"]

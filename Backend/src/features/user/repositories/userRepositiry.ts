@@ -1,22 +1,23 @@
 import userModel  from "../../../dataAccess/entityModels/user";
-import {User} from"../api";
-import bcrypt from "bcryptjs";
+import {User, ResetPassword} from"../api";
+import bcrypt from "bcrypt";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
    
 
 export async function getUserAsync (userParam: User)  {
-    let result = await userModel.findOne({email: userParam.email})
-        if (result == null) {
+    const result = await userModel.findOne({email: userParam.email})
+        
+    if (result == null) {
             throw Error.userNotFound;
         }
         return result;
     };
 
-    
     export async function checkPasswordAsync(password: string, user: User) {
-        if (!bcrypt.compareSync(password, user.passwordHash)) {
+       
+      if (!bcrypt.compareSync(password, user.passwordHash)) {
             return false
         }
         return true;
@@ -29,7 +30,7 @@ export async function getUserAsync (userParam: User)  {
         let result;
 
         try {
-             result = await userModel.updateOne(user,userParam);
+             result = await userModel.updateOne(user, userParam);
         } catch (error) {
             return error;
         }
@@ -41,15 +42,41 @@ export async function getUserAsync (userParam: User)  {
         return ;
     }
 
-    export async function removeOneAsync(userParam: userModel) {
-        let user = await userModel.findById(userParam);
+    export async function removeOneAsync(id: string) {
+        let model = new userModel();
+        const user =  userModel.findById(id);
+           
+        model = await user;
+        model.removed_at = true;
+        const result = await userModel.update(user, model);
         
-        if (user == null) {
-            throw Error.userNotFound
+        if (result.nModified == 0) {
+            return false;
         }
+    
+        return true;
+    }
 
-        let result = await userModel.findByIdAndRemove(userParam._id)
-        console.log(result);
+    export async function changePasswordAsync(param: ResetPassword): Promise<boolean> {
+        let model = new userModel();
+        const user = userModel.findById(param._id);
+        const isPasswordMatch = await checkPasswordAsync(param.oldPassword, await user);
+        
+        if (!isPasswordMatch) {
+            return false ;
+        }
+           
+        model = await user;
+        const salt = bcrypt.genSaltSync(10);
+        model.passwordHash = bcrypt.hashSync(param.newPassword, salt);
+        const result = await userModel.update(user, model);
+        if (result.nModified == 0) {
+            return false;
+        }
+        return true;
+       
+
+      
     }
 
     export async function findByEmail(email: string): Promise<boolean> {
@@ -60,19 +87,28 @@ export async function getUserAsync (userParam: User)  {
         return true;
     }
 
-    export async function findById(id: string) {
-      
-        return await userModel.findById(id);
+    export async function findByIdAsync(id: string): Promise<userModel> {
+        let user = new userModel();
+        try {
+          user = await userModel.findById(id);
+      } catch (error) {
+          return error.message
+      }
+
+        return user; 
     }
 
-    export async function findByUserName(userName: string) {
+    export async function findByUserName(userName: string): Promise<boolean> {
         
         let result = await userModel.findOne({userName: userName})
+        
         if (result == null) {
             return false;
         }
          return true;
     }
+
+    
 
     export async function getUsersAsync(filter: UserFilterModel) {
         let count;

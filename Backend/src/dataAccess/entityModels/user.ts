@@ -13,7 +13,8 @@ export const usersSchema = new schema({
     lastName: { type: String, required: true },
     passwordHash: { type: String, required: true },
     createdDate: { type: Date, default: Date.now },
-    role: { type: Role, required: true, default: Role.User }
+    role: { type: Role, required: true, default: Role.User },
+    removed_at: { type: Boolean, default: false }
 });
 
 usersSchema.plugin(mongoosePaginate);
