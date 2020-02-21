@@ -2353,3 +2353,23 @@
   level: 'info',
   timestamp: '2020-02-21T12:42:16.391Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T15:56:45.978Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T15:57:37.640Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T16:03:19.454Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Night of the","description":"History and fate collide as the Nazis rise to power in The Night in Lisbon, a classic tale of survival from the renowned author of All Quiet on the Western Front.","cover_image":"https://www.uphe.com/sites/default/files/2015/04/All-Quiet-on-the-Western-Front-Gallery-1.jpg","type":0,"price":150,"author_ids":[{"_id":"5e4692843577602830c4c5dc"},{"_id":"5e4d09f63696501a00e2b31a"}]}',
+  level: 'info',
+  timestamp: '2020-02-21T16:04:00.757Z'
+}

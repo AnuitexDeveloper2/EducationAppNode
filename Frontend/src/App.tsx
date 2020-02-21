@@ -1,12 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <p>Hello world!</p>
+    <div className="App">
+      <header className="App-header">
+       <h2>Hello World !!!</h2>
+      </header>
     </div>
   );
-};
+}
 
-ReactDOM.render(<App />, document.getElementById('app'));
+export default App;
