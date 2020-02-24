@@ -5,8 +5,8 @@ import  mongoose  from "mongoose";
 
 
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
-    authorParam._id = new mongoose.Types.ObjectId()
     const result = await authorModel.create(authorParam);
+    console.log(result);
    
     if (result == null) {
         return false;
@@ -37,7 +37,6 @@ export async function removeAsync(id: string): Promise<any> {
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
-    
     if (result.nModified == 0) {
         return false
     }

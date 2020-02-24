@@ -13,15 +13,15 @@ import * as swaggerDocument from "./swagger.json";
 import swaggerUi from 'swagger-ui-express';
 import logger from './features/utils/logger';
 import { orderUserRouter, orderAdminRouter } from './features/orders';
+import  cors  from "cors";
 
 env.config();
-
 const app: Application = express();
 const init = Init.prototype;
 init.Check();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-//app.use(cors())
+app.use(cors())
 app.use('/auth', authRouter)
 //app.use(checkJwt);
 app.use('/order', orderUserRouter)

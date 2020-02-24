@@ -24,7 +24,7 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
       return "aurhor did not create"
    }
 
-   return {message: "Invalid id parametr", error: validateResult.errors};
+   return "Ok";
 }
 
 export async function removeAsync(id: string): Promise<any> {

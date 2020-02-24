@@ -2373,3 +2373,273 @@
   level: 'info',
   timestamp: '2020-02-21T16:04:00.757Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-21T16:04:34.645Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:50:44.699Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:52:46.579Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:53:00.798Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:53:38.497Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Roger Joseph Zelazny","_id":"5e4d0a553696501a00e2b31b"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:53:44.926Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Jason Krol","_id":"5e4bc6f7ff84370d80484184"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:54:28.690Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-24T08:54:28.695Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:55:45.998Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Jason Krol","_id":"5e4bc6f7ff84370d80484184"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:55:46.158Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-24T08:55:46.172Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Jason Krl","_id":"5e4bc6f7ff84370d80484184"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:56:13.313Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:56:29.168Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Jason Krol","_id":"5e4bc6f7ff84370d80484184"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:56:50.464Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:57:58.341Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:58:53.822Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T08:58:54.081Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T08:59:43.404Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:02:51.535Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:12:32.379Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:13:01.551Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:13:02.851Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:13:04.293Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:13:34.694Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Philip K. Dick"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:23:36.877Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:24:19.140Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:25:00.940Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Robert Sheckley"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:25:46.909Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:26:17.754Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Robert Sheckley"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:26:17.811Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Some author"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:27:28.135Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Robert Sheckly"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:29:20.858Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T09:30:34.597Z'
+}
+{
+  message: '>>>> authService.register(), with: author = {"userName":"SomesUser","email":"User@Yandex.ru","avatar":"C:/","firstName":"Somes","lastName":"User","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:31:38.106Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.avatar does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-24T09:31:38.108Z'
+}
+{
+  message: '>>>> authService.register(), with: author = {"userName":"SomesUser","email":"User@Yandex.ru","avatar":"C:/assets","firstName":"Somes","lastName":"User","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:31:54.444Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Robert Shecklyr"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:33:04.255Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Terry Pratchet","_id":"5e3d1c71c818e21204ac2b8b"}',
+  level: 'info',
+  timestamp: '2020-02-24T09:33:41.034Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Robert "}',
+  level: 'info',
+  timestamp: '2020-02-24T09:34:33.838Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-02-24T09:36:37.818Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-24T09:36:37.827Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T13:19:31.493Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T13:50:05.599Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T13:53:31.440Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"tiofxdbzf","stock":0,"price":0}',
+  level: 'info',
+  timestamp: '2020-02-24T13:53:43.637Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:53:43.640Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"yuipo","stock":0,"price":0}',
+  level: 'info',
+  timestamp: '2020-02-24T13:54:00.461Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:54:00.463Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T13:55:30.657Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"stock":0,"price":0,"name":"fdsghdf"}',
+  level: 'info',
+  timestamp: '2020-02-24T13:55:55.425Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:55:55.438Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T14:48:21.434Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Goncharuk Vladimir"}',
+  level: 'info',
+  timestamp: '2020-02-24T14:48:39.405Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-24T14:53:07.450Z'
+}

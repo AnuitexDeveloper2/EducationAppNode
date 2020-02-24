@@ -153,3 +153,38 @@
   level: 'error',
   timestamp: '2020-02-21T11:51:34.254Z'
 }
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-24T08:54:28.695Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-24T08:55:46.172Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.avatar does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-24T09:31:38.108Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-02-24T09:36:37.827Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:53:43.640Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:54:00.463Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-24T13:55:55.438Z'
+}
