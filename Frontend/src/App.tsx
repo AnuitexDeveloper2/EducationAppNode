@@ -1,15 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import Layout from './components/layout/layout';
-import { Route } from 'react-router-dom';
-import  Home  from "./components/auth/register";
+import { Route } from "react-router";
+import { BrowserRouter } from "react-router-dom";
+import Register from "./components/auth/register"
+import Header from "./shared/header/header"
+import SignIn from "./components/auth/signIn"
 
 function App() {
   return (
-    <div className="App">
-     <Layout>
-     </Layout>
+    <div>
+    <BrowserRouter>
+    <Header></Header>
+      <div>
+       <Route exact path='/register' component={Register} />
+       <Route path='/signIn' component={SignIn} />
+      </div>
+    </BrowserRouter>
     </div>
   );
 }

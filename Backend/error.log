@@ -188,3 +188,38 @@
   level: 'error',
   timestamp: '2020-02-24T13:55:55.438Z'
 }
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "stock" exists in instance when not allowed,instance additionalProperty "price" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-02-25T11:03:35.308Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "userName" exists in instance when not allowed,instance additionalProperty "firstName" exists in instance when not allowed,instance additionalProperty "lastName" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-25T11:04:48.552Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "userName" exists in instance when not allowed,instance additionalProperty "firstName" exists in instance when not allowed,instance additionalProperty "lastName" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-25T11:06:32.378Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "userName" exists in instance when not allowed,instance additionalProperty "firstName" exists in instance when not allowed,instance additionalProperty "lastName" exists in instance when not allowed,instance additionalProperty "email" exists in instance when not allowed,instance additionalProperty "password" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-25T11:10:26.118Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4,instance additionalProperty "password" exists in instance when not allowed,instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-02-25T11:13:36.229Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance additionalProperty "password" exists in instance when not allowed,instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-02-25T11:14:04.769Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.firstName does not meet minimum length of 4,instance requires property "email",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-02-25T12:01:32.513Z'
+}

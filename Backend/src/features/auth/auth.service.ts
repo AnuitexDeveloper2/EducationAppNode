@@ -6,8 +6,9 @@ import logInVlidateSchema from "./operations/LogInRequest.schema.json";
 import logger from "../utils/logger";
 
 export async function registerAsync(userParam: User): Promise<any> {
+    console.log(userParam);
     const validateResult = validateWithJsonSchema(userParam,authValidateSchema);
-    logger.info(`>>>> authService.register(), with: author = ${JSON.stringify(userParam)}`);
+    logger.info(`>>>> authService.register(), with: user = ${JSON.stringify(userParam)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> authService.register(), invalid data = ${validateResult.errors}`);
