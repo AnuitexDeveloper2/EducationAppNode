@@ -2733,3 +2733,108 @@
   level: 'error',
   timestamp: '2020-02-25T12:01:32.513Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:20:03.983Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:20:48.770Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:22:25.220Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Colour of Magic","description":"dasfgvds","cover_image":"strdsddsing","type":0,"price":0,"currency":"USD","author_ids":"5e3d1c71c818e21204ac2b8b"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:22:28.726Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Colour of Magic","description":"dasfgvds","cover_image":"strdsddsing","type":0,"price":0,"currency":"USD","author_ids":"5e3d1c71c818e21204ac2b8b"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:23:00.261Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:23:45.059Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Colour of Magic","description":"dasfgvds","cover_image":"strdsddsing","type":0,"price":0,"currency":"USD","author_ids":"5e3d1c71c818e21204ac2b8b"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:23:48.925Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:26:25.445Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjnkld","email":"sister@gmail.com","avatar":"dsa","firstName":"asdfdas","lastName":"adsf","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:27:09.837Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.avatar does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-26T12:27:09.839Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjnkld","email":"sister@gmail.com","avatar":"dssadfa","firstName":"asdfdas","lastName":"adsf","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:27:18.913Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:27:57.113Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:29:36.872Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:30:01.200Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjnkld","email":"sister@gmail.com","avatar":"dssadfa","firstName":"asdfdas","lastName":"adsf","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:30:04.682Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjnkld","email":"sister@gmail.com","avatar":"dssadfa","firstName":"asdfdas","lastName":"adsf","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T12:33:39.309Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:35:54.133Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T12:36:03.100Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T15:26:57.155Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-26T15:28:13.789Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-26T15:28:34.090Z'
+}

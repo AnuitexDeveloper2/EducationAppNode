@@ -37,7 +37,7 @@ export async function signInAsync(email: string, password: string): Promise<any>
     if (!isPasswordValid) {
        return "invalid password";
     }
-   
+        console.log(user)
       return user ;
 }
 

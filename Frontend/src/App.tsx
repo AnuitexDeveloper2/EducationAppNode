@@ -14,6 +14,7 @@ function App() {
       <div>
        <Route exact path='/register' component={Register} />
        <Route path='/signIn' component={SignIn} />
+       
       </div>
     </BrowserRouter>
     </div>

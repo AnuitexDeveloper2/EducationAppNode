@@ -47,3 +47,14 @@ export function register(user: UserProps, redirect: any) {
     })
         .then(redirect)
 }
+
+export function signIn(user: UserProps, redirect:any) {
+    debugger;
+    fetch('http://localhost:8000/auth/logIn', {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'POST',
+        body: JSON.stringify(user)
+    }).then(redirect)
+}

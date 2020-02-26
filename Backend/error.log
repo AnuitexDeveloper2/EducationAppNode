@@ -223,3 +223,8 @@
   level: 'error',
   timestamp: '2020-02-25T12:01:32.513Z'
 }
+{
+  message: '>>>> authService.register(), invalid data = instance.avatar does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-02-26T12:27:09.839Z'
+}
