@@ -2838,3 +2838,1663 @@
   level: 'info',
   timestamp: '2020-02-26T15:28:34.090Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-27T14:39:34.613Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-27T14:41:23.608Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-27T14:49:43.013Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-27T14:49:58.214Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:23:24.093Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"testEmail","email":"paderborner2019@gmail.com","avatar":"C/:assets/fot.png","firstName":"test","lastName":"email","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-28T09:24:38.109Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:37:01.837Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:46:01.366Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:47:55.826Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:52:49.978Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:57:30.710Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T09:58:08.467Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:02:11.861Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:03:49.479Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:04:21.367Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:04:35.751Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:16:05.657Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:16:30.539Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:18:41.047Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:18:52.925Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:19:44.363Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:21:30.089Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:21:54.440Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:22:19.408Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:24:42.043Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:25:50.676Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:26:32.357Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:27:04.636Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:28:34.136Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:29:30.202Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:29:37.945Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:31:58.130Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:32:20.260Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:33:19.078Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:40:24.247Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:41:02.428Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error = email [object Object] has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:41:42.386Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:42:24.464Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error = email [object Object] has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:42:25.415Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:43:01.786Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error = email {"email":"paderorner2019@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:43:08.668Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:43:55.787Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"paderorner2019@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:43:56.676Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T10:46:23.524Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":5}',
+  level: 'info',
+  timestamp: '2020-02-28T10:46:41.411Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:03:11.993Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"email":"swagger@gmail.com","passwordHash":"29041988"}',
+  level: 'info',
+  timestamp: '2020-02-28T11:03:26.640Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "email" exists in instance when not allowed,instance additionalProperty "passwordHash" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-28T11:03:26.641Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:04:39.248Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"someAuthor","product_ids":"5e4ceab1c4321b25fc7d58b1"}',
+  level: 'info',
+  timestamp: '2020-02-28T11:05:43.022Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:07:03.958Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":5}',
+  level: 'info',
+  timestamp: '2020-02-28T11:07:06.136Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":2,"pageSize":20}',
+  level: 'info',
+  timestamp: '2020-02-28T11:07:25.475Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:09:46.376Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":2,"pageSize":20}',
+  level: 'info',
+  timestamp: '2020-02-28T11:09:47.185Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:15:43.261Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:16:41.502Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:20:08.964Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:25:22.382Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:26:02.879Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T11:31:10.001Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"testBook","title":"test","description":"book","cover_image":"stridfdng","type":0,"price":2309,"currency":"USD","author_ids":"5e5396b94434eb347cdf6219"}',
+  level: 'info',
+  timestamp: '2020-02-28T11:32:23.168Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"test","description":"book","cover_image":"stridfdng","type":0,"price":2309,"currency":"USD","author_ids":"5e5396b94434eb347cdf6219"}',
+  level: 'info',
+  timestamp: '2020-02-28T11:32:37.158Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:21:46.275Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:22:01.928Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:23:02.262Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:23:12.608Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:23:27.400Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:26:12.202Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:27:02.313Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:29:20.807Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:29:22.446Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:30:14.913Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:34:12.233Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:34:16.738Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:34:51.312Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:35:00.890Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:35:00.956Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:38:05.758Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:38:06.432Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:40:11.995Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:41:23.466Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:41:23.497Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:42:27.708Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:42:27.796Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:48:32.861Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:48:40.417Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:49:20.071Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:49:20.223Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:52:47.466Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:52:58.186Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:53:00.767Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:55:33.081Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:55:35.303Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:56:07.354Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":"5e4554bdb7f6f522dc3156a0"}',
+  level: 'info',
+  timestamp: '2020-02-28T12:56:07.484Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T12:58:27.290Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T12:59:40.371Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:00:22.984Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:00:30.199Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:00:31.149Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:02:17.905Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:02:53.547Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":2,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:04:01.761Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:14:23.017Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:20:18.643Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:21:39.413Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:23:31.532Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:24:13.200Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:26:56.992Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Robert Sheckley","pageNumber":2,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:27:38.587Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Robert Sheckley","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:27:47.198Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:28:38.049Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.author_ids is not of a type(s) string',
+  level: 'error',
+  timestamp: '2020-02-28T13:28:38.051Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:29:47.845Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:30:21.900Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:30:24.571Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Robert Sheckley","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:30:32.939Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Robert Sheckley","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T13:30:35.208Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:33:23.332Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:44:52.149Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:44:53.694Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:45:24.472Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:45:24.838Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:46:24.702Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:46:25.905Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:46:42.974Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:46:44.398Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:47:36.438Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:47:37.594Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:48:33.194Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:54:39.785Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:54:41.651Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:55:06.867Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:55:52.078Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:56:35.626Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:56:36.530Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:56:58.786Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:56:59.245Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:57:30.052Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:57:30.338Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:58:14.716Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:58:14.831Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T13:59:23.336Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T13:59:23.656Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:00:06.781Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:00:06.893Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:01.573Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:08.845Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:09.129Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:12.289Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:40.188Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5907a2b4919a3d8c8583f7","title":"Some","description":"dsgfdsg","cover_image":"sdgagsfg","type":0,"price":2345,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e5396b94434eb347cdf6219"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:40.391Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:02:40.418Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Robert Sheckley","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:02:58.366Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:04:50.917Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"weber","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:06:37.302Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"david","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:06:57.668Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"david","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:08:27.904Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:10:25.182Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"david","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:10:29.918Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:11:10.751Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:12:49.849Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:12:53.427Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:13:00.833Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:13:34.156Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:13:37.386Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:14:06.914Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:15:20.347Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:15:37.936Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:15:48.463Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:15:48.516Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:16:10.529Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:17:25.404Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:17:34.172Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:17:34.198Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:17:37.994Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:21:04.065Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:21:31.539Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:21:31.572Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:22:40.275Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:22:40.363Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:22:40.445Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:23:14.168Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:23:14.347Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:14.404Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:23:15.069Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:15.117Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:23:52.355Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:23:52.828Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:52.875Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:26:17.296Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:26:17.601Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:26:17.654Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:26:49.548Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:26:51.059Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:26:51.150Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:27:43.635Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:27:56.674Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:27:57.399Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:27:57.541Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:28:44.218Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:28:48.062Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:28:48.233Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:29:40.797Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:30:28.559Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:30:29.477Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:30:48.476Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:31:16.404Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:31:17.120Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:31:17.200Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:31:21.730Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:32:44.880Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:32:47.643Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:32:47.748Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:32:56.643Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:36:56.670Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:36:58.772Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:36:58.937Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:37:29.615Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:14.646Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:14.697Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:22.063Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:22.112Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:25.957Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:30.181Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:30.227Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:32.965Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:45.926Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:45.978Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:48.665Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:54.550Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:54.592Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:38:57.959Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554bdb7f6f522dc3156a0"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:39:21.186Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:39:21.234Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:39:24.402Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:40:31.583Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Leo Tolstoy","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:40:35.120Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:41:00.990Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:41:17.576Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:41:21.567Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:41:49.676Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:41:57.398Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:42:16.966Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:42:19.602Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:42:43.598Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:43:04.549Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:43:27.043Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:43:55.139Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:43:59.077Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:45:19.742Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:45:27.683Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:45:38.830Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:45:42.970Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:46:11.472Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:46:23.580Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:48:31.743Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:48:36.446Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:48:51.112Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:49:29.401Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T14:49:30.315Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:49:30.371Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:49:59.221Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T14:50:01.083Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:59:02.391Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T14:59:51.302Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:00:13.403Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:00:13.466Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:00:36.869Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:01:06.426Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:01:17.852Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:02:19.926Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:02:56.360Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:03:12.480Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:03:29.638Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:03:33.642Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:04:02.487Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:04:02.868Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:04:13.669Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:04:52.035Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:05:16.582Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:05:34.742Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:06:17.040Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:06:51.074Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:07:22.445Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:07:32.311Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:09:18.115Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:09:21.954Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:10:20.100Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:10:24.267Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:10:24.293Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:10:39.235Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:10:47.617Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:10:47.668Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:11:17.386Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:11:44.382Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:11:46.683Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:12:47.036Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:12:47.625Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:12:47.643Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:12:59.199Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:13:36.343Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:13:36.420Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:13:36.504Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:13:45.206Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:13:50.877Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:14:23.802Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:14:38.324Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:16:23.623Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4554cbb7f6f522dc3156a1"},{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:16:30.078Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:16:30.125Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:16:33.400Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4692843577602830c4c5dc"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:16:46.012Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Victor","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:16:49.000Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"weber","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:17:07.150Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4d09f63696501a00e2b31a"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:17:29.913Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"weber","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:17:48.806Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"stend","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:18:06.415Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:18:19.734Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"stend","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:18:23.290Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4d09f63696501a00e2b31a"},{"_id":"5e455520b7f6f522dc3156a4"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:19:08.982Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"stend","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:19:20.833Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"ale","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:19:28.152Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e46bd86b2b3d403c4db8fdf","title":"Three Comrades","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":75,"currency":"USD","author_ids":[{"_id":"5e4d09f63696501a00e2b31a"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T15:19:39.034Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"ale","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:19:41.325Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:20:17.530Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:20:32.368Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:33:50.802Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:35:33.182Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:37:57.020Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:39:00.355Z'
+}

@@ -2,6 +2,7 @@ import printingEditionModel from "../../../dataAccess/entityModels/printing-edit
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { PrintingEdition } from "../api";
+import * as authorRepository from "../../authors/repositories/authorRepository"
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
@@ -10,7 +11,11 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
     if (result == null) {
         return false;
     }
-
+    for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
+        authorRepository.addProductAsync(printingEditionParam.author_ids[index],result.id)
+        
+    }
+ 
     return true;
 }
 
@@ -32,19 +37,23 @@ export async function removeAsync(id: string): Promise<boolean> {
 }
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
-    try {
+   
         const printingEdition = printingEditionModel.findById(printingEditionParam._id);
+        const test = await printingEditionModel.findById(printingEditionParam._id);
+
+        for (let index = 0; index <(await printingEdition).author_ids.length; index++) {
+           authorRepository.removeProductAsync( (await printingEdition).author_ids[index],(await printingEdition)._id)
+        }
+        
+        for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
+            authorRepository.addProductAsync(printingEditionParam.author_ids[index],(await printingEdition)._id);
+            
+        }
         
         const result = await printingEditionModel.update(printingEdition,printingEditionParam);
-        
         if (result.nModified == 0) {
             return false;
         }
-
-    } catch (error) {
-
-        return error;
-    }
    
     return true;
 }
@@ -74,7 +83,7 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     const options = {
         sort: tableSort,
         lean: true,
-        populate:({path:('author_ids'),match:{name: { $regex:new RegExp( filter.searchString, 'i') }} }),
+        populate:({path:('author_ids')/*,match:{name: { $regex:new RegExp( filter.searchString, 'i') }}*/ }),
         page: filter.pageNumber, 
         limit: filter.pageSize,
       

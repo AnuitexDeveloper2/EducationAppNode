@@ -32,7 +32,7 @@
             "maxLength": 50
         }
     },
-    "additionalProperties": false,
+    "additionalProperties": true,
     "required": [
         "userName",
         "email",

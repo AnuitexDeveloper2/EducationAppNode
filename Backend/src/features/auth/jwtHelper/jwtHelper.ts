@@ -42,8 +42,7 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
 
     } catch (err) {
          if (err.name == 'TokenExpiredError') {
-        const refreshToken = <string>req.headers["refreshtoken"];
-        newTokens = refreshTokens(res,req);
+          res.status(403).send("access Token Expired")
       }
       if (err.name == 'JsonWebTokenError' ) {
         
@@ -55,7 +54,7 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     next();
   };
 
-  function refreshTokens( res: Response,req: Request) {
+  export function refreshTokens( res: Response,req: Request) {
     let jwtPayload;
    
     try {

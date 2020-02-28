@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import './header.css';
 import  signIn  from "../../assets/SignUp.png";
-import {Navbar,NavItem,Nav,Button, ButtonToolbar} from 'react-bootstrap';
+import {Navbar,NavItem,Nav,Button, ButtonToolbar, ModalDialog} from 'react-bootstrap';
 import { Link, Route } from 'react-router-dom';
 import SignIn from '../../components/auth/signIn';
 import bookLogo from "../../assets/Book_Logo_svg.png"
@@ -9,6 +9,7 @@ import bookLogo from "../../assets/Book_Logo_svg.png"
 export class Header extends Component<any> {
   constructor(props: any) {
     super(props);
+    
   }
 
   state= {showModal:false}
@@ -20,12 +21,11 @@ export class Header extends Component<any> {
     render() {
       let addModalClose=() =>this.setState({addModalClose:false})
         return (
-            <div className="header">
-           
-          <ButtonToolbar>
-            
-            <Allows/>
-          </ButtonToolbar>
+          <div className="header">
+            <ButtonToolbar>
+              
+            <Link to={'/signIn'}>Open Modal</Link> 
+            </ButtonToolbar>
          </div>  
     );
 }
@@ -33,7 +33,7 @@ export class Header extends Component<any> {
 }
 export default Header;
 
-export const Allows = () => {
+export const SignInModal = () => {
   const [modalShow, setModalShow] = useState(false);
   return (
     <ButtonToolbar>

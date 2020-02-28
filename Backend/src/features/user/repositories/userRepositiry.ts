@@ -79,12 +79,13 @@ export async function getUserAsync (userParam: User)  {
       
     }
 
-    export async function findByEmail(email: string): Promise<boolean> {
-       let user = await userModel.findOne({ email: email });
+    export async function findByEmail(email: string): Promise<any> {
+        console.log(email)
+       let user = await userModel.findOne(email);
        if (user == null) {
            return false;
        }
-        return true;
+        return user.email;
     }
 
     export async function findByIdAsync(id: string): Promise<userModel> {

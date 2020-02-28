@@ -55,7 +55,7 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
         logger.error(`>>>> printingEditionService.update(), invalid data = ${validateResult.errors}`);
         return {message: "printingEdition parameters is not valide" , error: validateResult.errors}
     }
-
+    
     const result = await repository.updateAsync(printingEditionParam);
     
     if (!result) {

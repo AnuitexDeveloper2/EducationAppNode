@@ -44,11 +44,36 @@ export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     return true;
 }
 
+export async function addProductAsync( authorId: string ,printingEditionId: string) {
+    const author =  authorModel.findById(authorId)
+    let model = await author;
+    model.product_ids.push(printingEditionId)
+    let result = await authorModel.update(author,model)
+   
+}
+
+export async function removeProductAsync(authorId: string , printingEditionId: string) {
+    const author = authorModel.findById(authorId);
+    let model = await author;
+    console.log(model.product_ids.length)
+    for (let index = 0; index < model.product_ids.length; index++) {
+      
+       if (model.product_ids[index].toString() == printingEditionId.toString()) {
+           model.product_ids.splice(index,1);
+          
+          await authorModel.update(author,model)
+         
+       }
+    }
+}
+
+
 export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseResponse<authorModel>> {
     let count;
     let query;
     let tableSort: any = {'name':filter.sortType};
     let data= new Array<authorModel>();
+    
     
     if (filter.searchString !=null) {
         query = authorModel.find( { $and:[{ name: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });
@@ -63,7 +88,7 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         lean: true,
         page: filter.pageNumber, 
         limit: filter.pageSize,
-        select: {removed_at: false}
+        populate: ({path: "product_ids",select: "title"})
     };
      
       await authorModel.paginate(query,options).then(function(result){

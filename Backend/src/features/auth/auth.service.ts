@@ -4,6 +4,8 @@ import { validateWithJsonSchema } from "../utils/validateWithJsonSchema";
 import authValidateSchema from "./operations/RegisterRequest.schema.json";
 import logInVlidateSchema from "./operations/LogInRequest.schema.json";
 import logger from "../utils/logger";
+import { sendingEmail } from "./emailHelper/emailHelper";
+import { findByEmail } from "../user/repositories/userRepositiry";
 
 export async function registerAsync(userParam: User): Promise<any> {
     console.log(userParam);
@@ -43,5 +45,22 @@ export async function logInAsync(email: string, password: string): Promise<any> 
     }
     
     return  result;
+}
+
+export async function confirmEmailAsync(email: string): Promise<any> {
+   
+    const isEmailExist = await findByEmail(email)
+    if (!isEmailExist) {
+        logger.error(`>>>> authService.confirmEmail(), error  ${JSON.stringify(email)} has not been assigned to any user `)
+        return "User Not Found"
+    }
+    
+    const result = sendingEmail(isEmailExist);
+    const error = typeof(result)
+    if (error == "string") {
+        logger.error(`>>>> autService.confirmEmail(), error = ${JSON.stringify(result)}`)
+        return result;
+    }
+    return "email has been verified"
 }
 

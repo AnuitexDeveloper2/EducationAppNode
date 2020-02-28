@@ -228,3 +228,178 @@
   level: 'error',
   timestamp: '2020-02-26T12:27:09.839Z'
 }
+{
+  message: '>>>> authService.confirmEmail(), error = email [object Object] has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:41:42.386Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error = email [object Object] has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:42:25.415Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error = email {"email":"paderorner2019@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:43:08.668Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"paderorner2019@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-02-28T10:43:56.676Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "email" exists in instance when not allowed,instance additionalProperty "passwordHash" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-02-28T11:03:26.641Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.author_ids is not of a type(s) string',
+  level: 'error',
+  timestamp: '2020-02-28T13:28:38.051Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:02:40.418Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:15:48.516Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:17:34.198Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:21:31.572Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:22:40.445Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:14.404Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:15.117Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:23:52.875Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:26:17.654Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:26:51.150Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:27:57.541Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:28:48.233Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:30:29.477Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:31:17.200Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:32:47.748Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:36:58.937Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:14.697Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:22.112Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:30.227Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:45.978Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:38:54.592Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:39:21.234Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T14:49:30.371Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:00:13.466Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:10:24.293Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:10:47.668Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:12:47.643Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:13:36.504Z'
+}
+{
+  message: '>>>> printingEditionService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T15:16:30.125Z'
+}

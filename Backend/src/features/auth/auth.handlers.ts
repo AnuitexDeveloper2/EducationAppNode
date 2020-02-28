@@ -1,10 +1,10 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction, response } from "express";
 import * as authService from '../auth/auth.service';
 import * as jwtHelper from "./jwtHelper/jwtHelper";
 
 export async function registerAsync(req: Request,res: Response,next: NextFunction) {
    
-    let result = await authService.registerAsync(req.body)
+    await authService.registerAsync(req.body)
     .then((err) => res.json({err}))
     .catch(err => next(err))
   }
@@ -13,6 +13,16 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
     await authService.logInAsync(req.body.email,req.body.passwordHash)
     .then(user => res.send(jwtHelper.generateTokens(user,res)))
     .catch();
+  }
+
+  export async function confirmEmailAsync(req: Request, res: Response, next: NextFunction) {
+    await authService.confirmEmailAsync(req.body)
+    .then((err) => res.json({err}))
+    .catch();
+  }
+
+  export async function refreshTokens(req: Request, res: Response) {
+    jwtHelper.refreshTokens(res,req)
   }
 
   

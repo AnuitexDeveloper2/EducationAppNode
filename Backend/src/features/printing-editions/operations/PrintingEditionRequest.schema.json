@@ -16,10 +16,8 @@
         },
         "price": {
              "type": "number"
-        },
-        "author_ids": {
-            "type":"string"
         }
+        
 
 
     },
@@ -28,8 +26,7 @@
         "title",
         "description",
         "type",
-        "price",
-        "author_ids"
+        "price"
     ]
 }
 

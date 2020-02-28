@@ -6,7 +6,6 @@ import { authorRouter } from "../src/features/authors/index";
 import { authRouter } from './features/auth';
 import * as env from 'dotenv';
 import { checkJwt } from './features/auth/jwtHelper/jwtHelper';
-import { checkPermission } from './features/shared/accessControle/accessController';
 import { adminProductRouter, userProductRouter } from './features/printing-editions';
 import  {connectdb}  from '../src/dataAccess/database/connectdb';
 import * as swaggerDocument from "./swagger.json";
