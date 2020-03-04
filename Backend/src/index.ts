@@ -13,6 +13,7 @@ import swaggerUi from 'swagger-ui-express';
 import logger from './features/utils/logger';
 import { orderUserRouter, orderAdminRouter } from './features/orders';
 import  cors  from "cors";
+import {  } from "client-oauth2";
 
 env.config();
 const app: Application = express();
@@ -26,7 +27,7 @@ app.use('/auth', authRouter)
 app.use('/order', orderUserRouter)
 app.use('/admin/order', orderAdminRouter)
 app.use('/admin/printing-edition', adminProductRouter)
-app.use('/printingEdition', userProductRouter)
+app.use('/home', userProductRouter)
 app.use('/admin/author', authorRouter);
 app.use('/user', userRouter);
 app.use('/admin/user', adminRouter);

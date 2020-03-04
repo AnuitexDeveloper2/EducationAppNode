@@ -403,3 +403,18 @@
   level: 'error',
   timestamp: '2020-02-28T15:16:30.125Z'
 }
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T16:11:32.556Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-02-28T16:56:48.129Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-04T14:45:54.287Z'
+}

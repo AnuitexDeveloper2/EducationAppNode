@@ -15,7 +15,7 @@ adminProductRouter.get('/', getPrintingEditionsForAdminHandlerAsync);
 
 export const userProductRouter = Router();
 
-userProductRouter.use( checkPermission(Role.User));
+//userProductRouter.use( checkPermission(Role.User));
 
 userProductRouter.get('/', getPrintingEditionsForUserHandlerAsync);
 userProductRouter.get('/:id', getPrintingEditionById);

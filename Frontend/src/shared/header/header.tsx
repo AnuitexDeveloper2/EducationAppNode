@@ -24,7 +24,7 @@ export class Header extends Component<any> {
           <div className="header">
             <ButtonToolbar>
               
-            <Link to={'/signIn'}>Open Modal</Link> 
+           <SignInModal/> 
             </ButtonToolbar>
          </div>  
     );

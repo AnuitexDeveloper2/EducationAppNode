@@ -4498,3 +4498,1568 @@
   level: 'info',
   timestamp: '2020-02-28T15:39:00.355Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:39:53.234Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:52:44.532Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:53:33.947Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T15:54:19.870Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:55:08.532Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":2,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T15:55:31.483Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Victor Hugo","_id":"5e4554cbb7f6f522dc3156a1"}',
+  level: 'info',
+  timestamp: '2020-02-28T16:03:17.403Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e46bd86b2b3d403c4db8fdf","title":" Komarr","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":90,"currency":"USD","author_ids":[{"_id":"5e4bc6f7ff84370d80484184"},{"_id":"5e4501706461544ec45595a6"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T16:07:50.835Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":" Komarr","description":"From the acclaimed author of All Quiet on the Western Front comes Three Comrades, a harrowing novel that follows a group of friends as they cope with upheaval in Germany between World Wars I and II.","cover_image":"sdgagsfg","type":0,"price":90,"currency":"USD","author_ids":[{"_id":"5e4bc6f7ff84370d80484184"},{"_id":"5e4501706461544ec45595a6"}]}',
+  level: 'info',
+  timestamp: '2020-02-28T16:08:02.410Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Keyes","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:08:42.551Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"K","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:08:53.403Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Lois McMaster Bujold","_id":"5e4554f0b7f6f522dc3156a3"}',
+  level: 'info',
+  timestamp: '2020-02-28T16:11:27.533Z'
+}
+{
+  message: '>>>> authorService.update(), with: author = {"name":"Lois McMaster Bujold","_id":"5e4554f0b7f6f522dc3156a3"}',
+  level: 'info',
+  timestamp: '2020-02-28T16:11:32.553Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-02-28T16:11:32.556Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"lois","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:11:44.669Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Lois","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:12:26.250Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"is","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:12:36.370Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"gab","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:12:48.067Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"al","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:13:48.444Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"lo","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:13:55.229Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Shakespeare","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:14:57.763Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Shakespeare","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:15:43.524Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"lois","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:15:48.863Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T16:28:58.510Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T16:44:07.207Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T16:44:34.731Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:45:18.702Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":3,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-02-28T16:45:27.440Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T16:52:35.419Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-28T16:55:26.273Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgensadscfhtern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-02-28T16:56:48.125Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-02-28T16:56:48.129Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T17:06:22.537Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-02-28T17:16:01.847Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T09:26:56.788Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:04:19.892Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":3,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-03-02T10:04:47.800Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"au","pageNumber":3,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-03-02T10:05:22.901Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"au","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-03-02T10:05:29.335Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"some","pageNumber":1,"pageSize":10}',
+  level: 'info',
+  timestamp: '2020-03-02T10:05:41.770Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:06:26.552Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:07:19.811Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:08:31.793Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:10:05.379Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:12:00.373Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:13:49.520Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:18:34.862Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:19:46.882Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:20:14.112Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:20:57.431Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:21:26.012Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:24:43.533Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-02T10:27:38.658Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"krol","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-02T10:28:03.825Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:29:00.567Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:40:17.442Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:46:45.203Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:48:28.446Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T10:48:47.982Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:07:59.288Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:09:19.100Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:09:33.610Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:10:04.972Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:10:46.205Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:11:14.479Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:11:47.097Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:12:35.018Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:13:17.714Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:13:51.655Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:20:30.012Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:21:43.798Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:28:25.146Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:28:54.717Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:29:11.379Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:30:13.386Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:31:11.466Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:31:38.316Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:32:16.106Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:35:12.832Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:49:27.658Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:50:52.804Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T11:51:06.508Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:13:51.366Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:22:44.972Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:25:40.099Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:26:17.942Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:38:17.554Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-02T12:47:23.519Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:59:15.438Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:59:22.831Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"krol","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-02T12:59:23.698Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T12:59:52.930Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:00:51.199Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:01:48.901Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:03:04.283Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:04:37.113Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:06:23.944Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:07:02.808Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:07:32.660Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:08:37.005Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:18:14.788Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:18:39.468Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:22:03.497Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:44:48.584Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:45:47.241Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:46:46.280Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:48:06.965Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:50:03.832Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:50:19.503Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:52:08.931Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T13:53:28.544Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:11:31.662Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:12:12.887Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:12:23.163Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:13:15.534Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:13:57.062Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:14:53.398Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:15:34.968Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:16:14.280Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:17:21.612Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:18:54.676Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:19:34.867Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:21:17.404Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:50:35.676Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:50:54.369Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:51:48.623Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:52:54.130Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:53:45.648Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:54:32.933Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:56:00.255Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:57:59.628Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T14:59:55.643Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:00:04.355Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:01:31.279Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:01:41.716Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:05:20.911Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:09:29.120Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:53:01.160Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:55:53.123Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:56:12.934Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:56:57.437Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:57:15.787Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:58:18.281Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T15:58:30.556Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:00:31.246Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:00:51.536Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:02:19.303Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:03:46.355Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:04:45.515Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:05:18.801Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:05:34.750Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:05:48.035Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:06:22.522Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:07:34.788Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:07:50.038Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:08:16.806Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:08:33.287Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:09:43.226Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:11:31.660Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:11:57.387Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:12:37.475Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:14:32.296Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:15:24.263Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:16:00.722Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-02T16:17:45.135Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:52:44.420Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:54:03.530Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:54:55.226Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:57:14.300Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:57:44.996Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:58:12.742Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:58:54.716Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:59:08.668Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T07:59:27.882Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T08:07:28.133Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T08:08:24.525Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T08:08:54.981Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T08:09:12.803Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T08:13:16.484Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:29:39.465Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:30:03.528Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:31:47.505Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:33:22.605Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:34:01.623Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:35:23.593Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:35:39.395Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"weber","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:36:29.352Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:36:53.644Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T10:38:18.515Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Terry Pratchett"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:39:44.291Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Jeffrey Richter"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:40:41.051Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Fyodor Dostoevsky"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:41:18.901Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Dante Alighieri"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:41:39.473Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Leo Tolstoy"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:41:52.161Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Victor Hugo"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:42:07.311Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"William Shakespeare"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:42:21.820Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Stendhal"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:42:54.358Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Alexander Pushkin"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:43:14.960Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Franz Kafka"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:43:36.634Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Anton Chekhov"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:43:48.066Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"J.R.R. Tolkien"}',
+  level: 'info',
+  timestamp: '2020-03-03T10:44:04.592Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Lord of the Rings","description":"ll three parts of the epic masterpiece The Lord of the Rings – The Fellowship of the Ring, The Two Towers & The Return of the King – available as one download, featuring the definitive edition of the text, hyperlinked footnotes and page references, and 3 maps including a detailed map of Middle-earth.","cover_image":"C:/assets/image","type":0,"price":13.9,"currency":"USD","author_ids":[{"_id":"5e5e34f4309c2333c06e11bc"}]}',
+  level: 'info',
+  timestamp: '2020-03-03T10:46:47.744Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"weber","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:48:14.600Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:48:21.373Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"tol","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:48:38.483Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Brothers Karamazov","description":"The Brothers Karamasov is a murder mystery, a courtroom drama, and an exploration of erotic rivalry in a series of triangular love affairs involving the “wicked and sentimental” Fyodor Pavlovich Karamazov and his three sons―the impulsive and sensual Dmitri; the coldly rational Ivan; and the healthy, red-cheeked young novice Alyosha.","cover_image":"C:/assets/image","type":0,"price":15,"currency":"USD","author_ids":[{"_id":"5e5e344e309c2333c06e11b3"}]}',
+  level: 'info',
+  timestamp: '2020-03-03T10:50:05.856Z'
+}
+{
+  message: `>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Crime and Punishment","description":"The two years before he wrote Crime and Punishment (1866) had been bad ones for Dostoyevsky. His wife and brother had died; the magazine he and his brother had started, Epoch, collapsed under its load of debt; and he was threatened with debtor's prison. With an advance that he managed to wangle for an unwritten novel, he fled to Wiesbaden, hoping to win enough at the roulette table to get himself out of debt. Instead, he lost all his money; he had to pawn his clothes and beg friends for loans to pay his hotel bill and get back to Russia. One of his begging letters went to a magazine editor, asking for an advance on yet another unwritten novel — which he described as Crime and Punishment.","cover_image":"C:/assets/image","type":0,"price":10,"currency":"USD","author_ids":[{"_id":"5e5e344e309c2333c06e11b3"}]}`,
+  level: 'info',
+  timestamp: '2020-03-03T10:50:51.789Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"tols","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:51:02.021Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"dos","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-03T10:51:37.987Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Idiot","description":"Richard Pevear and Larissa Volokhonsky’s masterful translation of The Idiot is destined to stand with their versions of Crime and Punishment, The Brothers Karamazov, and Demons as the definitive Dostoevsky in English.","cover_image":"C:/assets/image","type":0,"price":25,"currency":"USD","author_ids":[{"_id":"5e5e344e309c2333c06e11b3"}]}',
+  level: 'info',
+  timestamp: '2020-03-03T10:52:35.443Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"CLR via C#","description":"Dig deep and master the intricacies of the common language runtime, C#, and .NET development. Led by programming expert Jeffrey Richter, a longtime consultant to the Microsoft .NET team - you’ll gain pragmatic insights for building robust, reliable, and responsive apps and components.","cover_image":"C:/assets/image","type":0,"price":125,"currency":"USD","author_ids":[{"_id":"5e5e3429309c2333c06e11b2"},{"_id":"5e5e348d309c2333c06e11b7"}]}',
+  level: 'info',
+  timestamp: '2020-03-03T10:54:15.028Z'
+}
+{
+  message: `>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Divine Comedy","description":"The Divine Comedy is the precursor of modern literature, and this translation - decades in the making - gives us the entire epic as a single, coherent and compulsively listenable lyric poem. Written in the early 14th century and completed in 1321, the year of Dante's death, The Divine Comedy is perhaps the greatest work of epic poetry ever composed","cover_image":"C:/assets/image","type":0,"price":54,"currency":"USD","author_ids":[{"_id":"5e5e3463309c2333c06e11b4"},{"_id":"5e5e348d309c2333c06e11b7"}]}`,
+  level: 'info',
+  timestamp: '2020-03-03T10:56:31.591Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T11:03:07.492Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T11:06:50.516Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T11:13:30.419Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T11:15:22.736Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T11:15:46.765Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:08:10.930Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:50:09.851Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:56:02.949Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:57:04.887Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:57:12.566Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:58:05.430Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T12:59:48.681Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:01:51.031Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:03:25.866Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:03:38.976Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:04:34.475Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:04:56.189Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:10:58.069Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:11:19.841Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-03T13:57:24.761Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:30:41.924Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34d8309c2333c06e11ba"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:33:08.069Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:34:48.410Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:36:38.047Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:36:41.444Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:36:56.674Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:37:02.566Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:37:19.729Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:37:25.858Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:38:05.240Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:38:05.405Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5f59b4b75df521ccdd6a0b","title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:39:01.639Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"cheh","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-04T07:39:33.629Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"che","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-04T07:39:38.757Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"anto","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-04T07:39:51.142Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"kaf","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-04T07:39:59.853Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e5f59b4b75df521ccdd6a0b","title":"The Metamorphosis","description":"The Metamorphosis (original German title: Die Verwandlung) is a short novel by Franz Kafka, first published in 1915. It is often cited as one of the seminal works of fiction of the 20th century and is widely studied in colleges and universities across the western world. The story begins with a traveling salesman, Gregor Samsa, waking to find himself transformed into an insect.","cover_image":"C:/assets/image","type":0,"price":3.99,"currency":"USD","author_ids":[{"_id":"5e5e34e4309c2333c06e11bb"},{"_id":"5e5e34d8309c2333c06e11ba"}]}',
+  level: 'info',
+  timestamp: '2020-03-04T07:40:33.528Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"kaf","pageNumber":1,"pageSize":30}',
+  level: 'info',
+  timestamp: '2020-03-04T07:40:45.029Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:41:50.941Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:41:57.445Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:43:33.705Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:44:04.863Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:45:30.079Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:46:08.058Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:46:37.226Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T07:46:52.924Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:06:14.350Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:22:57.945Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:30:12.788Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:36:58.606Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:37:34.199Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:50:23.287Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T09:58:36.087Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T10:22:01.386Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T10:23:29.572Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T10:24:08.384Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T10:51:13.771Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T11:06:24.869Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T11:20:04.688Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"params","email":"params@yandex.com","avatar":"C:/Anuitex/avatar","firstName":"reove","lastName":"test","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T11:20:05.180Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjfgkjfg","email":"params@yandex.com","avatar":"C:/Anuitex/avatar","firstName":"reove","lastName":"test","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T11:20:54.850Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjfgkjfg","email":"params@yandex.com","avatar":"C:/Anuitex/avatar","firstName":"reove","lastName":"test","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T11:21:10.957Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"kjfgkjfg","email":"params@yandex.com","avatar":"C:/Anuitex/avatar","firstName":"reove","lastName":"test","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-04T11:21:29.775Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T11:36:46.686Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T11:37:37.669Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T11:46:37.772Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T11:50:57.987Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:00:52.684Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:08:52.170Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:09:50.768Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:15:33.417Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:17:42.426Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:18:55.296Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T12:20:41.784Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:25:42.473Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:26:23.330Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:27:26.291Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:28:25.021Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:29:11.620Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:30:14.262Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:43:33.671Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:44:21.590Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"user_id":"5e3c19a004abf333fc8a2668","items":{"OrderItem":[{"printing_edition_id":"5e46bd86b2b3d403c4db8fdf","count":2,"price":150,"currency":"USD"},{"printing_edition_id":"5e4ceab1c4321b25fc7d58b1","count":1,"price":230,"currency":"USD"}]},"payment_info":{"Payment":{"transaction_id":"gcfhjdsagcfg"}}}',
+  level: 'info',
+  timestamp: '2020-03-04T14:45:54.283Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-04T14:45:54.287Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T14:46:34.190Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:05:21.754Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:05:52.009Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:07:37.371Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:10:10.574Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:11:18.677Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:11:41.326Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:23:18.032Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:23:58.632Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:25:23.017Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:28:54.848Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:29:46.354Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:37:30.625Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:41:15.028Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:41:33.406Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:54:37.518Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-04T15:56:46.722Z'
+}

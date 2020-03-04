@@ -1,11 +1,8 @@
-import { Access } from "accesscontrol";
 import { Request,Response,NextFunction } from 'express'
-import * as roles  from "../accessControle/roleControle";
 import * as jwt from "jsonwebtoken";
 import * as env from 'dotenv';
 import { Role } from "../enums/role";
 
-const access: any = roles.roles();
 env.config();
 const jwtSecret: any = process.env.refreshTokenSecret;
 

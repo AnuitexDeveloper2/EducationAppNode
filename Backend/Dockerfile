@@ -8,7 +8,7 @@ WORKDIR /src/
 
 ADD package.json /src/
 
-RUN npm install --production
+RUN npm run dev
 
 ADD . /src/
 

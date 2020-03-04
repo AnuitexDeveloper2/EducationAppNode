@@ -3,6 +3,7 @@ import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEd
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { PrintingEdition } from "../api";
 import * as authorRepository from "../../authors/repositories/authorRepository"
+import { isNull } from "util";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
@@ -37,30 +38,29 @@ export async function removeAsync(id: string): Promise<boolean> {
 }
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
-   
-        const printingEdition = printingEditionModel.findById(printingEditionParam._id);
-        const test = await printingEditionModel.findById(printingEditionParam._id);
-
-        for (let index = 0; index <(await printingEdition).author_ids.length; index++) {
-           authorRepository.removeProductAsync( (await printingEdition).author_ids[index],(await printingEdition)._id)
-        }
+    const printingEdition = printingEditionModel.findById(printingEditionParam._id);
+    
+    for (let index = 0; index <(await printingEdition).author_ids.length; index++) {
+        authorRepository.removeProductAsync( (await printingEdition).author_ids[index],(await printingEdition)._id)
+    }
+    
+    for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
+        authorRepository.addProductAsync(printingEditionParam.author_ids[index],(await printingEdition)._id);
         
-        for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
-            authorRepository.addProductAsync(printingEditionParam.author_ids[index],(await printingEdition)._id);
-            
-        }
-        
-        const result = await printingEditionModel.update(printingEdition,printingEditionParam);
-        if (result.nModified == 0) {
-            return false;
-        }
-   
+    }
+    
+    const result = await printingEditionModel.update(printingEdition,printingEditionParam);
+    if (result.nModified == 0) {
+        return false;
+    }
+    
     return true;
+    
 }
 
 export async function getById(id: string): Promise<printingEditionModel> {
    
-    const printingEdition = await printingEditionModel.findById(id).populate('author_ids');
+    const printingEdition = await printingEditionModel.findById(id).populate('author_ids').select(['title','name']);
 
     return printingEdition;
 }
@@ -72,7 +72,7 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     let tableSort: any = {'title': filter.sortType};
    
     if (filter.searchString !=null) {
-        query = printingEditionModel.find({ title: { $regex: new RegExp( filter.searchString,'i')} });
+        query = printingEditionModel.find().find({ title: { $regex: new RegExp( filter.searchString,'i')} })
     }
 
     
@@ -83,7 +83,7 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     const options = {
         sort: tableSort,
         lean: true,
-        populate:({path:('author_ids')/*,match:{name: { $regex:new RegExp( filter.searchString, 'i') }}*/ }),
+        populate:({path:('author_ids'),select:(['name'])}),
         page: filter.pageNumber, 
         limit: filter.pageSize,
       

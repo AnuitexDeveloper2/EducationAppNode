@@ -13,13 +13,13 @@ export async function removeAsync(req: Request,res: Response,next: NextFunction)
    .catch(err =>next(err));
   }
 
-export async function updateAsync(req:Request,res:Response,next: NextFunction) {
+export async function updateAsync(req: Request, res: Response, next: NextFunction) {
   authorService.updateAsync(req.body)
   .then((result) =>res.json(result))
   .catch((err) =>next(err));
 }
 
-export async function getAuthorsAsync(req:Request,res:Response,next: NextFunction) {
+export async function getAuthorsAsync(req: Request, res: Response, next: NextFunction) {
   authorService.getAuthorsAsync(req.body)
   .then((result) =>res.json(result))
   .catch((err) =>next(err));

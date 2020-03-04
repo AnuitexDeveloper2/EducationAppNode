@@ -1,5 +1,5 @@
 import * as printingEditionService from "../services/printingEditionService";
-import {Request, Response, NextFunction} from "express"
+import { Request, Response, NextFunction } from "express"
 
 export async function createAsync(req: Request, res: Response, next: NextFunction) {
     printingEditionService.createAsync(req.body)

@@ -4,7 +4,6 @@ import bcrypt from "bcrypt";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
-   
 
 export async function getUserAsync (userParam: User)  {
     const result = await userModel.findOne({email: userParam.email})
@@ -42,10 +41,9 @@ export async function getUserAsync (userParam: User)  {
         return ;
     }
 
-    export async function removeOneAsync(id: string) {
+    export async function removeOneAsync(id: string): Promise<Boolean> {
         let model = new userModel();
         const user =  userModel.findById(id);
-           
         model = await user;
         model.removed_at = true;
         const result = await userModel.update(user, model);
@@ -70,18 +68,17 @@ export async function getUserAsync (userParam: User)  {
         const salt = bcrypt.genSaltSync(10);
         model.passwordHash = bcrypt.hashSync(param.newPassword, salt);
         const result = await userModel.update(user, model);
+
         if (result.nModified == 0) {
             return false;
         }
-        return true;
-       
 
-      
+        return true;
     }
 
     export async function findByEmail(email: string): Promise<any> {
-        console.log(email)
        let user = await userModel.findOne(email);
+
        if (user == null) {
            return false;
        }
@@ -136,7 +133,7 @@ export async function getUserAsync (userParam: User)  {
         count = result.total
         data =  result.docs
     }).catch();
-    const response: BaseResponse<userModel> = { data:data,count:count }
+    const response: BaseResponse<userModel> = { data: data,count:count }
      return response;
     }
 

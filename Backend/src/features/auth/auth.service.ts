@@ -6,9 +6,9 @@ import logInVlidateSchema from "./operations/LogInRequest.schema.json";
 import logger from "../utils/logger";
 import { sendingEmail } from "./emailHelper/emailHelper";
 import { findByEmail } from "../user/repositories/userRepositiry";
+import { OauthOptions } from "../auth/oAuthHelper/oAuthHelper";
 
 export async function registerAsync(userParam: User): Promise<any> {
-    console.log(userParam);
     const validateResult = validateWithJsonSchema(userParam,authValidateSchema);
     logger.info(`>>>> authService.register(), with: user = ${JSON.stringify(userParam)}`);
 
@@ -57,6 +57,7 @@ export async function confirmEmailAsync(email: string): Promise<any> {
     
     const result = sendingEmail(isEmailExist);
     const error = typeof(result)
+
     if (error == "string") {
         logger.error(`>>>> autService.confirmEmail(), error = ${JSON.stringify(result)}`)
         return result;
@@ -64,3 +65,16 @@ export async function confirmEmailAsync(email: string): Promise<any> {
     return "email has been verified"
 }
 
+export async function oAuth(name: string) {
+   // const token = OauthOptions.createToken('access token', 'optional refresh token', 'optional token type', { data: name });
+    const test1 = await OauthOptions.code.getUri()
+    //OauthOptions.code.getToken()
+    console.log(test1)
+    return test1;
+   
+}
+//https://www.facebook.com/connect/login_success.html
+export async function oAuthCallBack(params: any) {
+    console.log(params)
+    return params
+}

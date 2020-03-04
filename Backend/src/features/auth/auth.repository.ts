@@ -40,6 +40,3 @@ export async function signInAsync(email: string, password: string): Promise<any>
       return user ;
 }
 
-export async function changePasswordAsync() {
-    
-}

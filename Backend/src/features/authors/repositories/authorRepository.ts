@@ -1,7 +1,6 @@
 import authorModel from "../../../dataAccess/entityModels/author";
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
-import  mongoose  from "mongoose";
 
 
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
@@ -68,7 +67,7 @@ export async function removeProductAsync(authorId: string , printingEditionId: s
 }
 
 
-export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseResponse<authorModel>> {
+export async function GetAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
     let count;
     let query;
     let tableSort: any = {'name':filter.sortType};
@@ -96,6 +95,6 @@ export async function GetAuthorsAsync(filter:AuthorFilterModel): Promise<BaseRes
         data =  result.docs
     }).catch();
 
-    const response: BaseResponse<authorModel>={data: data,count: count}
+    const response: BaseResponse<authorModel> = {data: data,count: count}
      return response;
 }
