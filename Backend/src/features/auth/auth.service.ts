@@ -65,16 +65,18 @@ export async function confirmEmailAsync(email: string): Promise<any> {
     return "email has been verified"
 }
 
+/*
 export async function oAuth(name: string) {
-   // const token = OauthOptions.createToken('access token', 'optional refresh token', 'optional token type', { data: name });
+    const token = OauthOptions.createToken('access token', 'optional refresh token', 'optional token type', { data: name });
     const test1 = await OauthOptions.code.getUri()
-    //OauthOptions.code.getToken()
+    OauthOptions.code.getToken()
     console.log(test1)
     return test1;
-   
 }
+ */ 
 //https://www.facebook.com/connect/login_success.html
-export async function oAuthCallBack(params: any) {
-    console.log(params)
-    return params
+export async function oAuthCallBack(code: string) {
+    const uri = await OauthOptions.code.getUri()
+    const response =  uri + JSON.stringify(code);
+    return response
 }

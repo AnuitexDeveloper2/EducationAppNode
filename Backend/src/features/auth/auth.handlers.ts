@@ -25,12 +25,12 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
     jwtHelper.refreshTokens(res,req)
   }
 
-  export async function oAuht(req: Request, res: Response) {
+  /*export async function oAuht(req: Request, res: Response) {
     authService.oAuth(req.body.name).then((err) => res.redirect(err)).catch()
   }
-
+*/
   export async function oAuhtCallback(req: Request, res: Response, next: NextFunction) {
-    await authService.oAuthCallBack(req.body)
+    await authService.oAuthCallBack(req.body.code)
     .then((err) => res.json({err}))
     .catch();
   }

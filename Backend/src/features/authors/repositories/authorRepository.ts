@@ -36,6 +36,7 @@ export async function removeAsync(id: string): Promise<any> {
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
+   
     if (result.nModified == 0) {
         return false
     }
@@ -55,6 +56,7 @@ export async function removeProductAsync(authorId: string , printingEditionId: s
     const author = authorModel.findById(authorId);
     let model = await author;
     console.log(model.product_ids.length)
+   
     for (let index = 0; index < model.product_ids.length; index++) {
       
        if (model.product_ids[index].toString() == printingEditionId.toString()) {

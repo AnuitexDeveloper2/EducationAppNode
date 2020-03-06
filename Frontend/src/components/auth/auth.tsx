@@ -48,13 +48,29 @@ export function register(user: UserProps, redirect: any) {
         .then(redirect)
 }
 
-export function signIn(user: UserProps, redirect:any) {
+export async function signIn(user: UserProps, redirect:any) {
     debugger;
-    fetch('http://localhost:8000/auth/logIn', {
+    let test ;
+   await fetch('http://localhost:8000/auth/logIn', {
         headers: {
             'Content-Type': 'application/json'
         },
         method: 'POST',
         body: JSON.stringify(user)
-    }).then(redirect)
+    }).then((token) => {
+        test = token
+    })
+    console.log(test);
+    const some = test;
+}
+
+export function moveFacebook() {
+    let test;
+    fetch('https://www.facebook.com/dialog/oauth?client_id=869634570156556&redirect_uri=http://localhost:8000/auth/callback&response_type=code',{
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        method: 'POST'
+        }
+    )
 }

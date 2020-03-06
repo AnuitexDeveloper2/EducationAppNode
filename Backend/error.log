@@ -418,3 +418,158 @@
   level: 'error',
   timestamp: '2020-03-04T14:45:54.287Z'
 }
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-05T09:05:34.985Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-03-05T09:49:02.470Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-05T10:00:39.572Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:06:28.268Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:06:33.676Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:07:22.197Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:08:57.244Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:08:57.835Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:09:05.276Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:09:56.866Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:22:25.258Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:23.028Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:26.431Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:26.776Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.000Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.175Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.341Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.509Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.670Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:27.853Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:28.014Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:23:57.881Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T10:25:54.875Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.email does not meet minimum length of 4,instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-05T11:10:11.099Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T11:34:58.421Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T11:35:24.838Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-05T11:57:41.552Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.email does not meet minimum length of 4,instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-05T12:22:24.012Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.email does not meet minimum length of 4,instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-05T12:22:25.475Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.email does not meet minimum length of 4,instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-05T12:22:27.114Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.email does not meet minimum length of 4,instance.passwordHash does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-05T12:22:29.200Z'
+}

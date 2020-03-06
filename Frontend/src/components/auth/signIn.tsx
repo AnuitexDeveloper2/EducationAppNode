@@ -2,10 +2,11 @@ import * as Auth from "./auth";
 import React, { useState } from "react";
 import { Form, Field } from "react-final-form";
 import { Modal, Button, ButtonToolbar } from "react-bootstrap";
-import './CSS/signIn.css'
+import './CSS/signIn.scss'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
 import Register from "../auth/register"
+import {  } from "react-router-modal";
 
 export interface UserParameters {
     email: string;
@@ -18,16 +19,24 @@ type UserProps = UserParameters & Auth.UserProps
 
  
  let show: boolean
- export class SignIn extends React.Component<any> {
-    
+ export class SignIn extends React.Component<any,{showPopup: boolean}> {
+    constructor(props: any) {
+        super(props)
+        this.state = {
+            showPopup: false
+          };
+    }
     redirect = () => {
         this.props.history.push('/bookList');
     }
 
-    onSubmit = async (values: any) =>  {
-        debugger;
+    onSubmit = async (values: any) => {
         Auth.signIn(values,this.redirect)
      }
+
+    onFacebookLogin = async () => {
+        Auth.moveFacebook();
+     } 
 
     /* openRegister = () => {
         debugger;
@@ -35,24 +44,19 @@ type UserProps = UserParameters & Auth.UserProps
      }*/
 
     render() {
-        debugger;
         return (
-     <Modal
-         {...this.props}
-         size="lg"
-         aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
+            
+     
+         
      <div className="modalWindow">
          <div className="modalContent">
-            <Modal.Header closeButton >
+           
                <div className="modalHeader">
                    <div className="close">
-                       <img src={close} onClick={this.props.onHide}/>
+                       <img src={close} onClick={this.props.closePopup}/>
                     </div>
                  </div>
-            </Modal.Header>
-            <Modal.Body>
+         
                <div className="userImg">
                     <img src={anonymus} alt=""/>
                 </div>
@@ -90,6 +94,7 @@ type UserProps = UserParameters & Auth.UserProps
                                  <div className="signUpLabel">
                                      New to Book Publishing Company?
                                  </div>
+                                 
                                  <div className="form-group col-md-6">
                                     <ButtonToolbar 
                                      >
@@ -102,14 +107,14 @@ type UserProps = UserParameters & Auth.UserProps
                         </form>
                         )}
                             />
+                            <div className="signUpLabel">
+                                     <button onClick={this.onFacebookLogin}>Facebook</button>
+                              </div>
                     </div>
                 </div>
-             </Modal.Body>
-        <Modal.Footer>
-        </Modal.Footer>
        </div>
      </div>
- </Modal>
+ 
         )
     }
 

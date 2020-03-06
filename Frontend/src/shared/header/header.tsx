@@ -6,51 +6,46 @@ import { Link, Route } from 'react-router-dom';
 import SignIn from '../../components/auth/signIn';
 import bookLogo from "../../assets/Book_Logo_svg.png"
 
-export class Header extends Component<any> {
+export class Header extends Component<{}, { showPopup: boolean }> {
   constructor(props: any) {
     super(props);
-    
+    this.state = {
+      showPopup: false
+    };
   }
-
-  state= {showModal:false}
-  
-  handleAdd= () =>{
-    this.setState({ isModalOpen: true });
+   togglePopup() {
+     debugger;
+    this.setState({
+      showPopup: !this.state.showPopup
+    });
   }
-   
     render() {
-      let addModalClose=() =>this.setState({addModalClose:false})
         return (
           <div className="header">
             <ButtonToolbar>
               
-           <SignInModal/> 
-            </ButtonToolbar>
-         </div>  
-    );
-}
-
-}
-export default Header;
-
-export const SignInModal = () => {
-  const [modalShow, setModalShow] = useState(false);
-  return (
-    <ButtonToolbar>
+            <ButtonToolbar>
     <div className="bookLogo">
       <img src={bookLogo} alt=""/>
     </div>
       <div className="signIn">
          SignIn
       </div>
-      <Button className="signInButton" variant="primary" onClick={() => setModalShow(true)}>
-        <img src={signIn} alt=""/>
-      </Button>
-
-      <SignIn show={modalShow} onHide={() => setModalShow(false)} />
+        <img src={signIn} alt="" className="signInButton" onClick={this.togglePopup.bind(this)}/>
+        {this.state.showPopup ?
+        <SignIn
+        closePopup={this.togglePopup.bind(this)}
+      />
+      : null
+       }
+      
     </ButtonToolbar>
-  );
+            </ButtonToolbar>
+         </div>  
+    );
+}
 
 
+}
+export default Header;
 
-};

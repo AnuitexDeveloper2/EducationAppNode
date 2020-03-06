@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Field } from "react-final-form";
 import * as Auth from "./auth";
 import { RouteComponentProps, Link } from 'react-router-dom';
-import "./CSS/register.css";
+import "./CSS/register.scss";
 import { Modal, ButtonToolbar } from 'react-bootstrap';
 import close from "../../assets/close.svg";
 
@@ -22,6 +22,9 @@ type UserProps = UserParameters & Auth.UserProps &
 
 
 export class Register extends React.Component<any> {
+    constructor(props: any){
+        super(props)
+    }
     
    
     /*openForm() {
@@ -43,12 +46,10 @@ export class Register extends React.Component<any> {
     onSubmit = async (values: any) => {
         debugger;
         console.log(values)
-        //Arreglar que cuando no cambio el author no me lo setea bien
         Auth.register(values,this.redirect)
     }
 
     render() {
-        debugger;
         return (
            
                 <Modal
@@ -105,7 +106,7 @@ export class Register extends React.Component<any> {
                                                 New to Book Publishing Company?
                                             </div>
                                             <div className="form-group col-md-6">
-                                              
+                                             
                                             </div>
                                        </div>
                                    </form>
@@ -121,8 +122,6 @@ export class Register extends React.Component<any> {
             </Modal>
                    )
                }
-    
-
 }
 
 export default Register;

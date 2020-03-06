@@ -38,6 +38,6 @@ connectdb();
 const PORT = process.env.PORT || 8080;
 process.env.connectionString
 app.listen(PORT, () => {
- app.use('/swagger',swaggerUi.serve,swaggerUi.setup(swaggerDocument));
- logger.info(`server started listening on port ${PORT}`);
+app.use('/swagger',swaggerUi.serve,swaggerUi.setup(swaggerDocument));
+logger.info(`server started listening on port ${PORT}`);
 });
