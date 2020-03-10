@@ -1,4 +1,4 @@
-import * as Auth from "./auth";
+import * as Auth from "../../services/authService";
 import React, { useState } from "react";
 import { Form, Field } from "react-final-form";
 import { Modal, Button, ButtonToolbar } from "react-bootstrap";
@@ -33,10 +33,10 @@ export interface LoginProps {
     handle = (event: any) =>
     this.setState({ [event.target.name]: event.target.value } as any);
 
-    onSubmit = (value: LoginRequest) => {
-        debugger;
-      const result =  Auth.signIn(value)
-      console.log(result);
+    onSubmit = async (value: LoginRequest) => {
+      const result = await Auth.signIn(value)
+      const token = result.AccessToken;
+      console.log(token);
       };
 
     onFacebookLogin = async () => {
