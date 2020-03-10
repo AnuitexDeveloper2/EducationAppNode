@@ -7128,3 +7128,8 @@
   level: 'info',
   timestamp: '2020-03-10T16:23:21.391Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-10T16:25:08.822Z'
+}
