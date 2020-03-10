@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 import * as userRepository from "../user/repositories/userRepositiry"
 
 
-export async function registerAsync (userParam: User): Promise<any> {
+export async function registerAsync (userParam: User): Promise<boolean> {
     const checkUser = await userModel.findOne({email: userParam.email})
 
     if (checkUser != null) {
@@ -25,6 +25,7 @@ export async function registerAsync (userParam: User): Promise<any> {
 }
 
 export async function signInAsync(email: string, password: string): Promise<any> {
+    
     let user = await userModel.findOne({ email: email })
 
     if (user == null) {

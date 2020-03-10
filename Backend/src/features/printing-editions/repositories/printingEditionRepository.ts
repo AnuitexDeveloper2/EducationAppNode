@@ -37,7 +37,7 @@ export async function removeAsync(id: string): Promise<boolean> {
     return true;
 }
 
-export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
+export async function updateAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
     const printingEdition = printingEditionModel.findById(printingEditionParam._id);
     
     for (let index = 0; index <(await printingEdition).author_ids.length; index++) {

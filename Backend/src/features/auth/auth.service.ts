@@ -27,15 +27,14 @@ export async function registerAsync(userParam: User): Promise<any> {
 
 
 export async function logInAsync(email: string, password: string): Promise<any> {
-    const model = {email: email, passwordHash: password}
-    const validateResult = validateWithJsonSchema(model,logInVlidateSchema);
-    logger.info(`>>>> authService.logIn(), with: model = ${JSON.stringify(model)}`);
+    const validateModel = {email: email, password: password}
+    const validateResult = validateWithJsonSchema(validateModel,logInVlidateSchema);
+    logger.info(`>>>> authService.logIn(), with: model = ${JSON.stringify(validateModel)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> authService.logIn(), invalid data = ${validateResult.errors}`);
         return {message:"LogIn parameters did not valid", error: validateResult.errors};
     }
-    
     const result = await repository.signInAsync(email,password);
     const test = typeof(result)
 
@@ -47,7 +46,7 @@ export async function logInAsync(email: string, password: string): Promise<any> 
     return  result;
 }
 
-export async function confirmEmailAsync(email: string): Promise<any> {
+export async function confirmEmailAsync(email: string): Promise<string> {
    
     const isEmailExist = await findByEmail(email)
     if (!isEmailExist) {

@@ -573,3 +573,73 @@
   level: 'error',
   timestamp: '2020-03-05T12:22:29.200Z'
 }
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:02:23.657Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:34:07.384Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:37:01.162Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:39:01.716Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:40:09.814Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:41:29.488Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:42:07.217Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:42:51.364Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:44:10.574Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-10T08:45:29.721Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T08:50:44.998Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T09:03:54.347Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T11:10:14.601Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance additionalProperty "password" exists in instance when not allowed,instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-10T11:30:40.730Z'
+}

@@ -1,4 +1,7 @@
 import {AppAction}  from "./index";
+import { Observable } from "redux";
+import  axios  from "axios";
+import { LoginRequest } from "../../redux/logIn/types";
 
 
 export interface UserProps {
@@ -35,7 +38,6 @@ type Action = Register;
         }
     }
 }*/
-
 export function register(user: UserProps, redirect: any) {
     debugger
     fetch(`http://localhost:8000/auth/register`, {
@@ -48,20 +50,24 @@ export function register(user: UserProps, redirect: any) {
         .then(redirect)
 }
 
-export async function signIn(user: UserProps, redirect:any) {
+export  function signIn(user: LoginRequest) {
     debugger;
-    let test ;
-   await fetch('http://localhost:8000/auth/logIn', {
+    let test: any ;
+    fetch('http://localhost:8000/auth/logIn', {
         headers: {
             'Content-Type': 'application/json'
         },
         method: 'POST',
         body: JSON.stringify(user)
     }).then((token) => {
-        test = token
+        test = token.json
+       return token.json()
     })
+    
     console.log(test);
     const some = test;
+      
+    
 }
 
 export function moveFacebook() {

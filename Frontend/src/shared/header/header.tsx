@@ -21,27 +21,20 @@ export class Header extends Component<{}, { showPopup: boolean }> {
   }
     render() {
         return (
-          <div className="header">
-            <ButtonToolbar>
-              
-            <ButtonToolbar>
-    <div className="bookLogo">
-      <img src={bookLogo} alt=""/>
-    </div>
-      <div className="signIn">
-         SignIn
-      </div>
-        <img src={signIn} alt="" className="signInButton" onClick={this.togglePopup.bind(this)}/>
-        {this.state.showPopup ?
-        <SignIn
-        closePopup={this.togglePopup.bind(this)}
-      />
-      : null
-       }
+      <div className="header">
+          <div className="bookLogo">
+              <img src={bookLogo} alt=""/>
+          </div>
+          <div className="signIn">
+              SignIn
+          </div>
+              <img src={signIn} alt="" className="signInButton" onClick={this.togglePopup.bind(this)}/>
+            {
+            this.state.showPopup ?
+            <SignIn closePopup={this.togglePopup.bind(this)} /> : null
+             }
       
-    </ButtonToolbar>
-            </ButtonToolbar>
-         </div>  
+      </div>  
     );
 }
 

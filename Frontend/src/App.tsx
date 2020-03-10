@@ -4,7 +4,7 @@ import { Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import Register from "./components/auth/register"
 import Header from "./shared/header/header"
-import Popup from "./components/auth/signIn";
+import LogIn from "./components/auth/signIn";
 import Test from "./components/auth/test";
 import Store from "redux";
 import { Provider } from "react-redux";
@@ -18,8 +18,7 @@ function App() {
     <Header></Header>
       <div>
        <Route exact path='/register' component={Register} />
-       <Route path='signIn' component={Popup}/>
-       <Route path='/test' component={Test}></Route>
+       <Route path='test' component={Test}></Route>
       </div>
     </BrowserRouter>
     </div>

@@ -14,7 +14,7 @@ export async function createAsync(authorParam: authorModel): Promise<boolean> {
     return true;
 }
 
-export async function removeAsync(id: string): Promise<any> {
+export async function removeAsync(id: string): Promise<boolean> {
     let model = new authorModel();
     const author =  authorModel.findById(id);
     
@@ -61,9 +61,7 @@ export async function removeProductAsync(authorId: string , printingEditionId: s
       
        if (model.product_ids[index].toString() == printingEditionId.toString()) {
            model.product_ids.splice(index,1);
-          
           await authorModel.update(author,model)
-         
        }
     }
 }

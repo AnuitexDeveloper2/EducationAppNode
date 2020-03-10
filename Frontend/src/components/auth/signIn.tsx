@@ -7,32 +7,37 @@ import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
 import Register from "../auth/register"
 import {  } from "react-router-modal";
+import { LoginState, LoginRequest } from "../../redux/logIn/types";
 
-export interface UserParameters {
-    email: string;
-    password: string;
-}
-
-type UserProps = UserParameters & Auth.UserProps 
- //typeof Auth.actionCreators & 
- 
-
+export interface LoginProps {
+    doLogin: (data: LoginRequest) => object;
+  }
  
  let show: boolean
- export class SignIn extends React.Component<any,{showPopup: boolean}> {
-    constructor(props: any) {
+ export class SignIn extends React.Component<any,LoginState,LoginProps> {
+   constructor(props: any) {
         super(props)
-        this.state = {
-            showPopup: false
-          };
+      
     }
+
+    state: LoginState = {
+        email: "",
+        password: "",
+        error: "",
+        isLoading: false,
+      };
     redirect = () => {
         this.props.history.push('/bookList');
     }
 
-    onSubmit = async (values: any) => {
-        Auth.signIn(values,this.redirect)
-     }
+    handle = (event: any) =>
+    this.setState({ [event.target.name]: event.target.value } as any);
+
+    onSubmit = (value: LoginRequest) => {
+        debugger;
+      const result =  Auth.signIn(value)
+      console.log(result);
+      };
 
     onFacebookLogin = async () => {
         Auth.moveFacebook();
@@ -44,67 +49,59 @@ type UserProps = UserParameters & Auth.UserProps
      }*/
 
     render() {
+        debugger;
         return (
-            
-     
-         
      <div className="modalWindow">
-         <div className="modalContent">
-           
-               <div className="modalHeader">
-                   <div className="close">
-                       <img src={close} onClick={this.props.closePopup}/>
-                    </div>
-                 </div>
-         
-               <div className="userImg">
-                    <img src={anonymus} alt=""/>
-                </div>
-                 <div className="LogIn">
+        <div className="modalContent">
+           <div className="modalHeader">
+              <div className="close">
+                 <img src={close} onClick={this.props.closePopup}/>
+             </div>
+          </div>
+            <div className="userImg">
+                <img src={anonymus} alt=""/>
+            </div>
+             <div className="LogIn">
                      SignIn
-                 </div>
-                 <div className="SignIn_form">
-                    <div>
-                        <Form
-                         onSubmit={this.onSubmit}
-                         render={({handleSubmit,form,submitting,pristine,values}) => (
-                        <form onSubmit={handleSubmit}>
-                          <div className="form-group">
-                            <div className="form-row">
-                              <div className="form-group col-md-6">
-                                <label className="emailLabel">Email</label>
+            </div>
+            <div className="SignIn_form">
+                <div>
+                   <Form
+                     onSubmit={this.onSubmit}
+                     render={({handleSubmit,form,submitting,pristine,values}) => (
+                      <form onSubmit={handleSubmit}>
+                        <div className="form-group">
+                          <div className="form-row">
+                            <div className="form-group col-md-6">
+                              <label className="emailLabel">Email</label>
                                 <Field type="text" name="email" className="emailForm" component="input"/>
-                              </div>
-                              <div className="form-group col-md-6">
+                           </div>
+                            <div className="form-group col-md-6">
                                  <label className="passwordLabel ">Password</label>
-                                  <Field type="text" name="passwordHash" className="passworForm" component="input"/>
-                               </div>
-                             </div>
+                                  <Field type="text" name="password" className="passworForm" component="input"/>
                             </div>
-                            <div className="form-row">
-                                 <div className="form-group col-md-6">
-                                     <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
-                                 </div>
-                                 <div>
-                                     <input type="checkbox" className="checkbox"/>
-                                 </div>
-                                 <div className="rememberMe">
-                                     Remember me
-                                 </div>
-                                 <div className="signUpLabel">
-                                     New to Book Publishing Company?
-                                 </div>
-                                 
-                                 <div className="form-group col-md-6">
-                                    <ButtonToolbar 
-                                     >
-                                    
-                                     <SignUpModal  />
-                                         
-                                     </ButtonToolbar>
-                                 </div>
-                            </div>
-                        </form>
+                        </div>
+                    </div>
+                       <div className="form-row">
+                         <div className="form-group col-md-6">
+                             <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
+                         </div>
+                         <div>
+                             <input type="checkbox" className="checkbox"/>
+                         </div>
+                         <div className="rememberMe">
+                              Remember me
+                         </div>
+                         <div className="signUpLabel">
+                              New to Book Publishing Company?
+                         </div>
+                         <div className="form-group col-md-6">
+                             <ButtonToolbar>
+                                 <SignUpModal  />
+                              </ButtonToolbar>
+                         </div>
+                     </div>
+                         </form>
                         )}
                             />
                             <div className="signUpLabel">
@@ -112,17 +109,15 @@ type UserProps = UserParameters & Auth.UserProps
                               </div>
                     </div>
                 </div>
-       </div>
-     </div>
- 
+             </div>
+        </div>
         )
-    }
-
+      }
  }
 
  
  export const SignUpModal = () => {
-     debugger
+    
      let [modalShow, setModalShow] = useState(false);
      return (
          <ButtonToolbar >
