@@ -6,14 +6,13 @@ import './CSS/signIn.scss'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
 import Register from "../auth/register"
-import {  } from "react-router-modal";
 import { LoginState, LoginRequest } from "../../redux/logIn/types";
+import { Redirect } from "react-router-dom";
 
 export interface LoginProps {
     doLogin: (data: LoginRequest) => object;
   }
  
- let show: boolean
  export class SignIn extends React.Component<any,LoginState,LoginProps> {
    constructor(props: any) {
         super(props)
@@ -25,31 +24,41 @@ export interface LoginProps {
         password: "",
         error: "",
         isLoading: false,
+        showPopup: false
       };
     redirect = () => {
         this.props.history.push('/bookList');
     }
 
+    togglePopup() {
+        debugger;
+       this.setState({
+         showPopup: !this.state.showPopup
+       });
+     }
+
     handle = (event: any) =>
     this.setState({ [event.target.name]: event.target.value } as any);
 
     onSubmit = async (value: LoginRequest) => {
+        debugger;
       const result = await Auth.signIn(value)
+      console.log()
       const token = result.AccessToken;
-      console.log(token);
-      };
+      localStorage.setItem('AccessToken', token)}
 
     onFacebookLogin = async () => {
         Auth.moveFacebook();
      } 
 
-    /* openRegister = () => {
-        debugger;
-        return(<Register/>)
-     }*/
+     openRegister = () => {
+     {
+       debugger;
+       window.location.assign('/register');
+      }
+   }
 
     render() {
-        debugger;
         return (
      <div className="modalWindow">
         <div className="modalContent">
@@ -74,17 +83,17 @@ export interface LoginProps {
                           <div className="form-row">
                             <div className="form-group col-md-6">
                               <label className="emailLabel">Email</label>
-                                <Field type="text" name="email" className="emailForm" component="input"/>
+                                <Field type="text" name="LoginRequest.email" className="emailForm" component="input"  />
                            </div>
                             <div className="form-group col-md-6">
                                  <label className="passwordLabel ">Password</label>
-                                  <Field type="text" name="password" className="passworForm" component="input"/>
+                                  <Field type="text" name="LoginRequest.password" className="passworForm" component="input" />
                             </div>
                         </div>
                     </div>
                        <div className="form-row">
                          <div className="form-group col-md-6">
-                             <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
+                             <button className="submit" type="submit"  disabled={submitting || pristine}   value="register">Sign In</button>
                          </div>
                          <div>
                              <input type="checkbox" className="checkbox"/>
@@ -96,8 +105,15 @@ export interface LoginProps {
                               New to Book Publishing Company?
                          </div>
                          <div className="form-group col-md-6">
-                             <ButtonToolbar>
-                                 <SignUpModal  />
+                             <ButtonToolbar >
+                             <div >
+                <Button  className="signUpButton" variant="primary" onClick={this.openRegister} > 
+                <div className="sign_up_button_name">
+                    SignUp
+                </div>
+           
+                </Button>
+            </div>
                               </ButtonToolbar>
                          </div>
                      </div>
@@ -115,21 +131,5 @@ export interface LoginProps {
       }
  }
 
- 
- export const SignUpModal = () => {
-    
-     let [modalShow, setModalShow] = useState(false);
-     return (
-         <ButtonToolbar >
-            <div >
-                <Button  className="signUpButton" variant="primary" onClick={() => setModalShow(true)}> 
-                <div className="sign_up_button_name">
-                    SignUp
-                </div>
-            <Register show={modalShow} onHide={() => setModalShow(false)}/>
-                </Button>
-            </div>
-      </ButtonToolbar>
-    );
-}
+
 export default SignIn

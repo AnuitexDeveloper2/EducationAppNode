@@ -1,212 +1,211 @@
 .modalWindow{
-position: absolute;
-width: 1919px;
-height: 2148px;
-left: 0px;
-top: 0px;
-background: rgba(245, 247, 250, 0.6);
-}
-
-.modalContent {
-margin-top: 130px;
-margin-left: 632px;
-margin-right: 720;
-margin-bottom: 1243px;
-position: absolute;
-width: 755px;
-height: 772px;
-left: 117px;
-top: -36px;
-
-background: #3F3F3F;
-}
-
-.inputLabel{
-    color: black
-}
-
-.modalHeader {
-    width: 754px;
-height: 48px;
-    background: #5D5C5C;
-}
-
-.close {
-    text-align: right;
-}
-
-.userImg {
-position: absolute;
-left: 45.79%;
-right: 50.33%;
-top: 12.17%;
-bottom: 73.48%;
-opacity: 0.5;
-}
-
-.LogIn {
     position: absolute;
-left: 23.96%;
-right: 68.13%;
-top: 23.19%;
-bottom: 70.14%;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 43px;
-/* or 179% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-
-color: #FF6825;
-}
-
-.emailLabel{
-position: absolute;
-left: 23.96%;
-right: 55.6%;
-top: 32.09%;
-bottom: 64.8%;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 55px;
-color: #FEFEFE;
-opacity: 0.8;
-}
-
-.emailForm {
+    width: 1919px;
+    height: 2148px;
+    left: 0px;
+    top: 0px;
+    background: rgba(245, 247, 250, 0.6);
+    }
+    
+    .modalContent {
+    margin-top: 130px;
+    margin-left: 632px;
+    margin-right: 720;
+    margin-bottom: 1243px;
     position: absolute;
+    width: 755px;
+    height: 772px;
+    left: 117px;
+    top: -36px;
+    
+    background: #3F3F3F;
+    }
+    
+    .inputLabel{
+        color: black
+    }
+    
+    .modalHeader {
+        width: 754px;
+    height: 48px;
+        background: #5D5C5C;
+    }
+    
+    .close {
+        text-align: right;
+    }
+    
+    .userImg {
+    position: absolute;
+    left: 45.79%;
+    right: 50.33%;
+    top: 12.17%;
+    bottom: 73.48%;
+    opacity: 0.5;
+    }
+    
+    .LogIn {
+        position: absolute;
     left: 23.96%;
-    right: 15.38%;
-    top: 36.45%;
-    bottom: 56.07%;
-    height: 30px;
-    width: 400px;
-    color: black;
-    background: #e9e4e4;
-    opacity: 0.3;
-}
-
-.passwordLabel {
-    position: absolute;
-    left: 23.96%;
-    right: 55.6%;
-    top: 45.64%;
-    bottom: 51.25%;
+    right: 68.13%;
+    top: 23.19%;
+    bottom: 70.14%;
+    
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
-}
-
-.passworForm {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 50%;
-    height: 30px;
-    width: 400px;
-    bottom: 42.52%;
-    background: #e9e4e4;
-    opacity: 0.3;
-}
-
-.submit {
-    position: absolute;
-    left: 70.44%;
-    right: 15.27%;
-    top: 61.59%;
-    bottom: 31.74%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 43px;
+    /* or 179% */
+    
     display: flex;
     align-items: center;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
-    background-color: #FF6825;
-}
-
-.checkbox {
+    
+    color: #FF6825;
+    }
+    
+    .emailLabel{
     position: absolute;
     left: 23.96%;
-    right: 74.29%;
-    top: 63.55%;
-    bottom: 33.96%;
-    border: 1px solid #ADADAD;
-    box-sizing: border-box;
-}
-
-.rememberMe {
-    position: absolute;
-    left: 27.47%;
-    right: 52.09%;
-    top: 61.55%;
-    bottom: 36.42%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 55px;
-    color: #DBDBDB;
-}
-
-.signUpLabel {
-    position: absolute;
-    left: 36.43%;
-    right: 28.41%;
-    top: 80.53%;
-    bottom: 17.45%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #999999;
-}
-
-.signUpButton {
-    position: absolute;
-    left: 36.43%;
-    right: 28.41%;
-    top: 84.58%;
-    bottom: 7.94%;
-    height: 50px;
-    width: 200px;
-    background-color: #3F3F3F;
-    border: 2px solid #F9621F;
-}
-
-.sign_up_button_name {
-    position: absolute;
-    left: 35.44%;
-    right: 49.76%;
-    top: 49.22%;
-    bottom: 49.44%;
+    right: 55.6%;
+    top: 32.09%;
+    bottom: 64.8%;
+    
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #B9B8B7;
-}
-
+    line-height: 55px;
+    color: #FEFEFE;
+    opacity: 0.8;
+    }
+    
+    .emailForm {
+        position: absolute;
+        left: 23.96%;
+        right: 15.38%;
+        top: 36.45%;
+        bottom: 56.07%;
+        height: 30px;
+        width: 400px;
+        color: black;
+        background: #e9e4e4;
+        opacity: 0.3;
+    }
+    
+    .passwordLabel {
+        position: absolute;
+        left: 23.96%;
+        right: 55.6%;
+        top: 45.64%;
+        bottom: 51.25%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 55px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+    
+    .passworForm {
+        position: absolute;
+        left: 23.96%;
+        right: 15.38%;
+        top: 50%;
+        height: 30px;
+        width: 400px;
+        bottom: 42.52%;
+        background: #e9e4e4;
+        opacity: 0.3;
+    }
+    
+    .submit {
+        position: absolute;
+        left: 70.44%;
+        right: 15.27%;
+        top: 61.59%;
+        bottom: 31.74%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 43px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background-color: #FF6825;
+    }
+    
+    .checkbox {
+        position: absolute;
+        left: 23.96%;
+        right: 74.29%;
+        top: 63.55%;
+        bottom: 33.96%;
+        border: 1px solid #ADADAD;
+        box-sizing: border-box;
+    }
+    
+    .rememberMe {
+        position: absolute;
+        left: 27.47%;
+        right: 52.09%;
+        top: 61.55%;
+        bottom: 36.42%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 55px;
+        color: #DBDBDB;
+    }
+    
+    .signUpLabel {
+        position: absolute;
+        left: 36.43%;
+        right: 28.41%;
+        top: 80.53%;
+        bottom: 17.45%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #999999;
+    }
+    
+    .signUpButton {
+        position: absolute;
+        left: 36.43%;
+        right: 28.41%;
+        top: 84.58%;
+        bottom: 7.94%;
+        height: 50px;
+        width: 200px;
+        background-color: #3F3F3F;
+        border: 2px solid #F9621F;
+    }
+    
+    .sign_up_button_name {
+        position: absolute;
+        left: 35.44%;
+        right: 49.76%;
+        top: 49.22%;
+        bottom: 49.44%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #B9B8B7;
+    }

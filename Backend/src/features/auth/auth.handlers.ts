@@ -10,7 +10,7 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
   }
 
   export async function authenticateAsync(req: Request, res: Response, next: NextFunction) {
-    await authService.logInAsync(req.body.user.email,req.body.user.password)
+    await authService.logInAsync(req.body.LoginRequest.email,req.body.LoginRequest.password)
     .then(user => res.send(jwtHelper.generateTokens(user,res)))
     .catch();
   }

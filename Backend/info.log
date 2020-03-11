@@ -7133,3 +7133,383 @@
   level: 'info',
   timestamp: '2020-03-10T16:25:08.822Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T08:04:07.311Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T08:37:01.313Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-03-11T08:37:08.025Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-03-11T08:37:08.034Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-03-11T08:37:31.880Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-03-11T08:37:31.889Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-03-11T08:38:20.062Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-03-11T08:38:20.074Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {}',
+  level: 'info',
+  timestamp: '2020-03-11T08:39:24.730Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-03-11T08:39:24.744Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T09:38:30.368Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T10:07:06.836Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T10:10:15.650Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T10:21:52.151Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T10:21:52.152Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T10:22:20.520Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T10:22:20.529Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T10:30:12.448Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T10:36:06.609Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T10:36:06.611Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T10:49:43.108Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T10:49:43.111Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:09:26.374Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:09:26.390Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:09:44.524Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:09:44.540Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:38:57.408Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:38:57.419Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:39:56.581Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:39:56.592Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:41:12.958Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:41:12.980Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T11:41:46.436Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:44:33.935Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:44:33.938Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T11:46:31.531Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T11:46:53.103Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:47:10.706Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:47:10.709Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:48:19.800Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:48:19.810Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:48:51.637Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:48:51.648Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:49:07.969Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:49:07.973Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T11:53:46.091Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T11:56:53.676Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:56:54.369Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:56:54.370Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T11:58:08.420Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {}',
+  level: 'info',
+  timestamp: '2020-03-11T11:58:12.172Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-03-11T11:58:12.174Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T11:59:46.312Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T12:21:21.688Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T12:25:58.344Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T12:25:58.346Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T12:26:40.196Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T12:26:40.254Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T12:26:40.256Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T13:15:19.961Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:15:24.872Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:15:24.881Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:16:47.707Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:16:47.716Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:17:36.680Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:17:36.686Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:18:22.037Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:18:22.049Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:19:35.248Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:19:35.263Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:19:44.495Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-03-11T13:19:44.509Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T13:20:00.953Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-11T16:08:15.924Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"ddsfdsd","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-11T16:08:21.709Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-11T16:08:21.749Z'
+}

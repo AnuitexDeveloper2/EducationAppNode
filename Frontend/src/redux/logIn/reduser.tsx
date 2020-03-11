@@ -4,6 +4,7 @@ import { RootState } from "../rootReducer";
 export const initialState: LoginState = {
     email: "",
     password: "",
+    showPopup: false,
     isLoading: false,
     error: ""
   };
@@ -39,4 +40,6 @@ export function logInReducer(state: LoginState = initialState, action: any) {
           return state;
     }
 }
+
+
 export const login = (state: RootState) => state.logIn;

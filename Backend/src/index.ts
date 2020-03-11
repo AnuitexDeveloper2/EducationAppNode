@@ -32,7 +32,6 @@ app.use('/admin/author', authorRouter);
 app.use('/user', userRouter);
 app.use('/admin/user', adminRouter);
 
-
 connectdb();
 
 const PORT = process.env.PORT || 8080;

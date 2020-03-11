@@ -9,6 +9,7 @@ import {Store} from "redux";
 import { Provider } from "react-redux";
 import { RootState } from "./redux/rootReducer";
 import  configureStore  from "./redux/store";
+import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
 
 const store: Store<RootState> = configureStore();
 
@@ -19,8 +20,8 @@ function App() {
       <Router>
     <Header></Header>
       <div>
-       <Route exact path='/register' component={Register} />
-       <Route path='test' component={Test}></Route>
+       <Route path='/books' component={PrintingEditionsForAdmin}></Route>
+       <Route path='/register' component={Register}></Route>
       </div>
       </Router>
     </Provider>

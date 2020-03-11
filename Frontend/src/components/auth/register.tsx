@@ -1,24 +1,13 @@
 import React from 'react';
 import { Form, Field } from "react-final-form";
-import * as Auth from "./auth";
-import { RouteComponentProps, Link } from 'react-router-dom';
+import { RouteComponentProps } from 'react-router-dom';
 import "./CSS/register.scss";
-import { Modal, ButtonToolbar } from 'react-bootstrap';
+import { Modal, ButtonToolbar, Button } from 'react-bootstrap';
 import close from "../../assets/close.svg";
+import  * as authService  from "../../services/authService";
+import anonymus from "../../assets/anonymus.png";
 
-export interface UserParameters {
-    id: string,
-    userName: string,
-    firstName: string,
-    lastName: string,
-    email: string,
-    password: string,
-    avatar: string
-}
 
-type UserProps = UserParameters & Auth.UserProps &
- //typeof Auth.actionCreators & 
- RouteComponentProps<{}>;
 
 
 export class Register extends React.Component<any> {
@@ -27,99 +16,81 @@ export class Register extends React.Component<any> {
     }
     
    
-    /*openForm() {
-        this.setState({
-            closed: false,
-        });
-    }
-
-    closeForm() {
-        this.setState({
-            closed: true,
-        });
-    }*/
-
-    redirect = () => {
-        this.props.history.push('/bookList');
-    }
 
     onSubmit = async (values: any) => {
         debugger;
         console.log(values)
-        Auth.register(values,this.redirect)
+        authService.register(values)
     }
 
     render() {
         return (
-           
-                <Modal
-                    {...this.props}
-                    size="lg"
-                    aria-labelledby="contained-modal-title-vcenter"
-                   centered
-                 >
-                <div className="modalWindow">
-                    <div className="modalContent">
-                       <Modal.Header closeButton >
-                          <div className="modalHeader">
-                              <div className="close">
-                                  <img src={close} onClick={this.props.onHide}/>
-                               </div>
-                            </div>
-                       </Modal.Header>
-                       <Modal.Body>
-                          <div className="userImg">
-                              
-                           </div>
-                            <div className="LogIn">
-                                SignIn
-                            </div>
-                            <div className="SignIn_form">
-                               <div>
-                                   <Form
-                                    onSubmit={this.onSubmit}
-                                    render={({handleSubmit,form,submitting,pristine,values}) => (
-                                   <form onSubmit={handleSubmit}>
-                                     <div className="form-group">
-                                       <div className="form-row">
-                                         <div className="form-group col-md-6">
-                                           <label className="emailLabel">Email</label>
-                                           <Field type="text" name="email" className="emailForm" component="input"/>
-                                         </div>
-                                         <div className="form-group col-md-6">
-                                            <label className="passwordLabel ">Password</label>
-                                             <Field type="text" name="passwordHash" className="passworForm" component="input"/>
-                                          </div>
-                                        </div>
-                                       </div>
-                                       <div className="form-row">
-                                            <div className="form-group col-md-6">
-                                                <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
-                                            </div>
-                                            <div>
-                                                <input type="checkbox" className="checkbox"/>
-                                            </div>
-                                            <div className="rememberMe">
-                                                Remember me
-                                            </div>
-                                            <div className="signUpLabel">
-                                                New to Book Publishing Company?
-                                            </div>
-                                            <div className="form-group col-md-6">
-                                             
-                                            </div>
-                                       </div>
-                                   </form>
-                                   )}
-                                       />
-                               </div>
-                           </div>
-                        </Modal.Body>
-                   <Modal.Footer>
-                   </Modal.Footer>
-                  </div>
+            <div className="registerWindow">
+            <div className="registerContent">
+               <div className="registerHeader">
+                  <div className="close">
+                     <img src={close} onClick={this.props.closePopup}/>
+                 </div>
+              </div>
+                <div className="userImg">
+                    <img src={anonymus} alt=""/>
                 </div>
-            </Modal>
+                 <div className="signUp">
+                         Create Account
+                </div>
+                <div className="SignIn_form">
+                    <div>
+                       <Form
+                         onSubmit={this.onSubmit}
+                         render={({handleSubmit,form,submitting,pristine,values}) => (
+                          <form onSubmit={handleSubmit}>
+                            <div className="form-group">
+                              <div className="form-row">
+                                <div className="form-group col-md-6">
+                                  <label className="emailLabel">Email</label>
+                                    <Field type="text" name="LoginRequest.email" className="emailForm" component="input"  />
+                               </div>
+                                <div className="form-group col-md-6">
+                                     <label className="passwordLabel ">Password</label>
+                                      <Field type="text" name="LoginRequest.password" className="passworForm" component="input" />
+                                </div>
+                            </div>
+                        </div>
+                           <div className="form-row">
+                             <div className="form-group col-md-6">
+                                 <button className="submit" type="submit"  disabled={submitting || pristine}   value="register">Sign In</button>
+                             </div>
+                             <div>
+                                 <input type="checkbox" className="checkbox"/>
+                             </div>
+                             <div className="rememberMe">
+                                  Remember me
+                             </div>
+                             <div className="signUpLabel">
+                                  New to Book Publishing Company?
+                             </div>
+                             <div className="form-group col-md-6">
+                                 <ButtonToolbar >
+                                 <div >
+                    <Button  className="signUpButton" variant="primary"  > 
+                    <div className="sign_up_button_name">
+                        SignUp
+                    </div>
+                    </Button>
+                </div>
+                                  </ButtonToolbar>
+                             </div>
+                         </div>
+                             </form>
+                            )}
+                                />
+                                <div className="signUpLabel">
+                                         <button >Facebook</button>
+                                  </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
                    )
                }
 }

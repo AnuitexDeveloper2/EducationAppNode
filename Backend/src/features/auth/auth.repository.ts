@@ -26,6 +26,7 @@ export async function registerAsync (userParam: User): Promise<boolean> {
 
 export async function signInAsync(email: string, password: string): Promise<any> {
     
+    console.log(email)
     let user = await userModel.findOne({ email: email })
 
     if (user == null) {
@@ -38,6 +39,7 @@ export async function signInAsync(email: string, password: string): Promise<any>
     if (!isPasswordValid) {
        return "invalid password";
     }
+
       return user ;
 }
 

@@ -20,30 +20,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const repository = __importStar(require("../repositories/userRepositiry"));
-const user_1 = __importDefault(require("../../shared/db-models/user"));
-const error_1 = require("../../shared/constants/error");
-function registerAsync(userParam) {
+const user_1 = __importDefault(require("../../../dataAccess/entityModels/user"));
+const validateWithJsonSchema_1 = require("../../utils/validateWithJsonSchema");
+const ChangePassword_scema_json_1 = __importDefault(require("../operations/ChangePassword.scema.json"));
+const IdRequest_schema_json_1 = __importDefault(require("../../utils/IdRequest.schema.json"));
+const UserRequest_schema_json_1 = __importDefault(require("../operations/UserRequest.schema.json"));
+const logger_1 = __importDefault(require("../../utils/logger"));
+function getByIdAsync(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        let model = new user_1.default();
-        model.error = new Array();
-        let wasExist = yield repository.findByEmail(userParam.email);
-        if (wasExist) {
-            model.error.push(error_1.Error.Email + userParam.email + error_1.Error.IsAlreadyTaken);
-            return model.error;
+        const validateResult = validateWithJsonSchema_1.validateWithJsonSchema(id, IdRequest_schema_json_1.default);
+        logger_1.default.info(`>>>> userService.getById(), with user id = ${JSON.stringify(id)}`);
+        console.log(id);
+        if (!validateResult.valid) {
+            logger_1.default.error(`>>>> userService.getById(), invalid data = ${JSON.stringify(id)}`);
+            return { message: `invalid id`, error: validateResult.errors };
         }
-        wasExist = yield repository.findByUserName(userParam.userName);
-        if (wasExist) {
-            model.error.push(error_1.Error.UserName + userParam.email + error_1.Error.IsAlreadyTaken);
-            return model.error;
+        const result = yield repository.findByIdAsync(id);
+        if (typeof (result) == "string") {
+            logger_1.default.error(`>>>> userService.getById(), result = ${result}`);
         }
-        const result = yield repository.registerAsync(userParam);
-        return userParam.error;
-    });
-}
-exports.registerAsync = registerAsync;
-function getByIdAsync(userParam) {
-    return __awaiter(this, void 0, void 0, function* () {
-        let result = yield repository.getUserAsync(userParam);
+        if (!result) {
+            return "User not found";
+        }
         return result;
     });
 }
@@ -54,45 +52,61 @@ function getAllAsync() {
     });
 }
 exports.getAllAsync = getAllAsync;
-function logInAsync(userParam) {
-    return __awaiter(this, void 0, void 0, function* () {
-        if (userParam.email === null || userParam.passwordHash === null) {
-            return null;
-        }
-        let result = yield repository.signInAsync(userParam);
-        return yield result;
-    });
-}
-exports.logInAsync = logInAsync;
 function editAsync(userParam) {
     return __awaiter(this, void 0, void 0, function* () {
-        let model = new user_1.default();
-        model.error = new Array();
-        let user = yield repository.findById(userParam.Id);
-        if (user == null) {
-            model.error.push(error_1.Error.userNotFound);
-            return model.error;
+        const validateResult = validateWithJsonSchema_1.validateWithJsonSchema(userParam, UserRequest_schema_json_1.default);
+        logger_1.default.info(`>>>> userService.edit(), with: user = ${JSON.stringify(userParam)}`);
+        if (!validateResult.valid) {
+            logger_1.default.error(`>>>> userService.edit(), invalid data = ${validateResult.errors}`);
+            return { message: "Invalid UserEdit request", error: validateResult.errors };
         }
-        if (user.email !== userParam.email && (yield user_1.default.findOne({ email: userParam.email }))) {
-            model.error.push(error_1.Error.Email + userParam.email + error_1.Error.IsAlreadyTaken);
-            return model.error;
+        const result = yield repository.editAsync(userParam);
+        if (result) {
+            logger_1.default.error(`>>>> userService.edit(), result = ${result}`);
+            return result;
         }
-        if (user.userName !== userParam.userName && (yield user_1.default.findOne({ userName: userParam.userName }))) {
-            model.error.push(error_1.Error.UserName + userParam.userName + error_1.Error.IsAlreadyTaken);
-            return model.error;
-        }
-        let result = yield repository.editAsync(userParam, user);
-        if (!result) {
-            model.error.push(error_1.Error.NotUserEdit);
-        }
-        return model.error;
+        return 'Ok';
     });
 }
 exports.editAsync = editAsync;
-function removeAsync(userParam) {
+function removeAsync(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        return yield repository.removeOneAsync(userParam);
+        const validateResult = validateWithJsonSchema_1.validateWithJsonSchema(id, IdRequest_schema_json_1.default);
+        logger_1.default.info(`>>>> userService.remove(), with: user id = ${JSON.stringify(id)}`);
+        if (!validateResult.valid) {
+            logger_1.default.error(`>>>> userService.remove(), invalid data = ${JSON.stringify(id)}`);
+            return { message: "Invalid id parameter", error: validateResult.errors };
+        }
+        const result = yield repository.removeOneAsync(id);
+        if (!result) {
+            return "user not found";
+        }
+        return "user has been deleted";
     });
 }
 exports.removeAsync = removeAsync;
+function changePassword(changePasswordParam) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const validateResult = validateWithJsonSchema_1.validateWithJsonSchema(changePasswordParam, ChangePassword_scema_json_1.default);
+        logger_1.default.info(`>>>> userService.changePassword(), with user changePasswordParam = ${JSON.stringify(changePasswordParam)}`);
+        if (!validateResult.valid) {
+            logger_1.default.error(`>>>> userService.changePassword(), invalid data = ${JSON.stringify(changePasswordParam)}`);
+            return { message: "invalid changePassword parameters", error: validateResult.errors };
+        }
+        const result = yield repository.changePasswordAsync(changePasswordParam);
+        if (!result) {
+            logger_1.default.error(`>>>> userService.changePassword(), result = invalid password`);
+            return "invalid password";
+        }
+        return "Ok";
+    });
+}
+exports.changePassword = changePassword;
+function getUserAsync(filter) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const result = repository.getUsersAsync(filter);
+        return result;
+    });
+}
+exports.getUserAsync = getUserAsync;
 //# sourceMappingURL=userService.js.map

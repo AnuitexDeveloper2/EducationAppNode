@@ -7,7 +7,7 @@ import SignIn from '../../components/auth/signIn';
 import bookLogo from "../../assets/Book_Logo_svg.png"
 
 export class Header extends Component<{}, { showPopup: boolean }> {
-  constructor(props: any) {
+  constructor(props: string) {
     super(props);
     this.state = {
       showPopup: false

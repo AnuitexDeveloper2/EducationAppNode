@@ -12,14 +12,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const user_1 = __importDefault(require("../db-models/user"));
+const user_1 = __importDefault(require("../../../dataAccess/entityModels/user"));
 const role_1 = require("../enums/role");
-const bcryptjs_1 = __importDefault(require("bcryptjs"));
-const user_2 = __importDefault(require("../db-models/user"));
-const author_1 = __importDefault(require("../db-models/author"));
-const author_2 = __importDefault(require("../db-models/author"));
-const printing_edition_1 = __importDefault(require("../db-models/printing-edition"));
-const printing_edition_2 = __importDefault(require("../db-models/printing-edition"));
+//import bcrypt from "bcryptjs";
+const user_2 = __importDefault(require("../../../dataAccess/entityModels/user"));
+const author_1 = __importDefault(require("../../../dataAccess/entityModels/author"));
+const author_2 = __importDefault(require("../../../dataAccess/entityModels/author"));
+const printing_edition_1 = __importDefault(require("../../../dataAccess/entityModels/printing-edition"));
+const printing_edition_2 = __importDefault(require("../../../dataAccess/entityModels/printing-edition"));
 const printingEditionType_1 = require("../enums/printingEditionType");
 class Init {
     constructor() {
@@ -47,8 +47,8 @@ class Init {
                     role: role_1.Role.Admin,
                     passwordHash: '25012005'
                 });
-                var salt = bcryptjs_1.default.genSaltSync(10);
-                admin.passwordHash = bcryptjs_1.default.hashSync('25012005', salt);
+                // var salt = bcrypt.genSaltSync(10);
+                // admin.passwordHash = bcrypt.hashSync('25012005',salt);
                 admin.save();
                 return admin;
             }

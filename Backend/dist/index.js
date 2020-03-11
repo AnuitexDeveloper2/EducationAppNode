@@ -2,19 +2,49 @@
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const mongoose_1 = __importDefault(require("mongoose"));
 const Initial_1 = require("../src/features/shared/repositories/Initial");
 const body_parser_1 = __importDefault(require("body-parser"));
-const userHandler_1 = require("../src/features/user/handlers/userHandler");
+const index_1 = require("../src/features/user/index");
+const index_2 = require("../src/features/authors/index");
+const auth_1 = require("./features/auth");
+const env = __importStar(require("dotenv"));
+const printing_editions_1 = require("./features/printing-editions");
+const connectdb_1 = require("../src/dataAccess/database/connectdb");
+const swaggerDocument = __importStar(require("./swagger.json"));
+const swagger_ui_express_1 = __importDefault(require("swagger-ui-express"));
+const logger_1 = __importDefault(require("./features/utils/logger"));
+const orders_1 = require("./features/orders");
+const cors_1 = __importDefault(require("cors"));
+env.config();
 const app = express_1.default();
 const init = Initial_1.Init.prototype;
 init.Check();
 app.use(body_parser_1.default.urlencoded({ extended: false }));
 app.use(body_parser_1.default.json());
-app.use('/user', userHandler_1.userRouter);
-app.use('/admin', userHandler_1.adminRouter);
-mongoose_1.default.connect("mongodb://localhost/educationdb", { useCreateIndex: true, useNewUrlParser: true });
-app.listen(8000, () => console.log('server running'));
+app.use(cors_1.default());
+app.use('/auth', auth_1.authRouter);
+//app.use(checkJwt);
+app.use('/order', orders_1.orderUserRouter);
+app.use('/admin/order', orders_1.orderAdminRouter);
+app.use('/admin/printing-edition', printing_editions_1.adminProductRouter);
+app.use('/home', printing_editions_1.userProductRouter);
+app.use('/admin/author', index_2.authorRouter);
+app.use('/user', index_1.userRouter);
+app.use('/admin/user', index_1.adminRouter);
+connectdb_1.connectdb();
+const PORT = process.env.PORT || 8080;
+process.env.connectionString;
+app.listen(PORT, () => {
+    app.use('/swagger', swagger_ui_express_1.default.serve, swagger_ui_express_1.default.setup(swaggerDocument));
+    logger_1.default.info(`server started listening on port ${PORT}`);
+});
 //# sourceMappingURL=index.js.map

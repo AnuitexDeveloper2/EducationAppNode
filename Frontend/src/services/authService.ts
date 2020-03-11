@@ -1,22 +1,16 @@
 import  axios  from "axios";
 import { LoginRequest, LoginResult } from "../redux/logIn/types";
+import { RegisterRequest } from "../redux/register/types";
 
 
 
-/*export  function signIn(user: LoginRequest) {
+export async function register (user: RegisterRequest) {
     debugger;
-    let test: any ;
-    fetch('http://localhost:8000/auth/logIn', {
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        method: 'POST',
-        body: JSON.stringify(user)
-    })
-}*/
+    const result = await axios.post('http://localhost:8000/auth/register',{user})
+    return result
+} 
 
 export function moveFacebook() {
-    let test;
     fetch('https://www.facebook.com/dialog/oauth?client_id=869634570156556&redirect_uri=http://localhost:8000/auth/callback&response_type=code',{
         headers: {
             'Content-Type': 'application/json'
@@ -28,7 +22,7 @@ export function moveFacebook() {
 
 export async function signIn (user: LoginRequest) {
     debugger;
-    const result = await axios.post('http://localhost:8000/auth/logIn',{user})
+    const result = await axios.post('http://localhost:8000/auth/logIn',user)
     
     return result.data
 }

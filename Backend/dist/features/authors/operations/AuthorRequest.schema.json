@@ -1,0 +1,20 @@
+{
+    "title": "AuthorRequest",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 4,
+            "maxLength": 50
+        },
+        "_id": {
+            "type": "string"
+        },
+        "product_ids": {
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name"
+    ]
+}
