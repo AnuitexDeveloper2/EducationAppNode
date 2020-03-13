@@ -47,8 +47,8 @@ class Init {
                     role: role_1.Role.Admin,
                     passwordHash: '25012005'
                 });
-                // var salt = bcrypt.genSaltSync(10);
-                // admin.passwordHash = bcrypt.hashSync('25012005',salt);
+                 var salt = bcrypt.genSaltSync(10);
+                 admin.passwordHash = bcrypt.hashSync('25012005',salt);
                 admin.save();
                 return admin;
             }

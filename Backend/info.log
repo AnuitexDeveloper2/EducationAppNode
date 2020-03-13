@@ -7513,3 +7513,103 @@
   level: 'error',
   timestamp: '2020-03-11T16:08:21.749Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T08:08:09.455Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"ddsfdsd","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-12T08:30:21.723Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-12T08:30:21.816Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T09:14:13.983Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T11:00:20.797Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T11:15:20.259Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T14:55:27.595Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"vasilets.seven@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-03-12T14:55:59.159Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T14:57:16.419Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"vasilets.seven@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-03-12T14:57:17.767Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-12T14:57:58.799Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-13T14:34:03.309Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"user":{"userName":"HokkeyMan","firstName":"Gordie ","lastName":"yuk ","email":"80939404335","password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-13T14:45:42.524Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-13T14:45:42.529Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-13T14:56:30.091Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"yuk ","email":"80939404335","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-13T14:56:30.357Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-13T14:56:30.361Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"yuk ","email":"80939404335","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-13T14:58:52.474Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-13T15:00:41.385Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyManasdf","firstName":"Gordie ","lastName":"yuk ","email":"80939404335","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-13T15:00:41.534Z'
+}

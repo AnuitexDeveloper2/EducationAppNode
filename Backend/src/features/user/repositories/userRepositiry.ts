@@ -117,12 +117,10 @@ export async function getUserAsync (userParam: User)  {
     if (filter.searchString !=null) {
         query =  userModel.find( { $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] });
     }
-
     if(filter.sortType == 0) {
         tableSort = { '_id': filter.sortType };
     }
-    
-    const options = {
+        const options = {
         sort: tableSort,
         lean: true,
         page: filter.pageNumber, 

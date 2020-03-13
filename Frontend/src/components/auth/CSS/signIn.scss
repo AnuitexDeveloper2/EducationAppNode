@@ -1,3 +1,271 @@
+.registerWindow{
+    position: absolute;
+    width: 1919px;
+    height: 3148px;
+    left: 0px;
+    top: 0px;
+    background: rgba(245, 247, 250, 0.6);
+    }
+    
+.registerContent {
+    margin-top: 130px;
+    margin-left: 632px;
+    margin-right: 720;
+    margin-bottom: 1243px;
+    position: absolute;
+    width: 755px;
+    height: 772px;
+    left: 117px;
+    background: #3F3F3F;
+    }
+
+.userImgRegister {
+    position: absolute;
+    left: 45.79%;
+    right: 50.33%;
+    top: 2.17%;
+    bottom: 83.48%;
+    opacity: 0.5;
+    }
+
+.createAccountLabel {
+    margin-right: 50%;
+    margin-left: 25%;
+    margin-top: 15% ;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 43px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FF6825;
+    }
+
+.userNameLabel {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 21%;
+    bottom: 76%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    }
+
+.userNameForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    line-height: 55px;
+    top: 26%;
+    bottom: 66%;
+    height: 30px;
+    width: 400px;
+    color: black;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.firstNameLabel {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 31%;
+    bottom: 66%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.firstNameForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 36%;
+    bottom: 56%;
+    height: 30px;
+    width: 400px;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.lastNameLabel {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 41%;
+    bottom: 56%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.lastNameForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 46%;
+    bottom: 46%;
+    height: 30px;
+    width: 400px;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.emailLabelRegister {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 51%;
+    bottom: 46%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.emailFormRegister {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 56%;
+    bottom: 36%;
+    height: 30px;
+    width: 400px;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.passwordLabelRegister {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 61%;
+    bottom: 36%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.passwordFormRegister {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 66%;
+    bottom: 26%;
+    height: 30px;
+    width: 400px;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.confirmPasswordLabel {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 71%;
+    bottom: 26%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.confirmPasswordForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 76%;
+    bottom: 16%;
+    height: 30px;
+    width: 400px;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.registerButton {
+    position: absolute;
+    left: 53.44%;
+    right: 34.84%;
+    top: 82%;
+    bottom: 13%;
+    background: #FB7134;
+}
+
+.registerButtonLabel {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.alreadyRegister {
+
+    position: absolute;
+    left: 13.96%;
+    right: 15.38%;
+    top: 91%;
+    bottom: 6%;
+
+
+
+color: #999999;
+}
+
+.moveToSignIn {
+    position: absolute;
+    left: 38.75%;
+    right: 57.45%;
+    top: 91%;
+    bottom: 6%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FB7134;
+}
+
+
+
+
+
+
+
+
+
+
+// for SignIn
+
+
 .modalWindow{
     position: absolute;
     width: 1919px;

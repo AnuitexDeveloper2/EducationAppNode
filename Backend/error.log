@@ -828,3 +828,28 @@
   level: 'error',
   timestamp: '2020-03-11T16:08:21.749Z'
 }
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-03-12T08:30:21.816Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"vasilets.seven@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-03-12T14:55:59.159Z'
+}
+{
+  message: '>>>> authService.confirmEmail(), error  {"email":"vasilets.seven@gmail.com"} has not been assigned to any user ',
+  level: 'error',
+  timestamp: '2020-03-12T14:57:17.767Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-13T14:45:42.529Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-13T14:56:30.361Z'
+}

@@ -19,7 +19,7 @@ export async function getOrdersForAdminAsync(filter: OrderFilter) {
     let count;
     let data = new Array<ordersModel>();
      query = ordersModel.find().populate("user_id").populate("items.OrderItem.printing_edition_id");
-
+     
     const options = {
         sort: "_id",
         lean: true,

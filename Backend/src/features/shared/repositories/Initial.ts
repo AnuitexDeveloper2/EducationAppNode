@@ -1,6 +1,6 @@
 import Users from '../../../dataAccess/entityModels/user'
 import { Role } from '../enums/role'
-//import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import userModel from '../../../dataAccess/entityModels/user';
 import authorModel from '../../../dataAccess/entityModels/author';
 import Authors from '../../../dataAccess/entityModels/author';
@@ -42,8 +42,8 @@ export class Init {
                 passwordHash: '25012005'
             })
             
-           // var salt = bcrypt.genSaltSync(10);
-           // admin.passwordHash = bcrypt.hashSync('25012005',salt);
+            var salt = bcrypt.genSaltSync(10);
+            admin.passwordHash = bcrypt.hashSync('25012005',salt);
             admin.save();
             return admin;
         }

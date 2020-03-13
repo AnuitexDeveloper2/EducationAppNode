@@ -18,7 +18,7 @@ export async function registerAsync(userParam: User): Promise<any> {
     }
     
     const result = await repository.registerAsync(userParam);
-
+    console.log(result)
     if (!result) {
         logger.error(`>>>> authService.register(), result = ${result}`);
     }
@@ -50,11 +50,11 @@ export async function logInAsync(email: string, password: string): Promise<any> 
 export async function confirmEmailAsync(email: string): Promise<string> {
    
     const isEmailExist = await findByEmail(email)
-    if (!isEmailExist) {
-        logger.error(`>>>> authService.confirmEmail(), error  ${JSON.stringify(email)} has not been assigned to any user `)
-        return "User Not Found"
-    }
-    
+    // if (!isEmailExist) {
+    //     logger.error(`>>>> authService.confirmEmail(), error  ${JSON.stringify(email)} has not been assigned to any user `)
+    //     return "User Not Found"
+    // }
+    console.log(email)
     const result = sendingEmail(isEmailExist);
     const error = typeof(result)
 

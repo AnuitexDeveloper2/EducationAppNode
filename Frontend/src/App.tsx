@@ -7,24 +7,24 @@ import LogIn from "./components/auth/signIn";
 import Test from "./components/auth/test";
 import {Store} from "redux";
 import { Provider } from "react-redux";
-import { RootState } from "./redux/rootReducer";
-import  configureStore  from "./redux/store";
+// import { RootState } from "./redux/rootReducer";
+// import  configureStore  from "./redux/store";
 import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
 
-const store: Store<RootState> = configureStore();
+// const store: Store<RootState> = configureStore();
 
 function App() {
   return (
     <div>
-    <Provider store={store}>
+    {/* <Provider store={store}> */}
       <Router>
     <Header></Header>
       <div>
        <Route path='/books' component={PrintingEditionsForAdmin}></Route>
-       <Route path='/register' component={Register}></Route>
+       <Route path='/register' component={Test}></Route>
       </div>
       </Router>
-    </Provider>
+    {/* </Provider> */}
     </div>
   );
 }

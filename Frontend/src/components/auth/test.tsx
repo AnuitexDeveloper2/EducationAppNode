@@ -6,7 +6,7 @@ export class Test extends React.Component<any> {
     render() {
 
         return(
-           <h1>
+           <h1 className="test2">
                Hello World !!!
                dasf
                fasdf

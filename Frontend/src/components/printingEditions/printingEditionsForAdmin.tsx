@@ -1,29 +1,61 @@
 import React from "react";
 import { Field, Form } from "react-final-form";
 import './SCSS/book.css';
+import { Table } from "react-bootstrap";
 
 
 
 export class PrintingEditionsForAdmin extends React.Component {
 
     onSubmit = async (value: any) => {
-        debugger;
-      console.log()
+        
     }
 
     render(){
         debugger;
         return(
-            <div className="test">
-                <div>
-                    Books for meny
-
-                </div>
-                <div className="test2">
-                    jwt Token
-                </div>
-        </div>
-               
+            <Table responsive>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+            </tbody>
+          </Table>
         )
     }
 }

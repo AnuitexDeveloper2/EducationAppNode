@@ -1,10 +1,8 @@
 import  axios  from "axios";
-import { LoginRequest, LoginResult } from "../redux/logIn/types";
-import { RegisterRequest } from "../redux/register/types";
 
 
 
-export async function register (user: RegisterRequest) {
+export async function register (user: any) {
     debugger;
     const result = await axios.post('http://localhost:8000/auth/register',{user})
     return result
@@ -20,7 +18,7 @@ export function moveFacebook() {
     )
 }
 
-export async function signIn (user: LoginRequest) {
+export async function signIn (user: any) {
     debugger;
     const result = await axios.post('http://localhost:8000/auth/logIn',user)
     

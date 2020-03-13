@@ -6,11 +6,12 @@ import { Link, Route } from 'react-router-dom';
 import SignIn from '../../components/auth/signIn';
 import bookLogo from "../../assets/Book_Logo_svg.png"
 
-export class Header extends Component<{}, { showPopup: boolean }> {
+export class Header extends Component<{}, { showPopup: boolean,showRegister: boolean }> {
   constructor(props: string) {
     super(props);
     this.state = {
-      showPopup: false
+      showPopup: false,
+      showRegister: false
     };
   }
    togglePopup() {

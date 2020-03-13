@@ -1,25 +1,4 @@
-.registerWindow{
-    position: absolute;
-    width: 1919px;
-    height: 3148px;
-    left: 0px;
-    top: 0px;
-    background: rgba(245, 247, 250, 0.6);
-    }
-    
-    .registerContent {
-        margin-top: 130px;
-        margin-left: 632px;
-        margin-right: 720;
-        margin-bottom: 1243px;
-        position: absolute;
-        width: 755px;
-        height: 772px;
-        left: 117px;
-        
-        
-        background: #3F3F3F;
-    }
+
     
     .inputLabel{
         color: black
@@ -44,27 +23,7 @@
     opacity: 0.5;
     }
     
-    .signUp {
-        position: absolute;
-        left: 35.57%;
-        right: 56.72%;
-        top: 35.6%;
-        bottom: 61.18%;
-        
-        font-family: Oswald;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 43px;
-        /* identical to box height, or 179% */
-        
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: capitalize;
-        
-        color: #FF6825;
-    }
+   
     
     .emailLabel{
     position: absolute;

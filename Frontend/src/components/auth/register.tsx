@@ -22,10 +22,14 @@ export class Register extends React.Component<any> {
         console.log(values)
         authService.register(values)
     }
+   
 
     render() {
-        return (
-            <div className="registerWindow">
+        debugger;
+      
+            
+            return (
+                <div className="registerWindow">
             <div className="registerContent">
                <div className="registerHeader">
                   <div className="close">
@@ -43,7 +47,7 @@ export class Register extends React.Component<any> {
                        <Form
                          onSubmit={this.onSubmit}
                          render={({handleSubmit,form,submitting,pristine,values}) => (
-                          <form onSubmit={handleSubmit}>
+                             <form onSubmit={handleSubmit}>
                             <div className="form-group">
                               <div className="form-row">
                                 <div className="form-group col-md-6">
@@ -83,7 +87,7 @@ export class Register extends React.Component<any> {
                          </div>
                              </form>
                             )}
-                                />
+                            />
                                 <div className="signUpLabel">
                                          <button >Facebook</button>
                                   </div>
@@ -92,7 +96,9 @@ export class Register extends React.Component<any> {
                  </div>
             </div>
                    )
-               }
-}
-
-export default Register;
+              
+            }
+        }
+            
+            export default Register;
+            
