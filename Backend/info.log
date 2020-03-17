@@ -7613,3 +7613,163 @@
   level: 'info',
   timestamp: '2020-03-13T15:00:41.534Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-13T16:06:20.651Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T13:43:03.947Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T13:45:04.595Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T13:45:31.072Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-16T13:45:31.688Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T13:47:50.300Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-03-16T13:48:16.380Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T13:54:19.012Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-16T14:03:08.343Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-17T10:42:37.666Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-03-17T10:43:36.995Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"Gordie ","lastName":"How","email":"someEmail@yandex.en","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T10:45:28.302Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-17T10:45:28.314Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"Gordie ","lastName":"Hows","email":"someEmail@yandex.en","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T10:46:16.036Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"Gordie ","lastName":"Hows","email":"someEmail@yandex.en","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T10:47:32.345Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"Gordie ","lastName":"Hows","email":"someEmail@yandex.en","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T10:50:03.124Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"yuk","email":"morgenshtern1988@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T10:53:57.118Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-17T10:53:57.120Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"yuk","email":"morgenshtern1988@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-03-17T11:31:33.971Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-03-17T11:31:33.972Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"email":"80939404335"}',
+  level: 'info',
+  timestamp: '2020-03-17T11:52:28.719Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T11:52:28.734Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"email":"80939404335"}',
+  level: 'info',
+  timestamp: '2020-03-17T11:52:29.224Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T11:52:29.232Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"email":"80939404335"}',
+  level: 'info',
+  timestamp: '2020-03-17T11:52:29.561Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T11:52:29.569Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"email":"80939404335"}',
+  level: 'info',
+  timestamp: '2020-03-17T11:52:30.001Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "userName",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T11:52:30.003Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fg"}',
+  level: 'info',
+  timestamp: '2020-03-17T12:40:49.492Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.userName does not meet minimum length of 4,instance requires property "email",instance requires property "firstName",instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T12:40:49.503Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"firstName":"sdf","userName":"fgnjh","email":"p["}',
+  level: 'info',
+  timestamp: '2020-03-17T13:44:51.218Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.email does not meet minimum length of 4,instance.firstName does not meet minimum length of 4,instance requires property "lastName",instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-03-17T13:44:51.222Z'
+}

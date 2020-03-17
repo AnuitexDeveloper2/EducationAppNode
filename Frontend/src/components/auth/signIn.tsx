@@ -7,6 +7,7 @@ import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
 import Register from "../auth/register"
 import { Redirect } from "react-router-dom";
+import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 
 export interface LoginProps {
    
@@ -138,7 +139,7 @@ export interface LoginProps {
                         />
                             <div className="signUpLabel">
                                      <button onClick={this.onFacebookLogin}>Facebook</button>
-                              </div>
+                          </div>
                     </div>
                 </div>
              </div>
@@ -162,6 +163,7 @@ export interface LoginProps {
                   Create Account
               </div>
               <Form
+               validate={(values) => formValidation.validateForm(values)}
        onSubmit={this.onSubmitRegister}
        render={({handleSubmit,form,submitting,pristine,values}) => (
          <form onSubmit={handleSubmit}>
@@ -169,23 +171,58 @@ export interface LoginProps {
             <div className="form-row">
               <div className="form-group col-md-6">
                 <label className="userNameLabel">Your UserName</label>
-                  <Field type="text" name="userName" className="userNameForm" component="input"  />
+                  <Field  name="userName" >
+                  {({ input, meta }) => (
+                  <div>
+                  <input className="userNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="userName_error">{"Please Enter Your UserName"}</span>}
+                </div>
+                  )}
+                  </Field>
              </div>
               <div className="form-group col-md-6">
                    <label className="firstNameLabel ">Your First Name</label>
-                    <Field type="text" name="firstName" className="firstNameForm" component="input" />
+                    <Field  name="firstName">
+                     {({ input, meta }) => (
+                  <div>
+                  <input className="firstNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="firstName_error">{"Please Enter Your First Name"}</span>}
+                </div>
+                  )}
+                    </Field>
               </div>
               <div className="form-group col-md-6">
                    <label className="lastNameLabel ">Your Last Name</label>
-                    <Field type="text" name="lastName" className="lastNameForm" component="input" />
+                    <Field  name="lastName" >
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="lastNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="lastName_error">{"Please Enter Your First Name"}</span>}
+                </div>
+                  )}
+                    </Field>
               </div>
               <div className="form-group col-md-6">
                    <label className="emailLabelRegister ">Email</label>
-                    <Field type="text" name="email" className="emailFormRegister" component="input" />
+                    <Field  name="email">
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="emailFormRegister" {...input} />
+                  {meta.error && meta.touched && <span className="email_error">{"Please Enter a valid email adress"}</span>}
+                </div>
+                  )}
+                    </Field>
               </div>
               <div className="form-group col-md-6">
                    <label className="passwordLabelRegister ">Password</label>
-                    <Field type="text" name="passwordHash" className="passwordFormRegister" component="input" />
+                    <Field type="text" name="passwordHash">
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="passwordFormRegister" {...input} />
+                  {meta.error && meta.touched && <span className="password_error">{"Password must be at least 6 characters"}</span>}
+                </div>
+                  )}
+                    </Field>
               </div>
               <div className="form-group col-md-6">
                    <label className="confirmPasswordLabel ">Confirm Password</label>

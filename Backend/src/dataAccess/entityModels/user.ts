@@ -22,4 +22,3 @@ usersSchema.plugin(mongoosePaginate);
 interface userModel extends User,mongoose.Document {}
 const userModel = model<userModel>('User', usersSchema);
 export default userModel;
-

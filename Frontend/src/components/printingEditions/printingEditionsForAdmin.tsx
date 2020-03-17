@@ -2,6 +2,7 @@ import React from "react";
 import { Field, Form } from "react-final-form";
 import './SCSS/book.css';
 import { Table } from "react-bootstrap";
+import * as PrintingEditionService from "../../services/printingEditionService";
 
 
 
@@ -11,52 +12,20 @@ export class PrintingEditionsForAdmin extends React.Component {
         
     }
 
+    getData = async () => {
+     const data = PrintingEditionService.getPrintingEdition()
+    }
+
     render(){
         debugger;
         return(
-            <Table responsive>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Table heading</th>
-                <th>Table heading</th>
-                <th>Table heading</th>
-                <th>Table heading</th>
-                <th>Table heading</th>
-                <th>Table heading</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-            </tbody>
-          </Table>
+          
+         <div></div>
         )
+    }
+    componentDidMount() {
+      debugger
+      this.getData()
     }
 }
 

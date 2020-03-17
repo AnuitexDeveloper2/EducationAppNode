@@ -5,6 +5,7 @@ import  axios  from "axios";
 export async function register (user: any) {
     debugger;
     const result = await axios.post('http://localhost:8000/auth/register',{user})
+    console.log(result.data)
     return result
 } 
 

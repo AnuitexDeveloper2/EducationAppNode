@@ -6,11 +6,10 @@ import * as userRepository from "../user/repositories/userRepositiry"
 
 export async function registerAsync (userParam: User): Promise<boolean> {
     const checkUser = await userModel.findOne({email: userParam.email})
-
     if (checkUser != null) {
         false
     }
-
+    
     let user = new userModel(userParam);
     const salt = bcrypt.genSaltSync(10);
     user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);
