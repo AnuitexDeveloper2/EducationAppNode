@@ -9,7 +9,6 @@ export async function registerAsync (userParam: User): Promise<boolean> {
     if (checkUser != null) {
         false
     }
-    
     let user = new userModel(userParam);
     const salt = bcrypt.genSaltSync(10);
     user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);

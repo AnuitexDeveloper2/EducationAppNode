@@ -3,37 +3,45 @@ import './header.css';
 import  signIn  from "../../assets/SignUp.png";
 import {Navbar,NavItem,Nav,Button, ButtonToolbar, ModalDialog} from 'react-bootstrap';
 import { Link, Route } from 'react-router-dom';
-import SignIn from '../../components/auth/signIn';
 import bookLogo from "../../assets/Book_Logo_svg.png"
+import  PopUpManager  from '../../components/auth/popUpManager';
+import { PopUpState } from '../../redux/popUp/types';
+import { connect} from "react-redux"
+import { showSignInAction } from '../../redux/popUp/actions';
 
-export class Header extends Component<{}, { showPopup: boolean,showRegister: boolean }> {
-  constructor(props: string) {
+ class Header extends Component<any, PopUpState> {
+  constructor(props: any) {
     super(props);
-    this.state = {
-      showPopup: false,
-      showRegister: false
-    };
   }
-   togglePopup() {
-     debugger;
-    this.setState({
-      showPopup: !this.state.showPopup
-    });
+
+  state:PopUpState = {
+    showLogIn: false,
+    showRegister: false
+  }
+
+  showSigInForm=(event:any) => {
+    debugger;
+      const {showLogIn: showTest} = this.state
+      this.props.showSignInAction()
   }
     render() {
         return (
       <div className="header">
           <div className="bookLogo">
+            
               <img src={bookLogo} alt=""/>
           </div>
           <div className="signIn">
               SignIn
           </div>
-              <img src={signIn} alt="" className="signInButton" onClick={this.togglePopup.bind(this)}/>
-            {
-            this.state.showPopup ?
-            <SignIn closePopup={this.togglePopup.bind(this)} /> : null
-             }
+          <div className="signInButton">
+          {/* onClick={this.togglePopup.bind(this)} */}
+              <img src={signIn} alt="" onClick={this.showSigInForm.bind(this)}  />
+            
+              <PopUpManager/>
+              
+            
+            </div>
       
       </div>  
     );
@@ -41,5 +49,6 @@ export class Header extends Component<{}, { showPopup: boolean,showRegister: boo
 
 
 }
-export default Header;
+  
+export default connect(null,{showSignInAction})(Header);
 
