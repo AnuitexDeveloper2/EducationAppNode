@@ -7,8 +7,7 @@ import bookLogo from "../../assets/Book_Logo_svg.png"
 import  PopUpManager  from '../../components/auth/popUpManager';
 import { PopUpState } from '../../redux/popUp/types';
 import { connect} from "react-redux"
-import { showSignInAction } from '../../redux/popUp/actions';
-
+import { showSignInAction } from "../../Redux/popUp/actions";
  class Header extends Component<any, PopUpState> {
   constructor(props: any) {
     super(props);

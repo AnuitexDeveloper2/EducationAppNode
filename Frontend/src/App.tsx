@@ -3,8 +3,8 @@ import './App.css';
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Header from "./shared/header/header"
 import { Provider } from "react-redux";
-import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
-import { configureStore } from "./redux/store";
+import {PrintingEditionsForAdmin} from "./components/printingEditions/printingEditionsForAdmin";
+import { configureStore } from "./Redux/store";
 
 
 const store = configureStore()
