@@ -5,6 +5,7 @@ import Header from "./shared/header/header"
 import { Provider } from "react-redux";
 import {PrintingEditionsForAdmin} from "./components/printingEditions/printingEditionsForAdmin";
 import { configureStore } from "./Redux/store";
+import AuthorsForAdmin from "./components/author/authors";
 
 
 const store = configureStore()
@@ -17,6 +18,7 @@ function App() {
     <Header></Header>
       <div>
        <Route path='/books' component={PrintingEditionsForAdmin}></Route>
+       <Route path="/authors" component={AuthorsForAdmin}/>
       </div>
       </Router>
     </Provider>

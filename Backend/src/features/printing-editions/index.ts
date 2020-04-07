@@ -11,7 +11,7 @@ export const adminProductRouter =  Router();
 adminProductRouter.post('/create', createAsync);
 adminProductRouter.delete('/:id', removeAsync);
 adminProductRouter.post('/update', updateAsync);
-adminProductRouter.get('/', getPrintingEditionsForAdminHandlerAsync);
+adminProductRouter.post('/', getPrintingEditionsForAdminHandlerAsync);
 
 export const userProductRouter = Router();
 

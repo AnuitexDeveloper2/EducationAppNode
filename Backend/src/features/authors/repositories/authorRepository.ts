@@ -66,6 +66,11 @@ export async function removeProductAsync(authorId: string , printingEditionId: s
     }
 }
 
+export async function GetAsync():Promise<Array<authorModel>> {
+    const result = await authorModel.find()
+    return result
+}
+
 
 export async function GetAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
     let count;

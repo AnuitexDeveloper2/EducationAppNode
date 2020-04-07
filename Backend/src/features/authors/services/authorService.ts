@@ -6,6 +6,7 @@ import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
 import  authorVlidateSchema  from "../operations/AuthorRequest.schema.json";
 import idValidateSchema from "../../utils/IdRequest.schema.json";
 import logger from "../../utils/logger";
+import { logInAsync } from "../../auth/auth.service";
 
  let author = new authorModel();
 export async function createAsync(authorParam: authorModel): Promise<any>  {
@@ -62,7 +63,15 @@ export async function updateAsync(authorParam: authorModel): Promise<any> {
       return "aurhor did not update"
    }
    return result;
+}
 
+export async function getAsync() : Promise<Array<authorModel>> {
+   logger.info('>>>> authorService.get()');
+   const result =await authorRepository.GetAsync();
+   if (result.length==0) {
+      logger.error('>>>> authorService.get(), list of authors is empty')
+   }
+   return result;
 }
 
 export async function getAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {

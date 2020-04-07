@@ -54,7 +54,7 @@ export class Init {
         let result = await authorModel.find();
         if (result.length == 0) {
             const author: authorModel = new Authors({
-                name: ' Terry Pratchett'
+                name: 'Terry Pratchett'
             })
             author.save();
             return author;
@@ -73,7 +73,7 @@ export class Init {
                 cover_image: 'http/:',
                 type: PrintingEditionType.Book,
                 price: 25,
-                currency: 'USD',
+                // currency: 'USD',
                 author_ids: '5e3d1c71c818e21204ac2b8b'
             })          
             printingEdition.save();

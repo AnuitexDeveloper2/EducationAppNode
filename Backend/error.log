@@ -898,3 +898,13 @@
   level: 'error',
   timestamp: '2020-03-17T13:44:51.222Z'
 }
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "searchString" exists in instance when not allowed,instance additionalProperty "sortType" exists in instance when not allowed,instance additionalProperty "pageNumber" exists in instance when not allowed,instance additionalProperty "pageSize" exists in instance when not allowed,instance additionalProperty "sortTable" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-04-06T18:09:45.316Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-04-06T18:09:51.585Z'
+}

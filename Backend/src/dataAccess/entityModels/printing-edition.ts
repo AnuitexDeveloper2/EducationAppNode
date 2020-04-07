@@ -2,6 +2,7 @@ import mongoose, {model} from 'mongoose';
 import { PrintingEdition } from '../../features/printing-editions/api';
 import { PrintingEditionType } from '../../features/shared/enums/printingEditionType';
 import mongoosePaginate from 'mongoose-paginate'
+import { Currency } from '../../features/shared/enums/currency';
 
 const schema = mongoose.Schema;
 
@@ -12,7 +13,7 @@ export const printingEditionSchema = new schema({
     removed_at: { type: Boolean, default: false },
     type: { type: PrintingEditionType, required: true },
     price: { type: Number, required: true },
-    currency: { type: String, default: 'USD' },
+    currency: { type: Currency, default: Currency[0] },
     author_ids: [{ type: mongoose.Schema.Types.ObjectId,ref: 'Author',required: true }]
 });
 

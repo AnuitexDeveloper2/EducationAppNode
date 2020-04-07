@@ -4,7 +4,7 @@ import { RouteComponentProps } from 'react-router-dom';
 import "./CSS/register.scss";
 import { Modal, ButtonToolbar, Button } from 'react-bootstrap';
 import close from "../../assets/close.svg";
-import  * as authService  from "../../services/authService";
+import  * as authService  from "../../services/auth";
 import anonymus from "../../assets/anonymus.png";
 import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 

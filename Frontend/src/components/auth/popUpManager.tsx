@@ -4,7 +4,6 @@ import  SignIn  from "../../containers/signIn/signInContainers";
 import  Register  from "../../containers/register/registerConteiner";
 
 const PopUpManager: React.FC<any>= ({popupState}) => {
-debugger
     if (popupState.popUpmanager.showLogIn) {
         
         return(
@@ -26,8 +25,6 @@ debugger
 }
 
 const mapStateToProps = (state:any) => {
-
-    debugger
     return {
           popupState: state
         }

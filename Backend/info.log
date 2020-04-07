@@ -7773,3 +7773,973 @@
   level: 'error',
   timestamp: '2020-03-17T13:44:51.222Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-03T09:06:39.127Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-03T09:13:11.304Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-03T14:51:54.056Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-03T15:45:01.026Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T11:36:00.933Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T11:38:28.906Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:00:21.195Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:14:19.702Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:14:37.095Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:46:28.906Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:46:39.717Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:47:46.987Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:47:50.221Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:49:50.232Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:52:01.319Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:52:04.514Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T12:52:46.418Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:53:18.510Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:53:52.934Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:56:03.181Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:56:58.711Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:59:41.074Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T12:59:44.513Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:00:10.421Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:00:12.377Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:00:29.027Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:00:32.910Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:00:49.347Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:01:35.744Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:01:50.081Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T13:03:50.086Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:24:49.170Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:25:26.042Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:27:04.019Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:32:39.235Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:33:20.048Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:36:50.137Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:37:13.228Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:37:19.831Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:38:09.861Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:44:35.513Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:44:58.169Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:45:18.719Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:45:46.769Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:48:57.602Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:50:00.427Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:50:22.548Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:56:59.370Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T14:58:03.274Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:00:37.196Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:01:14.114Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:05:13.341Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:07:23.313Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:08:26.369Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:09:00.680Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T15:09:59.043Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:21:27.258Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:30:53.687Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:31:49.152Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:31:51.111Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:33:42.371Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:35:08.176Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:40:09.570Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:49:26.454Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T16:51:15.534Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:51:37.546Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:51:39.987Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T16:52:05.197Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T17:20:53.663Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T17:22:59.058Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {}',
+  level: 'info',
+  timestamp: '2020-04-06T17:23:02.160Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T17:23:54.453Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T17:35:33.986Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:01:01.516Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:01:14.619Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:03:06.865Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:03:08.774Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:03:30.956Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:03:37.937Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:04:03.489Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:04:06.907Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:06:03.523Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:06:06.615Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:06:40.382Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:06:43.421Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:07:56.794Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:08:02.406Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:08:07.223Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:08:18.676Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"sortTable":""}',
+  level: 'info',
+  timestamp: '2020-04-06T18:09:45.302Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance additionalProperty "searchString" exists in instance when not allowed,instance additionalProperty "sortType" exists in instance when not allowed,instance additionalProperty "pageNumber" exists in instance when not allowed,instance additionalProperty "pageSize" exists in instance when not allowed,instance additionalProperty "sortTable" exists in instance when not allowed,instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-04-06T18:09:45.316Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {}',
+  level: 'info',
+  timestamp: '2020-04-06T18:09:51.580Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-04-06T18:09:51.585Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T18:11:03.452Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:11:09.673Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:14:59.069Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:15:54.091Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:26:03.995Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:27:53.258Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:50:25.536Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:54:53.722Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:55:48.105Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T18:58:26.563Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:00:11.392Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:10:52.560Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:12:30.103Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:14:34.541Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:15:18.786Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:15:36.473Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:16:19.699Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:16:54.918Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:18:21.673Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:18:53.708Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:19:28.585Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:20:29.171Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:22:28.617Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:23:19.099Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:26:28.575Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-06T19:26:49.500Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-06T19:50:01.144Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-07T07:38:07.258Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:41:41.407Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:41:59.715Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:42:26.788Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:43:33.694Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:43:48.843Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:44:35.861Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:44:39.694Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:44:45.904Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:44:49.541Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:45:02.750Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:45:06.503Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:48:30.814Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:49:42.641Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:52:30.808Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:54:34.454Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T07:58:06.943Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:01:10.985Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:06:03.024Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:06:33.296Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:06:36.598Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:08:03.792Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:16:01.136Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:26:59.537Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-07T08:28:42.958Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:32:48.401Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:34:04.261Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"dispatchConfig":null,"_targetInst":null,"_dispatchListeners":null,"_dispatchInstances":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null}',
+  level: 'info',
+  timestamp: '2020-04-07T08:35:00.514Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"price":"31","discription":"dafdasfadfd","title":"adfadf"}',
+  level: 'info',
+  timestamp: '2020-04-07T08:35:53.242Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:38:21.849Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"dispatchConfig":null,"_targetInst":null,"_dispatchListeners":null,"_dispatchInstances":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null}',
+  level: 'info',
+  timestamp: '2020-04-07T08:39:14.103Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"discription":"ascasc","price":"24","category":"EUR","title":"ascasc"}',
+  level: 'info',
+  timestamp: '2020-04-07T08:39:14.116Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:44:16.492Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"54","category":"Newspaper","discription":"fsdfsd","title":"dsfds"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:46:08.235Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"54","category":"Newspaper","discription":"fsdfsd","title":"dsfds"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:47:48.248Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:48:44.276Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"234","discription":"asrgrg","title":"asfgfdasg"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:49:02.324Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:50:40.518Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"zxcvzxv","discription":"dvsd","price":"234"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:51:10.355Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"zxcvzxv","discription":"dvsd","price":"234"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:51:20.636Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T08:51:36.993Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"23452","category":"GBP","discription":"afaf","title":"vdv"}}',
+  level: 'info',
+  timestamp: '2020-04-07T08:52:27.095Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:01:19.626Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"76","category":"GBP","discription":"dssdsdg","title":"sdgsdg"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:03:10.246Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:03:12.759Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"dvsddv","discription":"dvs","price":"324"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:04:38.913Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"dvsddv","discription":"dvs","price":"324","currency":"CHF","category":"Newspaper"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:05:13.928Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:05:17.578Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"discription":"asf","title":"asf"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:12:14.160Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:12:17.054Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:13:51.387Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"authors":" ","title":"sdgsdgg","discription":"sdg"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:13:56.909Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"authors":" ","title":"sdgsdgg","discription":"sdg"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:13:57.259Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"authors":" ","title":"sdgsdgg","discription":"sdgzxv"}}',
+  level: 'info',
+  timestamp: '2020-04-07T09:17:41.509Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:17:44.629Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:50:24.326Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:52:23.152Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T09:53:21.512Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-07T10:37:41.445Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T10:53:46.562Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T10:54:18.332Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T10:54:27.393Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-07T14:33:50.133Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:04:59.402Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-07T15:06:57.549Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:07:32.156Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-07T15:11:39.337Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:12:29.020Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:15:41.204Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:17:08.547Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:17:19.036Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:17:34.416Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:21:49.779Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-07T15:21:49.790Z'
+}

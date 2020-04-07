@@ -1,4 +1,4 @@
-.modalWindow{
+.modalWindow {
     position: absolute;
     width: 1619px;
     height: 1148px;
@@ -7,7 +7,7 @@
     background: rgba(26, 27, 27, 0.6);
     }
     
-    .modalContent {
+.modalContent {
     margin-top: 130px;
     margin-left: 232px;
     margin-right: 720;
@@ -21,21 +21,20 @@
     background: #3F3F3F;
     }
     
-    .inputLabel{
+.inputLabel{
         color: black
     }
     
-    .modalHeader {
-        width: 754px;
-    height: 48px;
-        background: #5D5C5C;
+.modalHeader {
+    height: 30px;
+    background: #5D5C5C;
     }
     
-    .close {
-        text-align: right;
+.close {
+    text-align: right;
     }
     
-    .userImg {
+.userImg {
     position: absolute;
     left: 45.79%;
     right: 50.33%;
@@ -45,28 +44,24 @@
     }
     
     .LogIn {
-        position: absolute;
+    position: absolute;
     left: 23.96%;
     right: 68.13%;
     top: 23.19%;
     bottom: 70.14%;
-    
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 43px;
-    /* or 179% */
-    
     display: flex;
     align-items: center;
     text-align: center;
     text-transform: capitalize;
-    
     color: #FF6825;
     }
     
-    .emailLabel{
+.emailLabel{
     position: absolute;
     left: 23.96%;
     right: 55.6%;
@@ -82,65 +77,65 @@
     opacity: 0.8;
     }
     
-    .emailForm {
-        position: absolute;
-        left: 23.96%;
-        right: 15.38%;
-        top: 36.45%;
-        bottom: 56.07%;
-        height: 30px;
-        width: 400px;
-        color: black;
-        background: #e9e4e4;
-        opacity: 0.3;
-    }
+.emailForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 36.45%;
+    bottom: 56.07%;
+    height: 30px;
+     width: 400px;
+    color: black;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
     
-    .passwordLabel {
-        position: absolute;
-        left: 23.96%;
-        right: 55.6%;
-        top: 45.64%;
-        bottom: 51.25%;
-        font-family: Oswald;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 55px;
-        color: #FFFFFF;
-        opacity: 0.8;
-    }
+.passwordLabel {
+    position: absolute;
+    left: 23.96%;
+    right: 55.6%;
+    top: 45.64%;
+    bottom: 51.25%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
     
-    .passworForm {
-        position: absolute;
-        left: 23.96%;
-        right: 15.38%;
-        top: 50%;
-        height: 30px;
-        width: 400px;
-        bottom: 42.52%;
-        background: #e9e4e4;
-        opacity: 0.3;
-    }
-    
-    .submit {
-        position: absolute;
-        left: 70.44%;
-        right: 15.27%;
-        top: 61.59%;
-        bottom: 31.74%;
-        font-family: Oswald;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 43px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: capitalize;
-        color: #FFFFFF;
-        background-color: #FF6825;
-    }
-    
+.passworForm {
+    position: absolute;
+    left: 23.96%;
+    right: 15.38%;
+    top: 50%;
+    height: 30px;
+    width: 400px;
+    bottom: 42.52%;
+    background: #e9e4e4;
+    opacity: 0.3;
+}
+
+.submit {
+    position: absolute;
+    left: 70.44%;
+    right: 15.27%;
+    top: 61.59%;
+    bottom: 31.74%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF6825;
+}
+
     .checkbox {
         position: absolute;
         left: 23.96%;

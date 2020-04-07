@@ -6,7 +6,6 @@ const initialState: PopUpState = {
 }
 
 export function popUpReducer (state: PopUpState= initialState, action: any) {
-    debugger;
     switch (action.type) {
         case "SHOW_LOGIN":
             return {...state,showLogIn: true}

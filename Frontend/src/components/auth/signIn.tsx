@@ -1,13 +1,10 @@
-import * as Auth from "../../services/authService";
-import React, { useState } from "react";
+import * as Auth from "../../services/auth";
+import React from "react";
 import { Form, Field } from "react-final-form";
-import { Modal, Button, ButtonToolbar } from "react-bootstrap";
+import { Button, ButtonToolbar } from "react-bootstrap";
 import './CSS/signIn.scss'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
-import Register from "../../containers/register/registerConteiner"
-import { Redirect } from "react-router-dom";
-import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 import { PopUpState } from "../../redux/popUp/types";
 
 export interface LoginState {
@@ -37,15 +34,10 @@ export interface LoginState {
     }
    
     onSubmitLogIn = async (value: any) => {
-        debugger;
+      debugger
       const result = await Auth.signIn(value)
-      console.log()
       const token = result.AccessToken;
       localStorage.setItem('AccessToken', token)}
-
-    onSubmitRegister = async (value: any) => {
-      await Auth.register(value)
-    }
 
     onFacebookLogin = async () => {
         Auth.moveFacebook();
@@ -103,15 +95,15 @@ export interface LoginState {
                               New to Book Publishing Company?
                          </div>
                          <div className="form-group col-md-6">
-                             <ButtonToolbar >
+                           <ButtonToolbar >
                              <div >
-                <Button  className="signUpButton" variant="primary" onClick={this.showRegister.bind(this)} > 
-                <div className="sign_up_button_name">
-                    SignUp
-                </div>
-                </Button>
-            </div>
-                         </ButtonToolbar>
+                               <Button  className="signUpButton" variant="primary" onClick={this.showRegister.bind(this)} > 
+                                <div className="sign_up_button_name">
+                                    SignUp
+                               </div>
+                              </Button>
+                            </div>
+                            </ButtonToolbar>
                          </div>
                      </div>
                          </form>

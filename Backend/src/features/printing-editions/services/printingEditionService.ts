@@ -10,6 +10,7 @@ import logger from "../../utils/logger";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<any> {
+    console.log(111111111)
      const validateResult = validateWithJsonSchema(printingEditionValidateSchema,validateWithJsonSchema);
      logger.info(`>>>> printingEditionService.create(), with: printingEditionParam = ${JSON.stringify(printingEditionParam)}`);
 
