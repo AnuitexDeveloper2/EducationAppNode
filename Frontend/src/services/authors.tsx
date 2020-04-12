@@ -8,7 +8,23 @@ export async function getAuthors(): Promise<Array<AuthorModel>> {
 }
 
 export async function getAuthorsForAdmin(filter:BaseFilter) {
-    debugger
-    const result = await axios.post('http://localhost:8000/admin/author',filter)
+    const result = await axios.post('http://localhost:8000/admin/author',filter);
     return result.data;
+}
+
+export async function createAuthor(name: string) {
+    const author ={name: name}
+    const result = await axios.post('http://localhost:8000/admin/author/create',author);
+    return result.data;
+}
+
+export async function editAuthor(author: AuthorModel) {
+    const result = await axios.post('http://localhost:8000/admin/author/update',author);
+    return result.data
+}
+
+export async function removeAuthor(author: AuthorModel) {
+    const _id = author._id
+    debugger
+    const result = await axios.post(`http://localhost:8000/admin/author/delete`,{_id})
 }

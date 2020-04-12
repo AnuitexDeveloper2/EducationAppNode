@@ -73,9 +73,8 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     let tableSort: any = {'title': filter.sortType};
    
     if (filter.searchString !=null) {
-        query = printingEditionModel.find().find({ title: { $regex: new RegExp( filter.searchString,'i')} })
+        query = printingEditionModel.find().find({$and:[{ title: { $regex: new RegExp( filter.searchString,'i')} },{removed_at:false}]})
     }
-
     
     if(filter.sortType == 0) {
         tableSort = {'_id': filter.sortType};

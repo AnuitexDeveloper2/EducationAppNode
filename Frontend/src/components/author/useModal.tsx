@@ -1,11 +1,29 @@
 import { useState } from 'react';
 
 const useModal = () => {
-  debugger
-  const [isShowing, setIsShowing] = useState(false);
+  const [isShowing, setIsShowing] = useState(
+    {
+      create: false,
+      open: false
+    }
+  );
 
-  function toggle() {
-    setIsShowing(!isShowing);
+  function toggle(toggle) {
+    if (toggle=="edit") {
+      setIsShowing({
+        create:!isShowing.create,
+        open: false
+      });
+    }
+
+    if (toggle=="remove") {
+      setIsShowing({
+        create: false,
+        open: !isShowing.open
+      });
+    }
+
+    
   }
 
   return {

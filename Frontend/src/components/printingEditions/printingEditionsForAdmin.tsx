@@ -11,6 +11,7 @@ import edit from "../../assets/iconmonstr-pencil-8.svg"
 import remove from "../../assets/remove.svg";
 import { PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { Create } from "./create";
+import { PrintingEditionColumns } from "../../shared/constants/columns";
 
 export interface PrintingEditionProps {
   loadingBooks: (printingEdition: any) => object,
@@ -54,46 +55,7 @@ export class PrintingEditionsForAdmin extends React.Component<PrintingEditionPro
     }
 
          render(){
-          const columns = [
-            {
-              Header:"Title",
-              accessor: "title"
-            },
-            {
-             Header:"Description",
-             accessor: "description"
-            },
-            {
-             Header:"Category",
-             accessor: "type"
-            },
-            {
-             Header: 'Authors',
-             id:'author_ids',
-             accessor: (data: PrintingEditionModel) => {
-               return(
-                 <>
-                 {data.author_ids.map((author: any,i) =><div key={i}> {author.name} </div>)}
-               </>
-               )
-             },
-           },
-            
-            {
-             Header:"Price",
-             accessor: "price"
-            },
-            {
-             Header:"Edit",
-             Cell: props => {
-               return(
-               <div>
-             <img src={edit} className='img__button' title="Edit Product">{props.value}</img>
-             <img src={remove} className="img__button" title="Remove Product" ></img>
-               </div>)
-           }
-            }
-          ]
+          const columns = PrintingEditionColumns
        if (!this.state.isLoading) {
          return(
            <div className="loading-data">

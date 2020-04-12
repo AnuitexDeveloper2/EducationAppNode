@@ -9,7 +9,6 @@ export async function getPrintingEdition(filter: PrintingEditionFilterModel): Pr
 }
 
 export async function createPrintingEdition(printingEdition: PrintingEditionModel) {
-   debugger
    const result = await axios.post('http://localhost:8000/admin/printing-edition/create',printingEdition);
    return result.data
 }

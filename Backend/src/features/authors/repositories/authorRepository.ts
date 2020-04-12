@@ -5,7 +5,6 @@ import { BaseResponse } from "../../shared/db-models/BaseResponse";
 
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
     const result = await authorModel.create(authorParam);
-    console.log(result);
    
     if (result == null) {
         return false;
@@ -36,7 +35,7 @@ export async function removeAsync(id: string): Promise<boolean> {
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
-   
+    console.log(result)
     if (result.nModified == 0) {
         return false
     }

@@ -7,8 +7,8 @@ export interface PrintingEditionResoponseModel {
 }
 
 export interface AuthorModel {
-    id: string;
-    name: string
+    _id: String;
+    name: String
     product_ids: Array<string>
 }
 

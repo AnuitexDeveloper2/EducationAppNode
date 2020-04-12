@@ -29,8 +29,9 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
 }
 
 export async function removeAsync(id: string): Promise<any> {
+   console.log(id)
    const validateResult = validateWithJsonSchema(id,idValidateSchema)
-   logger.info(`>>>> authorService.create(), with: Id = ${JSON.stringify(id)}`)
+   logger.info(`>>>> authorService.remove(), with: Id = ${JSON.stringify(id)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.remove(), invalid data = ${validateResult.errors}`)
@@ -48,6 +49,7 @@ export async function removeAsync(id: string): Promise<any> {
 }
 
 export async function updateAsync(authorParam: authorModel): Promise<any> {
+   console.log(authorParam)
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    logger.info(`>>>> authorService.update(), with: author = ${JSON.stringify(authorParam)}`)
 
@@ -62,7 +64,7 @@ export async function updateAsync(authorParam: authorModel): Promise<any> {
       logger.error(`>>>> authorService.update(), result = ${result}`)
       return "aurhor did not update"
    }
-   return result;
+   return "Ok";
 }
 
 export async function getAsync() : Promise<Array<authorModel>> {

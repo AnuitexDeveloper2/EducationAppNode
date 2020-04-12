@@ -50,7 +50,7 @@ export interface LoginState {
           debugger
           return (
             
-            <div className="modalWindow">
+     <div className="modalWindow">
         <div className="modalContent">
            <div className="modalHeader">
               <div className="close">

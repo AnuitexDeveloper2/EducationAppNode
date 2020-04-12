@@ -9,7 +9,7 @@ export const authorRouter = Router();
 //authorRouter.use(checkPermission(Role.Admin))
 
 authorRouter.post('/create', createAsync);
-authorRouter.delete('/:id', removeAsync);
+authorRouter.post('/delete', removeAsync);
 authorRouter.post('/update', updateAsync);
 authorRouter.post('/', getAuthorsAsync);
 authorRouter.post('/get', getAsync)

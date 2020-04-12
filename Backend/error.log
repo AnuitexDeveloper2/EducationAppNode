@@ -908,3 +908,158 @@
   level: 'error',
   timestamp: '2020-04-06T18:09:51.585Z'
 }
+{
+  message: '>>>> authorService.create(), invalid data = instance.product_ids is not of a type(s) string,instance additionalProperty "id" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-04-08T09:03:14.471Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.product_ids is not of a type(s) string,instance additionalProperty "id" exists in instance when not allowed',
+  level: 'error',
+  timestamp: '2020-04-08T12:15:32.205Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.product_ids is not of a type(s) string',
+  level: 'error',
+  timestamp: '2020-04-08T12:17:10.745Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.product_ids is not of a type(s) array',
+  level: 'error',
+  timestamp: '2020-04-08T12:18:48.364Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:30:51.506Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:33:45.822Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:35:10.847Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:35:29.766Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:35:35.692Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T12:40:44.057Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance.name does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-08T17:02:12.228Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-04-09T19:08:04.950Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-04-09T19:18:52.842Z'
+}
+{
+  message: '>>>> authorService.update(), result = false',
+  level: 'error',
+  timestamp: '2020-04-09T19:21:44.179Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance._id is not of a type(s) string',
+  level: 'error',
+  timestamp: '2020-04-10T14:12:52.224Z'
+}
+{
+  message: '>>>> authorService.create(), invalid data = instance requires property "name"',
+  level: 'error',
+  timestamp: '2020-04-10T14:38:25.289Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T17:46:33.685Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T17:48:16.809Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T17:51:24.876Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T17:52:06.032Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:00:43.155Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:11:05.214Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:12:16.013Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:12:52.275Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:13:45.928Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:16:52.995Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:17:40.652Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:17:49.287Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:18:14.942Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance additionalProperty "5e9085496cf4b00f7c9aad5f" exists in instance when not allowed,instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:19:52.201Z'
+}
+{
+  message: '>>>> authorService.remove(), invalid data = instance additionalProperty "data" exists in instance when not allowed,instance requires property "_id"',
+  level: 'error',
+  timestamp: '2020-04-10T18:20:36.983Z'
+}

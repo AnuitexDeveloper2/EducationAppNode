@@ -21,3 +21,21 @@
     width: 500px;
     height: 350px;
 }
+
+.create-author-input {
+    position: absolute;
+    left: 23.88%;
+    right: 36.88%;
+    top: 50.66%;
+    bottom: 45.09%;
+    background: black;
+    opacity: 0.3;
+    width: 300px;
+    height: 20px;
+    color: white;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }

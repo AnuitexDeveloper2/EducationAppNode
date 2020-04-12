@@ -26,7 +26,15 @@
     align-items:stretch;
     width:100%;
     border-collapse:collapse;
-    overflow:auto}
+    overflow:auto;
+    text-align: center;
+    
+}
+.rt-table:nth-of-type(odd) {
+    background-color: rgb(236, 228, 228);
+}
+
+ 
 
 .ReactTable .rt-thead {
     -webkit-box-flex:1;
@@ -43,6 +51,7 @@
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
+    background: #4E4E4E;
 }
 
 .ReactTable .rt-thead.-headerGroups {
