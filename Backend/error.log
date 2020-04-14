@@ -1063,3 +1063,48 @@
   level: 'error',
   timestamp: '2020-04-10T18:20:36.983Z'
 }
+{
+  message: '>>>> authorService.create(), result = false',
+  level: 'error',
+  timestamp: '2020-04-14T17:08:02.601Z'
+}
+{
+  message: '>>>> authorService.create(), result = false',
+  level: 'error',
+  timestamp: '2020-04-14T17:08:42.676Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:13:10.618Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number,instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:14:59.569Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:17:35.479Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:21:23.380Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:23:34.269Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number',
+  level: 'error',
+  timestamp: '2020-04-14T19:46:40.581Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number',
+  level: 'error',
+  timestamp: '2020-04-14T19:50:08.558Z'
+}

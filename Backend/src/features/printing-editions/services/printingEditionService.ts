@@ -10,7 +10,7 @@ import logger from "../../utils/logger";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<any> {
-    console.log(111111111)
+    console.log(printingEditionParam)
      const validateResult = validateWithJsonSchema(printingEditionValidateSchema,validateWithJsonSchema);
      logger.info(`>>>> printingEditionService.create(), with: printingEditionParam = ${JSON.stringify(printingEditionParam)}`);
 
@@ -37,7 +37,7 @@ export async function removeAsync(id: string): Promise<any> {
         logger.error(`>>>> printingEditionService.remove(), invalid data = ${validateResult.errors}`);
         return {message: "id parameters is not valide" , error: validateResult.errors};
     }
-
+    
     const result = await repository.removeAsync(id);
     
     if (!result) {

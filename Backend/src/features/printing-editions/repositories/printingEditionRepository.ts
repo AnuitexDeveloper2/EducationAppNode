@@ -8,7 +8,6 @@ import { isNull } from "util";
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
     const result = await printingEditionModel.create(printingEditionParam);
-    
     if (result == null) {
         return false;
     }
@@ -23,7 +22,6 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
 export async function removeAsync(id: string): Promise<boolean> {
     let model = new printingEditionModel();
     const printingEdition =  printingEditionModel.findById(id);
-
     if ( printingEdition == null) {
         return false;
     }
@@ -40,11 +38,11 @@ export async function removeAsync(id: string): Promise<boolean> {
 
 export async function updateAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
     const printingEdition = printingEditionModel.findById(printingEditionParam._id);
-    
+    console.log((await printingEdition).author_ids)
     for (let index = 0; index <(await printingEdition).author_ids.length; index++) {
         authorRepository.removeProductAsync( (await printingEdition).author_ids[index],(await printingEdition)._id)
     }
-    
+    console.log(1111111111)
     for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
         authorRepository.addProductAsync(printingEditionParam.author_ids[index],(await printingEdition)._id);
         

@@ -24,6 +24,7 @@ export const AuthorColumns = [
         Cell: props => {
             return(
             <div>
+              
           <img src={edit} className='img__button' title="Edit Author">{props.value}</img>
           <img src={remove} className="img__button" title="Remove Author" ></img>
             </div>)
@@ -42,7 +43,7 @@ export const PrintingEditionColumns = [
       },
       {
        Header:"Category",
-       accessor: "type"
+       accessor: "productType"
       },
       {
        Header: 'Authors',

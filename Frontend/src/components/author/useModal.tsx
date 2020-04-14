@@ -4,26 +4,23 @@ const useModal = () => {
   const [isShowing, setIsShowing] = useState(
     {
       create: false,
-      open: false
+      delete: false,
+      createProduct:false
     }
   );
 
   function toggle(toggle) {
-    if (toggle=="edit") {
-      setIsShowing({
-        create:!isShowing.create,
-        open: false
-      });
+    switch (toggle) {
+      case "createAuthor":
+        setIsShowing({create:!isShowing.create,delete: false,createProduct:false});
+        break;
+      case "remove":
+        setIsShowing({create: false,delete: !isShowing.delete,createProduct: false});
+        break
+      case "createProduct":
+        setIsShowing({create: false,delete: false,createProduct: !isShowing.createProduct});
+        break;
     }
-
-    if (toggle=="remove") {
-      setIsShowing({
-        create: false,
-        open: !isShowing.open
-      });
-    }
-
-    
   }
 
   return {

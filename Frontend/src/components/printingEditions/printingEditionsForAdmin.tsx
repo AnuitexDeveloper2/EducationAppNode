@@ -1,92 +1,163 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import  ReactTable  from "react-table-v6";
 import './SCSS/book.css';
 import '../../shared/css/table.css'
 import * as PrintingEditionService from "../../services/printingEdition";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
-import { PrintingEditionState } from "../../redux/printingEdition/types";
 import add from "../../assets/add-button-inside-black-circle.svg";
 import edit from "../../assets/iconmonstr-pencil-8.svg"
 import remove from "../../assets/remove.svg";
 import { PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
-import { Create } from "./create";
+import  CreateEditProduct  from "./create-edit";
 import { PrintingEditionColumns } from "../../shared/constants/columns";
+import SearchBar from "../searchBar/search";
+import  spinner  from "../../assets/spinner.gif";
+import useModal from "../author/useModal";
+import LastColumn from "../deleteEdit.tsx/lastColumn";
 
-export interface PrintingEditionProps {
-  loadingBooks: (printingEdition: any) => object,
-  isLoading: boolean,
-  data: any,
-  count: number
-}
+// export interface PrintingEditionProps {
+//   loadingBooks: (printingEdition: any) => object,
+//   isLoading: boolean,
+//   data: any,
+//   count: number
+// }
 
-export class PrintingEditionsForAdmin extends React.Component<PrintingEditionProps,PrintingEditionState> {
+// const {isShowing, toggle} = useModal();
+
+const PrintingEditionForAdmin =() =>{
  
-    state: PrintingEditionState = {
+  const [state,setState] = useState({
       count: 0,
-      data: [],
+      data: null,
       isLoading: false,
-      showCreate: false
+      showCreate: false,
+      
+  })
+
+  const [product,setProduct] = useState({product:{}})
+  useEffect(() => {
+    getData(0)},[])
+    
+    const hide =() => {
+      toggle("createProduct")
+    }
+    const {isShowing, toggle} = useModal();
+    const getData = async (pageNumber) => {
+      const filter: PrintingEditionFilterModel ={
+        searchString: '',
+        sortType: SortType.None,
+        pageNumber: 1,
+        pageSize: 10,
+        sortTable: ''
+      }
+      const printingEdition = await PrintingEditionService.getPrintingEdition(filter)
+      debugger
+      setState({data: printingEdition.data,count:1,isLoading:true,showCreate:false})
     }
 
-    filter: PrintingEditionFilterModel ={
-      searchString: '',
-      sortType: SortType.None,
-      pageNumber: 1,
-      pageSize: 10,
-      sortTable: ''
-    }
-
-    getData = async () => {
-      const printingEdition = await PrintingEditionService.getPrintingEdition(this.filter)
-      // const { loadingBooks } = this.props;
-      // loadingBooks({printingEdition});
-      this.setState({
-        data:printingEdition.data,
-        isLoading:true
+    const passData = (currentProduct) => {
+      setProduct({
+        product:currentProduct
       })
-      return printingEdition.data
-    }
-
-    create() {
-      this.setState({
-        showCreate: !this.state.showCreate
+  }
+    
+    const create = () => {
+      setState({
+        showCreate: true,
+        isLoading:true,
+        data: state.data,
+        count: state.count
       });
     }
-
-         render(){
-          const columns = PrintingEditionColumns
-       if (!this.state.isLoading) {
-         return(
-           <div className="loading-data">
+    
+      const columns = [
+        {
+            Header:"Title",
+            accessor: "title"
+          },
+          {
+           Header:"Description",
+           accessor: "description"
+          },
+          {
+           Header:"Category",
+           accessor: "productType"
+          },
+          {
+           Header: 'Authors',
+           id:'author_ids',
+           accessor: (data: PrintingEditionModel) => {
+             return(
+               <>
+               {data.author_ids.map((author: any,i) =><div key={i}> {author.name} </div>)}
+             </>
+             )
+           },
+         },
+          
+          {
+           Header:"Price",
+           accessor: "price"
+          },
+          {
+           Header:"Edit",
+           Cell: props => {
+             return(
+             <div>
+               <LastColumn value = {product} assigment="product"/>
+             </div>)
+         }
+          }
+    ]
+      if (!state.isLoading) {
+        return(
+          <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">
-             <span className="sr-only">Loading...</span>
+             <span className="sr-only">
+               <img src={spinner}></img>
+             </span>
          </div>
          </div>
            )
-       }
-       return(
-          <div>
+          }
+          return(
+            <div>
          <div className="App">
-       <img src={add} alt="add Book" className="add-image" onClick={this.create.bind(this)}/>
-       {this.state.showCreate ? 
-          <Create
-            text='Close Me'
-            closePopup={this.create.bind(this)}
+           <div className="author-body">
+
+         <div className="search-bar">
+            <SearchBar placeholder="Search Product" params= {setState}/>
+          </div>
+          <div className="author-create">
+
+       <img src={add} alt="add Book" className="add-image" onClick={hide}/>
+          <CreateEditProduct
+          isShowing={isShowing.createProduct} hide={hide} assigment="Add" value=""
           />
-          : null
-        }
-     </div>
+         
+        </div>
+        </div>
+     </div> <br/>
+     <div className="books-table">
+
        <ReactTable
-       className="books-table"
+       getTdProps={(rstate, rowInfo) => {
+         
+        return {
+          onClick: () => {
+            if (rowInfo !== undefined) {
+              passData(rowInfo.original)
+            }
+            }}}}
+       className="-striped -highlight"
        columns={columns}
-       data={this.state.data}
-       defaultPageSize={10}
-       />
+       data={state.data}
+      defaultPageSize={10}
+      />
+      </div>
    </div>
         )
-       }
-    async componentWillMount () {
-    this.getData()
-    }
-}
+      }
+    
+      export default PrintingEditionForAdmin

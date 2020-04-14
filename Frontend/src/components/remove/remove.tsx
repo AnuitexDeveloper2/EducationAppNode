@@ -2,13 +2,30 @@ import React from "react";
 import "./remove.css"
 import close from "../../assets/close.svg"
 import { removeAuthor } from "../../services/authors";
+import { removePrintinEdition } from "../../services/printingEdition";
 
 
 const Remove = ({isShowing, hide,assigment,value}) => {
-    debugger
-    const deleteItem = () => {
-        debugger
-            removeAuthor(value.author)
+    let item ='';
+    if (assigment==='author') {
+        item = value.author.name
+    }
+    if (assigment === 'product') {
+        item = value.product.title
+    }
+
+    const deleteItem = async() => {
+        let result;
+        if (assigment==='author') {
+             result = await removeAuthor(value.author)
+        }
+        if (assigment === 'product') {
+             result = await removePrintinEdition(value.product)
+        }
+        if (result) {
+            hide(false)
+        }
+
     }
     if (isShowing) {
     return(
@@ -24,7 +41,7 @@ const Remove = ({isShowing, hide,assigment,value}) => {
             <div className="remove-title">
             Are you sure delete 
                 <span className="value">
-                    {value.author.name}
+                    {item}
                 </span> 
             </div>
             <button  className="create-cancel-button" onClick={hide} > 
@@ -39,8 +56,6 @@ const Remove = ({isShowing, hide,assigment,value}) => {
                 </button>
         </div>
         </div>
-            
-            
             )
         }
     return(

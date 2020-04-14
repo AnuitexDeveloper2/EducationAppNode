@@ -2943,3 +2943,3198 @@
   level: 'info',
   timestamp: '2020-04-12T19:43:02.797Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-12T19:43:35.054Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-13T04:47:03.466Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T04:56:35.335Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gar","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T04:57:48.648Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:03:25.345Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:06:32.612Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:06:55.579Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:07:03.572Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:07:14.818Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:07:50.879Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:21:46.629Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Erich Maria Remarque"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:23:07.772Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:23:10.674Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Sergei Lukyanenko","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:24:12.461Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Sergei Lukyanenko"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:24:22.152Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Sergei Lukyanenko","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:24:25.666Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:24:28.487Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"William Shakespeare"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:25:46.094Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Agatha Christie"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:27:14.917Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Harold Robbins"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:27:39.703Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:36:16.870Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Sidney Sheldon"}',
+  level: 'info',
+  timestamp: '2020-04-13T05:37:12.630Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:44:25.233Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:44:56.387Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:45:11.654Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:45:24.518Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:45:41.457Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:46:11.690Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T05:46:50.892Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:17:01.121Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:18:55.353Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:19:28.444Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:19:48.616Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:19:56.277Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:20:04.854Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:20:10.873Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:20:24.545Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:21:34.329Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:22:57.822Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:23:37.361Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:25:12.263Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:30:21.014Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:30:38.306Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:30:47.417Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:31:40.857Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:12.087Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:12.094Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:16.665Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:22.112Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:27.912Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:27.918Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:33.557Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"har","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:32:40.781Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:33:39.775Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:33:39.779Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:33:45.020Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:33:47.785Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:34:20.441Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:34:20.445Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:34:53.087Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:34:53.096Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:35:41.599Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:35:41.606Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:35:45.483Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:35:52.037Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:39.631Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:40.531Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:40.536Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:53.102Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:55.204Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:36:59.677Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:01.987Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:04.264Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:26.212Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:26.221Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:33.566Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:37:39.027Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:20.822Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:20.827Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:26.800Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:29.027Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:48.446Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:49.126Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:49.694Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:50.301Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:50.528Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:51.084Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:51.317Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:51.583Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:51.819Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:52.067Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:52.309Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:52.417Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:52.617Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:52.853Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:53.103Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"Gary","pageNumber":0,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:53.298Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:58.300Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:38:58.305Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:27.596Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:27.609Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"ter","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:34.215Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:52.746Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:52.750Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"a","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:40:57.574Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:41:02.073Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:41:08.901Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"luk","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:43:01.728Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:05.644Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:05.648Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:18.950Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:22.985Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:27.949Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:28.110Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:29.300Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:48:30.270Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:49:11.550Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:49:11.556Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"de","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:50:05.574Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:50:08.351Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:50:08.358Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"re","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:50:13.051Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:51:06.513Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:51:06.519Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:52:21.403Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:52:21.410Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"co","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T06:55:16.885Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-13T13:43:01.260Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"ma","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T14:10:10.722Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"we","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T14:11:47.682Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-13T14:17:19.165Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-13T14:19:21.427Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:18:30.720Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:18:30.729Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:19:07.013Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:19:09.270Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:19:12.146Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:54:38.763Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T15:54:38.768Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-13T19:03:30.666Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T19:06:20.978Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-13T19:06:21.008Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:10:29.245Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:10:45.698Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:10:54.020Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {}',
+  level: 'info',
+  timestamp: '2020-04-13T19:10:57.464Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:11:15.891Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:21:19.890Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:26:51.049Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:26:58.444Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:27:52.308Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:27:59.615Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:28:03.803Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:39:15.527Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-13T19:39:20.371Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T08:06:00.417Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T08:42:25.841Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:45:36.703Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:45:36.712Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:46:06.814Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:46:06.820Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:46:37.659Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:46:37.664Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:47:18.083Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:47:18.097Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:48:41.478Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:48:41.484Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:49:39.538Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:49:39.544Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:55:09.114Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:55:09.121Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:55:23.609Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:55:23.619Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:56:02.211Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:56:02.216Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:57:54.007Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T09:57:54.015Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T10:01:23.321Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T10:01:23.326Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T10:02:05.837Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T10:02:05.843Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:02:23.618Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:02:31.368Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:02:48.838Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:08:36.199Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:08:46.946Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:10:40.172Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:12:05.292Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:13:23.809Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:37:24.760Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:40:51.925Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T10:42:50.178Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:07:39.399Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:07:58.173Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:08:07.913Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:08:17.197Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"price":"76467"}}',
+  level: 'info',
+  timestamp: '2020-04-14T11:08:24.634Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:10:14.024Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:10:52.130Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:11:52.944Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"ax","discription":"axax","category":"Book","price":"23","currency":"USD"},"author":"Terry Pratchett"}',
+  level: 'info',
+  timestamp: '2020-04-14T11:13:05.152Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:15:29.189Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:16:11.142Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:19:46.680Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:19:51.325Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:22:02.414Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"PrintingEdition":{"title":"sfgsfsdgf","discription":"dsg","price":"324","category":"Newspaper","currency":"EUR"},"author":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T11:37:07.305Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:37:08.077Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"scs","description":"scsc","productType":"Newspaper","author_ids":[null],"price":"23","currency":"GBP"}',
+  level: 'info',
+  timestamp: '2020-04-14T11:37:24.099Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T11:40:02.266Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:41:20.250Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"sdssds","description":"sd","productType":"Magazine","author_ids":[null],"price":"23","currency":"EUR"}',
+  level: 'info',
+  timestamp: '2020-04-14T11:41:37.336Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T11:41:43.310Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T11:42:17.920Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"sd","description":"ada","productType":"Newspaper","author_ids":[null],"price":"232"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:10:08.670Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:11:05.886Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"sc","description":"scs","author_ids":[null],"price":"23"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:11:05.997Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:11:58.222Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:17:45.615Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"sfs","description":"sdfsf","author_ids":[null],"price":"131"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:18:16.315Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"dcad","description":"adcd","productType":0,"author_ids":[null],"price":"232","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:19:33.818Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:19:36.780Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"dfg","description":"sdg","productType":0,"author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"23","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:22:45.327Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:22:48.547Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"asdasfd","description":"asf","productType":1,"author_ids":["5e8dc645dc35270c3cb6efa0"],"price":"12","currency":"GBP"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:23:16.510Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:23:44.723Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:24:00.781Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"asdasd","description":"asd","author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"2232","currency":"EUR"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:24:49.189Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"asdasd","description":"asd","productType":1,"author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"2232","currency":"EUR"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:25:07.480Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:26:56.609Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:34:33.947Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:34:53.457Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"asdf","description":"sad","productType":1,"author_ids":["5e8dc645dc35270c3cb6efa0"],"price":"34444","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:35:14.590Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:38:06.691Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:38:26.562Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:38:50.855Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:39:39.671Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:40:22.626Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"asdf","description":"sad","productType":1,"author_ids":["5e8dc645dc35270c3cb6efa0"],"price":"34444","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:40:33.342Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:40:51.473Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:41:35.464Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:42:24.394Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:42:30.557Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:42:32.585Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:43:27.380Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:44:13.862Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:44:14.408Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:45:11.598Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T12:45:59.069Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:46:20.330Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"The Times","description":"Best of Newspaper in England","productType":"Newspaper","author_ids":["5e9085496cf4b00f7c9aad5f"],"price":"2345","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T12:47:25.919Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:47:28.655Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:47:36.238Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:47:36.244Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:48:20.165Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:49:35.385Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:49:35.392Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T12:49:35.785Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:49:41.083Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T12:49:43.717Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:12:02.991Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:12:03.008Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:12:03.244Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:12:18.796Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Small Gods","description":"Lost in the chill deeps of space between the galaxies, it sails on forever, a flat, circular world carried on the back of a giant turtle-- Discworld --a land where the unexpected can be expected. Where the strangest things happen to the nicest people. Like Brutha, a simple lad who only wants to tend his melon patch. Until one day he hears the voice of a god calling his name. A small god, to be sure. But bossy as Hell.","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":"6","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:14:18.356Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:14:21.011Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:15:04.719Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:15:04.724Z'
+}
+{
+  message: `>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Men at Arms","description":"A Young Dwarf's Dream Corporal Carrot has been promoted! He's now in charge of the new recruits guarding Ankh-Morpork, Discworld's greatest city, from Barbarian Tribes, Miscellaneous Marauders, unlicensed Thieves, and such. It's a big job, particularly for an adopted dwarf. But an even bigger job awaits. An ancient document has just revealed that Ankh-Morpork, ruled for decades by Disorganized crime, has a secret sovereign!","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":"9","currency":"USD"}`,
+  level: 'info',
+  timestamp: '2020-04-14T15:16:41.039Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:16:43.662Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:16:50.041Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:16:50.045Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Night Watch","description":"hey are the \\"Others,\\" an ancient race of supernatural beings--magicians, shape-shifters, vampires, and healers--who live among us. Human born, they must choose a side to swear allegiance to--the Dark or the Light--when they come of age. For a millennium, these opponents have coexisted in an uneasy peace, enforced by defenders like the Night Watch, forces of the Light who guard against the Dark","author_ids":["5e93f7862204fb2bcccb6408"],"price":"7"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:18:19.630Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Night Watch","description":"hey are the \\"Others,\\" an ancient race of supernatural beings--magicians, shape-shifters, vampires, and healers--who live among us. Human born, they must choose a side to swear allegiance to--the Dark or the Light--when they come of age. For a millennium, these opponents have coexisted in an uneasy peace, enforced by defenders like the Night Watch, forces of the Light who guard against the Dark","author_ids":["5e93f7862204fb2bcccb6408"],"price":"7"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:18:22.118Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Night Watch","description":"hey are the \\"Others,\\" an ancient race of supernatural beings--magicians, shape-shifters, vampires, and healers--who live among us. Human born, they must choose a side to swear allegiance to--the Dark or the Light--when they come of age. For a millennium, these opponents have coexisted in an uneasy peace, enforced by defenders like the Night Watch, forces of the Light who guard against the Dark","author_ids":["5e93f7862204fb2bcccb6408"],"price":"7"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:18:55.086Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Night Watch","description":"hey are the \\"Others,\\" an ancient race of supernatural beings--magicians, shape-shifters, vampires, and healers--who live among us. Human born, they must choose a side to swear allegiance to--the Dark or the Light--when they come of age. For a millennium, these opponents have coexisted in an uneasy peace, enforced by defenders like the Night Watch, forces of the Light who guard against the Dark","productType":"Book","author_ids":["5e93f7862204fb2bcccb6408"],"price":"7"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:19:11.141Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:19:14.183Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:20:25.487Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:20:55.176Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:21:48.265Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:21:48.269Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Piranhas ","description":"No Synopsis Available","productType":"Book","author_ids":["5e93f84b2204fb2bcccb640b"],"price":"3"}',
+  level: 'info',
+  timestamp: '2020-04-14T15:23:25.613Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:23:28.132Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:02.279Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:02.284Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:02.475Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:41.081Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:41.312Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:43:41.317Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:26.981Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:27.281Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:27.285Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:36.501Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:36.822Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:46:36.826Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:57:18.470Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:57:18.474Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:59:25.321Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:59:25.327Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:59:38.382Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T15:59:38.387Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:00:18.331Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:00:18.335Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:01:47.732Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:01:47.754Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:01:55.563Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:03:01.659Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:03:01.938Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:03:01.942Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T16:06:41.469Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:17:09.978Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:17:17.789Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:17:17.798Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:20:27.550Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:20:27.557Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:20:28.088Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:21:02.918Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:21:02.924Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:00.133Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:00.138Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:27.051Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:27.059Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:43.584Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:24:43.592Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:25:03.147Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:25:03.151Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:25:29.677Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:25:29.682Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:25:30.292Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:26:56.175Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:26:56.185Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:26:56.646Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:24.854Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:24.859Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:25.338Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:45.616Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:45.623Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:29:46.151Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:30:15.109Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:30:15.113Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:30:15.633Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:30:19.502Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:20.109Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:20.114Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:33.779Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:34.358Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:34.361Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:45.945Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:46.508Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:31:46.513Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:32:27.934Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:33:23.047Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:33:23.052Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:35:05.131Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:35:05.137Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:35:49.429Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:35:49.440Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:36:47.177Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:46:54.971Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:48:04.118Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:49:07.990Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:49:07.994Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:16.317Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:16.322Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:17.188Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:33.774Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:50.415Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:50:50.421Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T16:55:45.141Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:55:45.430Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T16:55:45.436Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T16:57:06.512Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T16:59:03.421Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:02:11.943Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:02:11.987Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:02:12.584Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"5e95b0dda86b2d2a8885b79b":""}',
+  level: 'info',
+  timestamp: '2020-04-14T17:02:56.202Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:04:01.231Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"5e95b0dda86b2d2a8885b79b":""}',
+  level: 'info',
+  timestamp: '2020-04-14T17:04:02.976Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:07:34.147Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:07:34.301Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:07:34.992Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:07:40.048Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:08:02.593Z'
+}
+{
+  message: '>>>> authorService.create(), result = false',
+  level: 'error',
+  timestamp: '2020-04-14T17:08:02.601Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:08:42.669Z'
+}
+{
+  message: '>>>> authorService.create(), result = false',
+  level: 'error',
+  timestamp: '2020-04-14T17:08:42.676Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:09:19.198Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:09:19.206Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:09:27.697Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:06.239Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:06.248Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:06.852Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:12.083Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:12.089Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:12.739Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:37.269Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:37.275Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:37.733Z'
+}
+{
+  message: '>>>> authorService.remove(), with: Id = {"_id":"5e8dc209dc35270c3cb6ef9d"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:41.667Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:43.241Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:10:43.246Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:08.313Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:08.318Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"5e95b0dda86b2d2a8885b79b":""}',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:19.660Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:26.885Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:54.533Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:54.539Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:11:58.125Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"5e95b0dda86b2d2a8885b79b":""}',
+  level: 'info',
+  timestamp: '2020-04-14T17:12:16.263Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:14:31.344Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:14:31.348Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:14:57.866Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:14:57.871Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:15:09.419Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:15:09.423Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:15:14.264Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"5e95b0dda86b2d2a8885b79b":""}',
+  level: 'info',
+  timestamp: '2020-04-14T17:16:27.476Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:16:28.130Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:16:39.566Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:33:32.299Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:34:06.586Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:37:21.634Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:38:08.893Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:38:19.937Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:39:05.069Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:39:09.671Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:40:02.572Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:40:18.679Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:40:59.873Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:41:22.709Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:41:50.592Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:42:00.901Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:43:03.702Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:43:43.004Z'
+}
+{
+  message: '>>>> printingEditionService.remove(), with: printingEdition id = {"_id":"5e95b0dda86b2d2a8885b79b"}',
+  level: 'info',
+  timestamp: '2020-04-14T17:43:49.949Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:44:02.255Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T17:44:45.339Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:45:10.721Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:45:16.408Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:45:16.415Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:48:48.851Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:48:48.860Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:48:59.847Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T17:48:59.854Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T17:49:10.112Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:05:39.983Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:05:39.988Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:44:36.939Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:44:53.720Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:44:58.929Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:44:58.934Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:46:05.228Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:46:05.491Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:46:05.495Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:46:11.160Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:46:11.166Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:47:12.016Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:47:15.023Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:47:15.027Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:49:35.479Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:53:28.080Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:53:28.694Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:53:28.702Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:14.265Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:14.458Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:14.461Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:32.547Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:32.985Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:32.989Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:54:40.991Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:10.242Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:10.305Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:10.327Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:15.275Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:48.993Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:49.104Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:55:49.111Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:58:17.780Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:58:18.038Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T18:58:18.042Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T18:58:20.162Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:24.438Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:24.445Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:53.633Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:53.936Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:53.943Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:01:55.948Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:06.269Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:06.495Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:06.500Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:15.224Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:40.511Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:40.899Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:03:40.904Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:04:27.992Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:04:28.225Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:04:28.230Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:04:47.532Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:05:49.927Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:05:50.355Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:05:50.359Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:05:53.355Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:25.873Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:26.430Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:26.436Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:32.118Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:32.463Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:32.466Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:06:34.743Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:07:15.016Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:07:15.270Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:07:15.274Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:07:17.461Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:08:03.294Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:08:03.524Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:08:03.528Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:08:05.923Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:10:52.108Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:10:52.369Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:10:52.373Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:02.199Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:08.783Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:08.787Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:54.332Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:54.551Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:11:54.556Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:12:00.325Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:12:51.533Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:12:51.739Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:12:51.758Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:12:59.295Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Colour of Magic","description":"The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett","productType":"Book","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":25,"currency":"GBP"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:10.617Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:13:10.618Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:15.555Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:33.938Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:48.837Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:48.840Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:13:56.510Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Times","description":"Best of Newspaper in England","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":"23"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:14:59.566Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number,instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:14:59.569Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:25.621Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:25.871Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:25.876Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:41.057Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:41.436Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:41.439Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:16:54.692Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Colour of Magic","description":"The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett","productType":"Magazine","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":25,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:17:35.477Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:17:35.479Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:19:03.810Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Colour of Magic","description":"The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett","productType":"Magazine","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":25,"currency":"EUR"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:21:23.379Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:21:23.380Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:22:59.540Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Colour of Magic","description":"The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":25,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:23:34.266Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance requires property "ProductType"',
+  level: 'error',
+  timestamp: '2020-04-14T19:23:34.269Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:24:18.041Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:26:36.618Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Times","description":"Best of Newspaper in England","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":2345,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:26:59.917Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:28:49.484Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:29:29.203Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Times","description":"Best of Newspaper in England","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":2345,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:29:41.256Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:30:42.146Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Times","description":"Best of Newspaper in England","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":2345,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:30:58.013Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:33:19.677Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"title":"The Times","description":"Best of Newspaper in England","productType":"Book","author_ids":["5e6f4443cfcd0a20ec2a87bb"],"price":2345,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:33:22.886Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:37:20.289Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:37:21.054Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:37:21.061Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:39:34.290Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:39:34.528Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:39:34.537Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:00.700Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:00.964Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:00.968Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"Antoine de Saint-Exupéry"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:45.068Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:47.734Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:47.741Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:51.648Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:40:55.137Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:41:36.532Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"","title":"Little Prince","description":"asfasda","author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"23","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:42:12.843Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"","title":"Little Prince","description":"asfasda","author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"23","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:42:41.016Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"","title":"Little Prince","description":"asfasda","productType":"Book","author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"23","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:42:54.810Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:44:52.159Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:45:52.535Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:45:52.544Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:45:59.282Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:46:10.145Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e95b0dda86b2d2a8885b79b","title":"The Times","description":"Best of Newspaper in England","productType":"Magazine","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":"11","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:46:40.577Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number',
+  level: 'error',
+  timestamp: '2020-04-14T19:46:40.581Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":"","title":"","description":"","author_ids":[null],"price":"43"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:49:09.563Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e95b0dda86b2d2a8885b79b","title":"The Times","description":"Best of Newspaper in England","productType":"Magazine","author_ids":["5e8dc582dc35270c3cb6ef9e"],"price":"11","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:50:08.524Z'
+}
+{
+  message: '>>>> printingEditionService.update(), invalid data = instance.price is not of a type(s) number',
+  level: 'error',
+  timestamp: '2020-04-14T19:50:08.558Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:50:41.925Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:50:41.932Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:50:51.866Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":null,"title":"dsgds","description":"sdgds","productType":"Newspaper","author_ids":["5e9085496cf4b00f7c9aad5f"],"price":"45","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:52:39.824Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:52:48.919Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:53:08.549Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:53:08.555Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T19:55:17.361Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:55:21.798Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e95b0dda86b2d2a8885b79b","title":"The Times","description":"Best of Newspaper in England","productType":"Magazine","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":"11","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:55:47.195Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:04.849Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:25.654Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:25.665Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:51.681Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:55.565Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:56:55.569Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:57:04.317Z'
+}
+{
+  message: '>>>> printingEditionService.update(), with: printingEdition = {"_id":"5e95b0dda86b2d2a8885b79b","title":"The Times","description":"Best of Newspaper in England","productType":"Book","author_ids":["5e9085496cf4b00f7c9aad5f"],"price":11,"currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:57:20.148Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:57:24.479Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:57:31.925Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:57:31.929Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":null,"title":"zxc","description":"xzc","productType":"Book","author_ids":["5e9085496cf4b00f7c9aad5f"],"price":"30","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:04.005Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:07.469Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:17.120Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:17.125Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"_id":null,"title":"zcvc","description":"xzvzx","productType":"Newspaper","author_ids":["5e8dc209dc35270c3cb6ef9d"],"price":"23","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:55.280Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T19:58:57.676Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:59:05.496Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T19:59:05.503Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:00:36.211Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:00:47.560Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:00:55.699Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:00:57.706Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T20:01:10.632Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:01:18.624Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:01:18.629Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:07.872Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:08.313Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:08.317Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:21.392Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:21.396Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"Romeo and Dg","description":"Romans","productType":"Newspaper","author_ids":["5e93f7da2204fb2bcccb6409"],"price":"112","currency":"USD"}',
+  level: 'info',
+  timestamp: '2020-04-14T20:03:58.432Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-14T20:04:00.262Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:04:05.420Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-14T20:04:05.424Z'
+}

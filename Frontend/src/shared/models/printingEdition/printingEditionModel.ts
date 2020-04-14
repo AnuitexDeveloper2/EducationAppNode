@@ -7,7 +7,7 @@ export interface PrintingEditionResoponseModel {
 }
 
 export interface AuthorModel {
-    _id: String;
+    _id: string;
     name: String
     product_ids: Array<string>
 }
@@ -21,3 +21,14 @@ export interface PrintingEditionModel {
     productType: PrintingEditionType;
     author_ids: Array<AuthorModel>
 }
+
+export interface RequestPrintingEditionModel {
+    title: string;
+    description: string;
+    price: number;
+    currency: Currency;
+    productType: PrintingEditionType;
+    author_ids: Array<string>;
+    // _id: string
+}
+

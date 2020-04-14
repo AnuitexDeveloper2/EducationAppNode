@@ -9,7 +9,7 @@ export const adminProductRouter =  Router();
 //adminProductRouter.use(checkPermission(Role.Admin));
 
 adminProductRouter.post('/create', createAsync);
-adminProductRouter.delete('/:id', removeAsync);
+adminProductRouter.post('/remove', removeAsync);
 adminProductRouter.post('/update', updateAsync);
 adminProductRouter.post('/', getPrintingEditionsForAdminHandlerAsync);
 

@@ -14,18 +14,20 @@ import CreateEdit from "./create-edit";
 import { AuthorColumns } from "../../shared/constants/columns";
 import EditDelete from "../deleteEdit.tsx/lastColumn";
 import SearchBar from "../searchBar/search";
+import lastColumn from "../deleteEdit.tsx/lastColumn";
+import LastColumn from "../deleteEdit.tsx/lastColumn";
 
 
 const AuthorsForAdmin = () => {
-    const [data, setData] = useState();
+    const [data, setData] = useState({
+        authors:[],
+        pages:0
+    });
     const [author,setAuthor] = useState({
-      author: {
-        name:''
-      }
-    })
+      author: {}})
 
     const hide = () => {
-      toggle("edit")
+      toggle("createAuthor")
     }
 
     const passData = (currentAuthor) => {
@@ -37,18 +39,18 @@ const AuthorsForAdmin = () => {
     const {isShowing, toggle} = useModal();
 
     useEffect(() => {
-      getData()},[])
+      getData(0)},[])
 
-    const getData = async() => {
+    const getData = async(pageNumber) => {
         const filter:BaseFilter = {
             searchString: '',
-            pageNumber: 1,
+            pageNumber: pageNumber+1,
             pageSize: 10,
             sortTable: '',
             sortType: SortType.None,
     }
         const authors = await getAuthorsForAdmin(filter)
-        setData(authors.data)
+        setData({authors: authors.data, pages: Math.floor(authors.count/10+1)})
     }
 
     
@@ -63,7 +65,7 @@ const AuthorsForAdmin = () => {
           accessor: (data: AuthorModel) => {
             return(
               <>
-              {data.product_ids.map((product: any,i) =><div key={i}> {product} </div>)}
+              {data.product_ids.map((product: any,i) =><div key={i}> {product.title} </div>)}
             </>
             )
           },
@@ -73,7 +75,7 @@ const AuthorsForAdmin = () => {
           Cell: props => {
               return(
                 <>
-              <EditDelete  value={author}/>
+              <LastColumn  value={author} assigment="author"/>
               </>
               )
           }
@@ -99,16 +101,23 @@ const AuthorsForAdmin = () => {
       <div className="authors-table">
        <ReactTable
        getTdProps={(rstate, rowInfo) => {
+         
         return {
           onClick: () => {
             if (rowInfo !== undefined) {
               passData(rowInfo.original)
             }
             }}}}
-       className="book-table -striped -highlight"
+       className="-striped -highlight"
        columns={columns}
-       data={data}
+       data={data.authors}
        defaultPageSize={10}
+       manual
+       
+       pages={data.pages}
+       onFetchData={(state) =>{
+            getData(state.page)
+       }}
        />
      </div>
     </div>

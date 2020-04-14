@@ -7,7 +7,6 @@ import { createAuthor, editAuthor } from "../../services/authors";
 
 
 const CreateEdit = ({ isShowing, hide,assigment,value }) => {
-    debugger
     let title: string;
     const author: AuthorModel ={
         _id:"",

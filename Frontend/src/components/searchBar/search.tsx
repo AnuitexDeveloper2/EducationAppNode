@@ -4,12 +4,12 @@ import { Form, Field } from "react-final-form";
 import { getAuthorsForAdmin } from "../../services/authors";
 import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { SortType } from "../../shared/enums/sortType";
+import { getPrintingEdition } from "../../services/printingEdition";
 
 const SearchBar = ({placeholder,params}) => {
 
 const getData = async(value: any) => {
         debugger
-        const searchString = value
         const filter:BaseFilter = {
             searchString: value.searchString,
             pageNumber: 1,
@@ -17,9 +17,14 @@ const getData = async(value: any) => {
             sortTable: '',
             sortType: SortType.None,
     }
-        const authors = await getAuthorsForAdmin(filter)
-        params(authors.data)
-        debugger
+    if (placeholder ==="Author") {
+        const authors = await getAuthorsForAdmin(filter);
+        params({authors: authors.data, pages: Math.floor(authors.count/10+1)});
+    }
+    if (placeholder === "Search Product") {
+        const printingEdition = await getPrintingEdition(filter);
+        params({data: printingEdition.data,count:1,isLoading:true,showCreate:false})
+    }
 }
     return (
             <div className="search">

@@ -8,6 +8,7 @@ import printingEditionModel from '../../../dataAccess/entityModels/printing-edit
 import  PrintingEditions  from '../../../dataAccess/entityModels/printing-edition';
 import { PrintingEdition } from '../../printing-editions/api';
 import { PrintingEditionType } from '../enums/printingEditionType';
+import { Currency } from '../enums/currency';
 
 
 export class Init {
@@ -71,10 +72,10 @@ export class Init {
                 title: 'The Colour of Magic',
                 description: 'The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett',
                 cover_image: 'http/:',
-                type: PrintingEditionType.Book,
+                productType : PrintingEditionType[0],
                 price: 25,
-                // currency: 'USD',
-                author_ids: '5e3d1c71c818e21204ac2b8b'
+                currency: Currency[0],
+                author_ids: '5e6f4443cfcd0a20ec2a87bb'
             })          
             printingEdition.save();
             return printingEdition;

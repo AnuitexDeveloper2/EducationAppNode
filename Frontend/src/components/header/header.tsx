@@ -4,7 +4,7 @@ import  signIn  from "../../assets/SignUp.png";
 import {Navbar,NavItem,Nav,Button, ButtonToolbar, ModalDialog} from 'react-bootstrap';
 import { Link, Route } from 'react-router-dom';
 import bookLogo from "../../assets/Book_Logo_svg.png"
-import  PopUpManager  from '../../components/auth/popUpManager';
+import  PopUpManager  from '../auth/popUpManager';
 import { PopUpState } from '../../redux/popUp/types';
 import { connect} from "react-redux"
 import { showSignInAction } from "../../Redux/popUp/actions";
