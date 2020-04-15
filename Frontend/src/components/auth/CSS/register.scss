@@ -253,3 +253,66 @@ color: #999999;
     text-decoration-line: underline;
     color: #FB7134;
 }
+
+    // errors
+
+    .userName_error {
+        position: absolute;
+        left: 50.96%;
+        right: 15.38%;
+        top: 30.56%;
+        bottom: 66%;
+        height: 30px;
+        width: 400px;
+        opacity: 0.8;
+        color: red;
+    }
+    
+    .firstName_error {
+        position: absolute;
+        left: 50.96%;
+        right: 15.38%;
+        top: 40.56%;
+        bottom: 56%;
+        height: 30px;
+        width: 400px;
+        opacity: 0.8;
+        color: red
+    }
+    
+    .lastName_error {
+        position: absolute;
+        left: 50.96%;
+        right: 15.38%;
+        top: 50.56%;
+        bottom: 56%;
+        height: 30px;
+        width: 400px;
+        opacity: 0.8;
+        color: red
+        
+    }
+    
+    .email_error {
+        position: absolute;
+        left: 47.64%;
+        right: 15.38%;
+        top: 60.56%;
+        bottom: 26%;
+        height: 30px;
+        width: 400px;
+        opacity: 0.8;
+        color: red
+    }
+    
+    .password_error {
+        position: absolute;
+        left: 41.64%;
+        right: 15.38%;
+        top: 70.56%;
+        bottom: 26%;
+        height: 30px;
+        width: 400px;
+        opacity: 0.8;
+        color: red
+    }

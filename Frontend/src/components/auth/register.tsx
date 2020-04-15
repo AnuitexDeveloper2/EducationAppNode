@@ -27,15 +27,14 @@ export class Register extends React.Component<any> {
 
     onSubmitRegister = async (values: any) => {
         debugger;
-        console.log(values)
-        authService.register(values)
+       const result = await authService.register(values)
+       if (result.err ===true) {
+        this.props.hideRegisterAction();
+       }
     }
    
 
     render() {
-        debugger;
-      
-            
         return (
           <div className="registerWindow">
               <div className="registerContent">

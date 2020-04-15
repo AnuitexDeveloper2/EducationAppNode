@@ -3,26 +3,35 @@ import "./remove.css"
 import close from "../../assets/close.svg"
 import { removeAuthor } from "../../services/authors";
 import { removePrintinEdition } from "../../services/printingEdition";
+import { removeUser } from "../../services/users";
 
 
 const Remove = ({isShowing, hide,assigment,value}) => {
-    let item ='';
-    if (assigment==='author') {
-        item = value.author.name
-    }
-    if (assigment === 'product') {
-        item = value.product.title
-    }
+    debugger;
+    // let item ='';
+    // if (assigment==='author') {
+    //     item = value.author.name
+    // }
+    // if (assigment === 'product') {
+    //     item = value.product.title
+    // }
+    // if (assigment === 'user') {
+    //     item = value.user.userName
+    // }
 
     const deleteItem = async() => {
         let result;
+        debugger
         if (assigment==='author') {
              result = await removeAuthor(value.author)
         }
         if (assigment === 'product') {
              result = await removePrintinEdition(value.product)
         }
-        if (result) {
+        if (assigment === "user") {
+            result = await removeUser(value.item.id)
+        }
+        if (result === true) {
             hide(false)
         }
 
@@ -41,7 +50,7 @@ const Remove = ({isShowing, hide,assigment,value}) => {
             <div className="remove-title">
             Are you sure delete 
                 <span className="value">
-                    {item}
+                    {value.item.name}
                 </span> 
             </div>
             <button  className="create-cancel-button" onClick={hide} > 

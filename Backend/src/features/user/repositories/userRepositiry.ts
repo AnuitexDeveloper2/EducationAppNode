@@ -55,6 +55,20 @@ export async function getUserAsync (userParam: User)  {
         return true;
     }
 
+    export async function blockUserAsync(id:string): Promise<Boolean> {
+        let model = new userModel();
+        const user =  userModel.findById(id);
+        model = await user;
+        model.status =  !(await user).status;
+        const result = await userModel.update(user, model);
+        
+        if (result.nModified == 0) {
+            return false;
+        }
+    
+        return true;
+    }
+
     export async function changePasswordAsync(param: ResetPassword): Promise<boolean> {
         let model = new userModel();
         const user = userModel.findById(param._id);
@@ -115,7 +129,7 @@ export async function getUserAsync (userParam: User)  {
     let data= new Array<userModel>();
 
     if (filter.searchString !=null) {
-        query =  userModel.find( { $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] });
+        query =  userModel.find( {$and:[{ $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] },{ removed_at: false }]});
     }
     if(filter.sortType == 0) {
         tableSort = { '_id': filter.sortType };

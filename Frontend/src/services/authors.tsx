@@ -25,7 +25,6 @@ export async function editAuthor(author: AuthorModel) {
 
 export async function removeAuthor(author: AuthorModel) {
     const _id = author._id
-    debugger
     const result = await axios.post(`http://localhost:8000/admin/author/delete`,{_id})
     return result.data
 }

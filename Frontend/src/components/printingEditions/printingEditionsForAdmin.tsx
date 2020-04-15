@@ -14,7 +14,7 @@ import { PrintingEditionColumns } from "../../shared/constants/columns";
 import SearchBar from "../searchBar/search";
 import  spinner  from "../../assets/spinner.gif";
 import useModal from "../author/useModal";
-import LastColumn from "../deleteEdit.tsx/lastColumn";
+import LastColumn from "../lastColumn/lastColumn";
 
 // export interface PrintingEditionProps {
 //   loadingBooks: (printingEdition: any) => object,
@@ -35,7 +35,7 @@ const PrintingEditionForAdmin =() =>{
       
   })
 
-  const [product,setProduct] = useState({product:{}})
+  const [product,setProduct] = useState({item:{}})
   useEffect(() => {
     getData(0)},[])
     
@@ -52,13 +52,12 @@ const PrintingEditionForAdmin =() =>{
         sortTable: ''
       }
       const printingEdition = await PrintingEditionService.getPrintingEdition(filter)
-      debugger
       setState({data: printingEdition.data,count:1,isLoading:true,showCreate:false})
     }
 
     const passData = (currentProduct) => {
       setProduct({
-        product:currentProduct
+        item: currentProduct
       })
   }
     
@@ -147,7 +146,10 @@ const PrintingEditionForAdmin =() =>{
         return {
           onClick: () => {
             if (rowInfo !== undefined) {
-              passData(rowInfo.original)
+              const currentProduct ={
+                id:rowInfo.original.id,name:rowInfo.original.title
+            }
+              passData(currentProduct)
             }
             }}}}
        className="-striped -highlight"

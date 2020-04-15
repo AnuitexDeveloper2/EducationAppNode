@@ -7,15 +7,10 @@ import '../../shared/css/table.css'
 import './css/authors.css'
 import { AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import add from "../../assets/add-button-inside-black-circle.svg";
-import edit from "../../assets/iconmonstr-pencil-8.svg"
-import remove from "../../assets/remove.svg";
 import useModal from "./useModal";
 import CreateEdit from "./create-edit";
-import { AuthorColumns } from "../../shared/constants/columns";
-import EditDelete from "../deleteEdit.tsx/lastColumn";
 import SearchBar from "../searchBar/search";
-import lastColumn from "../deleteEdit.tsx/lastColumn";
-import LastColumn from "../deleteEdit.tsx/lastColumn";
+import LastColumn from "../lastColumn/lastColumn";
 
 
 const AuthorsForAdmin = () => {
@@ -24,7 +19,7 @@ const AuthorsForAdmin = () => {
         pages:0
     });
     const [author,setAuthor] = useState({
-      author: {}})
+      item: {}})
 
     const hide = () => {
       toggle("createAuthor")
@@ -32,7 +27,7 @@ const AuthorsForAdmin = () => {
 
     const passData = (currentAuthor) => {
         setAuthor({
-          author:currentAuthor
+          item: currentAuthor
         })
     }
 
@@ -105,7 +100,10 @@ const AuthorsForAdmin = () => {
         return {
           onClick: () => {
             if (rowInfo !== undefined) {
-              passData(rowInfo.original)
+              const currentAuthor ={
+                id:rowInfo.original.id,name:rowInfo.original.name
+              }
+              passData(currentAuthor)
             }
             }}}}
        className="-striped -highlight"

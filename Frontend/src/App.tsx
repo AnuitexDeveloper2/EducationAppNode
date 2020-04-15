@@ -1,11 +1,12 @@
 import React from "react";
 import './App.css';
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
-import Header from "./components/header/header"
 import { Provider } from "react-redux";
-import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
 import { configureStore } from "./Redux/store";
+import Header from "./components/header/header"
+import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
 import AuthorsForAdmin from "./components/author/authors";
+import UsersForAdmin from "./components/users/userForAdmin";
 
 
 const store = configureStore()
@@ -17,8 +18,9 @@ function App() {
       <Router>
     <Header></Header>
       <div className="app-body">
-       <Route path='/books' component={PrintingEditionsForAdmin}></Route>
+       <Route path="/books" component={PrintingEditionsForAdmin}/>
        <Route path="/authors" component={AuthorsForAdmin}/>
+       <Route path="/users" component ={UsersForAdmin}/>
       </div>
       </Router>
     </Provider>

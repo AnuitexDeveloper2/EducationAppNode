@@ -9,6 +9,7 @@ import { Role } from "../shared/enums/role";
         passwordHash: string;
         role: Role;
         removed_at: boolean;
+        status: boolean;
     }
 
     export interface ResetPassword {

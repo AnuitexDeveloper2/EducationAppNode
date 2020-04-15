@@ -6138,3 +6138,798 @@
   level: 'info',
   timestamp: '2020-04-14T20:04:05.424Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-14T20:04:44.222Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T09:03:40.710Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T09:37:43.221Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T09:38:23.230Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:38:40.118Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:38:40.124Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:38:49.266Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:38:52.342Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:39:04.600Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:39:08.742Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:39:24.221Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:39:28.696Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:42:31.349Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T09:42:31.354Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T09:42:31.474Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T09:42:53.666Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T09:59:00.047Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T10:03:11.302Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T10:03:44.212Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T10:08:12.069Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T10:08:52.381Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:12:51.229Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:12:54.389Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T11:14:19.462Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:14:49.604Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T11:55:22.310Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-15T11:55:22.311Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T11:56:33.005Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:56:54.265Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie  ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T11:58:12.109Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:59:18.328Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:59:23.113Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T11:59:27.807Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T12:01:08.630Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T12:01:59.870Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T12:06:12.701Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T12:18:43.148Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"CanadienHokkeist","firstName":"Connor","lastName":"Macdeivid","email":"edmonton@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:24:35.986Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"NewUser","firstName":"User","lastName":"Usrovich","email":"newmail@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:26:08.719Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Anuitex","firstName":"Worst","lastName":"Developer","email":"botsad@yandex.ru","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:27:41.675Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Dwarf","firstName":"Lionel","lastName":"Messi","email":"Barselona@gmil.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:40:32.339Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"FirstPresident","firstName":"Gorge","lastName":"Vashington","email":"america@yahoo.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:43:26.360Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Ghost","firstName":"Gods","lastName":"Bless","email":"heaven@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:46:05.399Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"NightWitch","firstName":"Sammy","lastName":"Sannely","email":"whore@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:51:27.614Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Taxi","firstName":"Robert","lastName":"De Niro","email":"awards@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:53:26.993Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Prince","firstName":"Corvin","lastName":"Blood","email":"amber@mirror.com"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:54:45.641Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-04-15T14:54:45.643Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Prince","firstName":"Corvin","lastName":"Blood","email":"amber@mirror.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-15T14:54:51.993Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T15:41:36.057Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e9719dd7682931298f0a1c4"}',
+  level: 'info',
+  timestamp: '2020-04-15T15:41:38.642Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T15:42:49.907Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T15:45:08.890Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e971ce07682931298f0a1c5"}',
+  level: 'info',
+  timestamp: '2020-04-15T15:47:03.108Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T15:55:44.767Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T15:55:58.749Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T15:58:09.203Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T15:59:44.125Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T15:59:44.132Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T15:59:49.814Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:00:36.644Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:00:54.922Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:01:39.430Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:03:18.211Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:03:53.630Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:05.206Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:05.210Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:17.570Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:17.575Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:35.704Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:35.708Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:46.000Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:52.820Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:52.828Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:59.670Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:04:59.676Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:02.876Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:05.456Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:05.461Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:18.894Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:18.898Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:30.232Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:30.239Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:38.350Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:58.920Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortTable":"","sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-15T16:05:58.924Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T16:12:29.543Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T16:59:44.214Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:04:03.850Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:09:36.902Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:11:56.273Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:13:01.519Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:14:31.927Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:14:58.752Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:15:47.232Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:16:32.662Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:17:06.767Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:28:54.873Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:28:54.878Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:30:51.093Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:30:51.095Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:31:07.093Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:07.094Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:31:12.259Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:12.260Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{"id":"5e971ce07682931298f0a1c5","name":"Dwarf"}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:31:13.379Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e971ce07682931298f0a1c5","name":"Dwarf"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:13.380Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:31:45.425Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:45.430Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:36:02.381Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:36:02.383Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:37:14.509Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:37:14.512Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:38:55.705Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:38:55.707Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:42:48.017Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:42:48.018Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'info',
+  timestamp: '2020-04-15T17:43:10.438Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:43:10.440Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:45:40.886Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {}',
+  level: 'info',
+  timestamp: '2020-04-15T17:46:15.215Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T17:46:15.216Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5e9719247682931298f0a1c2"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:46:35.033Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-15T17:48:34.879Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:48:50.093Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:49:47.552Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:49:59.079Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {}',
+  level: 'info',
+  timestamp: '2020-04-15T17:50:44.597Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T17:50:44.599Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:50:56.038Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:51:47.790Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T17:51:49.449Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {}',
+  level: 'info',
+  timestamp: '2020-04-15T18:43:37.437Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:43:37.444Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {}',
+  level: 'info',
+  timestamp: '2020-04-15T18:51:26.785Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:51:26.786Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {}',
+  level: 'info',
+  timestamp: '2020-04-15T18:51:30.215Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:51:30.217Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:56:24.397Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:56:42.944Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:56:44.062Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e807dcc0234552fcc36ddc0"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:05.984Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e807dcc0234552fcc36ddc0"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:07.835Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719807682931298f0a1c3"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:10.514Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719dd7682931298f0a1c4"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:33.569Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e971d8e7682931298f0a1c6"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:34.845Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719807682931298f0a1c3"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:37.246Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e971f6f7682931298f0a1c8"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:41.196Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e971fe67682931298f0a1c9"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:42.188Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e97203b7682931298f0a1ca"}',
+  level: 'info',
+  timestamp: '2020-04-15T18:58:43.581Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719247682931298f0a1c2"}',
+  level: 'info',
+  timestamp: '2020-04-15T19:04:46.387Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719247682931298f0a1c2"}',
+  level: 'info',
+  timestamp: '2020-04-15T19:04:47.280Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:04:56.064Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:11:33.646Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:19:39.041Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:20:14.353Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:25:59.695Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:29:10.091Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:31:28.971Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-15T19:31:59.763Z'
+}

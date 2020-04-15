@@ -18,9 +18,9 @@ export async function registerAsync(userParam: User): Promise<any> {
     }
     
     const result = await repository.registerAsync(userParam);
-    console.log(result)
     if (!result) {
         logger.error(`>>>> authService.register(), result = ${result}`);
+        return false
     }
     return result;
 }

@@ -70,7 +70,25 @@ export async function removeAsync(id: string) {
         return "user not found";
     }
 
-    return "user has been deleted";
+    return result;
+}
+
+export async function blockUserAsync(id: string) {
+    const validateResult = validateWithJsonSchema(id,idValidateSchema);
+    logger.info(`>>>> userService.blockUser(), with: user id = ${JSON.stringify(id)}`);
+    
+    if (!validateResult.valid) {
+        logger.error(`>>>> userService.blockUser(), invalid data = ${JSON.stringify(id)}`);
+        return {message: "Invalid id parameter", error: validateResult.errors};
+    }
+
+    const result = await repository.blockUserAsync(id);
+    
+    if(!result) {
+        return "user not found";
+    }
+
+    return result;
 }
 
 export async function changePassword(changePasswordParam: ResetPassword) {

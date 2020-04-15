@@ -1108,3 +1108,93 @@
   level: 'error',
   timestamp: '2020-04-14T19:50:08.558Z'
 }
+{
+  message: '>>>> authService.register(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-04-15T11:55:22.311Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-04-15T14:54:45.643Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:28:54.878Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:30:51.095Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:07.094Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:12.260Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e971ce07682931298f0a1c5","name":"Dwarf"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:13.380Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719807682931298f0a1c3","name":"NewUser"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:31:45.430Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"item":{"id":"5e9719247682931298f0a1c2","name":"CanadienHokkeist"}}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:36:02.383Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:37:14.512Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:38:55.707Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:42:48.018Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {"_id":{"dispatchConfig":null,"_targetInst":null,"nativeEvent":null,"type":null,"target":null,"eventPhase":null,"bubbles":null,"cancelable":null,"defaultPrevented":null,"isTrusted":null,"view":null,"detail":null,"screenX":null,"screenY":null,"clientX":null,"clientY":null,"pageX":null,"pageY":null,"ctrlKey":null,"shiftKey":null,"altKey":null,"metaKey":null,"button":null,"buttons":null,"_dispatchListeners":null,"_dispatchInstances":null}}',
+  level: 'error',
+  timestamp: '2020-04-15T17:43:10.440Z'
+}
+{
+  message: '>>>> userService.remove(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T17:46:15.216Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T17:50:44.599Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:43:37.444Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:51:26.786Z'
+}
+{
+  message: '>>>> userService.blockUser(), invalid data = {}',
+  level: 'error',
+  timestamp: '2020-04-15T18:51:30.217Z'
+}

@@ -7,7 +7,7 @@ const validationSchema = {
        firstName: [Validators.required.validator],
        lastName: [Validators.required.validator],
        email: [Validators.required.validator,Validators.email.validator],
-       passwordHash: [Validators.required.validator,Validators.minLength.validator],
+      //  passwordHash: [Validators.required.validator,Validators.minLength.validator],
        
      }
     }

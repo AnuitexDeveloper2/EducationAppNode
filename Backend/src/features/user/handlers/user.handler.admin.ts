@@ -8,15 +8,20 @@ export async function getAllAsync(req: Request, res: Response, next: NextFunctio
   }
 
   export function removeAsync(req: Request, res: Response, next: NextFunction) {
-  
     userService.removeAsync(req.body)
         .then((result) => res.json({result}))
         .catch(err => next(err));
   }
   
   export async function getUsersAsync(req:Request, res: Response, next: NextFunction) {
-  
     userService.getUserAsync(req.body)
     .then((result) =>res.json(result))
     .catch(err => next(err));
   }
+
+  export function blockUserAsync(req: Request, res: Response, next: NextFunction) {
+    userService.blockUserAsync(req.body)
+        .then((result) => res.json({result}))
+        .catch(err => next(err));
+  }
+
