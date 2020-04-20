@@ -1,0 +1,70 @@
+body {
+    padding: 50px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+.grid {
+    /* border: 5px solid rgb(111,41,97); */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    width: 1000px;
+  }
+  
+.grid > * {
+    background-color: rgba(111,41,97,.4);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+.grid-title {
+    position: absolute;
+    width: 394px;
+    height: 67px;
+    /* left: 556px;
+    top: 763px; */
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* #000000 */
+    
+    color: #000000;
+}
+
+.grid-authors {
+    position: absolute;
+    width: 394px;
+    height: 49px;
+    /* left: 556px;
+    top: 814px; */
+    
+    /* Poppins Reg 18 */
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: rgba(0, 0, 0, 0.66);
+    
+}
+
+.grid-price {
+
+}

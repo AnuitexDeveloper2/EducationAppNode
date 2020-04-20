@@ -6,11 +6,8 @@ import * as PrintingEditionService from "../../services/printingEdition";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import add from "../../assets/add-button-inside-black-circle.svg";
-import edit from "../../assets/iconmonstr-pencil-8.svg"
-import remove from "../../assets/remove.svg";
 import { PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
 import  CreateEditProduct  from "./create-edit";
-import { PrintingEditionColumns } from "../../shared/constants/columns";
 import SearchBar from "../searchBar/search";
 import  spinner  from "../../assets/spinner.gif";
 import useModal from "../author/useModal";
@@ -147,7 +144,7 @@ const PrintingEditionForAdmin =() =>{
           onClick: () => {
             if (rowInfo !== undefined) {
               const currentProduct ={
-                id:rowInfo.original.id,name:rowInfo.original.title
+                id:rowInfo.original.id,name:rowInfo.original.title,description:rowInfo.original.description,price:rowInfo.original.price
             }
               passData(currentProduct)
             }

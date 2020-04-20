@@ -1,53 +1,106 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import './header.css';
 import  signIn  from "../../assets/SignUp.png";
-import {Navbar,NavItem,Nav,Button, ButtonToolbar, ModalDialog} from 'react-bootstrap';
-import { Link, Route } from 'react-router-dom';
 import bookLogo from "../../assets/Book_Logo_svg.png"
 import  PopUpManager  from '../auth/popUpManager';
-import { PopUpState } from '../../redux/popUp/types';
+import { HeaderState } from '../../redux/popUp/types';
 import { connect} from "react-redux"
 import { showSignInAction } from "../../Redux/popUp/actions";
- class Header extends Component<any, PopUpState> {
+import { UserModel } from '../../shared/models/user/user';
+
+ class Header extends Component<any, HeaderState> {
   constructor(props: any) {
     super(props);
   }
 
-  state:PopUpState = {
+  state:HeaderState = {
     showLogIn: false,
-    showRegister: false
+    showRegister: false,
+    showMenu: false,
+    user: null
   }
 
   showSigInForm=(event:any) => {
-    debugger;
       const {showLogIn: showTest} = this.state
       this.props.showSignInAction()
   }
+
+  logOut = () => {
+    debugger
+    localStorage.removeItem("User");
+    this.setState({user:null})
+  }
+
+  toggleMenu = () => {
+    debugger
+    const test = this.state.user
+    this.setState({
+      showMenu: !this.state.showMenu
+    })
+  }
+
+  UNSAFE_componentWillMount = () => {
+    const user = JSON.parse(localStorage.getItem('User'))
+    this.setState({user: user})
+  } 
     render() {
         return (
       <div className="header">
           <div className="bookLogo">
             
-              <img src={bookLogo} alt=""/>
+              <img src={bookLogo} alt="" />
           </div>
-          <div className="signIn">
-              SignIn
+          <a className="move-signin">
+
+          <div className="signIn" onClick={this.showSigInForm.bind(this)}>
+              {this.state.user===null&& <div>SignIn</div>}
           </div>
+          <div className="logOut" >
+              {this.state.user!==null&& <div onClick={this.logOut.bind(this)}>LogOut</div>}
+          </div>
+
+          </a>
           <div className="signInButton">
-          {/* onClick={this.togglePopup.bind(this)} */}
-              <img src={signIn} alt="" onClick={this.showSigInForm.bind(this)}  />
-            
+              {this.state.user!==null&&<div>
+              <img src={signIn} alt="" onClick={this.toggleMenu}  />
+               {this.state.user.role==="Admin"&&this.state.showMenu&&<AdminMenu/>}
+               {this.state.user.role==="User"&&this.state.showMenu&&<UserMenu/>}
+</div>
+    }
               <PopUpManager/>
-              
-            
             </div>
       
       </div>  
     );
 }
-
-
 }
-  
-export default connect(null,{showSignInAction})(Header);
+
+const UserMenu =() => {
+  return(
+    <div>
+      User
+      <option value="">Author</option>
+    </div>
+  )
+}
+
+const AdminMenu = () => {
+    return(
+      <div className="option-menu">
+       <a href="/users"> <option>Users</option> </a>
+       <a href="/books"> <option>Products</option> </a>
+       <a href="/authors"> <option value="">Authors</option></a>
+       <a> <option value="">Orders</option> </a>
+      </div>
+    )
+}
+
+
+
+const mapStateToProps = (state:any) => {
+  return {
+        headerState: state
+      }
+ }  
+export default connect(mapStateToProps,{showSignInAction})(Header);
 

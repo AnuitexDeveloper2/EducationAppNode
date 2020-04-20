@@ -1198,3 +1198,28 @@
   level: 'error',
   timestamp: '2020-04-15T18:51:30.217Z'
 }
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-04-18T14:44:10.324Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-04-18T18:27:59.152Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-04-19T15:05:32.302Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-04-19T15:07:06.609Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-04-19T15:08:19.685Z'
+}

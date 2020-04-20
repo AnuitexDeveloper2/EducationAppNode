@@ -7,6 +7,7 @@ import Header from "./components/header/header"
 import PrintingEditionsForAdmin from "./components/printingEditions/printingEditionsForAdmin";
 import AuthorsForAdmin from "./components/author/authors";
 import UsersForAdmin from "./components/users/userForAdmin";
+import  MainPaige  from "./components/main/main";
 
 
 const store = configureStore()
@@ -18,6 +19,7 @@ function App() {
       <Router>
     <Header></Header>
       <div className="app-body">
+        <Route path="/main" component={MainPaige}/>
        <Route path="/books" component={PrintingEditionsForAdmin}/>
        <Route path="/authors" component={AuthorsForAdmin}/>
        <Route path="/users" component ={UsersForAdmin}/>

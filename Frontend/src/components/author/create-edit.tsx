@@ -19,7 +19,8 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
 
     }
     if (assigment === "Edit") {
-        author.name = value.author.name;
+        debugger
+        author.name = value.item.name;
         title = "Edit Author";
     }
     const valueName:any = React.createRef();
@@ -35,7 +36,7 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
          result = await createAuthor(name)
         }
         if (assigment === "Edit") {
-            model._id=value.author.id
+            model._id=value.item.id
          result = await editAuthor(model)
         }
        if (result==="Ok") {

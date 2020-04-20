@@ -2,65 +2,94 @@ import "./users.css";
 import React, { useEffect, useState } from "react";
 import  ReactTable  from "react-table-v6";
 import Toggle from "react-toggle";
-import  "react-toggle/style.css";
+// import  "react-toggle/style.css";
+import  "../../shared/css/toggle.css";
 import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import { getUsers, blockUser } from "../../services/users";
 import LastColumn from "../lastColumn/lastColumn";
-import { getByTestId } from "@testing-library/react";
 import { UserModel } from "../../shared/models/user/user";
 import { Field, Form } from "react-final-form";
+import Select from "react-select";
+import Poligon  from "../../assets/Polygon.png";
+import { UserFilterType } from "../../shared/enums/userFilterType";
+import { UserFilter } from "../../shared/models/user/userFilter";
+import SearchBar from "../searchBar/search";
 
 const UsersForAdmin = () => {
 
     const [data,setData] = useState({
         users:[],
-        pages:0
+        pages:0,
+        userType: UserFilterType.All
     })
 
+    const [modal,setModal] = useState({
+        showStatus: false,
+        showSearch: false
+    })
     const [user,setUser] = useState({
         item: {}})
     useEffect(()=>
-        {getData(0)},[]
+        {getData(0,UserFilterType.All)},[]
     )
 
        const passData =(currentUser) => {
             setUser({item: currentUser})
         }
 
-    const getData = async(pages) => {
+    const getData = async(pages,userType) => {
         
-            const filter:BaseFilter = {
+            const filter:UserFilter = {
                 searchString: '',
                 pageNumber: pages + 1,
                 pageSize: 10,
                 sortTable: '',
                 sortType: SortType.None,
+                userType: userType
         }     
            const users = await getUsers(filter)
-           setData({users: users.data,pages: Math.floor(users.count/10+1)})
+           setData({users: users.data,pages: Math.floor(users.count/10+1),userType:UserFilterType.All})
     }
 
     const changeStatus = async(id: string) => {
-        debugger
         const result =await blockUser(id)
         if (result) {
-            getData(0)
+            getData(0,UserFilterType.All)
         }
     }
-    
 
+    const filterStatus = ()=> {
+        setModal({
+            showStatus:!modal.showStatus,
+            showSearch:false
+        })
+    }
+
+    const filterSearch =() =>{
+        setModal({
+            showStatus: false,
+            showSearch:!modal.showSearch
+        })
+    }
+    
+    
     const columns =[
         {
             Header: "Login",
             accessor: "userName"
         },
         {
-            Header:"User Name",
+            Header:props => {
+                return(<div>User Name<img src={Poligon} alt="" className="search-Drop-Down" onClick={filterSearch} />
+                {modal.showSearch&&<SearchBar params={setData} placeholder=""/>}
+                </div>
+                )
+            },
             id:'firstName',
             accessor: (data: any) => {
                 return(
-                  <>
+                    <>
                   {<div>{data.firstName} {data.lastName}</div>}
                 </>
                 )
@@ -71,20 +100,15 @@ const UsersForAdmin = () => {
             accessor: "email"
         },
         {
-        Header: props => {return(
+        Header: props => {
+            return(
             <div>
+            <span>Status <img src={Poligon} alt="" onClick={filterStatus}/></span>
+            <div>
+            {modal.showStatus&&<PickStatus setData={setData} />}
+            </div>
 
-            <span>Status</span>
-        <Form 
-        onSubmit={changeStatus} 
-        render={({}) =>( <div><Field name="status" component="select">
-        <option> </option>
-        <option>Active</option>
-        <option>Blocked</option>
-        </Field>
-        </div>
-        )}
-        />
+           
         </div>
         )},
             id: "status",
@@ -107,9 +131,8 @@ const UsersForAdmin = () => {
 
     ]
     return(
-        <div>
-
-        <div className ="author-header">
+     <div>
+     <div className ="author-header">
         <div className="authors-title">
         Users Managment
         </div>
@@ -118,7 +141,6 @@ const UsersForAdmin = () => {
       </div>
         <ReactTable
         getTdProps={(rstate, rowInfo) => {
-            
             return {
                 onClick: () => {
                     if (rowInfo !== undefined) {
@@ -133,13 +155,38 @@ const UsersForAdmin = () => {
              data={data.users}
              defaultPageSize={10}
              manual
-             
+             sortable= {false}
              pages={data.pages}
              onFetchData={(state) =>{
-                 getData(state.page)
+                 debugger
+                 getData(state.page,data.userType)
                 }}
                 />
                 </div>
+    )
+}
+
+const PickStatus = ({setData})  => {
+    const selectStatus =async(e) => {
+        debugger
+        let idx;
+        const type = e.target.value==="Active"? idx =UserFilterType.Blocked: idx = UserFilterType.Active
+        const filter:UserFilter = {
+            searchString: '',
+            pageNumber: 1,
+            pageSize: 10,
+            sortTable: '',
+            sortType: SortType.None,
+            userType: idx
+    }     
+       const users = await getUsers(filter)
+       setData({users: users.data,pages: Math.floor(users.count/10+1),type})
+    }
+    return(
+        <select name="" id="" onChange={selectStatus}>
+            <option value="Active" label="Active"/>
+            <option value="Blocked" label ="Blocked" />
+        </select>
     )
 }
 

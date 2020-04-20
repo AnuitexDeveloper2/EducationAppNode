@@ -36,8 +36,8 @@ export class Register extends React.Component<any> {
 
     render() {
         return (
-          <div className="registerWindow">
-              <div className="registerContent">
+          <div className="register-modal">
+              <div className="register-modal-inner">
                 <div className="registerHeader">
                   <div className="close">
                     <img src={close} onClick={this.closePopUp.bind(this)}/>

@@ -4,6 +4,7 @@ import bcrypt from "bcrypt";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { UserFilterType } from "../../shared/enums/userFilterType";
 
 export async function getUserAsync (userParam: User)  {
     const result = await userModel.findOne({email: userParam.email})
@@ -123,13 +124,19 @@ export async function getUserAsync (userParam: User)  {
     
 
     export async function getUsersAsync(filter: UserFilterModel) {
+        console.log(filter)
         let count;
     let query;
     let tableSort: any = {'firstName':filter.sortType};
     let data= new Array<userModel>();
 
     if (filter.searchString !=null) {
-        query =  userModel.find( {$and:[{ $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] },{ removed_at: false }]});
+        query =  userModel
+        .find( {$and:[{ $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] },{ removed_at: false }]});
+    }
+    if (filter.userType !== UserFilterType.All) {
+        query = filter.userType ===UserFilterType.Active? query.find({status:false}) : query.find({status:true})
+        
     }
     if(filter.sortType == 0) {
         tableSort = { '_id': filter.sortType };

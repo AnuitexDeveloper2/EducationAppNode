@@ -1,10 +1,8 @@
 import  axios  from "axios";
-import { BaseFilter } from "../shared/models/baseFilterModel";
-import { UserModel } from "../shared/models/user/user";
+import { UserFilter } from "../shared/models/user/userFilter";
 
-export async function getUsers(filter: BaseFilter): Promise<any> {
+export async function getUsers(filter: UserFilter): Promise<any> {
    const result = await axios.post('http://localhost:8000/admin/user',filter)
-   debugger
    return result.data
 }
 

@@ -30,9 +30,10 @@ const CreateEditProduct = ({isShowing, hide,assigment,value}) => {
     title = "Add new Product"
 }
 if (assigment === "Edit") {
-    product.title = value.product.title
-    product.description = value.product.description
-    product.price = value.product.price
+  debugger
+    product.title = value.item.name
+    product.description = value.item.description
+    product.price = value.item.price
     title = "Edit Product";
 }
   const  [state, setState] = useState({

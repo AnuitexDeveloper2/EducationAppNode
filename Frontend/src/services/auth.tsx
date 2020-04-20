@@ -19,7 +19,6 @@ export function moveFacebook() {
 }
 
 export async function signIn (user: any) {
-    debugger;
     const result = await axios.post('http://localhost:8000/auth/logIn',user)
     
     return result.data

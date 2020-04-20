@@ -1,11 +1,13 @@
-import { PopUpState } from "./types";
+import { HeaderState } from "./types";
 
-const initialState: PopUpState = {
+const initialState: HeaderState = {
     showLogIn: false,
-    showRegister: false
+    showRegister: false,
+    user:null,
+    showMenu:false
 }
 
-export function popUpReducer (state: PopUpState= initialState, action: any) {
+export function popUpReducer (state: HeaderState= initialState, action: any) {
     switch (action.type) {
         case "SHOW_LOGIN":
             return {...state,showLogIn: true}

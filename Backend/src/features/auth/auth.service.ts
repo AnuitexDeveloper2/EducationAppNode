@@ -7,6 +7,7 @@ import logger from "../utils/logger";
 import { sendingEmail } from "./emailHelper/emailHelper";
 import { findByEmail } from "../user/repositories/userRepositiry";
 import { OauthOptions } from "../auth/oAuthHelper/oAuthHelper";
+import { generateTokens } from "./jwtHelper/jwtHelper";
 
 export async function registerAsync(userParam: User): Promise<any> {
     const validateResult = validateWithJsonSchema(userParam,authValidateSchema);
@@ -41,10 +42,9 @@ export async function logInAsync(email: string, password: string): Promise<any> 
 
     if (test == "string") {
         logger.error(`>>>> authService.logIn(), result = ${result}`);
-        return null;
+        return false;
     }
-    
-    return  result;
+    return  generateTokens(result);
 }
 
 export async function confirmEmailAsync(email: string): Promise<string> {
@@ -54,7 +54,6 @@ export async function confirmEmailAsync(email: string): Promise<string> {
     //     logger.error(`>>>> authService.confirmEmail(), error  ${JSON.stringify(email)} has not been assigned to any user `)
     //     return "User Not Found"
     // }
-    console.log(email)
     const result = sendingEmail(isEmailExist);
     const error = typeof(result)
 

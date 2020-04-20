@@ -52,6 +52,7 @@
     -ms-user-select:none;
     user-select:none;
     background: #4E4E4E;
+    color: white
 }
 
 .ReactTable .rt-thead.-headerGroups {

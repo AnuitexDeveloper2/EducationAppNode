@@ -5,7 +5,7 @@ import { Role } from "../../shared/enums/role";
 
 let currentRole;
 
-export const generateTokens = (userModel: userModel, response: Response) => {
+export const generateTokens = (userModel: userModel) => {
     if (userModel == null) {
         return userModel;
     }
@@ -18,13 +18,14 @@ export const generateTokens = (userModel: userModel, response: Response) => {
 
     const refreshToken = jwt.sign(user, process.env.refreshTokenSecret, {expiresIn: process.env.refreshTokenLife})
 
-   response.setHeader('AccessToken', accessToken);
-   response.setHeader('RefreshToken',refreshToken);
+  //  response.setHeader('AccessToken', accessToken);
+  //  response.setHeader('RefreshToken',refreshToken);
   
    const respons = {
     "status": `Hello ${userModel.userName}`,
     "AccessToken": accessToken,
     "RefreshToken": refreshToken,
+    "User": userModel
 }
     return respons;
 }
@@ -70,7 +71,7 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     user._id = jwtPayload._id;
     user.role = jwtPayload.role;
    
-    return generateTokens(user,res);
+    return generateTokens(user);
   }
 
 

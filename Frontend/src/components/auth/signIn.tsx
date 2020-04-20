@@ -5,7 +5,7 @@ import { Button, ButtonToolbar } from "react-bootstrap";
 import './CSS/signIn.scss'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
-import { PopUpState } from "../../redux/popUp/types";
+import { HeaderState } from "../../redux/popUp/types";
 
 export interface LoginState {
   showLogIn: boolean,
@@ -16,9 +16,11 @@ export interface LoginState {
    constructor(props: any) {
         super(props)
       }
-        state: PopUpState={
+        state: HeaderState={
           showLogIn: false,
-          showRegister: false
+          showRegister: false,
+          user: null,
+          showMenu: false
         }
 
         showRegister = async () => {
@@ -34,11 +36,16 @@ export interface LoginState {
     }
    
     onSubmitLogIn = async (value: any) => {
-      debugger
       const result = await Auth.signIn(value)
       const token = result.AccessToken;
-      localStorage.setItem('AccessToken', token)}
-
+      debugger
+      if (result) {
+        localStorage.setItem('AccessToken', token)
+        localStorage.setItem('User',JSON.stringify(result.User))
+        window.location.assign('/main');
+      }
+    }
+      
     onFacebookLogin = async () => {
         Auth.moveFacebook();
      } 
@@ -46,12 +53,9 @@ export interface LoginState {
   //      window.location.assign('/register');
 
     render() {
-      
-          debugger
           return (
-            
-     <div className="modalWindow">
-        <div className="modalContent">
+     <div className="signin-modal">
+        <div className="signin-modal-inner">
            <div className="modalHeader">
               <div className="close">
                  <img src={close} onClick={this.closePopUp}/>
@@ -73,11 +77,11 @@ export interface LoginState {
                           <div className="form-row">
                             <div className="form-group col-md-6">
                               <label className="emailLabel">Email</label>
-                                <Field type="text" name="LoginRequest.email" className="emailForm" component="input"  />
+                                <Field type="text" name="email" className="emailForm" component="input"  />
                            </div>
                             <div className="form-group col-md-6">
                                  <label className="passwordLabel ">Password</label>
-                                  <Field type="text" name="LoginRequest.password" className="passworForm" component="input" />
+                                  <Field type="text" name="password" className="passworForm" component="input" />
                             </div>
                         </div>
                     </div>

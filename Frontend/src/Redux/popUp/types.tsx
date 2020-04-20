@@ -1,4 +1,8 @@
-export interface PopUpState {
-    showLogIn: boolean,
-    showRegister: boolean
+import { UserModel } from "../../shared/models/user/user";
+
+export interface HeaderState {
+    showLogIn: boolean;
+    showRegister: boolean;
+    user:UserModel;
+    showMenu: boolean
 }

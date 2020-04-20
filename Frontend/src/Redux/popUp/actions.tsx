@@ -1,3 +1,5 @@
+import { UserModel } from "../../shared/models/user/user"
+
 export function showSignInAction() {
     return{type:"SHOW_LOGIN"}
 }
@@ -12,4 +14,9 @@ export function hideRegisterAction() {
 
 export function showRegisterAction() {
     return{type: "SHOW_REGISTER"}
+}
+
+export function signInAction(user: UserModel) {
+    debugger
+    return{type: "SUCCESSFUL_SIGNIN",payload: user}
 }

@@ -7,4 +7,5 @@ export interface UserModel {
     removed_at: boolean;
     status: boolean;
     passwordHash: string;
+    role: string
 }
