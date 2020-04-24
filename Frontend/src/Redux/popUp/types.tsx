@@ -4,5 +4,4 @@ export interface HeaderState {
     showLogIn: boolean;
     showRegister: boolean;
     user:UserModel;
-    showMenu: boolean
 }

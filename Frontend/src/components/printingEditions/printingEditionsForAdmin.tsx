@@ -12,15 +12,8 @@ import SearchBar from "../searchBar/search";
 import  spinner  from "../../assets/spinner.gif";
 import useModal from "../author/useModal";
 import LastColumn from "../lastColumn/lastColumn";
-
-// export interface PrintingEditionProps {
-//   loadingBooks: (printingEdition: any) => object,
-//   isLoading: boolean,
-//   data: any,
-//   count: number
-// }
-
-// const {isShowing, toggle} = useModal();
+import { Currency } from "../../shared/enums/Currency";
+import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 
 const PrintingEditionForAdmin =() =>{
  
@@ -29,27 +22,31 @@ const PrintingEditionForAdmin =() =>{
       data: null,
       isLoading: false,
       showCreate: false,
-      
   })
 
   const [product,setProduct] = useState({item:{}})
   useEffect(() => {
-    getData(0)},[])
+    getData(1)},[])
     
     const hide =() => {
       toggle("createProduct")
     }
     const {isShowing, toggle} = useModal();
     const getData = async (pageNumber) => {
+        debugger
       const filter: PrintingEditionFilterModel ={
         searchString: '',
         sortType: SortType.None,
-        pageNumber: 1,
+        pageNumber: pageNumber +1,
         pageSize: 10,
-        sortTable: ''
+        tableSort: PrintingEditionSortType.Id,
+        currency:Currency.USD,
+        minPrice:0,
+        maxPrice: 1000,
+        typeProduct:undefined
       }
       const printingEdition = await PrintingEditionService.getPrintingEdition(filter)
-      setState({data: printingEdition.data,count:1,isLoading:true,showCreate:false})
+      setState({data: printingEdition.data,count:printingEdition.count,isLoading:true,showCreate:false})
     }
 
     const passData = (currentProduct) => {
@@ -152,7 +149,12 @@ const PrintingEditionForAdmin =() =>{
        className="-striped -highlight"
        columns={columns}
        data={state.data}
-      defaultPageSize={10}
+       defaultPageSize={10}
+       manual
+       pages={Math.floor(state.count/10+1)}
+       onFetchData={(state) =>{
+         debugger
+            getData(state.page)}}
       />
       </div>
    </div>

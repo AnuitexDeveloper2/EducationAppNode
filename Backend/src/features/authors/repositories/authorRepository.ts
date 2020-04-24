@@ -9,7 +9,7 @@ export async function createAsync(authorParam: authorModel): Promise<boolean> {
     if (result == null) {
         return false;
     }
-    
+    console.log(result)
     return true;
 }
 
@@ -54,7 +54,8 @@ export async function addProductAsync( authorId: string ,printingEditionId: stri
 export async function removeProductAsync(authorId: string , printingEditionId: string) {
     const author = authorModel.findById(authorId);
     let model = await author;
-    console.log(model.product_ids.length)
+    console.log(authorId)
+    console.log(printingEditionId)
    
     for (let index = 0; index < model.product_ids.length; index++) {
       

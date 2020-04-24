@@ -20,6 +20,7 @@ export interface PrintingEditionModel {
     currency: Currency;
     productType: PrintingEditionType;
     author_ids: Array<AuthorModel>
+    cover_image:string
 }
 
 export interface RequestPrintingEditionModel {
@@ -29,6 +30,6 @@ export interface RequestPrintingEditionModel {
     currency: Currency;
     productType: PrintingEditionType;
     author_ids: Array<string>;
-    // _id: string
+    cover_image: string
 }
 

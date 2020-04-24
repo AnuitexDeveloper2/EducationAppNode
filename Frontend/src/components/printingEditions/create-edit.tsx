@@ -8,6 +8,7 @@ import { getAuthors } from "../../services/authors";
 import { AuthorModel, PrintingEditionModel, RequestPrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { Currency } from "../../shared/enums/Currency";
 import { createPrintingEdition, editPrintingEdition } from "../../services/printingEdition";
+import FileBase from "react-file-base64";
 
 interface CreateState {
     printingEdition: PrintingEditionModel    
@@ -16,21 +17,30 @@ interface CreateState {
 }
 
 const CreateEditProduct = ({isShowing, hide,assigment,value}) => {
+  const [image, setImage] = useState({
+    baseImage:''
+  })
+  // const [loading, setLoading] = useState(false)
+
+  const getBaseFile =(files) => {
+    setImage({
+      baseImage: files.base64
+    });
+  }
   let title:string
   const product: RequestPrintingEditionModel ={
-    // _id:"",
     title:"",
     description:"",
     price:0,
     productType:PrintingEditionType.Book,
     currency: Currency.USD,
-    author_ids:[]
+    author_ids:[],
+    cover_image: image.baseImage
   }
   if (assigment == "Add") {
     title = "Add new Product"
 }
 if (assigment === "Edit") {
-  debugger
     product.title = value.item.name
     product.description = value.item.description
     product.price = value.item.price
@@ -45,17 +55,16 @@ if (assigment === "Edit") {
 
 
     const onSubmitCreate = async(data: any) => {
-      debugger
       const authors = [] as  string[]
       authors.push(data.author)
       const model:RequestPrintingEditionModel={
-        // _id: null,
         title: data.PrintingEdition.title,
         description: data.PrintingEdition.discription,
         productType: data.PrintingEdition.category,
         author_ids:authors ,
         price: data.PrintingEdition.price as number,
-        currency: data.PrintingEdition.currency
+        currency: data.PrintingEdition.currency,
+        cover_image: image.baseImage
       }
       let result: boolean
       if (assigment === "Add") {
@@ -63,8 +72,8 @@ if (assigment === "Edit") {
       }
 
       if (assigment === "Edit") {
-        // model._id = value.product._id
-        result = await editPrintingEdition(model)
+        const id = value.item.id
+        result = await editPrintingEdition(model,id)
       }
       if (result) {
         hide(false)
@@ -79,16 +88,14 @@ if (assigment === "Edit") {
       })
       return authors
     }
-
-    
     
     useEffect(() => {
       get()},[])
 
-     const test= (event: any) =>{
-        debugger
-        setState({ [event.target.name]: event.target.value } as any);
-    }
+    //  const test= (event: any) =>{
+    //     debugger
+    //     setState({ [event.target.name]: event.target.value } as any);
+    // }
     
           if (isShowing && state.isLoaded) {
             return (
@@ -115,10 +122,8 @@ if (assigment === "Edit") {
                           <Field type="text" name="PrintingEdition.title" className="create-title-form" defaultValue={product.title} component="textarea"/>
                            </span>
                           <span className="create-foto">
-                              <img src="" alt="foto"/> <br/>
-                              <p className="change-foto-label">
-                              ChangeFoto
-                              </p>
+                                <img src={image.baseImage} alt="upload-image" className="process__image" />
+                          <FileBase type="file" multiple={false} onDone={getBaseFile} />
                           </span>
                       </div>
                       <div className="down">

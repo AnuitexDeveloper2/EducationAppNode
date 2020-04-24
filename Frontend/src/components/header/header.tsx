@@ -16,7 +16,6 @@ import { UserModel } from '../../shared/models/user/user';
   state:HeaderState = {
     showLogIn: false,
     showRegister: false,
-    showMenu: false,
     user: null
   }
 
@@ -29,14 +28,6 @@ import { UserModel } from '../../shared/models/user/user';
     debugger
     localStorage.removeItem("User");
     this.setState({user:null})
-  }
-
-  toggleMenu = () => {
-    debugger
-    const test = this.state.user
-    this.setState({
-      showMenu: !this.state.showMenu
-    })
   }
 
   UNSAFE_componentWillMount = () => {
@@ -58,13 +49,19 @@ import { UserModel } from '../../shared/models/user/user';
           <div className="logOut" >
               {this.state.user!==null&& <div onClick={this.logOut.bind(this)}>LogOut</div>}
           </div>
-
           </a>
           <div className="signInButton">
               {this.state.user!==null&&<div>
-              <img src={signIn} alt="" onClick={this.toggleMenu}  />
-               {this.state.user.role==="Admin"&&this.state.showMenu&&<AdminMenu/>}
-               {this.state.user.role==="User"&&this.state.showMenu&&<UserMenu/>}
+              <nav>
+                <ul>
+                  <li>
+                    <img src={signIn} alt="menu" />
+                      {this.state.user.role==="Admin"&&<AdminMenu/>}
+                      {this.state.user.role==="User"&&<UserMenu/>}
+                  </li>
+                </ul>
+              </nav>
+               
 </div>
     }
               <PopUpManager/>
@@ -87,10 +84,13 @@ const UserMenu =() => {
 const AdminMenu = () => {
     return(
       <div className="option-menu">
-       <a href="/users"> <option>Users</option> </a>
-       <a href="/books"> <option>Products</option> </a>
-       <a href="/authors"> <option value="">Authors</option></a>
-       <a> <option value="">Orders</option> </a>
+        <ul className="option-item">
+
+      <li> <a href="/users"> <option>Users</option> </a></li>
+      <li> <a href="/books"> <option>Products</option> </a></li>
+      <li> <a href="/authors"> <option value="">Authors</option></a></li>
+      <li> <a> <option value="">Orders</option> </a></li>
+        </ul>
       </div>
     )
 }

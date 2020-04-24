@@ -14,7 +14,7 @@ export const printingEditionSchema = new schema({
     productType: { type: PrintingEditionType, required: true },
     price: { type: Number, required: true },
     currency: { type: Currency, default: Currency[0] },
-    author_ids: [{ type: mongoose.Schema.Types.ObjectId,ref: 'Author',required: true }]
+    author_ids: [{ type: mongoose.Schema.Types.ObjectId,ref: 'Author',required: true }],
 });
 
 printingEditionSchema.plugin(mongoosePaginate);

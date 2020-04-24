@@ -14,7 +14,7 @@ export async function removeAsync(req: Request, res: Response, next: NextFunctio
      }
 
 export async function updateAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.updateAsync(req.body)
+    printingEditionService.updateAsync(req.body.printingEdition,req.body._id)
         .then(users => res.json(users))
         .catch(err => next(err));
     }

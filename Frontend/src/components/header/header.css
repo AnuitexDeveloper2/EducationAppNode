@@ -48,6 +48,44 @@
 }
 
 .option-menu {
-    background-color: #CDCDCD;
     text-align: center;
+}
+
+nav > ul > li {
+    display: inline-block
+  }
+  nav > ul > li ul {
+    visibility: hidden;
+    position: absolute;
+    top: 105%;
+    left: 0;
+    transition: 0.2s 1s;
+  }
+  nav > ul > li:hover ul {
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+   li {
+    width: 100px;
+    margin: 2px;
+    position: relative;
+    padding: 10px;
+  }
+  nav a {
+    display: block;
+    
+  }
+  
+  body {
+    padding: 10px;
+  }
+
+.option-item {
+    background-color: grey;
+    border-radius: 30px;
 }

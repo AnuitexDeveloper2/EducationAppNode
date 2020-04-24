@@ -3,7 +3,7 @@ import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEd
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { PrintingEdition } from "../api";
 import * as authorRepository from "../../authors/repositories/authorRepository"
-import { isNull } from "util";
+import { PrintingEditionType } from "../../shared/enums/printingEditionType";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
@@ -11,9 +11,9 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
     if (result == null) {
         return false;
     }
+    console.log(result)
     for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
         authorRepository.addProductAsync(printingEditionParam.author_ids[index],result.id)
-        
     }
  
     return true;
@@ -36,13 +36,12 @@ export async function removeAsync(id: string): Promise<boolean> {
 }
 
 
-export async function updateAsync(printingEditionParam: printingEditionModel): Promise<boolean> {
-    const printingEdition = printingEditionModel.findById(printingEditionParam._id);
-    console.log((await printingEdition).author_ids)
+export async function updateAsync(printingEditionParam: printingEditionModel,_id: string): Promise<boolean> {
+    const printingEdition = printingEditionModel.findById(_id);
+        
     for (let index = 0; index <(await printingEdition).author_ids.length; index++) {
         authorRepository.removeProductAsync( (await printingEdition).author_ids[index],(await printingEdition)._id)
     }
-    console.log(1111111111)
     for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
         authorRepository.addProductAsync(printingEditionParam.author_ids[index],(await printingEdition)._id);
         
@@ -68,14 +67,26 @@ export async function getPrintingEditionsAsync(filter:PrintingEditionFilterModel
     let data= new Array<PrintingEdition>();
     let count;
     let query;
-    let tableSort: any = {'title': filter.sortType};
-   
-    if (filter.searchString !=null) {
-        query = printingEditionModel.find().find({$and:[{ title: { $regex: new RegExp( filter.searchString,'i')} },{removed_at:false}]})
+    let tableSort: any = {'_id': filter.sortType};
+    let type = {}
+    if (filter.typeProduct!== undefined) {
+        type={productType:PrintingEditionType[filter.typeProduct]}
     }
-    
-    if(filter.sortType == 0) {
-        tableSort = {'_id': filter.sortType};
+    if (filter.searchString !=null) {
+        query = printingEditionModel.find()
+        .find({$and:[
+            { title: { $regex: new RegExp( filter.searchString,'i')} },
+            {removed_at:false},
+            {price:{$gte: filter.minPrice}},{price:{$lte: filter.maxPrice}},
+            type
+        ]})
+    }
+    console.log(type)
+    if(filter.tableSort === 1) {
+        tableSort = {'price': filter.sortType};
+    }
+    if (filter.tableSort ===2) {
+        tableSort = {'title': filter.sortType};
     }
     
     const options = {

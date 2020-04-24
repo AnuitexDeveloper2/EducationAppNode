@@ -1,6 +1,6 @@
 import { createFinalFormValidation } from '@lemoncode/fonk-final-form';
 import { Validators } from '@lemoncode/fonk';
-import { rangeNumber } from '@lemoncode/fonk-range-number-validator';
+// import { rangeNumber } from '@lemoncode/fonk-range-number-validator';
 const validationSchema = {
      field: {
        userName: [Validators.required.validator],

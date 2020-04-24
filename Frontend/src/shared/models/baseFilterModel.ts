@@ -5,5 +5,4 @@ export interface BaseFilter {
     sortType: SortType;
     pageNumber: number;
     pageSize: number;
-    sortTable: string;
 }

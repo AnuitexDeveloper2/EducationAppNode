@@ -44,7 +44,6 @@ const UsersForAdmin = () => {
                 searchString: '',
                 pageNumber: pages + 1,
                 pageSize: 10,
-                sortTable: '',
                 sortType: SortType.None,
                 userType: userType
         }     
@@ -175,7 +174,6 @@ const PickStatus = ({setData})  => {
             searchString: '',
             pageNumber: 1,
             pageSize: 10,
-            sortTable: '',
             sortType: SortType.None,
             userType: idx
     }     

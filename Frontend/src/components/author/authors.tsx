@@ -41,7 +41,6 @@ const AuthorsForAdmin = () => {
             searchString: '',
             pageNumber: pageNumber+1,
             pageSize: 10,
-            sortTable: '',
             sortType: SortType.None,
     }
         const authors = await getAuthorsForAdmin(filter)
@@ -111,7 +110,6 @@ const AuthorsForAdmin = () => {
        data={data.authors}
        defaultPageSize={10}
        manual
-       
        pages={data.pages}
        onFetchData={(state) =>{
             getData(state.page)

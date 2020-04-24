@@ -15,13 +15,13 @@ export async function createPrintingEdition(printingEdition: RequestPrintingEdit
 
 export async function removePrintinEdition(printingEdition: any) {
    const _id = printingEdition.id
-   debugger
    const result = await axios.post('http://localhost:8000/admin/printing-edition/remove',{_id})
    return result.data
 }
 
-export async function editPrintingEdition(printingEdition: RequestPrintingEditionModel) {
+export async function editPrintingEdition(printingEdition: RequestPrintingEditionModel,id: string) {
    debugger
-   const result = await axios.post('http://localhost:8000/admin/printing-edition/update',printingEdition);
+   const data ={printingEdition: printingEdition, _id: id }
+   const result = await axios.post('http://localhost:8000/admin/printing-edition/update',data);
    return result.data
 }

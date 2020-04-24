@@ -23,10 +23,10 @@ const Remove = ({isShowing, hide,assigment,value}) => {
         let result;
         debugger
         if (assigment==='author') {
-             result = await removeAuthor(value.author)
+             result = await removeAuthor(value.item)
         }
         if (assigment === 'product') {
-             result = await removePrintinEdition(value.product)
+             result = await removePrintinEdition(value.item)
         }
         if (assigment === "user") {
             result = await removeUser(value.item.id)

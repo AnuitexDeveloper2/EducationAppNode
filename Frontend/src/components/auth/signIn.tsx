@@ -20,7 +20,6 @@ export interface LoginState {
           showLogIn: false,
           showRegister: false,
           user: null,
-          showMenu: false
         }
 
         showRegister = async () => {
