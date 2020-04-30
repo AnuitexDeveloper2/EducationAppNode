@@ -257,6 +257,10 @@ ul.pagination li a.active {
   margin-top: 10px;
 }
 
+.books-block {
+  cursor: pointer
+}
+
 /* Slider*/
 
 .rc-slider {

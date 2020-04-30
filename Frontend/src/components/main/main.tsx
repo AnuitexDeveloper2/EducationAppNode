@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext, useContext } from "react";
 import { Range } from 'rc-slider';
 import ReactPaginate from "react-paginate";
 import "./main.css"
-// import 'rc-slider/assets/index.css';
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import { getPrintingEdition } from "../../services/printingEdition";
@@ -13,8 +12,9 @@ import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 import SearchBar from "../searchBar/search";
-import Pagination from "react-bootstrap/Pagination";
+import { Link } from "react-router-dom";
 
+export const ProductContext = createContext(null)
 
 export default function MainPage() {
   useEffect(() => {
@@ -69,14 +69,17 @@ export default function MainPage() {
        setTypeProduct(PrintingEditionType[e.target.value])
        getData(1,Currency[currency],SortType[direction],PrintingEditionSortType[sortType],price.minValue,price.maxValue,currenttype)
     }
-
     
-const handlePageClick =(e) => {
-  debugger
-  const test = state.count/6+1
-  getData(e.selected +1,Currency[currency],SortType[direction],PrintingEditionSortType[sortType],price.minValue,price.maxValue,typeProduct)
+      const handlePageClick =(e) => {
+      const test = state.count/6+1
+      getData(e.selected +1,Currency[currency],SortType[direction],PrintingEditionSortType[sortType],price.minValue,price.maxValue,typeProduct)
+    }
 
-}
+    const purchcase =(item) => {
+        localStorage.setItem('Product',JSON.stringify(item))
+        window.location.assign("/book")
+    }
+
     const getData = async (pageNumber,currency,direction,tableSort,minPrice,maxPrice,typeProduct) => {
         const filter: PrintingEditionFilterModel ={
           searchString: '',
@@ -151,8 +154,8 @@ const handlePageClick =(e) => {
        </div>
 
         <div className="grid">
-    {state.data.map((item:PrintingEditionModel,i) =>(
-      <div className="books-block" key={i}>
+    {state.data.map((item:PrintingEditionModel,i) =>
+      <div className="books-block" key={i} onClick={()=>purchcase(item)}>
           <span className="grid-image"><img src={item.cover_image} alt="img" className="grid-image"/></span>
             <span className="grid-title"><a href="">{item.title} </a> </span>
              <span className="grid-authors">
@@ -161,7 +164,7 @@ const handlePageClick =(e) => {
             </span>
                 <span className="grid-price"> {item.price}<span className="grid-currency">{currency}</span></span>
         </div>
-    ))}
+    )}
   </div>
    </div>
   <div className="pagination">

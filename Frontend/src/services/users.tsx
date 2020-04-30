@@ -18,3 +18,7 @@ export async function blockUser(_id:string):Promise<boolean> {
    const result = await axios.post('http://localhost:8000/admin/user/block',{_id});
    return result.data;
 }
+
+export async function editUser() {
+   
+}

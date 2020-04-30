@@ -3,6 +3,7 @@ import { HeaderState } from "./types";
 const initialState: HeaderState = {
     showLogIn: false,
     showRegister: false,
+    showCart:false,
     user:null,
 }
 
@@ -16,6 +17,10 @@ export function popUpReducer (state: HeaderState= initialState, action: any) {
             return {...state,showLogIn:false}
         case "HIDE_REGISTER":
             return {...state,showRegister:false}
+        case "HIDE_CART":
+            return {...state,showCart:false}
+        case "SHOW_CART":
+            return {...state,showCart:true}
         default:
             return state
     }

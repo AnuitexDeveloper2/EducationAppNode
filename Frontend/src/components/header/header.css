@@ -89,3 +89,9 @@ nav > ul > li {
     background-color: grey;
     border-radius: 30px;
 }
+
+.shopping-cart {
+  width: 25px;
+  height: 25px;
+  margin-right: 10%;
+}

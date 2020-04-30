@@ -27943,3 +27943,2348 @@
   level: 'info',
   timestamp: '2020-04-24T20:44:34.460Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-24T20:45:03.262Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-25T08:34:10.223Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:17.173Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.048Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":994}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.076Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":982}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.103Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":970}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.142Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":964}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.181Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":946}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.208Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":940}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.247Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":922}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.275Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":904}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.298Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":892}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.332Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":880}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.354Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":862}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.430Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":814}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.501Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":790}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.611Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":760}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.629Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":754}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.648Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":748}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.929Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":724}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.966Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":670}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:29.990Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":628}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:30.024Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":598}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:30.042Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":580}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:30.060Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":574}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:30.101Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":562}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:30.142Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.308Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":6,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.359Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":12,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.396Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":30,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.439Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":36,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.481Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":48,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:32.581Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":54,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:33.319Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":60,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:33.356Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":66,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:33.436Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":72,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:33.904Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":78,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:33.959Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":84,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.015Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":90,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.437Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":96,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.517Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":102,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.597Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":108,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.786Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":114,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.879Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":120,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:34.928Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":126,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:36.614Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":132,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:36.786Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":138,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:36.866Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":144,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:36.893Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":150,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:36.926Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":156,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.704Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":150,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.737Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":144,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.771Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":138,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.788Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":132,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.819Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":126,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.846Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":120,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.867Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":114,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.892Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":108,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.926Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":96,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:37.967Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":90,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.002Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":84,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.028Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":78,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.043Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":72,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.090Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":60,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.121Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":48,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.142Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":42,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.172Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":36,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.192Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":24,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.239Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":12,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.262Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":6,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:38.279Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":556}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.004Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":562}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.039Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":652}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.069Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":856}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.122Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":904}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.145Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":970}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:41.170Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:47.339Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000,"typeProduct":1}',
+  level: 'info',
+  timestamp: '2020-04-25T09:20:55.937Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":-1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000,"typeProduct":1}',
+  level: 'info',
+  timestamp: '2020-04-25T09:21:02.140Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:24:32.287Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:24:37.750Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:24:37.894Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-25T09:24:37.960Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T09:24:40.545Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:09:00.942Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:10:27.691Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:11:31.740Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:15:17.423Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:55:44.987Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T10:56:35.906Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:02:09.116Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:04:22.135Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:04:27.869Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:08:51.119Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:10:39.926Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:11:26.723Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:12:35.459Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:13:03.857Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:18:07.654Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:18:44.463Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:21:10.998Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:22:03.599Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:22:19.453Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:22:25.442Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:24:32.735Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:26:33.314Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:27:51.199Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:33:27.382Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:33:45.782Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:34:04.074Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:35:47.887Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:37:42.874Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:37:53.480Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:39:08.753Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:40:44.757Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:48:28.971Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:49:43.594Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:49:57.001Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:50:31.070Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:50:49.384Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:51:20.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:51:26.791Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:52:39.161Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T11:54:25.938Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:13:11.346Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:30:10.123Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:36:25.271Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:36:56.442Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:36:56.452Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:36:59.789Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:37:19.878Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:38:41.794Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:43:23.837Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:43:23.841Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:43:41.431Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:44:24.271Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:45:13.529Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:51:35.813Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:51:35.817Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:51:39.422Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:51:47.205Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:54:40.785Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:55:59.471Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T13:55:59.475Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:56:10.736Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:59:27.127Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T13:59:44.365Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:00:22.994Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:01:59.962Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T14:04:02.635Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T14:04:02.639Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:04:07.284Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:16:23.194Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:19:36.210Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T14:20:29.639Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T14:20:29.643Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:20:44.356Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:21:51.019Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:22:45.915Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:52:53.488Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:52:55.064Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T14:52:59.324Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:24:58.561Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:24:58.567Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:31:14.023Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:31:14.071Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:31:19.920Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:31:19.926Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:32:00.904Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:32:00.961Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:34:15.971Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:34:16.003Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:34:31.618Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:34:31.680Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:08.527Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:08.640Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:15.134Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:15.281Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:30.615Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:35:38.406Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:38:40.808Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:39:38.373Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T15:41:51.545Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-25T15:41:51.550Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:41:53.407Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-25T15:47:37.284Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-25T17:30:43.333Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-25T19:26:47.851Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-27T09:06:43.324Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T09:51:48.864Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T09:51:49.075Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T09:51:49.086Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T10:06:13.673Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T10:06:13.878Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T10:06:14.038Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:47:39.874Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:47:40.097Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:47:40.179Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:50:32.134Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:50:32.354Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:50:32.369Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:51:20.025Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:51:20.305Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:51:20.342Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:52:04.159Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:52:04.398Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:52:04.424Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:53:24.557Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:53:24.749Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:53:24.784Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:54:12.615Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:54:12.815Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:54:12.866Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:55:43.032Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:55:43.325Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:55:43.351Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:32.789Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:33.014Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:33.039Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:49.992Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:50.262Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:50.289Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:56:54.290Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:59:30.846Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:59:36.334Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T11:59:43.246Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:00:15.979Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:00:35.938Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:00:35.945Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:00:37.923Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:00:42.416Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:07:28.090Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:07:36.029Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:07:42.087Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:10:53.344Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:11:33.763Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:12:13.584Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:13:14.418Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:15:05.942Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:22:23.220Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:23:33.890Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:23:33.896Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:23:37.165Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:25:12.521Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:25:37.284Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:26:08.595Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T12:26:08.599Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:26:10.793Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:27:22.270Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T12:42:17.844Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-27T13:19:42.554Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:20:05.955Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:21:54.633Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:28:18.751Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T13:32:56.263Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T13:32:56.270Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:33:03.126Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:34:20.375Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:35:45.126Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:35:54.870Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:36:09.643Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:37:01.418Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:38:54.290Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:38:57.579Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-27T13:44:36.522Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:45:31.123Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T13:45:59.278Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:03:33.599Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:03:36.347Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:04:33.289Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:05:05.157Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:05:23.273Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:06:34.603Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:06:49.212Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:07:22.176Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:07:49.420Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:08:06.834Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:09:23.200Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:10:10.838Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:10:44.738Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:08.258Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:09.176Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:11.170Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:12.881Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:28.681Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:32.244Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:12:33.679Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:13:07.822Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:13:15.520Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:14:30.238Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:36:23.256Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:36:27.830Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-27T14:37:52.210Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:37:52.963Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-27T14:38:44.951Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:38:45.540Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:38:52.467Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T14:48:11.285Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:19:50.797Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:20:11.486Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:20:11.788Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T15:20:11.870Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:20:17.669Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:21:02.336Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:21:02.609Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-27T15:21:02.641Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:21:04.760Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:24:12.335Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:25:10.802Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:25:10.809Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:25:13.998Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:25:29.866Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:26:43.500Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:26:43.506Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:26:47.337Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:27:37.139Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-27T15:27:37.144Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:27:39.304Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T15:29:37.953Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:18:54.985Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:02.275Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:09.657Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:19.386Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:32.921Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:38.759Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:48.746Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:19:56.595Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:20:00.033Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:20:07.148Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:20:09.819Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:27:41.126Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":-1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:27:44.931Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:27:51.837Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:27:56.266Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:08.066Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":-1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:12.089Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:18.594Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":3,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:26.887Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:33.690Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:28:42.829Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:30:00.471Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:30:16.119Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:30:24.132Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":-1,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":1,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T17:30:29.695Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T18:02:22.273Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T18:03:14.984Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T18:03:21.526Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-27T18:03:36.926Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-27T18:03:37.324Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-28T09:27:08.965Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T09:29:04.143Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T09:29:04.298Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-28T09:29:04.321Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-28T09:29:29.950Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T09:29:30.582Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-28T10:18:13.652Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T10:18:13.998Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T10:18:38.906Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T10:18:45.070Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T10:46:41.875Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T12:31:19.106Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-28T13:10:16.080Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T13:10:16.848Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-28T13:18:45.889Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T13:18:46.655Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T13:18:55.610Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T13:18:55.737Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-04-28T13:18:55.773Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T14:55:28.254Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T15:17:58.369Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-28T15:18:15.031Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-28T15:18:15.564Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-30T10:02:57.312Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:17:23.927Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:24:40.618Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T10:24:51.988Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:24:52.256Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:27:31.860Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T10:27:41.093Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:27:41.419Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:52:13.923Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:52:31.793Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:52:41.370Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:54:45.719Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T10:54:49.663Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:22:04.924Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:22:15.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:25:15.884Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:28:23.546Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:29:15.061Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:29:36.813Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T11:31:32.298Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:31:45.088Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:31:45.102Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:53:59.892Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:53:59.895Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:54:37.578Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:54:37.582Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:54:51.468Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T11:54:51.472Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:02:36.459Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:02:36.467Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:03:32.014Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:03:32.030Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:04:24.004Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:04:24.013Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:04:27.752Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:10:50.314Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:26:45.711Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:26:51.187Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:26:52.298Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:27:20.918Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:27:55.976Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:28:38.409Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:28:53.195Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:28:53.203Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:29:04.025Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:29:04.030Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:30:03.557Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:30:03.563Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:31:54.060Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:31:54.065Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:31:57.679Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:31:57.687Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:34:25.726Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:34:25.733Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:34:29.131Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:34:29.137Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:35:59.062Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:35:59.066Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:38:38.565Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:38:38.572Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:38:42.200Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:38:42.204Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:21.543Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:21.550Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:32.782Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:32.794Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:39.545Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:39.580Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:48.356Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:40:48.373Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:41:06.754Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:41:06.758Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:43:20.511Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-04-30T12:43:20.517Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T12:43:36.520Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:43:37.037Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:44:36.860Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:45:17.712Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:46:11.210Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:47:43.670Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:55:13.160Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:55:40.207Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:56:39.561Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:58:00.288Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:58:15.974Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T12:58:29.973Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T13:02:14.336Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T13:02:15.148Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T13:08:07.909Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T13:12:27.085Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T15:51:12.570Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T15:51:52.118Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T15:51:52.551Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-04-30T16:17:13.139Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-04-30T16:17:13.588Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-04-30T16:27:58.232Z'
+}

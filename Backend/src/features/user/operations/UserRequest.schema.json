@@ -32,7 +32,6 @@
     },
     "additionalProperties": false,
     "required": [
-        "userName",
         "firstName",
         "lastName",
         "email"

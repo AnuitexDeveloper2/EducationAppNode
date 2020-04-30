@@ -19,6 +19,7 @@ export interface LoginState {
         state: HeaderState={
           showLogIn: false,
           showRegister: false,
+          showCart: false,
           user: null,
         }
 

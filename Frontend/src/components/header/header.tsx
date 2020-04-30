@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './header.css';
 import  signIn  from "../../assets/SignUp.png";
 import bookLogo from "../../assets/Book_Logo_svg.png"
+import cart from "../../assets/shopping_cart_icon.png"
 import  PopUpManager  from '../auth/popUpManager';
 import { HeaderState } from '../../redux/popUp/types';
 import { connect} from "react-redux"
-import { showSignInAction } from "../../Redux/popUp/actions";
-import { UserModel } from '../../shared/models/user/user';
+import { showSignInAction, showCartAction } from "../../Redux/popUp/actions";
+import Cart from '../cart/cart';
 
  class Header extends Component<any, HeaderState> {
   constructor(props: any) {
@@ -16,17 +17,20 @@ import { UserModel } from '../../shared/models/user/user';
   state:HeaderState = {
     showLogIn: false,
     showRegister: false,
+    showCart: false,
     user: null
   }
 
   showSigInForm=(event:any) => {
-      const {showLogIn: showTest} = this.state
       this.props.showSignInAction()
   }
 
+  showCart = () => {
+    this.props.showCartAction()
+  }
+
   logOut = () => {
-    debugger
-    localStorage.removeItem("User");
+    localStorage.clear();
     this.setState({user:null})
   }
 
@@ -36,10 +40,12 @@ import { UserModel } from '../../shared/models/user/user';
   } 
     render() {
         return (
+          <div>
+
       <div className="header">
           <div className="bookLogo">
             
-              <img src={bookLogo} alt="" />
+            <a href="/main"> <img src={bookLogo} alt="to Main paige"/> </a>
           </div>
           <a className="move-signin">
 
@@ -55,29 +61,35 @@ import { UserModel } from '../../shared/models/user/user';
               <nav>
                 <ul>
                   <li>
+                    <img src={cart} className="shopping-cart" onClick={this.showCart}/>
+                    
                     <img src={signIn} alt="menu" />
                       {this.state.user.role==="Admin"&&<AdminMenu/>}
                       {this.state.user.role==="User"&&<UserMenu/>}
                   </li>
                 </ul>
               </nav>
-               
-</div>
+        </div>
     }
-              <PopUpManager/>
             </div>
       
+            
       </div>  
+              <PopUpManager/>
+    </div>
     );
 }
 }
 
 const UserMenu =() => {
   return(
-    <div>
-      User
-      <option value="">Author</option>
-    </div>
+    <div className="option-menu">
+        <ul className="option-item">
+
+      <li> <a href="/profile"> <option>MyProfile</option> </a></li>
+      <li> <a href="/myOrders"> <option>MyOrders</option> </a></li>
+        </ul>
+      </div>
   )
 }
 
@@ -102,5 +114,10 @@ const mapStateToProps = (state:any) => {
         headerState: state
       }
  }  
-export default connect(mapStateToProps,{showSignInAction})(Header);
+
+const mapDispatchToProps = {
+  showSignInAction,
+  showCartAction
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Header);
 
