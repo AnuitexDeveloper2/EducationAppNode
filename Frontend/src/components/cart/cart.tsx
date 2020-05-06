@@ -3,9 +3,12 @@ import { OrderItemModelItem } from "../../shared/models/orderModel/OrderItemMode
 import  spinner  from "../../assets/spinner.gif";
 import "./cart.scss"
 import remove from "../../assets/delete.png"
-import { removeItemFromCart } from "../../shared/extention/localStorage";
+import { removeItemFromCart } from "../../services/localStorageService";
 import { useDispatch } from "react-redux";
 import { hideCartAction } from "../../Redux/popUp/actions";
+import StripeCheckout from "react-stripe-checkout";
+import { Orders } from "../../shared/models/order/orderModel";
+import { createOrder } from "../../services/order";
 
 export default function Cart ({outsideState})  {
 
@@ -21,7 +24,6 @@ export default function Cart ({outsideState})  {
     },[])
 
     const cancel =() => {
-        debugger
         dispatch(hideCartAction())
         if (outsideState !=="") {
             outsideState(false)
@@ -33,18 +35,30 @@ export default function Cart ({outsideState})  {
         getData();
     }
 
-    const getData= () => {
+    const buyNow = async(token) => {
+        const user = JSON.parse(localStorage.getItem("User"));
+        const order: Orders= {
+            user_id: user._id,
+            amount: state.total,
+            transaction_id: token.id,
+            items: state.data
+        }
+        const result = await createOrder(order);
+        if (result) {
+            cancel();
+        }
+    }
+
+    function getData() {
         let totalPrice=0;
         const myCart =JSON.parse(localStorage.getItem("Cart"))
         setState({data:[], isLoaded:true,total:totalPrice})
         if (myCart !==null) {
-            myCart.map((item:OrderItemModelItem)=>{
-                totalPrice +=item.printingEditionPrice *item.count
+            myCart.foreach((item:OrderItemModelItem)=>{
+                totalPrice +=item.price *item.count
             })
             setState({data:myCart, isLoaded:true,total:totalPrice})
         }
-
-
     }
 
     if (!state.isLoaded) {
@@ -52,7 +66,7 @@ export default function Cart ({outsideState})  {
           <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">
              <span className="sr-only">
-               <img src={spinner}></img>
+               <img src={spinner} alt="spinner"></img>
              </span>
          </div>
          </div>
@@ -76,9 +90,9 @@ export default function Cart ({outsideState})  {
         {state.data.map((item:OrderItemModelItem,i)=>
         <tr key={i}>
             <td>{item.printingEditionName}</td>
-            <td>{item.printingEditionPrice}</td>
-            <td>{item.amount/item.printingEditionPrice}</td>
-            <td><div className="tr-amount">${item.amount}</div></td>
+            <td>{item.price}</td>
+            <td>{item.count}</td>
+        <td><div className="tr-amount">${item.price*item.count}</div></td>
             <td><img src={remove} alt="remove" className="tr-image" onClick={()=>removeItem(i)}/></td>
         </tr>
         )}
@@ -88,11 +102,14 @@ export default function Cart ({outsideState})  {
         <button  className="cart-cancel-button" onClick={cancel} > 
                    <span className="car-cancel-label">Cancel</span> 
                 </button>
-                <button  className="cart-buy-button"  > 
-                <div className="cart-buy-label">
-                    Buy Now
+                <div className="cart-buy-button" >
+                 <StripeCheckout
+            token={(token)=> {
+                buyNow(token)
+            }}
+            stripeKey="pk_test_uM7l1xcvkra93O8DCsRRCGzg00DLGeT0Tr"
+            />
                 </div>
-                </button>
           </div>
         </div>
     )

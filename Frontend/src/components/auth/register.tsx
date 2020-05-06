@@ -1,8 +1,6 @@
 import React from 'react';
 import { Form, Field } from "react-final-form";
-import { RouteComponentProps } from 'react-router-dom';
-import "./CSS/register.scss";
-import { Modal, ButtonToolbar, Button } from 'react-bootstrap';
+import "./CSS/register.css";
 import close from "../../assets/close.svg";
 import  * as authService  from "../../services/auth";
 import anonymus from "../../assets/anonymus.png";
@@ -12,9 +10,9 @@ import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 
 
 export class Register extends React.Component<any> {
-    constructor(props: any){
-        super(props)
-    }
+    // constructor(props: any){
+    //     super(props)
+    // }
     
     showLogIn = () => {
       this.props.hideRegisterAction();
@@ -40,10 +38,10 @@ export class Register extends React.Component<any> {
               <div className="register-modal-inner">
                 <div className="registerHeader">
                   <div className="close">
-                    <img src={close} onClick={this.closePopUp.bind(this)}/>
+                    <img src={close} alt="close" onClick={this.closePopUp.bind(this)}/>
                   </div>
                   <div className="userImgRegister">
-                    <img src={anonymus} alt=""/>
+                    <img src={anonymus} alt="user"/>
                 </div>
                 <div className="createAccountLabel">
                   Create Account
@@ -121,7 +119,7 @@ export class Register extends React.Component<any> {
                <button className="registerButton" type="submit"  disabled={submitting || pristine}   value="register"><span className="registerButtonLabel">SignUp Your Account</span></button>
            </div>
            <span className="alreadyRegister">Already have an account?</span>
-          <a className="moveToSignIn" onClick={this.showLogIn.bind(this)}>SignIn</a>
+          <span className="moveToSignIn" onClick={this.showLogIn.bind(this)}>SignIn</span>
        </div>
       </form>)}
           />

@@ -12,7 +12,6 @@ import { ResetPassword } from '../api';
 export async function getByIdAsync(id: any): Promise<any> {
    const validateResult = validateWithJsonSchema(id,idValidateSchema);
    logger.info(`>>>> userService.getById(), with user id = ${JSON.stringify(id)}`);
-    console.log(id);
    if (!validateResult.valid) {
        logger.error(`>>>> userService.getById(), invalid data = ${JSON.stringify(id)}`);
        return {message: `invalid id`, error: validateResult.errors};
@@ -39,7 +38,7 @@ export async function getAllAsync() {
 export async function editAsync(userParam: userModel) : Promise<any> {
    const validateResult = validateWithJsonSchema(userParam, userValidateSchema);
    logger.info(`>>>> userService.edit(), with: user = ${JSON.stringify(userParam)}`)
-  
+    
    if (!validateResult.valid) {
     logger.error(`>>>> userService.edit(), invalid data = ${validateResult.errors}`)
     return {message: "Invalid UserEdit request", error: validateResult.errors};
@@ -107,11 +106,11 @@ export async function changePassword(changePasswordParam: ResetPassword) {
         return "invalid password" ;
     }
 
-    return "Ok";
+    return result;
 
 }
 
 export async function getUserAsync(filter:UserFilterModel) {
-    const result = repository.getUsersAsync(filter);
+    const result = await repository.getUsersAsync(filter);
     return result;
 }

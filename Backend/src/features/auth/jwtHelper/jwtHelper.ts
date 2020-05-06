@@ -31,12 +31,12 @@ export const generateTokens = (userModel: userModel) => {
 }
 
 export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
+    debugger
     const accessToken = <string>req.headers["accesstoken"];
     let jwtPayload;
     let newTokens: any;
     try {
       jwtPayload = <any>jwt.verify(accessToken, process.env.secret);
-     
       currentRole = jwtPayload.role;
 
       res.locals.jwtPayload = jwtPayload;
@@ -57,10 +57,10 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
 
   export function refreshTokens( res: Response,req: Request) {
     let jwtPayload;
-   
     try {
-      jwtPayload = <any>jwt.verify(<string>req.headers["refreshtoken"], process.env.refreshTokenSecret);
+      jwtPayload = <any>jwt.verify(<string>req.body.refreshToken, process.env.refreshTokenSecret);
       res.locals.jwtPayload = jwtPayload;
+      console.log(jwtPayload)
     } catch (err) {
       if (err.name == 'TokenExpiredError') {
         res.status(401).send('refresh token is not valid');
@@ -73,7 +73,3 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
    
     return generateTokens(user);
   }
-
-
-  
-

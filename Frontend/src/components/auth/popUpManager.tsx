@@ -20,7 +20,6 @@ const PopUpManager: React.FC<any>= ({popupState}) => {
         </div>
             )
     }
-    debugger
     if(popupState.popUpmanager.showCart) {
         return(
             <div>

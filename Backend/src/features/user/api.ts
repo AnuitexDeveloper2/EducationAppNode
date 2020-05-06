@@ -13,7 +13,7 @@ import { Role } from "../shared/enums/role";
     }
 
     export interface ResetPassword {
-        _id: string;
+        id: string;
         oldPassword: string;
         newPassword: string;
     }

@@ -234,21 +234,17 @@
     color: #FFFFFF;
 }
 .alreadyRegister {
-
     position: absolute;
-    left: 13.96%;
+    left: 10.96%;
     right: 15.38%;
     top: 91%;
     bottom: 6%;
-
-
-
-color: #999999;
+    color: #999999;
 }
 
 .moveToSignIn {
-    cursor: pointer;
     position: absolute;
+    cursor: pointer;
     left: 38.75%;
     right: 57.45%;
     top: 91%;
@@ -265,7 +261,7 @@ color: #999999;
     color: #FB7134;
 }
 
-    // errors
+ /* errors */
 
     .userName_error {
         position: absolute;

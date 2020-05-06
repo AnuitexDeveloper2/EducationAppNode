@@ -2,21 +2,20 @@ import React from "react";
 import './search.scss';
 import { Form, Field } from "react-final-form";
 import { getAuthorsForAdmin } from "../../services/authors";
-import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { SortType } from "../../shared/enums/sortType";
-import { getPrintingEdition } from "../../services/printingEdition";
+import { getPrintingEdition, getMainPage } from "../../services/printingEdition";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 
-const SearchBar = ({placeholder,params}) => {
+const SearchBar = ({placeholder,params,pageSize}) => {
 
 const getData = async(value: any) => {
         debugger
         const filter:PrintingEditionFilterModel = {
             searchString: value.searchString,
             pageNumber: 1,
-            pageSize: 10,
+            pageSize: pageSize,
             sortType: SortType.None,
             currency: Currency.USD,
             tableSort: PrintingEditionSortType.Id,
@@ -24,13 +23,14 @@ const getData = async(value: any) => {
             maxPrice:1000,
             typeProduct:undefined
     }
-    if (placeholder ==="Author") {
+    if (placeholder ==="Search Author") {
+        debugger
         const authors = await getAuthorsForAdmin(filter);
         params({authors: authors.data, pages: Math.floor(authors.count/10+1)});
     }
     if (placeholder === "Search Product") {
-        const printingEdition = await getPrintingEdition(filter);
-        params({data: printingEdition.data,count:1,isLoading:true,showCreate:false})
+        const printingEdition = await getMainPage(filter);
+        params({data: printingEdition.data,count:printingEdition.count,isLoading:true,showCreate:false})
     }
 }
     return (

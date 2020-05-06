@@ -137,3 +137,8 @@
     text-transform: capitalize;
     color: #FEFEFE;
 }
+
+.confirm-validate {
+    margin-top: -10%;
+    color: red
+}

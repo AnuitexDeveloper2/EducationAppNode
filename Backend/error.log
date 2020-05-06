@@ -1253,3 +1253,369 @@
   level: 'error',
   timestamp: '2020-04-24T20:00:05.358Z'
 }
+{
+  message: '>>>> userService.edit(), invalid data = instance requires property "firstName",instance requires property "lastName",instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-05-01T07:12:23.859Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance requires property "firstName",instance requires property "lastName",instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-05-01T07:13:37.673Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance requires property "firstName",instance requires property "lastName",instance requires property "email"',
+  level: 'error',
+  timestamp: '2020-05-01T07:14:12.136Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-05-01T07:16:54.741Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-05-01T07:17:04.531Z'
+}
+{
+  message: '>>>> userService.edit(), result = failed to update user',
+  level: 'error',
+  timestamp: '2020-05-01T07:18:07.659Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.email does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-01T07:23:05.236Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.email does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-01T07:45:19.714Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-01T07:46:29.703Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie ',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T07:47:19.459Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T07:53:23.271Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T07:53:31.498Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T07:53:48.245Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T07:53:56.077Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T07:58:24.196Z'
+}
+{
+  message: '>>>> userService.getById(), invalid data = {"5e96f7b7d48ba52e8c3b5974":""}',
+  level: 'error',
+  timestamp: '2020-05-01T08:02:46.788Z'
+}
+{
+  message: '>>>> userService.edit(), result = MongoError: E11000 duplicate key error collection: educationdb.users index: email_1 dup key: { email: "paderborner2019@gmail.com" }',
+  level: 'error',
+  timestamp: '2020-05-01T08:08:23.929Z'
+}
+{
+  message: '>>>> userService.edit(), result = MongoError: E11000 duplicate key error collection: educationdb.users index: email_1 dup key: { email: "paderborner2019@gmail.com" }',
+  level: 'error',
+  timestamp: '2020-05-01T08:10:19.337Z'
+}
+{
+  message: '>>>> userService.edit(), result = MongoError: E11000 duplicate key error collection: educationdb.users index: email_1 dup key: { email: "paderborner2019@gmail.com" }',
+  level: 'error',
+  timestamp: '2020-05-01T08:12:11.108Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie ',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T08:12:29.716Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie ',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T08:12:42.648Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T08:12:51.520Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'pderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T08:25:28.620Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T08:25:35.962Z'
+}
+{
+  message: '>>>> userService.changePassword(), invalid data = {"id":"5e96f7b7d48ba52e8c3b5974","oldPassword":"25012005","newPassword":"29041988"}',
+  level: 'error',
+  timestamp: '2020-05-01T08:35:31.481Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Howret',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T14:45:41.188Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-05-01T14:57:09.322Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-05-01T14:57:10.523Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$i6yAeDAbZC1ZtzbDpRk3dOHRjBUy6C4b8uRm88FQJwemva3IsK2EG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-01T16:34:04.912Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-05-01T16:48:59.828Z'
+}
+{
+  message: '>>>> userService.changePassword(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-05-01T18:59:02.842Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance requires property "user_id",instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:10:54.945Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance requires property "user_id",instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:13:03.368Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance requires property "user_id",instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:26:05.150Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance additionalProperty "transaction_id" exists in instance when not allowed,instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:48:53.000Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance additionalProperty "transaction_id" exists in instance when not allowed,instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:50:44.585Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance additionalProperty "amount" exists in instance when not allowed,instance additionalProperty "transaction_id" exists in instance when not allowed,instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:52:46.347Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:55:05.768Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "payment_info"',
+  level: 'error',
+  timestamp: '2020-05-03T16:55:12.412Z'
+}
+{
+  message: '>>>> orderService.createOrder(), invalid data = instance requires property "number"',
+  level: 'error',
+  timestamp: '2020-05-03T16:57:27.255Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-04T10:50:18.837Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-04T10:50:21.220Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-04T10:51:19.519Z'
+}
+{
+  message: '>>>> authService.logIn(), result = invalid password',
+  level: 'error',
+  timestamp: '2020-05-04T10:53:16.884Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-04T11:04:42.760Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-06T10:26:35.319Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T17:42:08.695Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T17:43:14.343Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T17:44:15.983Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T17:44:16.905Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T17:44:51.192Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T18:38:48.592Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T18:43:52.892Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance requires property "email",instance requires property "password"',
+  level: 'error',
+  timestamp: '2020-05-06T18:46:47.219Z'
+}

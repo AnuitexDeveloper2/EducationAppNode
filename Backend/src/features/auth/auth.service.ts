@@ -28,7 +28,7 @@ export async function registerAsync(userParam: User): Promise<any> {
 
 
 export async function logInAsync(email: string, password: string): Promise<any> {
-    console.log(email)
+    console.log(1111111111)
     const validateModel = {email: email, password: password}
     const validateResult = validateWithJsonSchema(validateModel,logInVlidateSchema);
     logger.info(`>>>> authService.logIn(), with: model = ${JSON.stringify(validateModel)}`);

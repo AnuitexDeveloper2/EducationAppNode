@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import  ReactTable  from "react-table-v6";
+import '../../shared/css/table.css';
 import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { getAuthorsForAdmin } from "../../services/authors";
 import { SortType } from "../../shared/enums/sortType";
-import '../../shared/css/table.css'
 import './css/authors.css'
 import { AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import add from "../../assets/add-button-inside-black-circle.svg";
@@ -84,7 +84,7 @@ const AuthorsForAdmin = () => {
         <br/>
         <div className="author-body">
           <div className="search-bar">
-            <SearchBar placeholder="Search Author" params= {setData}/>
+            <SearchBar placeholder="Search Author" params= {setData} pageSize={10}/>
           </div>
           <div className="author-create">
       <img src={add} alt="add Book" className="author-add-image" title="Add new Author" onClick={hide}/>

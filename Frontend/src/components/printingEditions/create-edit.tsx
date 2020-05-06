@@ -37,7 +37,7 @@ const CreateEditProduct = ({isShowing, hide,assigment,value}) => {
     author_ids:[],
     cover_image: image.baseImage
   }
-  if (assigment == "Add") {
+  if (assigment === "Add") {
     title = "Add new Product"
 }
 if (assigment === "Edit") {
@@ -104,7 +104,7 @@ if (assigment === "Edit") {
 
           <div className="modalHeader">
             <div className="close">
-                 <img src={close} onClick={hide}/>
+                 <img src={close} onClick={hide} alt="close"/>
              </div>
           </div>
             <div className="modal-body">
@@ -122,7 +122,7 @@ if (assigment === "Edit") {
                           <Field type="text" name="PrintingEdition.title" className="create-title-form" defaultValue={product.title} component="textarea"/>
                            </span>
                           <span className="create-foto">
-                                <img src={image.baseImage} alt="upload-image" className="process__image" />
+                                <img src={image.baseImage} alt=""  className="process__image" />
                           <FileBase type="file" multiple={false} onDone={getBaseFile} />
                           </span>
                       </div>

@@ -44,7 +44,7 @@ const Remove = ({isShowing, hide,assigment,value}) => {
         <div className='remove-modal-inner'>
         <div className="modalHeader">
               <div className="close">
-                 <img src={close} onClick={hide}/>
+                 <img src={close} onClick={hide} alt="close"/>
              </div>
           </div>
             <div className="remove-title">

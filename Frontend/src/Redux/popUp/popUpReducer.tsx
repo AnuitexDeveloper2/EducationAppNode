@@ -24,6 +24,4 @@ export function popUpReducer (state: HeaderState= initialState, action: any) {
         default:
             return state
     }
-
-    return state;
 }

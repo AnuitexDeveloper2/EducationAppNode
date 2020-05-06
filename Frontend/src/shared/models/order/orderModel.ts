@@ -3,12 +3,11 @@ export interface Orders {
     items: Array<OrderItem>;
     transaction_id: string;
     amount:number;
-    date: string
 }
 
 export interface OrderItem {
     printing_edition_id: string;
-    count: string;
+    count: number;
     price: number;
     currency: string;
 }

@@ -16,7 +16,8 @@ export async function getUserAsync (userParam: User)  {
     };
 
     export async function checkPasswordAsync(password: string, user: User) {
-       
+    //     console.log(password)
+    //    console.log(user)
       if (!bcrypt.compareSync(password, user.passwordHash)) {
             return false
         }
@@ -26,7 +27,6 @@ export async function getUserAsync (userParam: User)  {
     export async function editAsync(userParam: userModel): Promise<any> {
        
         const user = await userModel.findById(userParam.id);
-       
         let result;
 
         try {
@@ -36,10 +36,11 @@ export async function getUserAsync (userParam: User)  {
         }
     
         if (result.nModified == 0) {
-          return 'failed to update user';
+          return false;
         }
+        const updatedUser = await userModel.findById(userParam.id)
     
-        return ;
+        return updatedUser ;
     }
 
     export async function removeOneAsync(id: string): Promise<Boolean> {
@@ -72,13 +73,12 @@ export async function getUserAsync (userParam: User)  {
 
     export async function changePasswordAsync(param: ResetPassword): Promise<boolean> {
         let model = new userModel();
-        const user = userModel.findById(param._id);
+        const user =  userModel.findById(param.id);
         const isPasswordMatch = await checkPasswordAsync(param.oldPassword, await user);
         
         if (!isPasswordMatch) {
             return false ;
         }
-           
         model = await user;
         const salt = bcrypt.genSaltSync(10);
         model.passwordHash = bcrypt.hashSync(param.newPassword, salt);
@@ -124,8 +124,7 @@ export async function getUserAsync (userParam: User)  {
     
 
     export async function getUsersAsync(filter: UserFilterModel) {
-        console.log(filter)
-        let count;
+    let count;
     let query;
     let tableSort: any = {'firstName':filter.sortType};
     let data= new Array<userModel>();

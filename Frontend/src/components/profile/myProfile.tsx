@@ -2,41 +2,74 @@ import React, { useState, useEffect } from "react"
 import "./myProfile.css"
 import anonymus from "../../assets/anonymus.png";
 import pencil from "../../assets/pencilWhite.png"
+import { UserModelRequest, ResetPassword } from "../../shared/models/user/user";
+import { editUser, getUser, changePassword } from "../../services/users";
 
 export function MyProfile() {
 
     const [state,setState] = useState({
         firstName: "",
         lastName: "",
-        email: ""
+        email: "",
+        id:""
     })
     const [showEdit,setShowEdit] = useState(false)
+    const [isPasswordConfirmed,setIsPasswordConfirmed] = useState(true)
+    const [isPasswordValid,setIsPassworValid] = useState(true)
 
     const valueFirstName = React.createRef() as any;
     const valueEmail = React.createRef() as any;
     const valueLastName = React.createRef() as any;
+    const oldPassword = React.createRef()as any;
+    const newPassword = React.createRef() as any;
+    const confirmPassword = React.createRef() as any;
 
     useEffect(()=>{getData()},[])
 
-    function getData() {
-        const user = JSON.parse(localStorage.getItem('User'))
-        
+    async function getData() {
+        const currentUser = JSON.parse(localStorage.getItem('User'))
+        const user = await getUser(currentUser._id)
         setState({
-            firstName: user.firstName,
-            lastName:user.lastName,
-            email: user.email
+            firstName: user.user.firstName,
+            lastName:user.user.lastName,
+            email: user.user.email,
+            id: user.user._id
         })
     }
 
-    function save () {
-        const firsstName = valueFirstName.current.value;
-        const email = valueEmail.current.value;
-        const lastEmail = valueLastName.current.value;
-        
-    }
+    async function  save () {
+        debugger
+        const user :UserModelRequest = {
+            firstName:valueFirstName.current.value,
+            email: valueEmail.current.value,
+            lastName:valueLastName.current.value,
+            id: state.id
+        }
+        const result = await editUser(user)
+         getData()
+        }
 
     function changePasswordToggle() {
         setShowEdit(!showEdit)
+    }
+
+   async function changePass() {
+        const param : ResetPassword = {
+            id: state.id,
+            oldPassword: oldPassword.current.value,
+            newPassword: newPassword.current.value
+        }
+        debugger
+        if (param.newPassword.toString().length<6) {
+            setIsPassworValid(false)
+        }
+        if (param.newPassword===confirmPassword.current.value&&param.newPassword.toString().length>6) {
+            const result = await changePassword(param)
+            setIsPasswordConfirmed(true)
+        }
+        if (param.newPassword!==confirmPassword.current.value) {
+            setIsPasswordConfirmed(false)
+        }
     }
 
     return( 
@@ -46,7 +79,7 @@ export function MyProfile() {
         </div>
         <div className="profile-body">
             <div className="profile-foto">
-                <img src={anonymus} className="profile-anonymus"/>
+                <img src={anonymus} className="profile-anonymus" alt="user"/>
                 <div className="profile-edit-label">
                     edit profile <img src={pencil} alt=""/>
                 </div>
@@ -79,21 +112,23 @@ export function MyProfile() {
                   Old Password 
                 </div>
                 <div className="profile-email-form">
-                    <input type="password" className="profile-input"/>
+                    <input type="password" className="profile-input" ref={oldPassword}/>
                 </div>
                 <div className="profile-password">
                     New Password
+                    {!isPasswordValid&&<div className="confirm-validate">password contain 6 charackters</div>}
                 </div>
                 <div className="profile-email-form">
-                <input type="password" className="profile-input"/>
+                <input type="password" className="profile-input" ref={newPassword}/>
                 </div >
                 <div className="profile-password">
                     Confirm Password
+                {!isPasswordConfirmed&&<div className="confirm-validate">password did match</div>}
                 </div>
                 <div className="profile-email-form">
-                <input type="password" className="profile-input"/>
+                <input type="password" className="profile-input" ref={confirmPassword}/>
                 </div>
-                <button>Change Password</button>
+                <button onClick={changePass}>Change Password</button>
                 </div>
             }
                 <div className="profile-button-area">

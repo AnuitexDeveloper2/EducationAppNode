@@ -6,8 +6,8 @@ const schema = mongoose.Schema;
 
 export const ordersSchema = new schema({
     user_id: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-    items: {
-            OrderItem: [{
+    items: 
+            {type:[{
                 printing_edition_id: {
                     type: mongoose.Schema.Types.ObjectId, ref: 'Printing_Edition', required: true
                 },
@@ -20,13 +20,9 @@ export const ordersSchema = new schema({
                 currency: {
                     type: String, default: "USD"
                 }
-            }]
-    },
-    payment_info: {
-        Payment: {
-            transaction_id: String
-        }
-    },
+            }]},
+    transaction_id: {type: String},
+    amount:{type: Number},
     createdDate: { type: Date, default: Date.now }
 });
 

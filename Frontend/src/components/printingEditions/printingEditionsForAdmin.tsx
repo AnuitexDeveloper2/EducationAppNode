@@ -54,16 +54,7 @@ const PrintingEditionForAdmin =() =>{
         item: currentProduct
       })
   }
-    
-    const create = () => {
-      setState({
-        showCreate: true,
-        isLoading:true,
-        data: state.data,
-        count: state.count
-      });
-    }
-    
+   
       const columns = [
         {
             Header:"Title",
@@ -108,7 +99,7 @@ const PrintingEditionForAdmin =() =>{
           <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">
              <span className="sr-only">
-               <img src={spinner}></img>
+               <img src={spinner} alt="spinner"></img>
              </span>
          </div>
          </div>
@@ -120,7 +111,7 @@ const PrintingEditionForAdmin =() =>{
            <div className="author-body">
 
          <div className="search-bar">
-            <SearchBar placeholder="Search Product" params= {setState}/>
+            <SearchBar placeholder="Search Product" params= {setState} pageSize={10}/>
           </div>
           <div className="author-create">
 

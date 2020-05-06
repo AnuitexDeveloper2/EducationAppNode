@@ -6,7 +6,7 @@ import { Role } from '../shared/enums/role';
 
 export const authorRouter = Router();
 
-//authorRouter.use(checkPermission(Role.Admin))
+authorRouter.use(checkPermission(Role.Admin))
 
 authorRouter.post('/create', createAsync);
 authorRouter.post('/delete', removeAsync);

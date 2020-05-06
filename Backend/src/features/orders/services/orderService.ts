@@ -5,9 +5,11 @@ import logger from "../../utils/logger";
 import * as orderRepository from "../repository/orderRepository"
 import { OrderFilter } from "../../shared/filterModels/orderFilterModel";
 import idValidateSchema from "../../utils/IdRequest.schema.json"
-export async function createOrderAsync(orderParam: ordersModel) {
+
+export async function createOrderAsync(orderParam:ordersModel) {
+    console.log(orderParam)
     const validateResult = validateWithJsonSchema(orderParam, orderValidateSchema);
-    logger.info(`>>>> orderService.createOrder(), with: orderParam = ${orderParam}`);
+    logger.info(`>>>> orderService.createOrder(), with: orderParam = ${JSON.stringify(orderParam)}`);
 
     if (!validateResult.valid) {
         logger.error(`>>>> orderService.createOrder(), invalid data = ${validateResult.errors}`);
@@ -34,12 +36,11 @@ export async function getOrdersForUserAsync(id: number) {
         return {message: "Invalid userId", error: validateResult.errors}
     }
 
-    const result = orderRepository.getOrdersForUserAsync(id);
+    const result = await orderRepository.getOrdersForUserAsync(id);
 
     if (result == null) {
         logger.error(`>>>> orderService.getOrderForUser(), result = user did not have any orders `)
     }
-
     return result;
 }
 

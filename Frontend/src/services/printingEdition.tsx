@@ -1,11 +1,16 @@
 import axios from "axios"
 import { PrintingEditionFilterModel } from "../shared/models/printingEdition/printingEditionFilterModel";
-import { PrintingEditionResoponseModel, PrintingEditionModel, RequestPrintingEditionModel } from "../shared/models/printingEdition/printingEditionModel";
+import { RequestPrintingEditionModel } from "../shared/models/printingEdition/printingEditionModel";
 import { PrintingEditionState } from "../redux/printingEdition/types";
 
 export async function getPrintingEdition(filter: PrintingEditionFilterModel): Promise<PrintingEditionState> {
-   const result = await axios.post('http://localhost:8000/admin/printing-edition',filter ).catch()
+   const result = await axios.post('http://localhost:8000/admin/printing-edition',filter )
    return result.data
+}
+
+export async function getMainPage(filter:PrintingEditionFilterModel) {
+   const result = await axios.post('http://localhost:8000/home',filter)
+   return result.data;
 }
 
 export async function createPrintingEdition(printingEdition: RequestPrintingEditionModel) {

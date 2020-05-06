@@ -1,4 +1,4 @@
-import { OrderItemModelItem } from "../models/orderModel/OrderItemModel";
+import { OrderItemModelItem } from "../shared/models/orderModel/OrderItemModel";
 
 let items = new Array<OrderItemModelItem>();
 
@@ -24,4 +24,9 @@ export function removeItemFromCart(index: number) {
   const currentItems = getCart();
   currentItems.splice(index,1);
   localStorage.setItem('Cart', JSON.stringify(currentItems))
+}
+
+export function getAccessToken() {
+  const token = localStorage.getItem("AccessToken");
+  return token
 }

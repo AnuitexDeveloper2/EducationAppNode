@@ -6,7 +6,7 @@ import { Role } from "../shared/enums/role";
 
 export const adminProductRouter =  Router();
 
-//adminProductRouter.use(checkPermission(Role.Admin));
+adminProductRouter.use(checkPermission(Role.Admin));
 
 adminProductRouter.post('/create', createAsync);
 adminProductRouter.post('/remove', removeAsync);
@@ -17,5 +17,5 @@ export const userProductRouter = Router();
 
 //userProductRouter.use( checkPermission(Role.User));
 
-userProductRouter.get('/', getPrintingEditionsForUserHandlerAsync);
+userProductRouter.post('/', getPrintingEditionsForUserHandlerAsync);
 userProductRouter.get('/:id', getPrintingEditionById);

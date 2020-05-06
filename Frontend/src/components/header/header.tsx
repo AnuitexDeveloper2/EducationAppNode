@@ -101,7 +101,7 @@ const AdminMenu = () => {
       <li> <a href="/users"> <option>Users</option> </a></li>
       <li> <a href="/books"> <option>Products</option> </a></li>
       <li> <a href="/authors"> <option value="">Authors</option></a></li>
-      <li> <a> <option value="">Orders</option> </a></li>
+      <li> <a href="/orders"> <option value="">Orders</option> </a></li>
         </ul>
       </div>
     )

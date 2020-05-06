@@ -10,7 +10,6 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
   }
 
   export async function authenticateAsync(req: Request, res: Response, next: NextFunction) {
-    console.log(req.body)
     await authService.logInAsync(req.body.email,req.body.password)
     .then(user => res.send(user))
     .catch();
@@ -35,4 +34,3 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
     .then((err) => res.json({err}))
     .catch();
   }
-/*redux dev tools, диспатч*/ 

@@ -4,7 +4,7 @@ import  spinner  from "../../assets/spinner.gif";
 import  cart  from "../../assets/iconmonstr-shopping-cart-3.svg";
 import { AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { OrderItemModelItem } from "../../shared/models/orderModel/OrderItemModel";
-import { setCart } from "../../shared/extention/localStorage";
+import { setCart } from "../../services/localStorageService";
 import Cart from "../cart/cart";
 
 export default function Product () {
@@ -36,13 +36,13 @@ export default function Product () {
     const moveToCart =() => {
         debugger
         const currentOrderItem: OrderItemModelItem = {
-            amount: state.amount,
+            // amount: state.amount,
             currency: state.book.currency,
-            printingEditionId: state.book.id,
+            printing_edition_id: state.book.id,
             printingEditionType: state.book.productType,
             count: state.amount/state.book.price,
             printingEditionName: state.book.title,
-            printingEditionPrice: state.book.price
+            price: state.book.price
         }
         setCart(currentOrderItem)
         setShowCart(true)
@@ -53,7 +53,7 @@ export default function Product () {
           <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">
              <span className="sr-only">
-               <img src={spinner}></img>
+               <img src={spinner} alt="spinner"></img>
              </span>
          </div>
          </div>
@@ -89,7 +89,7 @@ export default function Product () {
                              ${state.amount}
                          </span>
                          <div className="product-cart-button">
-                             {user.user!== null&&<button className="cart-button" onClick={moveToCart}> <img className="cart-image" src={cart}/> Add to cart</button>}
+                             {user.user!== null&&<button className="cart-button" onClick={moveToCart}> <img className="cart-image" alt="cart" src={cart}/> Add to cart</button>}
                          </div>
                     </div>   
               </div>

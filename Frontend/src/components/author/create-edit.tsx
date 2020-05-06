@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import './css/create.css'
 import close from "../../assets/close.svg"
 import { AuthorModel } from "../../shared/models/author/author";
@@ -13,7 +12,7 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
         product_ids:[],
         name:''
     }
-    if (assigment == "Add") {
+    if (assigment === "Add") {
         author.name =""
         title = "Add new Author"
 
@@ -32,7 +31,7 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
             product_ids:[]
         }
         let result:any
-        if (assigment == "Add") {
+        if (assigment === "Add") {
          result = await createAuthor(name)
         }
         if (assigment === "Edit") {
@@ -52,7 +51,7 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
           <div className='create-author-modal-inner'>
           <div className="modalHeader">
               <div className="close">
-                 <img src={close} onClick={hide}/>
+                 <img src={close} onClick={hide} alt="close"/>
              </div>
           </div>
             <div className="modal-body">

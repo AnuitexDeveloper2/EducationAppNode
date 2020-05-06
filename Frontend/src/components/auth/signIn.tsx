@@ -13,9 +13,9 @@ export interface LoginState {
   }
  
  export class SignIn extends React.Component<any> {
-   constructor(props: any) {
-        super(props)
-      }
+  //  constructor(props: any) {
+  //       super(props)
+  //     }
         state: HeaderState={
           showLogIn: false,
           showRegister: false,
@@ -38,9 +38,11 @@ export interface LoginState {
     onSubmitLogIn = async (value: any) => {
       const result = await Auth.signIn(value)
       const token = result.AccessToken;
+      const refresh = result.RefreshToken;
       debugger
       if (result) {
         localStorage.setItem('AccessToken', token)
+        localStorage.setItem('RefreshToken',refresh)
         localStorage.setItem('User',JSON.stringify(result.User))
         window.location.assign('/main');
       }
@@ -58,7 +60,7 @@ export interface LoginState {
         <div className="signin-modal-inner">
            <div className="modalHeader">
               <div className="close">
-                 <img src={close} onClick={this.closePopUp}/>
+                 <img src={close} alt="close" onClick={this.closePopUp}/>
              </div>
           </div>
             <div className="userImg">

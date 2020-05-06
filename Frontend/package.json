@@ -43,6 +43,7 @@
     "react-scripts": "3.4.0",
     "react-select": "^3.1.0",
     "react-slider": "^1.0.3",
+    "react-stripe-checkout": "^2.6.3",
     "react-switch": "^5.0.1",
     "react-table-v6": "^6.8.6",
     "react-toggle": "^4.1.1",

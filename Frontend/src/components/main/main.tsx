@@ -1,10 +1,10 @@
-import React, { useState, useEffect, createContext, useContext } from "react";
+import React, { useState, useEffect, createContext} from "react";
 import { Range } from 'rc-slider';
 import ReactPaginate from "react-paginate";
 import "./main.css"
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
-import { getPrintingEdition } from "../../services/printingEdition";
+import { getPrintingEdition, getMainPage } from "../../services/printingEdition";
 import  spinner  from "../../assets/spinner.gif";
 import { PrintingEditionModel, AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { enumSelector } from "../../shared/extention/enum";
@@ -12,7 +12,6 @@ import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 import SearchBar from "../searchBar/search";
-import { Link } from "react-router-dom";
 
 export const ProductContext = createContext(null)
 
@@ -71,11 +70,11 @@ export default function MainPage() {
     }
     
       const handlePageClick =(e) => {
-      const test = state.count/6+1
       getData(e.selected +1,Currency[currency],SortType[direction],PrintingEditionSortType[sortType],price.minValue,price.maxValue,typeProduct)
     }
 
     const purchcase =(item) => {
+      debugger
         localStorage.setItem('Product',JSON.stringify(item))
         window.location.assign("/book")
     }
@@ -92,8 +91,7 @@ export default function MainPage() {
           maxPrice: maxPrice,
           typeProduct: typeProduct
         }
-        debugger
-        const printingEdition = await getPrintingEdition(filter)
+        const printingEdition = await getMainPage(filter)
         setState({data: printingEdition.data,count:printingEdition.count,isLoading:true,showCreate:false})
       }
 
@@ -111,7 +109,7 @@ export default function MainPage() {
           }
   return (
  <div>
-   <SearchBar placeholder="Search Product" params={setState}/>
+   <SearchBar placeholder="Search Product" params={setState} pageSize={6}/>
      <div className="wrapper">
        <div className="item"><span className="main-catalog-label">Catalog</span></div>
        
@@ -157,7 +155,7 @@ export default function MainPage() {
     {state.data.map((item:PrintingEditionModel,i) =>
       <div className="books-block" key={i} onClick={()=>purchcase(item)}>
           <span className="grid-image"><img src={item.cover_image} alt="img" className="grid-image"/></span>
-            <span className="grid-title"><a href="">{item.title} </a> </span>
+            <span className="grid-title"><a href="/book">{item.title} </a> </span>
              <span className="grid-authors">
                 {item.author_ids.map((author:AuthorModel)=>(
                   <div>{author.name}</div>))}

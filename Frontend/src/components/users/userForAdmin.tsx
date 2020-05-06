@@ -2,15 +2,11 @@ import "./users.css";
 import React, { useEffect, useState } from "react";
 import  ReactTable  from "react-table-v6";
 import Toggle from "react-toggle";
-// import  "react-toggle/style.css";
 import  "../../shared/css/toggle.css";
-import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import { getUsers, blockUser } from "../../services/users";
 import LastColumn from "../lastColumn/lastColumn";
 import { UserModel } from "../../shared/models/user/user";
-import { Field, Form } from "react-final-form";
-import Select from "react-select";
 import Poligon  from "../../assets/Polygon.png";
 import { UserFilterType } from "../../shared/enums/userFilterType";
 import { UserFilter } from "../../shared/models/user/userFilter";
@@ -81,7 +77,7 @@ const UsersForAdmin = () => {
         {
             Header:props => {
                 return(<div>User Name<img src={Poligon} alt="" className="search-Drop-Down" onClick={filterSearch} />
-                {modal.showSearch&&<SearchBar params={setData} placeholder=""/>}
+                {/* {modal.showSearch&&<SearchBar params={setData} placeholder=""/>} */}
                 </div>
                 )
             },
@@ -157,7 +153,6 @@ const UsersForAdmin = () => {
              sortable= {false}
              pages={data.pages}
              onFetchData={(state) =>{
-                 debugger
                  getData(state.page,data.userType)
                 }}
                 />

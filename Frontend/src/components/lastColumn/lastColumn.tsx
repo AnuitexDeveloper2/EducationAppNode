@@ -30,8 +30,8 @@ const LastColumn =({value,assigment}) => {
   }
     return(
 <div>
-            <img src={edit} className='img__button' title="Edit" onClick={showEdit}></img>
-            <img src={remove} className="img__button" title="Remove" onClick={showRemove} ></img>
+            <img src={edit} alt="edit" className='img__button' title="Edit" onClick={showEdit}></img>
+            <img src={remove} alt="remove" className="img__button" title="Remove" onClick={showRemove} ></img>
             {state.isShowCreateAuthor&&<CreateEdit isShowing={isShowing.create} hide={showEdit} assigment="Edit" value={value}/>}
             {state.isShowRemove&&<Remove isShowing={isShowing.delete} hide={showRemove} assigment={assigment} value={value}/>}
             {state.isShowCreateProduct&&<CreateEditProduct isShowing={isShowing.createProduct} hide={showEdit} assigment="Edit" value={value}/>}

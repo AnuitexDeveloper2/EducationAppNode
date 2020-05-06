@@ -9,3 +9,16 @@ export interface UserModel {
     passwordHash: string;
     role: string
 }
+
+export interface UserModelRequest {
+    firstName:string;
+    lastName: string;
+    email: string;
+    id:string
+}
+
+export interface ResetPassword {
+    id: string;
+    oldPassword: string;
+    newPassword: string;
+}
