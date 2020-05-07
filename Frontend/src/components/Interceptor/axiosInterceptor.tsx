@@ -17,7 +17,7 @@ const Interceptor = () => {
 
         axios.interceptors.response.use((response) => {
             return response
-         }, function (error) {
+         }, async function (error) {
             const originalRequest = error.config;
          
             if (error.response.status === 401)
@@ -32,13 +32,21 @@ const Interceptor = () => {
                 debugger
                 return axios.post('http://localhost:8000/auth/refreshTokens',{refreshToken})
                 .then(res => {
-                    if (res.status === 403) {
-                        localStorage.clear()
-                            debugger
-                            axios.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.getAccessToken();
-                            return axios(originalRequest);
-                        }
-                    })
+                    debugger
+                    if (res.status === 200) {
+                        debugger
+                        const token = res.data.AccessToken;
+                        const refresh = res.data.RefreshToken
+                        localStorage.setItem('AccessToken', token)
+                        localStorage.setItem('RefreshToken',refresh)
+                        axios.defaults.headers.common['accesstoken'] = token
+                        return axios(originalRequest);
+                    }
+                    if (res.status === 401) {
+                        debugger
+                        localStorage.clear();
+                    }
+                })
             }
             return Promise.reject(error);
          });

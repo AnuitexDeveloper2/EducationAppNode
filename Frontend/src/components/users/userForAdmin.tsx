@@ -111,7 +111,7 @@ const UsersForAdmin = () => {
             { function some(){
                 changeStatus(data.id)
             }
-             return(<Toggle checked={data.status}  onClick={some}/>)}
+             return(<Toggle checked={data.status}  onChange={some}/>)}
         },
         {
             Header: "",

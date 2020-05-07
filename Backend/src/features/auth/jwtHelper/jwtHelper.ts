@@ -2,6 +2,7 @@ import userModel from "../../../dataAccess/entityModels/user";
 import jwt from 'jsonwebtoken';
 import {Response, Request,NextFunction} from 'express';
 import { Role } from "../../shared/enums/role";
+import logger from "../../utils/logger";
 
 let currentRole;
 
@@ -44,27 +45,28 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     } catch (err) {
          if (err.name == 'TokenExpiredError') {
           res.status(403).send("access Token Expired")
+          logger.info(`>>>> JWTHelper.checkJWT, with user err.name = ${JSON.stringify(err.name)}`);
+          return;
       }
       if (err.name == 'JsonWebTokenError' ) {
-        
+        logger.info(`>>>> JWTHelper.checkJWT, with user err.name = ${JSON.stringify(err.name)}`);
         res.status(401).send("token is not valid");
-        return;
+        return ;
       }
     }
-
-    next();
+    next()
   };
 
-  export function refreshTokens( res: Response,req: Request) {
+  export async function  refreshTokens( res: Response,req: Request) {
     let jwtPayload;
     try {
       jwtPayload = <any>jwt.verify(<string>req.body.refreshToken, process.env.refreshTokenSecret);
-      res.locals.jwtPayload = jwtPayload;
-      console.log(jwtPayload)
+      // res.locals.jwtPayload = jwtPayload;
     } catch (err) {
       if (err.name == 'TokenExpiredError') {
+        logger.info(`>>>> JWTHelper.refreshToken(), with user err.name = ${JSON.stringify(err.name)}`);
         res.status(401).send('refresh token is not valid');
-         return ;
+        return " refresh";
       }
     }
     const user = new userModel();

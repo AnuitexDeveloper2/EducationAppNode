@@ -10,6 +10,7 @@ export async function getProfileAsync(req: Request,res: Response,next: NextFunct
 }
 
 export function editAsync(req: Request, res: Response, next: NextFunction) {
+  console.log(11111111)
   userService.editAsync(req.body)
       .then((err) => res.json({err}))
       .catch(err => next(err));

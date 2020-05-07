@@ -4,7 +4,7 @@ import ReactPaginate from "react-paginate";
 import "./main.css"
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
-import { getPrintingEdition, getMainPage } from "../../services/printingEdition";
+import { getMainPage } from "../../services/printingEdition";
 import  spinner  from "../../assets/spinner.gif";
 import { PrintingEditionModel, AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { enumSelector } from "../../shared/extention/enum";
@@ -101,7 +101,7 @@ export default function MainPage() {
           <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">
              <span className="sr-only">
-               <img src={spinner}></img>
+               <img src={spinner} alt="spinner"></img>
              </span>
          </div>
          </div>

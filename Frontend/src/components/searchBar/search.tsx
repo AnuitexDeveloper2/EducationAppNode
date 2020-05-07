@@ -3,7 +3,7 @@ import './search.scss';
 import { Form, Field } from "react-final-form";
 import { getAuthorsForAdmin } from "../../services/authors";
 import { SortType } from "../../shared/enums/sortType";
-import { getPrintingEdition, getMainPage } from "../../services/printingEdition";
+import { getMainPage } from "../../services/printingEdition";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";

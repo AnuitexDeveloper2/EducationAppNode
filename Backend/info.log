@@ -35059,3 +35059,948 @@
   level: 'info',
   timestamp: '2020-05-06T20:28:39.708Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-06T20:29:53.349Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T14:47:20.774Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:49:58.450Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:50:06.623Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:50:32.726Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:50:39.502Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:51:56.821Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:53:54.017Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:54:29.300Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:56:22.145Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:57:49.765Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T14:59:07.793Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:02:23.299Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:03:17.047Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:05:42.703Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:07:54.838Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:08:59.584Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:10:25.839Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:11:07.359Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T15:11:34.059Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:11:41.819Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:12:45.245Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T15:12:51.834Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:12:56.217Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:13:37.557Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T15:13:39.488Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:13:44.601Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:14:17.076Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:23:17.166Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:23:49.745Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:23:53.343Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:24:26.870Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:24:30.749Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:25:16.511Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:25:19.706Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:26:19.484Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:26:29.908Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:35:47.706Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:40:11.695Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:41:00.949Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:41:30.597Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:41:33.359Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:42:20.415Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:42:24.285Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:43:00.606Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:44:17.142Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:45:08.664Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:45:17.952Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:45:41.821Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:46:29.749Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:48:36.991Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:49:08.856Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:49:53.886Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T15:49:54.569Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:51:41.900Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:51:47.603Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:52:07.497Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T15:52:08.133Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T15:52:10.968Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:52:32.528Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:53:50.278Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:54:30.093Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:55:42.878Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T15:56:22.489Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T15:57:27.468Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T15:58:01.686Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T15:59:39.522Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T15:59:46.346Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:00:16.500Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:00:20.698Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:01:38.596Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:01:41.327Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:02:44.334Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:02:44.558Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T16:02:52.115Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:03:00.863Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:03:34.539Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:03:54.023Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:05:49.423Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:06:15.890Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:07:03.025Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:07:10.514Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:08:07.294Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:15:51.607Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:16:24.431Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:31:27.833Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:32:54.234Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:15.730Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:31.386Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:32.207Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:40.315Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:42.662Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:44.594Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:51.438Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:34:56.759Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:37:58.232Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:38:16.732Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:38:24.528Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-07T16:38:27.913Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:39:48.918Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T16:42:00.694Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-07T16:42:03.830Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:43:11.273Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T16:43:11.886Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:44:27.265Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T16:44:28.133Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T16:45:17.082Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T16:45:17.759Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:45:26.864Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T16:45:27.304Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T16:45:59.379Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:44:43.506Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:44:54.192Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:45:13.555Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:46:02.969Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T18:46:04.066Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:46:08.186Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:47:33.177Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:47:40.629Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:49:20.203Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:49:34.816Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:50:42.248Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:50:48.814Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T18:51:32.661Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:51:52.648Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T18:51:53.413Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:53:53.521Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:53:53.528Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T18:55:51.821Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:55:56.757Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:55:56.766Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:56:01.035Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:57:08.024Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:57:33.279Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T18:57:33.996Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:57:38.706Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:58:25.850Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T18:58:49.300Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T18:59:26.344Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:00:53.763Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T19:01:02.525Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:02:08.362Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-07T19:02:15.226Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:05:04.714Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:05:10.235Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:05:18.474Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:06:51.090Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:06:51.273Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:06:57.702Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:08:51.922Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:08:59.349Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:09:01.910Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:10:04.883Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:10:09.693Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:10:13.605Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:10:53.315Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:06.307Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:12.434Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:19.028Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:22.997Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:25.257Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:26.631Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:27.711Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:28.577Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:29.284Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:29.562Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:29.746Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:29.972Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:30.172Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:11:59.508Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:12:23.223Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:12:49.183Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:12:50.021Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:12:52.687Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:17:09.794Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:17:46.615Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:17:52.239Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:18:00.235Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:19:05.872Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:19:18.195Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:19:22.696Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:20:08.593Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:20:14.178Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:20:27.527Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:21:10.552Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:21:15.269Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-07T19:21:37.594Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:22:36.364Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-07T19:25:23.821Z'
+}

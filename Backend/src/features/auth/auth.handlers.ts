@@ -22,7 +22,7 @@ export async function registerAsync(req: Request,res: Response,next: NextFunctio
   }
 
   export async function refreshTokens(req: Request, res: Response) {
-    jwtHelper.refreshTokens(res,req)
+        jwtHelper.refreshTokens(res,req).then((err)=>console.log(err))
   }
 
   /*export async function oAuht(req: Request, res: Response) {

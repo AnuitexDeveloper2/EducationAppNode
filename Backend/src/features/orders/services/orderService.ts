@@ -45,7 +45,7 @@ export async function getOrdersForUserAsync(id: number) {
 }
 
 export async function getOrdersForAdminAsync(filter: OrderFilter) {
-        logger.info(`>>> orderService.getOrdersForAdmin(), with filter = ${filter}`)
+        logger.info(`>>> orderService.getOrdersForAdmin(), with filter = ${JSON.stringify(filter)}`)
 
         const result = orderRepository.getOrdersForAdminAsync(filter);
 
