@@ -11,9 +11,10 @@ import  MainPaige  from "./components/main/main";
 import Product from "./components/selectedProduct/product";
 import Cart from "./components/cart/cart";
 import { MyProfile } from "./components/profile/myProfile";
-import { MyOrders } from "./components/muOrders/myOrders";
+import { MyOrders } from "./components/myOrders/myOrders";
 import { Orders } from "./components/orders/orders";
 import Interceptor from "./components/Interceptor/axiosInterceptor";
+import ConfirmedEmail from "./components/auth/confirmedEmail";
 
 
 const store = configureStore()
@@ -34,6 +35,7 @@ function App() {
         <Route path="/profile" component={MyProfile}/>
         <Route path="/myOrders" component={MyOrders}/>
         <Route path="/orders" component={Orders}/>
+        <Route path="/confirmedEmail" component={ConfirmedEmail}/>
         <Route path ="/" component={Interceptor}/>
       </div>
       </Router>

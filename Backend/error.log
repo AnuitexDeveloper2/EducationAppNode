@@ -1619,3 +1619,353 @@
   level: 'error',
   timestamp: '2020-05-06T18:46:47.219Z'
 }
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Howe',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T15:37:56.530Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:40:21.436Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T15:43:22.861Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:43:54.025Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:46:55.215Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:47:20.758Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:47:32.024Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:50:40.385Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:51:16.255Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:52:23.399Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:52:42.555Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:58:18.555Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:58:37.708Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:59:13.889Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:59:33.428Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:00:41.383Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordiy',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:01:46.042Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:02:00.854Z'
+}
+{
+  message: '>>>> authService.oAuth(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-05-11T16:08:46.357Z'
+}
+{
+  message: '>>>> authService.oAuth(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-05-11T16:10:05.661Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.firstName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-11T17:53:44.342Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.firstName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-11T17:54:14.307Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:03:41.938Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:04:00.658Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:04:59.048Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:06:12.513Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:06:35.410Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:07:32.726Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-12T09:32:37.196Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-12T09:32:41.017Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:05:10.630Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:06:28.446Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:06:31.590Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:07:17.045Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:08:29.938Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:09:05.898Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:10:23.078Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:11:17.507Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:13:41.564Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:13:46.468Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:26:37.544Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:26:51.057Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"5eba998435acb224e40b1049":""}',
+  level: 'error',
+  timestamp: '2020-05-13T13:28:16.844Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"5eba998435acb224e40b1049":""}',
+  level: 'error',
+  timestamp: '2020-05-13T13:28:36.848Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"id":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:30:05.613Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"id":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:31:14.253Z'
+}

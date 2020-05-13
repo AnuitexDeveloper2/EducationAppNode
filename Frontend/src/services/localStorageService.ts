@@ -1,4 +1,5 @@
 import { OrderItemModelItem } from "../shared/models/orderModel/OrderItemModel";
+import { UserModel } from "../shared/models/user/user";
 
 let items = new Array<OrderItemModelItem>();
 
@@ -29,4 +30,12 @@ export function removeItemFromCart(index: number) {
 export function getAccessToken() {
   const token = localStorage.getItem("AccessToken");
   return token
+}
+
+export function setAccessToken(token: string) {
+  localStorage.setItem("AccessToken",token)
+}
+
+export function setUser(user: UserModel) {
+      localStorage.setItem("User",JSON.stringify(user))
 }

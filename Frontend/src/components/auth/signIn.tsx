@@ -2,10 +2,11 @@ import * as Auth from "../../services/auth";
 import React from "react";
 import { Form, Field } from "react-final-form";
 import { Button, ButtonToolbar } from "react-bootstrap";
-import './CSS/signIn.scss'
+import FacebookLogin from "react-facebook-login";
+import './CSS/signIn.css'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
-import { HeaderState } from "../../redux/popUp/types";
+import { HeaderState } from "../../Redux/header/types";
 
 export interface LoginState {
   showLogIn: boolean,
@@ -13,47 +14,59 @@ export interface LoginState {
   }
  
  export class SignIn extends React.Component<any> {
-  //  constructor(props: any) {
-  //       super(props)
-  //     }
+
         state: HeaderState={
           showLogIn: false,
           showRegister: false,
           showCart: false,
           user: null,
+          showConfirm:false
+        }
+
+         responseFacebook = async(response) => {
+           const name = response.name.split(' ')
+           const user ={
+              userName: response.name,
+              email: response.email,
+              firstName: name[0],
+              lastName: name[1],
+              password: null
+            }
+
+            const result = await Auth.oauthSignIn(user);
+            if (result) {
+              this.successedLogIn(result)
+            }
         }
 
         showRegister = async () => {
-          debugger;
+          debugger
           this.closePopUp()
           this.props.showRegisterAction()
         }
 
-       
-
-    closePopUp =()=> {
+        closePopUp =()=> {
         this.props.hideSignInAction()
     }
    
-    onSubmitLogIn = async (value: any) => {
-      const result = await Auth.signIn(value)
-      const token = result.AccessToken;
-      const refresh = result.RefreshToken;
-      debugger
-      if (result) {
-        localStorage.setItem('AccessToken', token)
-        localStorage.setItem('RefreshToken',refresh)
-        localStorage.setItem('User',JSON.stringify(result.User))
-        window.location.assign('/main');
+        onSubmitLogIn = async (value: any) => {
+          debugger
+         const result = await Auth.signIn(value)
+         if (result) {
+            this.successedLogIn(result)
       }
     }
+
+     successedLogIn(result) {
+       debugger
+      const token = result.AccessToken;
+      const refresh = result.RefreshToken;
+      localStorage.setItem('AccessToken', token)
+      localStorage.setItem('RefreshToken',refresh)
+      localStorage.setItem('User',JSON.stringify(result.User))
+      window.location.assign('/main');
+    }
       
-    onFacebookLogin = async () => {
-        Auth.moveFacebook();
-     } 
-
-  //      window.location.assign('/register');
-
     render() {
           return (
      <div className="signin-modal">
@@ -116,8 +129,16 @@ export interface LoginState {
                         )}
                         />
                             <div className="signUpLabel">
-                                     <button onClick={this.onFacebookLogin}>Facebook</button>
                           </div>
+                          <div className="facebook-logIn">
+                            <FacebookLogin
+                              appId="869634570156556"
+                              autoLoad={false}
+                              fields="name,email,picture"
+                              callback={this.responseFacebook}
+                              icon="fa-facebook"
+                              />
+                              </div>
                     </div>
                 </div>
              </div>

@@ -36004,3 +36004,4388 @@
   level: 'info',
   timestamp: '2020-05-07T19:25:23.821Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-07T19:26:59.963Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T10:18:31.968Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T10:34:44.096Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T10:48:29.154Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T10:48:44.181Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T10:54:54.270Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T10:56:17.705Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:01:20.141Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:01:37.098Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:02:33.347Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:05:02.970Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:08:14.343Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:08:34.292Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:09:46.260Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:10:05.044Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:10:12.290Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:10:23.055Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T11:12:03.952Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:12:04.488Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:12:11.494Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:13:19.937Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:13:39.347Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:14:03.235Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:14:08.795Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:14:27.668Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:16:14.708Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:16:25.945Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:16:44.029Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:17:01.657Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:18:13.102Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:18:18.604Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T11:18:35.021Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:18:35.650Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:19:00.307Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:19:23.019Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:19:23.021Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:20:05.232Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:20:17.252Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:20:41.879Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:23:21.407Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T11:23:34.043Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:23:34.438Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:24:09.363Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:26:14.977Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:37:38.791Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:46:07.785Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:46:16.553Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:09.675Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:09.761Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:14.924Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:14.992Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:22.559Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:47:50.575Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T11:48:57.829Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T11:48:58.688Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T11:49:17.857Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-08T11:49:21.291Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-08T11:49:34.435Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:50:15.936Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:50:20.872Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:50:35.973Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:50:39.185Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:50:44.788Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:51:35.061Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T11:51:38.562Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:51:17.139Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:52:02.219Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:52:09.522Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:52:44.732Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T12:53:58.828Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-08T12:53:58.831Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:04.677Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:17.949Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:21.376Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:28.792Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:40.862Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:43.725Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:47.213Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:54:49.780Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:55:05.532Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:55:08.789Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T12:55:40.929Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T12:57:15.612Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T12:57:32.732Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T12:57:37.040Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:46:37.630Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T14:47:12.230Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:47:15.923Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T14:48:09.862Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T14:48:18.237Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T14:48:36.555Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T14:48:48.312Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T14:49:15.830Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:49:33.578Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:51:05.164Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:51:08.473Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T14:51:39.877Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:51:43.198Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T14:52:05.762Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T14:52:09.141Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T14:53:02.101Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:23:38.710Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:24:22.399Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:24:34.555Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:24:38.251Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:24:42.348Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:26:13.775Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:26:37.117Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:26:53.801Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:27:05.055Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:27:05.438Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:27:09.155Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:04.150Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:06.975Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:07.459Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:43.693Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:55.243Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:37:55.720Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:38:18.582Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:39:16.629Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:40:05.597Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:40:24.502Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:40:32.774Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:41:19.571Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:53:47.158Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:54:02.930Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:54:17.172Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:54:21.307Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:56:45.655Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T15:57:51.375Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T15:59:09.559Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T15:59:37.158Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T15:59:42.206Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T15:59:48.739Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T15:59:59.132Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:03.530Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:14.007Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:14.019Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:30.251Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:30.271Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:45.164Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:00:45.170Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:01:22.063Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:01:22.067Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:02:20.404Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:02:26.227Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:03:18.516Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:03:35.458Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:04:08.380Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:04:10.892Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:04:43.354Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:04:44.657Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-05-08T16:04:44.696Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:05:19.571Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:00.311Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:44.067Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:44.079Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:44.180Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:44.196Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:46.963Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:46.973Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":2,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:52.700Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-08T16:06:57.722Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T16:08:04.433Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:08:44.705Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:08:52.778Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:08:53.058Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:09:53.400Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:09:53.511Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:10:12.259Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:10:15.236Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:11:17.759Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:11:37.397Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:13:31.511Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T16:13:58.367Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:14:11.846Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T16:47:17.825Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T16:47:18.312Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = {"user_id":"5e96f7b7d48ba52e8c3b5974","amount":3,"transaction_id":"tok_1GgZMkGMGthswfYr12wVsNrm","items":[{"currency":"USD","printing_edition_id":"5e95d56da86b2d2a8885b7a2","printingEditionType":"Book","count":1,"printingEditionName":"Piranhas ","price":3}]}',
+  level: 'info',
+  timestamp: '2020-05-08T16:48:05.170Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-08T16:48:09.418Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T17:55:17.613Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T17:55:17.696Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T17:55:18.097Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T17:56:04.638Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T17:56:05.177Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T17:58:44.571Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T18:00:07.970Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T18:01:05.905Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T18:01:18.170Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:01:28.994Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-08T18:02:17.730Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:02:31.853Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:07.058Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:08.136Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:16.404Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:20.181Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:20.281Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:17:56.705Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:19:06.029Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:19:16.598Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-08T18:19:35.954Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = {"user_id":"5e96f7b7d48ba52e8c3b5974","amount":25,"transaction_id":"tok_1GganyGMGthswfYrKD8g7FXf","items":[{"currency":"USD","printing_edition_id":"5e95af3608b89007f812f13f","printingEditionType":"Book","count":1,"printingEditionName":"The Colour of Magic","price":25}]}',
+  level: 'info',
+  timestamp: '2020-05-08T18:20:23.865Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = {"user_id":"5e96f7b7d48ba52e8c3b5974","amount":25,"transaction_id":"tok_1Ggaq5GMGthswfYr1Nfeb2Nx","items":[{"currency":"USD","printing_edition_id":"5e95af3608b89007f812f13f","printingEditionType":"Book","count":1,"printingEditionName":"The Colour of Magic","price":25}]}',
+  level: 'info',
+  timestamp: '2020-05-08T18:22:28.269Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-08T20:10:55.079Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-09T14:59:39.278Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-09T15:11:58.749Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:11:58.841Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-09T15:12:06.625Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-09T15:16:34.829Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-09T15:16:57.416Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-09T15:37:38.631Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:37:38.717Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Howe","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:37:56.487Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Howe',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T15:37:56.530Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:40:08.542Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:40:21.435Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:40:21.436Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:10.749Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:11.567Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:22.836Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T15:43:22.861Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:31.562Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:54.023Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:43:54.025Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:43:58.786Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:44:28.576Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:46:45.530Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:46:55.214Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:46:55.215Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:46:59.937Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:10.219Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:15.252Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:15.266Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:20.757Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:47:20.758Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:23.011Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T15:47:32.023Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T15:47:32.024Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-09T15:48:43.663Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-09T19:48:58.163Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-09T19:50:22.498Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:50:26.625Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:50:27.267Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:50:40.375Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:50:40.385Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:51:09.914Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:51:16.239Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:51:16.255Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:10.839Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:11.737Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Hower","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:23.381Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:52:23.399Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:23.413Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:27.595Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Ho","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:42.553Z'
+}
+{
+  message: '>>>> userService.edit(), invalid data = instance.lastName does not meet minimum length of 3',
+  level: 'error',
+  timestamp: '2020-05-09T19:52:42.555Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:52:47.438Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-09T19:57:28.472Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:01.201Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:13.559Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:18.537Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:58:18.555Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:18.569Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:26.692Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Hower","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:58:37.680Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:58:37.708Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:02.254Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:02.845Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:13.881Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:59:13.889Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:13.902Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:17.938Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"Hower","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T19:59:33.414Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'Hower',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T19:59:33.428Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:00:30.506Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:00:30.967Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:00:41.375Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:00:41.383Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:00:44.941Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordiy","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:01:46.030Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordiy',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:01:46.042Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:01:48.235Z'
+}
+{
+  message: '>>>> userService.edit(), with: user = {"firstName":"Gordie","email":"paderborner2019@gmail.com","lastName":"How","id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:02:00.846Z'
+}
+{
+  message: '>>>> userService.edit(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-09T20:02:00.854Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:02:03.245Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-09T20:02:11.419Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-09T20:07:29.298Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-09T20:07:29.421Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:07:48.019Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:09:04.720Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-09T20:12:38.066Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-10T15:18:26.233Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-10T15:26:40.493Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-10T15:26:40.547Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-10T15:26:54.541Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:17.982Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:18.363Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:20.036Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":3,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:28.190Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:30.200Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":3,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:33.462Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:37.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:28:38.620Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:08.760Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":3,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:09.530Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:11.669Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:12.457Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":3,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:14.380Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:16.134Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:17.575Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:29:40.768Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:30:21.635Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T15:30:47.253Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T16:57:59.809Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:00:02.041Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-10T17:15:29.511Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:15:29.987Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:00.549Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:00.552Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:01.331Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:47.720Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:47.724Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:48.429Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:46:49.719Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:47:06.337Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T17:47:19.539Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-10T18:03:25.712Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-10T18:25:42.813Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-10T19:19:56.428Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T07:53:46.027Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:28:21.345Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:29:22.406Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:29:22.965Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:30:42.764Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:30:42.768Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:30:43.405Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:07.003Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:07.006Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:07.643Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:51.394Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:51.397Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:32:52.091Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:34:38.809Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:34:39.388Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:36:36.146Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:36:36.148Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:36:36.941Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:39:23.677Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:39:23.679Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:39:24.334Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:51:40.688Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:51:40.690Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:51:41.349Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:06.650Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:06.653Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:07.290Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:32.436Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:32.438Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:52:33.280Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:53:47.771Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T09:53:47.773Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T09:53:48.399Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T10:10:25.428Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T10:10:25.430Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T10:10:26.129Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T11:31:14.834Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T11:31:14.838Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T11:31:15.536Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T11:31:24.917Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T11:35:02.698Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T11:43:32.866Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T12:23:46.604Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T12:25:13.526Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T12:38:21.344Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:03:12.931Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:07:19.719Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:08:57.854Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:09:17.392Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:10:44.433Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:12:35.350Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:31:48.198Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:36:24.808Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:37:09.049Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T13:38:11.935Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T13:41:30.001Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:41:30.076Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T13:42:10.774Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:42:11.195Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-11T13:42:48.060Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:42:48.593Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e96f7b7d48ba52e8c3b5974"}',
+  level: 'info',
+  timestamp: '2020-05-11T13:43:09.709Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:43:23.838Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:43:34.589Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T13:44:02.609Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:44:03.438Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:44:52.741Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T13:45:20.792Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:46:23.362Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T13:47:24.608Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T14:04:43.197Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-11T14:06:11.672Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T14:07:25.300Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T14:27:05.675Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T14:28:01.103Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T14:28:09.673Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T14:31:50.521Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:44:58.610Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:45:33.286Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:46:28.196Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:48:13.024Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:49:04.016Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:50:34.255Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T15:53:24.708Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T15:57:49.980Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:03:33.174Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:04:22.507Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:06:21.471Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:07:01.042Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T16:08:35.852Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T16:08:42.407Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T16:08:46.346Z'
+}
+{
+  message: '>>>> authService.oAuth(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-05-11T16:08:46.357Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:10:01.757Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T16:10:05.659Z'
+}
+{
+  message: '>>>> authService.oAuth(), invalid data = instance requires property "passwordHash"',
+  level: 'error',
+  timestamp: '2020-05-11T16:10:05.661Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:11:13.364Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T16:11:23.292Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:13:28.689Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T16:14:37.686Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:33:18.866Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:36:34.513Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:37:09.235Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T17:37:09.379Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T17:37:15.769Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T17:40:39.671Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:51:22.165Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:51:49.174Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:52:49.837Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Metter","firstName":"Met","lastName":"fon Bacht","email":"arist@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-11T17:53:44.340Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.firstName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-11T17:53:44.342Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Metter","firstName":"Met","lastName":"fon Bacht","email":"arist@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-11T17:54:14.306Z'
+}
+{
+  message: '>>>> authService.register(), invalid data = instance.firstName does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-11T17:54:14.307Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Metter","firstName":"Mett","lastName":"fon Bacht","email":"arist@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-11T17:54:32.796Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T17:55:54.427Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:56:30.167Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:56:49.455Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:59:13.706Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T17:59:33.815Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:02:11.819Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T18:02:36.586Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:03:27.688Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T18:03:35.698Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-11T18:04:34.635Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:04:35.194Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:10:27.629Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:25:27.817Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-11T18:25:28.509Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-11T18:25:28.515Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:27:10.932Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:27:45.162Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:28:47.761Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:29:04.152Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T18:29:31.258Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:30:30.029Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:30:32.346Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:36:51.392Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:36:51.535Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:37:28.585Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:37:28.845Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:37:34.439Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:37:34.499Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-11T18:38:22.899Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T18:53:52.514Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T18:54:16.522Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Open Graph Test User","email":"open_jfyduxq_user@tfbnw.net","firstName":"Open","lastName":"Graph","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T18:59:12.955Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T19:13:25.213Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T19:14:35.930Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T19:19:03.243Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T19:23:54.573Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-11T19:24:22.722Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T19:24:44.130Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-11T19:34:40.088Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T08:45:18.771Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:48:11.069Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:48:54.420Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:49:41.090Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:52:32.360Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:53:08.407Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:53:12.990Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:53:23.265Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:54:57.323Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:55:10.229Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:55:49.196Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:56:06.683Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T08:57:39.873Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T08:57:53.701Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:00:32.891Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:00:44.958Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T09:00:50.384Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:00:50.607Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:07.753Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:16.879Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:17.151Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba66541c59e92b7c335d09"}',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:20.960Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:38.758Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:03:41.930Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:03:41.938Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:04:00.654Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:04:00.658Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:04:59.042Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:04:59.048Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:06:12.509Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:06:12.513Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:06:35.404Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:06:35.410Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:07:32.723Z'
+}
+{
+  message: '>>>> orderService.getOrderForUser(), result = user did not have any orders ',
+  level: 'error',
+  timestamp: '2020-05-12T09:07:32.726Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:07:41.184Z'
+}
+{
+  message: '>>>> orderService.createOrder(), with: orderParam = {"user_id":"5eba66541c59e92b7c335d09","amount":18,"transaction_id":"tok_1Ghu69GMGthswfYr5kwwrl3n","items":[{"currency":"USD","printing_edition_id":"5e95d3d9a86b2d2a8885b79d","printingEditionType":"Book","count":2,"printingEditionName":"Men at Arms","price":9}]}',
+  level: 'info',
+  timestamp: '2020-05-12T09:08:27.410Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-12T09:08:31.416Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:08:36.779Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:09:30.352Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:10:41.229Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:12:37.584Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:13:01.097Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:14:20.833Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:24:31.251Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:26:01.859Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:29:14.098Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T09:30:27.609Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:30:28.474Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:30:36.396Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T09:32:11.186Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEma","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T09:32:37.191Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-12T09:32:37.196Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEma","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T09:32:41.015Z'
+}
+{
+  message: '>>>> authService.logIn(), result = user is not found',
+  level: 'error',
+  timestamp: '2020-05-12T09:32:41.017Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:01:58.648Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T10:02:09.871Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T10:02:28.017Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T10:03:47.329Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T10:03:56.700Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:04:25.743Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T10:04:44.837Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:04:51.424Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:05:07.457Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T10:05:12.852Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:05:13.030Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:05:23.847Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:05:35.916Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:07:54.997Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:11:36.052Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T10:11:59.868Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T11:12:31.421Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:12:59.803Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"firstName":"Dwayne","lastName":"Jonson","userName":"Rock","email":"skala@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T11:15:57.963Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:23:04.928Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:29:59.674Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:30:45.561Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:42:07.007Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:42:10.872Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:42:23.187Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:45:07.363Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:45:12.846Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:46:11.040Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:46:52.520Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:47:25.079Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:47:41.406Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:47:54.459Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:48:22.310Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:49:00.963Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:54:50.989Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"dgfh","firstName":"dfgh","lastName":"wdwd","email":"morgenshbvgfdsbfdbdastern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T11:55:17.249Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:56:29.494Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"dfgh","lastName":"qwdqwed","email":"qqwdqwdqw@jhh.som","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T11:56:58.873Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T11:58:38.092Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"wferf","firstName":"wefwef","lastName":"fewfew","email":"morgenshbvgfdsbfdbdastern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T11:59:32.846Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:01:00.515Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:01:34.243Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:03:08.977Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"wefwef","firstName":"wefwegwergrweg","lastName":"fewfewfgwergwrggw","email":"wfwegfegewrgw@jhhhih.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T12:05:28.059Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:35:15.701Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"fronMen","firstName":"qwdqwd","lastName":"qwdqwddq","email":"qwddqwdd@wfe.co","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T12:36:34.017Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:37:04.311Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:37:07.158Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"wrfgrwefgfewf","firstName":"wefewfwef","lastName":"fwefewfewfwef","email":"morgenshbvgfdwefsbfdbdastern1988@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T12:38:06.206Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:38:39.345Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:38:50.972Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:38:53.563Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"eqwfgwerg","firstName":"rwgerger","lastName":"regergerg","email":"gerrrrrrrrrgerg@wrfgwer.wefwr","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T12:39:30.402Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:40:47.015Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:41:17.943Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"cascasdc","firstName":"ascasc","lastName":"ascascas","email":"csacascasdca@aefe.ff","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-12T12:41:40.288Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:43:02.117Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:44:33.905Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:45:27.089Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:45:54.494Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:46:14.638Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:47:05.728Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:50:53.621Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:50:56.503Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:52:34.210Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:53:41.375Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:58:39.170Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:58:54.092Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:59:36.257Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T12:59:55.954Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T13:02:26.721Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T14:49:30.149Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T14:49:53.091Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T14:51:34.417Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T15:45:23.289Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T15:48:02.275Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T15:49:04.024Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T15:51:06.460Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T15:54:37.424Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T15:55:12.406Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T15:55:38.737Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:19:53.328Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:20:23.974Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:21:15.086Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:21:34.210Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:22:06.997Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:23:50.994Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:24:36.366Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:25:29.243Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:26:13.235Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:26:38.668Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-12T16:41:38.548Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:41:39.012Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba66541c59e92b7c335d09"}',
+  level: 'info',
+  timestamp: '2020-05-12T16:41:42.467Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:41:54.912Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:42:03.696Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:42:54.031Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:44:14.381Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:47:31.512Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T16:53:31.886Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T16:55:21.062Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-12T16:56:53.608Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:57:04.285Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:57:17.932Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T16:57:34.848Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T17:21:58.212Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:21:58.365Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:23:38.418Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:24:42.742Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:24:58.530Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:25:43.236Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-12T19:29:50.888Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:29:51.033Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:29:51.219Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:31:21.311Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:31:21.642Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:31:38.775Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:32:36.613Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:32:43.963Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:32:49.824Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:32:59.946Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:34:01.610Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:34:09.073Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:06.442Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:13.342Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:39.488Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:39.860Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:45.123Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:35:55.029Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:36:33.167Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:36:38.612Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-12T19:47:20.349Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:47:20.626Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:47:20.675Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:47:59.684Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:48:00.090Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:49:16.697Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:49:17.412Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-12T19:54:42.069Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-12T19:54:42.328Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T08:23:47.163Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T08:23:55.264Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T08:23:55.486Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T08:24:05.158Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T08:46:29.980Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T08:46:30.086Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T11:48:35.168Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:02.168Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:02.376Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:08.175Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:40.451Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:45.760Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:45.989Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:50.957Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:57.790Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:51:58.480Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:52:01.839Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:52:01.954Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-05-13T11:52:02.005Z'
+}
+{
+  message: '>>>> printingEditionService.create(), with: printingEditionParam = {"title":"New Book","description":"Some Book","productType":"Book","author_ids":["5eb051d1b8d023146c79840c"],"price":"24","cover_image":"data:image/jpeg;base64,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"}',
+  level: 'info',
+  timestamp: '2020-05-13T11:52:54.809Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T11:53:01.057Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T11:53:36.262Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:02:39.504Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:03:05.426Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:03:09.339Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:04:24.270Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:04:58.309Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:05:15.164Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:06:13.911Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:06:19.586Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:07:08.709Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:07:47.460Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T12:07:51.232Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:07:51.261Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:09:07.735Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:09:52.979Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:10:29.816Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:10:33.674Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:16:55.829Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:17:17.635Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:22:24.687Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T12:23:09.495Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:23:09.527Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:24:31.421Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:24:35.443Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:25:23.155Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:32:32.339Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:33:06.729Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:33:38.517Z'
+}
+{
+  message: '>>>> userService.remove(), with: user id = {"_id":"5eba990235acb224e40b1048"}',
+  level: 'info',
+  timestamp: '2020-05-13T12:33:54.742Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:34:54.707Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:35:54.082Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:46:30.321Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:58:05.834Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T12:59:25.712Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:01:29.114Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:02:17.168Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:02:17.179Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:02:18.215Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:03:49.153Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:05:10.494Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:05:10.628Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:05:10.630Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:06:28.305Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:06:28.445Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:06:28.446Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:06:31.505Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:06:31.589Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:06:31.590Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:07:17.021Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:07:17.044Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:07:17.045Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:08:29.893Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:08:29.936Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:08:29.938Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:09:05.814Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:09:05.896Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:09:05.898Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:10:23.026Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:10:23.077Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:10:23.078Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:11:17.381Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:11:17.506Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:11:17.507Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:13:41.419Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:13:41.563Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:13:41.564Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:13:46.363Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba985235acb224e40b1046"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:13:46.467Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba985235acb224e40b1046"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:13:46.468Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:14:01.155Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:14:07.228Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:14:07.618Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:15:16.601Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:15:17.010Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:15:47.634Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:15:55.499Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:16:10.148Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:16:26.015Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:16:32.525Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:17:09.493Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:17:17.480Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:25:11.570Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:23.297Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:24.529Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:24.670Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:24.673Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:25.127Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:37.543Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:26:37.544Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"user":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:26:51.039Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"user":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:26:51.057Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:28:06.965Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:28:07.058Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:28:07.308Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"5eba998435acb224e40b1049":""}',
+  level: 'info',
+  timestamp: '2020-05-13T13:28:16.837Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"5eba998435acb224e40b1049":""}',
+  level: 'error',
+  timestamp: '2020-05-13T13:28:16.844Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"5eba998435acb224e40b1049":""}',
+  level: 'info',
+  timestamp: '2020-05-13T13:28:36.829Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"5eba998435acb224e40b1049":""}',
+  level: 'error',
+  timestamp: '2020-05-13T13:28:36.848Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:29:58.726Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:29:58.898Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:29:58.927Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:30:05.611Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"id":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:30:05.613Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:30:57.178Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), with: user id = {"id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:31:14.251Z'
+}
+{
+  message: '>>>> userService.confirmedEmail(), invalid data = {"id":"5eba998435acb224e40b1049"}',
+  level: 'error',
+  timestamp: '2020-05-13T13:31:14.253Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:32:43.326Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:32:59.391Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:32:59.893Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-13T13:33:03.799Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-13T13:33:03.806Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:33:37.258Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T13:34:02.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:34:34.096Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:34:34.228Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:34:34.417Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:34:46.316Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:51:43.843Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:52:45.268Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:15.001Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:38.206Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:38.301Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:38.359Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:38.362Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:38.386Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:41.606Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:58:44.827Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:01.007Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:14.353Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:14.365Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:14.562Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:31.998Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:32.009Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:32.258Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:32.350Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:35.379Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:48.943Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:49.433Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:49.611Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T13:59:49.721Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:02.979Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:21.795Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:33.617Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:35.058Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:35.194Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:35.309Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:41.216Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:43.567Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:53.219Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:54.406Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:54.698Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:54.736Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba998435acb224e40b1049"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:00:57.721Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:01:10.010Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:01:10.286Z'
+}

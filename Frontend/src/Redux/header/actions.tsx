@@ -9,7 +9,6 @@ export function hideCartAction () {
 }
 
 export function showSignInAction() {
-    debugger
     return{type:"SHOW_LOGIN"}
 }
 
@@ -26,6 +25,17 @@ export function showRegisterAction() {
 }
 
 export function signInAction(user: UserModel) {
-    debugger
     return{type: "SUCCESSFUL_SIGNIN",payload: user}
+}
+
+export function signOutAction () {
+    return {type: "SIGN_OUT"}
+}
+
+export function showConfirmEmail() {
+    return {type: "SHOW_CONFIRM"}
+}
+
+export function hideConfirmEmail() {
+    return {type: "HIDE_CONFIRM"}
 }

@@ -4,20 +4,17 @@ import  signIn  from "../../assets/SignUp.png";
 import bookLogo from "../../assets/Book_Logo_svg.png"
 import cart from "../../assets/shopping_cart_icon.png"
 import  PopUpManager  from '../auth/popUpManager';
-import { HeaderState } from '../../redux/popUp/types';
+import { HeaderState } from '../../Redux/header/types';
 import { connect} from "react-redux"
-import { showSignInAction, showCartAction } from "../../Redux/popUp/actions";
-import Cart from '../cart/cart';
+import { showSignInAction, showCartAction, showConfirmEmail } from "../../Redux/header/actions";
 
  class Header extends Component<any, HeaderState> {
-  constructor(props: any) {
-    super(props);
-  }
 
   state:HeaderState = {
     showLogIn: false,
     showRegister: false,
     showCart: false,
+    showConfirm:false,
     user: null
   }
 
@@ -32,6 +29,7 @@ import Cart from '../cart/cart';
   logOut = () => {
     localStorage.clear();
     this.setState({user:null})
+    window.location.assign('/main')
   }
 
   UNSAFE_componentWillMount = () => {
@@ -41,13 +39,14 @@ import Cart from '../cart/cart';
     render() {
         return (
           <div>
-
+            
       <div className="header">
           <div className="bookLogo">
-            
             <a href="/main"> <img src={bookLogo} alt="to Main paige"/> </a>
           </div>
-          <a className="move-signin">
+
+           {/* eslint-disable-next-line */}
+          <a className="move-signin" >
 
           <div className="signIn" onClick={this.showSigInForm.bind(this)}>
               {this.state.user===null&& <div>SignIn</div>}
@@ -61,7 +60,7 @@ import Cart from '../cart/cart';
               <nav>
                 <ul>
                   <li>
-                    <img src={cart} className="shopping-cart" onClick={this.showCart}/>
+                    <img src={cart} alt="cart" className="shopping-cart" onClick={this.showCart}/>
                     
                     <img src={signIn} alt="menu" />
                       {this.state.user.role==="Admin"&&<AdminMenu/>}
@@ -117,7 +116,8 @@ const mapStateToProps = (state:any) => {
 
 const mapDispatchToProps = {
   showSignInAction,
-  showCartAction
+  showCartAction,
+  showConfirmEmail
 }
 export default connect(mapStateToProps,mapDispatchToProps)(Header);
 

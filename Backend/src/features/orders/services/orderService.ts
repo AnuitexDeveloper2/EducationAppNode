@@ -23,7 +23,7 @@ export async function createOrderAsync(orderParam:ordersModel) {
         return "order did not create"
     }
 
-    return "Ok"
+    return result
 
 } 
 

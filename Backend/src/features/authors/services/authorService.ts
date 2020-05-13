@@ -29,7 +29,6 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
 }
 
 export async function removeAsync(id: string): Promise<any> {
-   console.log(id)
    const validateResult = validateWithJsonSchema(id,idValidateSchema)
    logger.info(`>>>> authorService.remove(), with: Id = ${JSON.stringify(id)}`)
 

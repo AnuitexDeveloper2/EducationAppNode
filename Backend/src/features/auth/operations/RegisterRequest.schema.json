@@ -37,7 +37,6 @@
         "userName",
         "email",
         "firstName",
-        "lastName",
-        "passwordHash"
+        "lastName"
     ]
 }

@@ -12,11 +12,12 @@ export const usersSchema = new schema({
     avatar: {type: String},
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    passwordHash: { type: String, required: true },
+    passwordHash: { type: String },
     createdDate: { type: Date, default: Date.now },
     role: { type: Role, required: true, default: Role[1] },
     removed_at: { type: Boolean, default: false },
-    status: {type: Boolean, default: true}
+    status: {type: Boolean, default: true},
+    confirmedEmai: {type: Boolean, default: false}
 });
 
 usersSchema.plugin(mongoosePaginate);

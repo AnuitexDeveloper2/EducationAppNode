@@ -46,6 +46,14 @@ export function MyProfile() {
             id: state.id
         }
         const result = await editUser(user)
+        if (result.err.error) {
+            let message;
+            result.err.error.forEach((item)=>{message=item.stack})
+            alert(message)
+        }
+        if (result.err.status === true) {
+            alert("Profile edited")
+        }
          getData()
         }
 
@@ -65,6 +73,14 @@ export function MyProfile() {
         }
         if (param.newPassword===confirmPassword.current.value&&param.newPassword.toString().length>6) {
             const result = await changePassword(param)
+            if (result.err.error) {
+                let message;
+                result.err.error.forEach((item)=>{message=item.stack})
+                alert(message)
+            }
+            if (result.err.status === true) {
+                alert("Password edited")
+            }
             setIsPasswordConfirmed(true)
         }
         if (param.newPassword!==confirmPassword.current.value) {
@@ -123,7 +139,7 @@ export function MyProfile() {
                 </div >
                 <div className="profile-password">
                     Confirm Password
-                {!isPasswordConfirmed&&<div className="confirm-validate">password did match</div>}
+                {!isPasswordConfirmed&&<div className="confirm-validate">password did't match</div>}
                 </div>
                 <div className="profile-email-form">
                 <input type="password" className="profile-input" ref={confirmPassword}/>

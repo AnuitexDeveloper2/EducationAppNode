@@ -30,8 +30,9 @@ const Remove = ({isShowing, hide,assigment,value}) => {
         }
         if (assigment === "user") {
             result = await removeUser(value.item.id)
+            debugger
         }
-        if (result === true) {
+        if (result.result === true) {
             hide(false)
         }
 

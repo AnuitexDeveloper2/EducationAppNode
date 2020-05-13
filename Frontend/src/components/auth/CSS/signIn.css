@@ -135,6 +135,7 @@ text-align: center;
 text-transform: capitalize;
 color: #FFFFFF;
 background-color: #FF6825;
+cursor: pointer;
 }
 
 .checkbox {
@@ -165,7 +166,7 @@ background-color: #FF6825;
     position: absolute;
     left: 36.43%;
     right: 28.41%;
-    top: 80.53%;
+    top: 63.53%;
     bottom: 17.45%;
     font-family: Poppins;
     font-style: normal;
@@ -181,12 +182,13 @@ background-color: #FF6825;
     position: absolute;
     left: 36.43%;
     right: 28.41%;
-    top: 84.58%;
+    top: 75.58%;
     bottom: 7.94%;
     height: 50px;
     width: 200px;
     background-color: #3F3F3F;
     border: 2px solid #F9621F;
+    cursor: pointer;
 }
 
 .sign_up_button_name {
@@ -204,6 +206,11 @@ background-color: #FF6825;
     align-items: center;
     text-align: center;
     color: #B9B8B7;
+}
+
+.facebook-logIn {
+    text-align: center;
+    margin-top: 70%;
 }
 
  /* errors */

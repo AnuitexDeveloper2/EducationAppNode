@@ -5,4 +5,5 @@ export interface HeaderState {
     showRegister: boolean;
     showCart:boolean;
     user:UserModel;
+    showConfirm: boolean
 }

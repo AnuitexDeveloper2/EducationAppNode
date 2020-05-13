@@ -10,7 +10,6 @@ import { UserModel } from "../../shared/models/user/user";
 import Poligon  from "../../assets/Polygon.png";
 import { UserFilterType } from "../../shared/enums/userFilterType";
 import { UserFilter } from "../../shared/models/user/userFilter";
-import SearchBar from "../searchBar/search";
 
 const UsersForAdmin = () => {
 

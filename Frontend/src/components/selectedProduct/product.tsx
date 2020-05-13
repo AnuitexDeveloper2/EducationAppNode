@@ -34,9 +34,7 @@ export default function Product () {
     }
 
     const moveToCart =() => {
-        debugger
         const currentOrderItem: OrderItemModelItem = {
-            // amount: state.amount,
             currency: state.book.currency,
             printing_edition_id: state.book.id,
             printingEditionType: state.book.productType,

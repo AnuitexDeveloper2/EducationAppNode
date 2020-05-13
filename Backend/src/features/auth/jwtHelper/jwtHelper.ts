@@ -32,16 +32,15 @@ export const generateTokens = (userModel: userModel) => {
 }
 
 export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
-    debugger
     const accessToken = <string>req.headers["accesstoken"];
     let jwtPayload;
     let newTokens: any;
     try {
       jwtPayload = <any>jwt.verify(accessToken, process.env.secret);
       currentRole = jwtPayload.role;
-
+      
       res.locals.jwtPayload = jwtPayload;
-
+      
     } catch (err) {
          if (err.name == 'TokenExpiredError') {
           res.status(403).send("access Token Expired")
@@ -61,7 +60,6 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     let jwtPayload;
     try {
       jwtPayload = <any>jwt.verify(<string>req.body.refreshToken, process.env.refreshTokenSecret);
-      // res.locals.jwtPayload = jwtPayload;
     } catch (err) {
       if (err.name == 'TokenExpiredError') {
         logger.info(`>>>> JWTHelper.refreshToken(), with user err.name = ${JSON.stringify(err.name)}`);
@@ -72,6 +70,5 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
     const user = new userModel();
     user._id = jwtPayload._id;
     user.role = jwtPayload.role;
-   
     return generateTokens(user);
   }

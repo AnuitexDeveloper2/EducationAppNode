@@ -10,9 +10,6 @@ import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 
 
 export class Register extends React.Component<any> {
-    // constructor(props: any){
-    //     super(props)
-    // }
     
     showLogIn = () => {
       this.props.hideRegisterAction();
@@ -24,10 +21,11 @@ export class Register extends React.Component<any> {
     }
 
     onSubmitRegister = async (values: any) => {
-        debugger;
        const result = await authService.register(values)
        if (result.err ===true) {
         this.props.hideRegisterAction();
+        debugger
+        this.props.showConfirmEmail()
        }
     }
    

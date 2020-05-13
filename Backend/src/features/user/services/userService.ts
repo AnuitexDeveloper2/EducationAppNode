@@ -18,7 +18,7 @@ export async function getByIdAsync(id: any): Promise<any> {
    }
 
     const result = await repository.findByIdAsync(id);
-    
+     
     if (typeof(result) == "string") {
         logger.error(`>>>> userService.getById(), result = ${result}`);
     }
@@ -51,7 +51,7 @@ export async function editAsync(userParam: userModel) : Promise<any> {
         return result;
     }
    
-    return 'Ok';
+    return true;
 }
 
 export async function removeAsync(id: string) {
@@ -62,9 +62,9 @@ export async function removeAsync(id: string) {
         logger.error(`>>>> userService.remove(), invalid data = ${JSON.stringify(id)}`);
         return {message: "Invalid id parameter", error: validateResult.errors};
     }
-
-    const result = await repository.removeOneAsync(id);
-    
+    const remove ={removed_at: true}
+    const result = await repository.updateOneAsync(id,remove);
+    console.log(result)
     if(!result) {
         return "user not found";
     }

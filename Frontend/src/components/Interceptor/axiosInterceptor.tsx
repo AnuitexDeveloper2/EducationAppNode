@@ -1,8 +1,12 @@
 import  axios  from "axios";
 import React from "react"
 import { getAccessToken } from "../../services/localStorageService";
+import { useDispatch } from "react-redux";
+import { signOutAction } from "../../Redux/header/actions";
 
-const Interceptor = () => {
+
+export default function Interceptor () {
+    const dispatch = useDispatch()
     axios.interceptors.request.use(
         config => {
             const token = getAccessToken();
@@ -20,10 +24,13 @@ const Interceptor = () => {
          }, async function (error) {
             const originalRequest = error.config;
          
+            debugger
             if (error.response.status === 401)
-                //  originalRequest.url === 'http://13.232.130.60:8081/v1/auth/token')
                   {
-                return Promise.reject(error);
+                    dispatch(signOutAction())
+                    localStorage.clear();
+                    debugger
+                    window.location.assign('/main');
             }
             if (error.response.status === 403 && !originalRequest._retry) {
                 
@@ -34,7 +41,6 @@ const Interceptor = () => {
                 .then(res => {
                     debugger
                     if (res.status === 200) {
-                        debugger
                         const token = res.data.AccessToken;
                         const refresh = res.data.RefreshToken
                         localStorage.setItem('AccessToken', token)
@@ -43,7 +49,7 @@ const Interceptor = () => {
                         return axios(originalRequest);
                     }
                     if (res.status === 401) {
-                        debugger
+                        dispatch(signOutAction())
                         localStorage.clear();
                     }
                 })
@@ -54,5 +60,3 @@ const Interceptor = () => {
         <div></div>
     )
 }
-
-export default Interceptor

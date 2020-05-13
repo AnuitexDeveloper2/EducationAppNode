@@ -20,7 +20,7 @@ const PrintingEditionForAdmin =() =>{
   const [state,setState] = useState({
       count: 0,
       data: null,
-      isLoading: false,
+      isLoaded: false,
       showCreate: false,
   })
 
@@ -33,7 +33,6 @@ const PrintingEditionForAdmin =() =>{
     }
     const {isShowing, toggle} = useModal();
     const getData = async (pageNumber) => {
-        debugger
       const filter: PrintingEditionFilterModel ={
         searchString: '',
         sortType: SortType.None,
@@ -46,7 +45,7 @@ const PrintingEditionForAdmin =() =>{
         typeProduct:undefined
       }
       const printingEdition = await PrintingEditionService.getPrintingEdition(filter)
-      setState({data: printingEdition.data,count:printingEdition.count,isLoading:true,showCreate:false})
+      setState({data: printingEdition.data,count:printingEdition.count,isLoaded:true,showCreate:false})
     }
 
     const passData = (currentProduct) => {
@@ -94,7 +93,7 @@ const PrintingEditionForAdmin =() =>{
          }
           }
     ]
-      if (!state.isLoading) {
+      if (!state.isLoaded) {
         return(
           <div className="loading-data">
          <div className="spinner-grow text-primary" role="status">

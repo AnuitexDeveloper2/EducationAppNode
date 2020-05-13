@@ -169,7 +169,7 @@ export default function MainPage() {
     <ReactPaginate
         previousLabel={'<'}
         nextLabel={'>'}
-        breakLabel={<a href="">...</a>}
+        // breakLabel={<a href="">...</a>}
         breakClassName={'break-me'}
         pageCount={state.count/6}
         marginPagesDisplayed={2}

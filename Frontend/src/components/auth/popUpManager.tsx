@@ -3,9 +3,10 @@ import { connect } from "react-redux";
 import  SignIn  from "../../containers/signIn/signInContainers";
 import  Register  from "../../containers/register/registerConteiner";
 import Cart from "../cart/cart";
+import ConfirmEmail from "./confirmEmail";
 
 const PopUpManager: React.FC<any>= ({popupState}) => {
-    if (popupState.popUpmanager.showLogIn) {
+    if (popupState.headermanager.showLogIn) {
         
         return(
             <div>
@@ -13,20 +14,27 @@ const PopUpManager: React.FC<any>= ({popupState}) => {
         </div>
     )
 }
-    if (popupState.popUpmanager.showRegister) {
+    if (popupState.headermanager.showRegister) {
         return(
             <div>
             <Register></Register>
         </div>
             )
     }
-    if(popupState.popUpmanager.showCart) {
+    if(popupState.headermanager.showCart) {
         return(
             <div>
             <Cart outsideState=""/>
         </div>
     )
 }
+    if (popupState.headermanager.showConfirm) {
+        return(
+            <div>
+                <ConfirmEmail/>
+            </div>
+        )
+    }
         return(<div></div>)
 }
 

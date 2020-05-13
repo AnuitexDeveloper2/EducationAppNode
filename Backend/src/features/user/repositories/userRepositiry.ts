@@ -43,18 +43,13 @@ export async function getUserAsync (userParam: User)  {
         return updatedUser ;
     }
 
-    export async function removeOneAsync(id: string): Promise<Boolean> {
-        let model = new userModel();
-        const user =  userModel.findById(id);
-        model = await user;
-        model.removed_at = true;
-        const result = await userModel.update(user, model);
-        
-        if (result.nModified == 0) {
+    export async function updateOneAsync(id: string,prop:any): Promise<any> {
+        const result = await userModel.findByIdAndUpdate(id, prop);
+        if (result=== null) {
             return false;
         }
     
-        return true;
+        return result;
     }
 
     export async function blockUserAsync(id:string): Promise<Boolean> {

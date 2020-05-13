@@ -1,25 +1,22 @@
 import  axios  from "axios";
 
-
-
 export async function register (user: any) {
-    debugger;
-    const result = await axios.post('http://localhost:8000/auth/register',{user})
-    return result.data
+    const result = await axios.post('http://localhost:8000/auth/register',{user});
+    return result.data;
 } 
 
-export function moveFacebook() {
-    fetch('https://www.facebook.com/dialog/oauth?client_id=869634570156556&redirect_uri=http://localhost:8000/auth/callback&response_type=code',{
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        method: 'POST'
-        }
-    )
+export async function signIn (user: any) {
+    const result = await axios.post('http://localhost:8000/auth/logIn',user);
+    return result.data;
 }
 
-export async function signIn (user: any) {
-    const result = await axios.post('http://localhost:8000/auth/logIn',user)
-    
-    return result.data
+export async function oauthSignIn(user: any) {
+    const result = await axios.post('http://localhost:8000/auth/oAuth',user);
+    return result.data;
+} 
+
+export async function confirmedEmail(id: string) {
+    const _id = id;
+    const result = await axios.post('http://localhost:8000/auth/confirmedEmail',{_id});
+    return result.data;
 }

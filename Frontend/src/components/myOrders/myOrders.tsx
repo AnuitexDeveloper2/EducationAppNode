@@ -15,8 +15,11 @@ export function MyOrders () {
         const getData = async(pageNumber) => {
             debugger
             const user = JSON.parse(localStorage.getItem("User"))
+            debugger
             const result = await getMyOrder(user._id)
-            setState({data:result.err})
+            if (result.err!==null) {
+              setState({data:result.err})
+            }
         }
 
     const columns = [

@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { popUpReducer } from "./popUp/popUpReducer";
+import { headerReducer } from "./header/headerReducer";
 
 export const rootReducer = combineReducers({
-    popUpmanager: popUpReducer
+    headermanager: headerReducer
 })

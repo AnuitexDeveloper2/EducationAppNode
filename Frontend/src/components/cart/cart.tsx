@@ -5,7 +5,7 @@ import "./cart.scss"
 import remove from "../../assets/delete.png"
 import { removeItemFromCart } from "../../services/localStorageService";
 import { useDispatch } from "react-redux";
-import { hideCartAction } from "../../Redux/popUp/actions";
+import { hideCartAction } from "../../Redux/header/actions";
 import StripeCheckout from "react-stripe-checkout";
 import { Orders } from "../../shared/models/order/orderModel";
 import { createOrder } from "../../services/order";
@@ -44,8 +44,10 @@ export default function Cart ({outsideState})  {
             items: state.data
         }
         const result = await createOrder(order);
-        if (result) {
+        debugger
+        if (result.err) {
             cancel();
+            localStorage.removeItem("Cart")
         }
     }
 
@@ -54,8 +56,8 @@ export default function Cart ({outsideState})  {
         const myCart =JSON.parse(localStorage.getItem("Cart"))
         setState({data:[], isLoaded:true,total:totalPrice})
         if (myCart !==null) {
-            myCart.foreach((item:OrderItemModelItem)=>{
-                totalPrice +=item.price *item.count
+            myCart.forEach((item:OrderItemModelItem)=>{
+                (totalPrice +=item.price *item.count)
             })
             setState({data:myCart, isLoaded:true,total:totalPrice})
         }

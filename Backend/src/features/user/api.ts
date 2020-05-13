@@ -10,6 +10,7 @@ import { Role } from "../shared/enums/role";
         role: Role;
         removed_at: boolean;
         status: boolean;
+        confirmedEmail: boolean;
     }
 
     export interface ResetPassword {
@@ -18,12 +19,7 @@ import { Role } from "../shared/enums/role";
         newPassword: string;
     }
 
-    export interface OAuth {
-     name:  String,
-     client_id:  String,
-     client_secret: String,
-     redirect_uri: String,
-     grant_types: String,
-     scope: String,
+    export interface OAuthModel {
+        user_Id:  String,
     }
    
