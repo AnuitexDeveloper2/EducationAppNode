@@ -17,7 +17,7 @@ const mailTransportert = nodemailer.createTransport({
             from: 'morgenshtern1988@gmail.com', 
             to: user.email,
             subject: "// Subject line",
-            text: `Confirm registration by clicking on the link: http://localhost:3000/confirmedEmail?user=5eba998435acb224e40b1049`
+            text: `Confirm registration by clicking on the link: http://localhost:3000/confirmedEmail?user=${user.id}`
         };
         mailTransportert.sendMail(mailOptions,(error,info)=> {
             if (error) {

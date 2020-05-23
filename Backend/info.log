@@ -40389,3 +40389,398 @@
   level: 'info',
   timestamp: '2020-05-13T14:01:10.286Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T14:02:24.002Z'
+}
+{
+  message: '>>>> authService.confirmedEmail(), with: user id = {"_id":"5eba98ae35acb224e40b1047"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:03:06.222Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:03:55.598Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:11.996Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:13.638Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:13.653Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:13.683Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:13.912Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:14.122Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:14.126Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:14.961Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:50.761Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:51.852Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:52.167Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:52.263Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:52.285Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:04:52.575Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:10.660Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:12.229Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:12.361Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:12.545Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:12.645Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:12.789Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:20.667Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:21.825Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:21.831Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:21.934Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:21.950Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:05:22.457Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.523Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.559Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.698Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.714Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.835Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:07:57.853Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.153Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.189Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.262Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.272Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.289Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:23.623Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:08:30.193Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:09:05.628Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T14:09:06.159Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719807682931298f0a1c3"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:09:13.268Z'
+}
+{
+  message: '>>>> userService.blockUser(), with: user id = {"_id":"5e9719807682931298f0a1c3"}',
+  level: 'info',
+  timestamp: '2020-05-13T14:09:15.142Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T14:47:38.783Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T19:15:52.211Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:19.981Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:19.990Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:40.735Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:41.013Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:41.072Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:16:47.088Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:17:41.874Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:17:42.140Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-05-13T19:17:42.208Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":2,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:19:32.031Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":10,"tableSort":0,"currency":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:19:32.215Z'
+}
+{
+  message: '>>>> authorService.get()',
+  level: 'info',
+  timestamp: '2020-05-13T19:19:32.274Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:40.248Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:40.580Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:40.582Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:41.030Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Maria Aleaacihgeagb Narayananberg","email":"doxqajuegu_1589274152@tfbnw.net","firstName":"Maria","lastName":"Aleaacihgeagb","password":null}',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:48.040Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:20:48.290Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:21:00.154Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-13T19:21:08.388Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-13T19:21:08.641Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-13T20:47:41.576Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-15T16:41:27.778Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-15T16:42:34.459Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T16:58:44.352Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:00:44.528Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:02:07.864Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:04:05.888Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:06:14.834Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:07:08.709Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:08:15.289Z'
+}

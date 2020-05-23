@@ -57,10 +57,10 @@ import { showSignInAction, showCartAction, showConfirmEmail } from "../../Redux/
           </a>
           <div className="signInButton">
               {this.state.user!==null&&<div>
+              {this.state.user.role==="User"&&<img src={cart} alt="cart" className="shopping-cart" onClick={this.showCart}/>}
               <nav>
                 <ul>
                   <li>
-                    <img src={cart} alt="cart" className="shopping-cart" onClick={this.showCart}/>
                     
                     <img src={signIn} alt="menu" />
                       {this.state.user.role==="Admin"&&<AdminMenu/>}

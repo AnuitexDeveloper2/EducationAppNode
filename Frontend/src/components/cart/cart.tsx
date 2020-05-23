@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { OrderItemModelItem } from "../../shared/models/orderModel/OrderItemModel"
 import  spinner  from "../../assets/spinner.gif";
-import "./cart.scss"
+import "./cart.css"
 import remove from "../../assets/delete.png"
 import { removeItemFromCart } from "../../services/localStorageService";
 import { useDispatch } from "react-redux";

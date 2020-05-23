@@ -27,16 +27,9 @@ export async function signInAsync(email: string, password: string): Promise<any>
     let user = await userModel.findOne({ email: email })
 
     if (user == null) {
-      
         return "user is not found"; 
     }
     
-    const isPasswordValid = await userRepository.checkPasswordAsync(password,user);
-   
-    if (!isPasswordValid) {
-       return "invalid password";
-    }
-
       return user ;
 }
 

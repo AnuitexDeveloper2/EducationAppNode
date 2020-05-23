@@ -1,3 +1,4 @@
+import bcrypt from "bcrypt";
 import { User } from "../user/api";
 import * as repository from "../auth/auth.repository";
 import { validateWithJsonSchema } from "../utils/validateWithJsonSchema";
@@ -40,13 +41,24 @@ export async function logInAsync(email: string, password: string): Promise<any> 
     }
     const result = await repository.signInAsync(email,password);
     const test = typeof(result)
-
+    
     if (test == "string") {
         logger.error(`>>>> authService.logIn(), result = ${result}`);
         return false;
     }
+    const isPasswordValid = checkPasswordAsync(password,result)
+    if (result) {
+        return {error: "Password is not valid"};
+    }
     return  generateTokens(result);
 }
+
+export async function checkPasswordAsync(password: string, user: User) {
+    if (!bcrypt.compareSync(password, user.passwordHash)) {
+          return false
+      }
+      return true;
+  }
 
 export async function confirmedEmailAsync(id: string): Promise<any> {
     console.log(id)

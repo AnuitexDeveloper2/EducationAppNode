@@ -5,6 +5,7 @@ import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
 import { BaseResponse } from "../../shared/db-models/BaseResponse";
 import { UserFilterType } from "../../shared/enums/userFilterType";
+import { checkPasswordAsync } from "../../auth/auth.service";
 
 export async function getUserAsync (userParam: User)  {
     const result = await userModel.findOne({email: userParam.email})
@@ -15,14 +16,7 @@ export async function getUserAsync (userParam: User)  {
         return result;
     };
 
-    export async function checkPasswordAsync(password: string, user: User) {
-    //     console.log(password)
-    //    console.log(user)
-      if (!bcrypt.compareSync(password, user.passwordHash)) {
-            return false
-        }
-        return true;
-    }
+    
 
     export async function editAsync(userParam: userModel): Promise<any> {
        
