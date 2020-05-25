@@ -40784,3 +40784,198 @@
   level: 'info',
   timestamp: '2020-05-23T17:08:15.289Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-23T17:11:22.704Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-23T17:20:40.985Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-23T17:20:40.994Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-23T17:20:41.102Z'
+}
+{
+  message: '>>>> JWTHelper.refreshToken(), with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-23T17:20:41.253Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-23T17:20:41.790Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-23T17:22:20.849Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T10:43:56.571Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T10:45:06.616Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T10:45:58.410Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-25T10:53:33.564Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "JsonWebTokenError"',
+  level: 'info',
+  timestamp: '2020-05-25T10:53:33.575Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T10:53:38.849Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T10:53:55.975Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:09.935Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:10.656Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:16.023Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:16.031Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:23.704Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:23.710Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":2,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:28.066Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:33.036Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T10:54:41.902Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T11:09:32.555Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T11:09:32.559Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T11:52:09.027Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T11:52:09.030Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T11:54:47.940Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-25T11:54:52.755Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T11:54:53.189Z'
+}
+{
+  message: '>>>> userService.getById(), with user id = {"_id":"5e807dcc0234552fcc36ddc0"}',
+  level: 'info',
+  timestamp: '2020-05-25T11:55:12.579Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T13:20:57.235Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T13:22:16.821Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T13:24:21.741Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T14:03:26.420Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T14:09:25.713Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T14:19:16.003Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T14:19:39.921Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T14:20:51.389Z'
+}

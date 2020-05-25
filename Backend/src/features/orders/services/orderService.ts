@@ -27,7 +27,7 @@ export async function createOrderAsync(orderParam:ordersModel) {
 
 } 
 
-export async function getOrdersForUserAsync(id: number) {
+export async function getOrdersForUserAsync(id: string) {
     const validateResult= validateWithJsonSchema(id,idValidateSchema)
     logger.info(`>>>> orderService.getOrdersForUser(), with: id = ${id}`)
 

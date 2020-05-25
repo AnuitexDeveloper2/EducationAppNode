@@ -34,7 +34,7 @@ export async function getOrdersForAdminAsync(filter: OrderFilter) {
     return response;
 }
 
-export async function getOrdersForUserAsync(id: number): Promise<Array<ordersModel>> {
+export async function getOrdersForUserAsync(id: string): Promise<Array<ordersModel>> {
 
     const result = await ordersModel.find({user_id: id}).populate("items.printing_edition_id");
 
