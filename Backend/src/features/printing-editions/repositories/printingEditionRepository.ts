@@ -1,6 +1,6 @@
 import printingEditionModel from "../../../dataAccess/entityModels/printing-edition";
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 import { PrintingEdition } from "../api";
 import * as authorRepository from "../../authors/repositories/authorRepository"
 import { PrintingEditionType } from "../../shared/enums/printingEditionType";

@@ -1,6 +1,6 @@
 import authorModel from "../../../dataAccess/entityModels/author";
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 
 
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
@@ -9,7 +9,6 @@ export async function createAsync(authorParam: authorModel): Promise<boolean> {
     if (result == null) {
         return false;
     }
-    console.log(result)
     return true;
 }
 

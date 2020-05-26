@@ -45,7 +45,7 @@ export default function Cart ({outsideState})  {
         }
         const result = await createOrder(order);
         debugger
-        if (result.err) {
+        if (result) {
             cancel();
             localStorage.removeItem("Cart")
         }

@@ -3,9 +3,9 @@ import {User, ResetPassword} from"../api";
 import bcrypt from "bcrypt";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 import { UserFilterType } from "../../shared/enums/userFilterType";
-import { checkPasswordAsync } from "../../auth/auth.service";
+import { checkPassword } from "../../auth/auth.service";
 
 export async function getUserAsync (userParam: User)  {
     const result = await userModel.findOne({email: userParam.email})
@@ -63,7 +63,7 @@ export async function getUserAsync (userParam: User)  {
     export async function changePasswordAsync(param: ResetPassword): Promise<boolean> {
         let model = new userModel();
         const user =  userModel.findById(param.id);
-        const isPasswordMatch = await checkPasswordAsync(param.oldPassword, await user);
+        const isPasswordMatch =  checkPassword(param.oldPassword, await user);
         
         if (!isPasswordMatch) {
             return false ;

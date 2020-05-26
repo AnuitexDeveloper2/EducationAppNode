@@ -39,3 +39,11 @@ export function showConfirmEmail() {
 export function hideConfirmEmail() {
     return {type: "HIDE_CONFIRM"}
 }
+
+export function showErrorAction(message: string) {
+    return {type: "SHOW_ERROR", payload: message}
+}
+
+export function hideErrorEction() {
+    return {type: "HIDE_ERROR"}
+}

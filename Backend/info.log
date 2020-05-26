@@ -40994,3 +40994,1292 @@
   level: 'info',
   timestamp: '2020-05-25T15:11:02.620Z'
 }
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T16:09:06.612Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T20:00:59.946Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T20:01:30.700Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T20:01:30.704Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:13:05.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:18:20.850Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T20:18:21.074Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-25T20:18:21.087Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:18:27.169Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"Types","firstName":"Promise","lastName":"JavaScript","email":"promise@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:19:27.306Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:20:28.078Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:20:31.815Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:21:01.803Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T20:22:49.577Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:23:16.851Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:23:18.740Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"SomeSest","firstName":"Some","lastName":"User","email":"usersunset@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:24:03.447Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:24:37.882Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:24:39.074Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"CanadienHokkeistde","firstName":"Gordie ","lastName":"Goncharuk","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:25:13.976Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:26:14.592Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-25T20:26:15.189Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:26:53.532Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T20:27:59.960Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:28:09.329Z'
+}
+{
+  message: '>>>> authService.register(), result = false',
+  level: 'error',
+  timestamp: '2020-05-25T20:28:09.360Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T20:31:38.977Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-25T20:31:45.824Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-25T20:32:46.932Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-25T20:33:19.568Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T09:53:43.238Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T09:57:56.954Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T09:59:30.619Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T10:00:44.087Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T10:07:03.181Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T10:08:33.752Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie  ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:08:47.778Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:08:47.817Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-26T10:41:51.392Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:41:51.399Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-26T10:41:53.431Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:41:53.436Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-26T10:42:02.913Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:42:02.920Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-26T10:43:40.631Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:43:40.637Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMangfd","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:45:39.561Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:45:39.566Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMangfd","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:45:56.823Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:45:56.830Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie  ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:55:36.210Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:55:36.215Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie  ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:56:03.835Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:56:03.839Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-26T10:58:21.972Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T10:58:22.478Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T10:58:24.760Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005","LoginRequest":{"password":"25012005"}}',
+  level: 'info',
+  timestamp: '2020-05-26T10:58:44.593Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:58:44.597Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T10:59:28.514Z'
+}
+{
+  message: '>>>> authService.register(), with: user = {"userName":"HokkeyMan","firstName":"Gordie ","lastName":"How","email":"paderborner2019@gmail.com","passwordHash":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T10:59:46.045Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:59:46.049Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:00:29.505Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:00:39.376Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:01:32.570Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:01:38.381Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:42:01.351Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:43:56.392Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:46:41.061Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:46:56.709Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:47:39.654Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"29041988"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:47:49.995Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:48:13.716Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"Barselona@gmil.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:48:26.205Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:49:48.162Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:50:07.765Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:50:09.496Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:50:47.512Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:50:54.766Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:51:23.093Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:51:33.512Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:51:51.288Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005ss"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:52:03.840Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:52:51.235Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:52:56.738Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:53:09.288Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:53:46.174Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:53:54.520Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:55:29.407Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:57:16.117Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T11:59:36.912Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:59:36.977Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T11:59:38.095Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.comss","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T11:59:53.446Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:01:57.354Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:02:07.330Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.coms","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:02:24.275Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:02:24.281Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.coms","password":"25012005d"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:03:21.207Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:03:21.212Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005d"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:03:32.445Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:03:32.453Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:04:14.393Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005d"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:04:21.959Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:04:21.980Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005d"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:04:25.780Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:04:25.784Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:07:43.533Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005d"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:07:45.534Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:07:46.001Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:07:48.895Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"2501200523"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:08:00.607Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:08:01.039Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:08:06.618Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:09:07.045Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:09:34.741Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"2501200523"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:09:39.453Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:09:39.937Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:10:14.522Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:21:51.598Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005ss"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:21:55.439Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.comss","password":"25012005ss"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:22:02.487Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:22:30.679Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEma","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:22:46.104Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEma","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:24:46.111Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:24:58.611Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:26:33.675Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEmail@yandex.en","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:26:46.927Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:27:25.473Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEmail@yandex.en","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:27:30.066Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:28:01.182Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEmail@yandex.en","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:28:15.635Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:28:56.076Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:29:20.398Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"someEmail@yandex.en","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:29:29.883Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:30:08.747Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:30:30.232Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:30:37.571Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:30:40.741Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderbornasfaer2019@gmail.comafaf","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:30:57.033Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:31:50.188Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderbornasfaer2019@gmail.comafaf","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:31:55.062Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:32:29.935Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderbornasfaer2019@gmail.comafaf","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:32:38.957Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:32:38.969Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderbornasfaer2019@gmail.comafaf","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:32:45.789Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:32:45.793Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:34:23.737Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:11.403Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:12.092Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:15.118Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:24.112Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:24.853Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:28.591Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:38.894Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:39.269Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:51.103Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"23"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:41:58.316Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.password does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-26T12:41:58.317Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"23"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:42:14.030Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.password does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-26T12:42:14.038Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"23345443"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:42:49.852Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"23345443"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:43:05.429Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"paderborner2019@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T12:43:24.910Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:43:35.757Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T12:46:52.167Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:47:22.564Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:48:05.627Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:56:22.065Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:56:29.995Z'
+}
+{
+  message: '>>>> authService.oAuth(), with: user = {"userName":"Владимир Гончарук","email":"morgenshtern1988@gmail.com","firstName":"Владимир","lastName":"Гончарук","password":null}',
+  level: 'info',
+  timestamp: '2020-05-26T12:57:00.747Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T12:58:42.351Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T12:58:50.193Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T12:58:50.204Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T12:59:13.748Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T12:59:13.755Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:01:15.102Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:01:15.110Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:02:09.239Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:02:09.245Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:02:59.730Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:02:59.735Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:07:01.179Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:07:01.187Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:09:12.013Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:09:38.389Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:10:03.326Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:10:03.391Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"New Author"}',
+  level: 'info',
+  timestamp: '2020-05-26T13:10:43.835Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"New Author"}',
+  level: 'info',
+  timestamp: '2020-05-26T13:10:53.644Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:09.603Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":3,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:10.348Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:22.332Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:22.340Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:54.630Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:11:54.637Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-26T13:12:02.904Z'
+}
+{
+  message: '>>>> authorService.create(), with: author = {"name":"adada"}',
+  level: 'info',
+  timestamp: '2020-05-26T13:12:02.934Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":2,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:12:06.625Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":3,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:12:07.529Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:12:59.313Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:13:59.748Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:48:07.432Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-26T13:48:48.434Z'
+}
+{
+  message: '>>>> JWTHelper.checkJWT, with user err.name = "TokenExpiredError"',
+  level: 'info',
+  timestamp: '2020-05-26T13:48:48.439Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:48:48.608Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:48:48.630Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:49:39.823Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:50:29.788Z'
+}
+{
+  message: '>>>> authorService.getAuthors(), with: filter = {"searchString":"","pageNumber":1,"pageSize":10,"sortType":0}',
+  level: 'info',
+  timestamp: '2020-05-26T13:50:29.882Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:51:22.423Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:51:22.428Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:51:40.580Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:51:40.586Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:52:54.823Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:14.271Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:18.589Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:18.598Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:36.448Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:36.457Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":2,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:53:46.437Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:21.991Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:21.996Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:24.347Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"newmail@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:32.625Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:33.301Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:36.483Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T13:54:52.618Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T13:55:46.472Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T13:57:14.573Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T13:58:26.563Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T13:59:34.664Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T14:00:10.367Z'
+}
+{
+  message: '>>>> orderService.getOrdersForUser(), with: id = [object Object]',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:10.644Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:14.273Z'
+}
+{
+  message: '>>>> authService.logIn(), with: model = {"email":"morgenshtern1988@gmail.com","password":"25012005"}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:22.312Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:22.974Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:26.317Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:26.323Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:54.155Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:03:54.167Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:04:40.244Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:04:40.250Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:04:47.574Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:04:47.582Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:07:14.969Z'
+}
+{
+  message: '>>> orderService.getOrdersForAdmin(), with filter = {"pageNumber":1,"sortType":0,"searchString":"","pageSize":10}',
+  level: 'info',
+  timestamp: '2020-05-26T14:07:14.974Z'
+}
+{
+  message: '>>>> printingEditionService.get() with: params={"searchString":"","sortType":0,"pageNumber":1,"pageSize":6,"currency":0,"tableSort":0,"minPrice":0,"maxPrice":1000}',
+  level: 'info',
+  timestamp: '2020-05-26T14:10:03.125Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T14:10:57.009Z'
+}
+{
+  message: 'server started listening on port 8000',
+  level: 'info',
+  timestamp: '2020-05-26T14:11:16.540Z'
+}

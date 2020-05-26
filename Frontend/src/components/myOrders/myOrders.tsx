@@ -17,8 +17,8 @@ export function MyOrders () {
             const user = JSON.parse(localStorage.getItem("User"))
             debugger
             const result = await getMyOrder(user._id)
-            if (result.err!==null) {
-              setState({data:result.err})
+            if (result!==null) {
+              setState({data:result})
             }
         }
 

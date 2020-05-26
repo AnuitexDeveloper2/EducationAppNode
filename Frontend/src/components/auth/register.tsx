@@ -22,10 +22,13 @@ export class Register extends React.Component<any> {
 
     onSubmitRegister = async (values: any) => {
        const result = await authService.register(values)
-       if (result.err ===true) {
+       debugger
+       if (result.result) {
         this.props.hideRegisterAction();
-        debugger
         this.props.showConfirmEmail()
+       }
+       if (!result.result) {
+         alert(result.error)
        }
     }
    

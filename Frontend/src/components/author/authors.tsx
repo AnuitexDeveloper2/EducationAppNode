@@ -44,7 +44,8 @@ const AuthorsForAdmin = () => {
             sortType: SortType.None,
     }
         const authors = await getAuthorsForAdmin(filter)
-        setData({authors: authors.data, pages: Math.floor(authors.count/10+1)})
+        debugger
+        setData({authors: authors.data, pages: Math.floor(authors.count)})
     }
 
     

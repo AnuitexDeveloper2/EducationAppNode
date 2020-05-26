@@ -20,10 +20,10 @@ export async function createOrderAsync(orderParam:ordersModel) {
 
     if (!result) {
         logger.error(`>>>> orderService.createOrder(), result = ${result}`);
-        return "order did not create"
+        return false
     }
 
-    return result
+    return true
 
 } 
 

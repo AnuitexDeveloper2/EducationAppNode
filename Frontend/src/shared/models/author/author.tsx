@@ -4,7 +4,7 @@ export interface AuthorModel {
     product_ids: Array<string>;
 }
 
-export interface AuthorResponceModel {
-    count: Number,
+export interface AuthorResponseModel {
+    count: number,
     data:Array<AuthorModel>
 }

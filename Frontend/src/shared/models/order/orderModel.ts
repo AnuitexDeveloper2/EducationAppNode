@@ -15,3 +15,8 @@ export interface OrderItem {
 export interface Payment {
     transaction_id: string;
 }
+
+export interface OrderResponseModel {
+    count: number;
+    data: Array<Orders>
+}

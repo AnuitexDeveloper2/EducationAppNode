@@ -3,7 +3,7 @@ import { Request, Response, NextFunction } from "express"
 
 export async function createAsync(req: Request, res: Response, next: NextFunction) {
     printingEditionService.createAsync(req.body)
-        .then(users => res.json(users))
+        .then(result => res.json(result))
         .catch(err => next(err));
      }
 

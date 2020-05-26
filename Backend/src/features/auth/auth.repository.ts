@@ -5,29 +5,40 @@ import * as userRepository from "../user/repositories/userRepositiry"
 import oAuthClient from "../../dataAccess/entityModels/userLogins";
 import {OAuthModel} from "../user/api"
 import { sendingEmail } from "./emailHelper/emailHelper";
+import logger from "../utils/logger";
+import { ResponseModel } from "../shared/models/baseResponse";
 
-export async function registerAsync (userParam: User): Promise<boolean> {
+let responseModel: ResponseModel 
+
+export async function registerAsync (userParam: User): Promise<ResponseModel> {
+    let result;
+    
     const checkUser = await userModel.findOne({email: userParam.email})
     if (checkUser != null) {
-        false
+        responseModel = {result:false,error: "This email already exist"}
+       return responseModel
     }
     let user = new userModel(userParam);
     const salt = bcrypt.genSaltSync(10);
     user.passwordHash = bcrypt.hashSync(userParam.passwordHash, salt);
-    let result = await userModel.create(user)
-    
-    if (result === null) {
-        return false
-    }
+    try {
+         result = await userModel.create(user)
+        } catch (error) {
+            logger.error(error)
+            if (result === null) {
+                responseModel = {result:false,error: error}
+                return responseModel
+            }
+        }
     const isSent = sendingEmail(result)
-     return true;
+    return responseModel={result:true,error:null};
 }
 
 export async function signInAsync(email: string, password: string): Promise<any> {
     let user = await userModel.findOne({ email: email })
 
     if (user == null) {
-        return "user is not found"; 
+        return responseModel= {error:"user is not found",result:false}; 
     }
     
       return user ;

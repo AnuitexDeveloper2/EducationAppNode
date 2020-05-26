@@ -17,7 +17,6 @@ export function Orders () {
         getData(0)},[])
         
     async function getData(pageNumber) {
-        debugger
        const filter : BaseFilter ={
          pageNumber: pageNumber+1,
          sortType: SortType.None,
@@ -25,7 +24,7 @@ export function Orders () {
          pageSize: 10
        }
        const result= await getOrders(filter);
-       setState({data:result.err.data,pages: Math.floor(result.err.count/10+1)})
+       setState({data:result.data,pages: Math.floor(result.count/10+1)})
 
     }
 
@@ -53,7 +52,6 @@ export function Orders () {
             Header: "Product",
             id:'printing_edition_id.productType',
           accessor: (data) => {
-              debugger
             return(
               <>
               {data.items.map((product: any,i) =><div key={i}> {product.printing_edition_id.productType} </div>)}

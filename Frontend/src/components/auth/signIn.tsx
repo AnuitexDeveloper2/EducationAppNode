@@ -52,9 +52,12 @@ export interface LoginState {
         onSubmitLogIn = async (value: any) => {
           debugger
          const result = await Auth.signIn(value)
-         if (result) {
+         if (result.result) {
             this.successedLogIn(result)
-      }
+          }
+         if (!result.result) {
+            alert(result.error)
+          }
     }
 
      successedLogIn(result) {

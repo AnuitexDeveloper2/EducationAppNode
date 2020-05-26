@@ -36,9 +36,9 @@ const CreateEdit = ({ isShowing, hide,assigment,value }) => {
         }
         if (assigment === "Edit") {
             model._id=value.item.id
-         result = await editAuthor(model)
+            result = await editAuthor(model)
         }
-       if (result==="Ok") {
+       if (result) {
            hide(false);
        }
     }

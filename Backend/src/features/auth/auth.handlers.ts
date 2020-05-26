@@ -5,7 +5,7 @@ import * as jwtHelper from "./jwtHelper/jwtHelper";
 export async function registerAsync(req: Request,res: Response) {
    
     await authService.registerAsync(req.body.user)
-    .then((err) => res.json({err}))
+    .then((response) => res.json(response))
     .catch()
   }
 

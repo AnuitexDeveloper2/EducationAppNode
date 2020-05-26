@@ -21,9 +21,9 @@ export async function registerAsync(userParam: User): Promise<any> {
     }
     
     const result = await repository.registerAsync(userParam);
-    if (!result) {
+    if (!result.result) {
         logger.error(`>>>> authService.register(), result = ${result}`);
-        return false
+        return result
     }
 
     return result;
@@ -37,24 +37,24 @@ export async function logInAsync(email: string, password: string): Promise<any> 
 
     if (!validateResult.valid) {
         logger.error(`>>>> authService.logIn(), invalid data = ${validateResult.errors}`);
-        return {message:"LogIn parameters did not valid", error: validateResult.errors};
+        return {result:false, error: validateResult.errors};
     }
     const result = await repository.signInAsync(email,password);
-    const test = typeof(result)
-    
-    if (test == "string") {
+    console.log(result)
+    if (result.result===false) {
         logger.error(`>>>> authService.logIn(), result = ${result}`);
-        return false;
+        return {result:false,error: result.error};
     }
-    const isPasswordValid = checkPasswordAsync(password,result)
-    if (result) {
-        return {error: "Password is not valid"};
+    const isPasswordValid = checkPassword(password,result)
+    if (!isPasswordValid) {
+        return {error: "Password is not valid",result: false};
     }
     return  generateTokens(result);
 }
 
-export async function checkPasswordAsync(password: string, user: User) {
-    if (!bcrypt.compareSync(password, user.passwordHash)) {
+export function checkPassword(password: string, user: User) {
+    const result = bcrypt.compareSync(password, user.passwordHash)
+    if (!result) {
           return false
       }
       return true;

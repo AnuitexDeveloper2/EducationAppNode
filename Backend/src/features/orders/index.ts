@@ -6,7 +6,7 @@ import { checkPermission } from '../shared/accessControle/accessController';
 
 export const orderUserRouter = Router();
 
-// orderUserRouter.use(checkPermission(Role.User))
+ orderUserRouter.use(checkPermission(Role.User))
 
 orderUserRouter.post('/', createOrderAsync);
 orderUserRouter.post('/myOrders', getOrderForUserAsync)

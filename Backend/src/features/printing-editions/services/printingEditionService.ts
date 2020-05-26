@@ -1,7 +1,7 @@
 import printingEditionModel from "../../../dataAccess/entityModels/printing-edition";
 import * as repository  from "../repositories/printingEditionRepository";
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 import { PrintingEdition } from "../api";
 import printingEditionValidateSchema from "../operations/PrintingEditionRequest.schema.json";
 import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
@@ -24,10 +24,10 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
     
     if (!result) {
         logger.error(`>>>> printingEditionService.create(), result = ${result}`);
-       return ("failed to save document");
+       return false;
     }
 
-    return result;
+    return true;
 }
 
 export async function removeAsync(id: string): Promise<any> {

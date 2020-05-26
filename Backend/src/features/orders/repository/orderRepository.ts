@@ -1,6 +1,6 @@
 import ordersModel from "../../../dataAccess/entityModels/orders";
 import { OrderFilter } from "../../shared/filterModels/orderFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 
 
 

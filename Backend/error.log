@@ -1969,3 +1969,147 @@
   level: 'error',
   timestamp: '2020-05-13T13:31:14.253Z'
 }
+{
+  message: '>>>> authService.register(), result = false',
+  level: 'error',
+  timestamp: '2020-05-25T20:28:09.360Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:08:47.817Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:41:51.399Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:41:53.436Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:42:02.920Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:43:40.637Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:45:39.566Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:45:56.830Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:55:36.215Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:56:03.839Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:58:44.597Z'
+}
+{
+  message: '>>>> authService.register(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T10:59:46.049Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:02:24.281Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:03:21.212Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:03:32.453Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:04:21.980Z'
+}
+{
+  message: '>>>> authService.logIn(), result = {\n' +
+    "  role: 'User',\n" +
+    '  removed_at: false,\n' +
+    '  status: true,\n' +
+    '  confirmedEmai: true,\n' +
+    '  _id: 5e96f7b7d48ba52e8c3b5974,\n' +
+    "  userName: 'HokkeyMan',\n" +
+    "  firstName: 'Gordie',\n" +
+    "  lastName: 'How',\n" +
+    "  email: 'paderborner2019@gmail.com',\n" +
+    "  passwordHash: '$2b$10$.emhDbo/czEk7hBY/4WAqODoe0q5rO6Y5aEfHwiht9xKjW.NvNwYG',\n" +
+    '  createdDate: 2020-04-15T12:01:59.884Z,\n' +
+    '  __v: 0\n' +
+    '}',
+  level: 'error',
+  timestamp: '2020-05-26T12:04:25.784Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:32:38.969Z'
+}
+{
+  message: '>>>> authService.logIn(), result = [object Object]',
+  level: 'error',
+  timestamp: '2020-05-26T12:32:45.793Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.password does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-26T12:41:58.317Z'
+}
+{
+  message: '>>>> authService.logIn(), invalid data = instance.password does not meet minimum length of 4',
+  level: 'error',
+  timestamp: '2020-05-26T12:42:14.038Z'
+}

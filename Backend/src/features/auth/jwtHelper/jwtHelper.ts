@@ -19,11 +19,8 @@ export const generateTokens = (userModel: userModel) => {
 
     const refreshToken = jwt.sign(user, process.env.refreshTokenSecret, {expiresIn: process.env.refreshTokenLife})
 
-  //  response.setHeader('AccessToken', accessToken);
-  //  response.setHeader('RefreshToken',refreshToken);
-  
-   const respons = {
-    "status": `Hello ${userModel.userName}`,
+     const respons = {
+    result: true ,
     "AccessToken": accessToken,
     "RefreshToken": refreshToken,
     "User": userModel
