@@ -5,3 +5,4 @@ info.log
 error.log
 dist/
 vs/
+package-lock.json

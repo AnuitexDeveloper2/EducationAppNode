@@ -13,7 +13,7 @@ export async function getMainPage(filter:PrintingEditionFilterModel): Promise<Pr
    return result.data;
 }
 
-export async function createPrintingEdition(printingEdition: RequestPrintingEditionModel){
+export async function createPrintingEdition(printingEdition: RequestPrintingEditionModel): Promise<boolean> {
    const result = await axios.post('http://localhost:8000/admin/printing-edition/create',printingEdition);
    return result.data
 }
