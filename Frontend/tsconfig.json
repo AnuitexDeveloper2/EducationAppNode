@@ -10,8 +10,9 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": false,
+    "strictNullChecks": false,
     "module": "esnext",
     "typeRoots": [
       "./typings/react-router-modal",

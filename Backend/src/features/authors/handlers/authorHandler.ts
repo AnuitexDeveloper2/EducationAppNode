@@ -24,3 +24,9 @@ export async function getAuthorsAsync(req: Request, res: Response, next: NextFun
   .then((result) =>res.json(result))
   .catch((err) =>next(err));
 }
+
+export async function getAsync(req: Request, res: Response, next: NextFunction) {
+  authorService.getAsync()
+  .then((result) =>res.json(result))
+  .catch((err) =>next(err));
+}

@@ -1,6 +1,6 @@
 import Users from '../../../dataAccess/entityModels/user'
 import { Role } from '../enums/role'
-//import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import userModel from '../../../dataAccess/entityModels/user';
 import authorModel from '../../../dataAccess/entityModels/author';
 import Authors from '../../../dataAccess/entityModels/author';
@@ -8,6 +8,7 @@ import printingEditionModel from '../../../dataAccess/entityModels/printing-edit
 import  PrintingEditions  from '../../../dataAccess/entityModels/printing-edition';
 import { PrintingEdition } from '../../printing-editions/api';
 import { PrintingEditionType } from '../enums/printingEditionType';
+import { Currency } from '../enums/currency';
 
 
 export class Init {
@@ -42,8 +43,8 @@ export class Init {
                 passwordHash: '25012005'
             })
             
-           // var salt = bcrypt.genSaltSync(10);
-           // admin.passwordHash = bcrypt.hashSync('25012005',salt);
+            var salt = bcrypt.genSaltSync(10);
+            admin.passwordHash = bcrypt.hashSync('25012005',salt);
             admin.save();
             return admin;
         }
@@ -54,7 +55,7 @@ export class Init {
         let result = await authorModel.find();
         if (result.length == 0) {
             const author: authorModel = new Authors({
-                name: ' Terry Pratchett'
+                name: 'Terry Pratchett'
             })
             author.save();
             return author;
@@ -71,10 +72,10 @@ export class Init {
                 title: 'The Colour of Magic',
                 description: 'The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett',
                 cover_image: 'http/:',
-                type: PrintingEditionType.Book,
+                productType : PrintingEditionType[0],
                 price: 25,
-                currency: 'USD',
-                author_ids: '5e3d1c71c818e21204ac2b8b'
+                currency: Currency[0],
+                author_ids: '5e6f4443cfcd0a20ec2a87bb'
             })          
             printingEdition.save();
             return printingEdition;

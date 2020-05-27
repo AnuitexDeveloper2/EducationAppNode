@@ -1,12 +1,14 @@
 import printingEditionModel from "../../../dataAccess/entityModels/printing-edition";
 import * as repository  from "../repositories/printingEditionRepository";
 import { PrintingEditionFilterModel } from "../../shared/filterModels/printingEditionFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 import { PrintingEdition } from "../api";
 import printingEditionValidateSchema from "../operations/PrintingEditionRequest.schema.json";
 import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
 import idValidateSchema from "../../utils/IdRequest.schema.json"
 import logger from "../../utils/logger";
+import { Converter } from "../../shared/currencyConverter";
+import { Currency } from "../../shared/enums/currency";
 
 
 export async function createAsync(printingEditionParam: printingEditionModel): Promise<any> {
@@ -22,10 +24,10 @@ export async function createAsync(printingEditionParam: printingEditionModel): P
     
     if (!result) {
         logger.error(`>>>> printingEditionService.create(), result = ${result}`);
-       return ("failed to save document");
+       return false;
     }
 
-    return result;
+    return true;
 }
 
 export async function removeAsync(id: string): Promise<any> {
@@ -36,7 +38,7 @@ export async function removeAsync(id: string): Promise<any> {
         logger.error(`>>>> printingEditionService.remove(), invalid data = ${validateResult.errors}`);
         return {message: "id parameters is not valide" , error: validateResult.errors};
     }
-
+    
     const result = await repository.removeAsync(id);
     
     if (!result) {
@@ -47,7 +49,7 @@ export async function removeAsync(id: string): Promise<any> {
     return result;
 }
 
-export async function updateAsync(printingEditionParam: printingEditionModel): Promise<any> {
+export async function updateAsync(printingEditionParam: printingEditionModel,_id:string): Promise<any> {
     const validateResult = validateWithJsonSchema(printingEditionParam,printingEditionValidateSchema);
     logger.info(`>>>> printingEditionService.update(), with: printingEdition = ${JSON.stringify(printingEditionParam)}`);
 
@@ -56,7 +58,7 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
         return {message: "printingEdition parameters is not valide" , error: validateResult.errors}
     }
     
-    const result = await repository.updateAsync(printingEditionParam);
+    const result = await repository.updateAsync(printingEditionParam,_id);
     
     if (!result) {
         logger.error(`>>>> printingEditionService.update(), result = ${result}`);
@@ -68,9 +70,12 @@ export async function updateAsync(printingEditionParam: printingEditionModel): P
 
 
 export async function getPrintingEditionsAsync(filter: PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
-
-    const result = repository.getPrintingEditionsAsync(filter);
-
+    console.log(filter.currency)
+    logger.info(`>>>> printingEditionService.get() with: params=${JSON.stringify(filter)}`)
+    const result =await repository.getPrintingEditionsAsync(filter);
+    result.data.map((item: PrintingEdition)=>(
+        item.price = Converter(Currency.USD,filter.currency,item.price)
+    ))
     return result;
 }
 

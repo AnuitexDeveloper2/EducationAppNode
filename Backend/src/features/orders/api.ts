@@ -1,7 +1,9 @@
 export interface Orders {
-    user_id: String;
-    items: OrderItem;
-    payment_info: Payment;
+    user_id: string;
+    items: Array<OrderItem>;
+    transaction_id: string;
+    amount:number;
+    date: string
 }
 
 export interface OrderItem {

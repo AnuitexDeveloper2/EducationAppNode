@@ -1,16 +1,14 @@
 import authorModel from "../../../dataAccess/entityModels/author";
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 
 
 export async function createAsync(authorParam: authorModel): Promise<boolean> {
     const result = await authorModel.create(authorParam);
-    console.log(result);
    
     if (result == null) {
         return false;
     }
-    
     return true;
 }
 
@@ -36,7 +34,7 @@ export async function removeAsync(id: string): Promise<boolean> {
 export async function updateAsync(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author,authorParam);
-   
+    console.log(result)
     if (result.nModified == 0) {
         return false
     }
@@ -55,7 +53,8 @@ export async function addProductAsync( authorId: string ,printingEditionId: stri
 export async function removeProductAsync(authorId: string , printingEditionId: string) {
     const author = authorModel.findById(authorId);
     let model = await author;
-    console.log(model.product_ids.length)
+    console.log(authorId)
+    console.log(printingEditionId)
    
     for (let index = 0; index < model.product_ids.length; index++) {
       
@@ -64,6 +63,11 @@ export async function removeProductAsync(authorId: string , printingEditionId: s
           await authorModel.update(author,model)
        }
     }
+}
+
+export async function GetAsync():Promise<Array<authorModel>> {
+    const result = await authorModel.find()
+    return result
 }
 
 

@@ -12,14 +12,13 @@ import { ResetPassword } from '../api';
 export async function getByIdAsync(id: any): Promise<any> {
    const validateResult = validateWithJsonSchema(id,idValidateSchema);
    logger.info(`>>>> userService.getById(), with user id = ${JSON.stringify(id)}`);
-    console.log(id);
    if (!validateResult.valid) {
        logger.error(`>>>> userService.getById(), invalid data = ${JSON.stringify(id)}`);
        return {message: `invalid id`, error: validateResult.errors};
    }
 
     const result = await repository.findByIdAsync(id);
-    
+     
     if (typeof(result) == "string") {
         logger.error(`>>>> userService.getById(), result = ${result}`);
     }
@@ -39,7 +38,7 @@ export async function getAllAsync() {
 export async function editAsync(userParam: userModel) : Promise<any> {
    const validateResult = validateWithJsonSchema(userParam, userValidateSchema);
    logger.info(`>>>> userService.edit(), with: user = ${JSON.stringify(userParam)}`)
-  
+    
    if (!validateResult.valid) {
     logger.error(`>>>> userService.edit(), invalid data = ${validateResult.errors}`)
     return {message: "Invalid UserEdit request", error: validateResult.errors};
@@ -52,7 +51,7 @@ export async function editAsync(userParam: userModel) : Promise<any> {
         return result;
     }
    
-    return 'Ok';
+    return true;
 }
 
 export async function removeAsync(id: string) {
@@ -63,14 +62,32 @@ export async function removeAsync(id: string) {
         logger.error(`>>>> userService.remove(), invalid data = ${JSON.stringify(id)}`);
         return {message: "Invalid id parameter", error: validateResult.errors};
     }
+    const remove ={removed_at: true}
+    const result = await repository.updateOneAsync(id,remove);
+    console.log(result)
+    if(!result) {
+        return "user not found";
+    }
 
-    const result = await repository.removeOneAsync(id);
+    return result;
+}
+
+export async function blockUserAsync(id: string) {
+    const validateResult = validateWithJsonSchema(id,idValidateSchema);
+    logger.info(`>>>> userService.blockUser(), with: user id = ${JSON.stringify(id)}`);
+    
+    if (!validateResult.valid) {
+        logger.error(`>>>> userService.blockUser(), invalid data = ${JSON.stringify(id)}`);
+        return {message: "Invalid id parameter", error: validateResult.errors};
+    }
+
+    const result = await repository.blockUserAsync(id);
     
     if(!result) {
         return "user not found";
     }
 
-    return "user has been deleted";
+    return result;
 }
 
 export async function changePassword(changePasswordParam: ResetPassword) {
@@ -89,11 +106,11 @@ export async function changePassword(changePasswordParam: ResetPassword) {
         return "invalid password" ;
     }
 
-    return "Ok";
+    return result;
 
 }
 
 export async function getUserAsync(filter:UserFilterModel) {
-    const result = repository.getUsersAsync(filter);
+    const result = await repository.getUsersAsync(filter);
     return result;
 }

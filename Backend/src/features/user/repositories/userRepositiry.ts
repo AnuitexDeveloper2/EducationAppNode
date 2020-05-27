@@ -3,7 +3,9 @@ import {User, ResetPassword} from"../api";
 import bcrypt from "bcrypt";
 import {Error} from '../../shared/constants/error';
 import { UserFilterModel } from "../../shared/filterModels/userFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
+import { UserFilterType } from "../../shared/enums/userFilterType";
+import { checkPassword } from "../../auth/auth.service";
 
 export async function getUserAsync (userParam: User)  {
     const result = await userModel.findOne({email: userParam.email})
@@ -14,18 +16,11 @@ export async function getUserAsync (userParam: User)  {
         return result;
     };
 
-    export async function checkPasswordAsync(password: string, user: User) {
-       
-      if (!bcrypt.compareSync(password, user.passwordHash)) {
-            return false
-        }
-        return true;
-    }
+    
 
     export async function editAsync(userParam: userModel): Promise<any> {
        
         const user = await userModel.findById(userParam.id);
-       
         let result;
 
         try {
@@ -35,17 +30,27 @@ export async function getUserAsync (userParam: User)  {
         }
     
         if (result.nModified == 0) {
-          return 'failed to update user';
+          return false;
         }
+        const updatedUser = await userModel.findById(userParam.id)
     
-        return ;
+        return updatedUser ;
     }
 
-    export async function removeOneAsync(id: string): Promise<Boolean> {
+    export async function updateOneAsync(id: string,prop:any): Promise<any> {
+        const result = await userModel.findByIdAndUpdate(id, prop);
+        if (result=== null) {
+            return false;
+        }
+    
+        return result;
+    }
+
+    export async function blockUserAsync(id:string): Promise<Boolean> {
         let model = new userModel();
         const user =  userModel.findById(id);
         model = await user;
-        model.removed_at = true;
+        model.status =  !(await user).status;
         const result = await userModel.update(user, model);
         
         if (result.nModified == 0) {
@@ -57,13 +62,12 @@ export async function getUserAsync (userParam: User)  {
 
     export async function changePasswordAsync(param: ResetPassword): Promise<boolean> {
         let model = new userModel();
-        const user = userModel.findById(param._id);
-        const isPasswordMatch = await checkPasswordAsync(param.oldPassword, await user);
+        const user =  userModel.findById(param.id);
+        const isPasswordMatch =  checkPassword(param.oldPassword, await user);
         
         if (!isPasswordMatch) {
             return false ;
         }
-           
         model = await user;
         const salt = bcrypt.genSaltSync(10);
         model.passwordHash = bcrypt.hashSync(param.newPassword, salt);
@@ -109,20 +113,23 @@ export async function getUserAsync (userParam: User)  {
     
 
     export async function getUsersAsync(filter: UserFilterModel) {
-        let count;
+    let count;
     let query;
     let tableSort: any = {'firstName':filter.sortType};
     let data= new Array<userModel>();
 
     if (filter.searchString !=null) {
-        query =  userModel.find( { $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] });
+        query =  userModel
+        .find( {$and:[{ $or:[{ lastName: { $regex:new RegExp( filter.searchString, 'i') } }, { firstName: { $regex: new RegExp( filter.searchString, 'i') } }] },{ removed_at: false }]});
     }
-
+    if (filter.userType !== UserFilterType.All) {
+        query = filter.userType ===UserFilterType.Active? query.find({status:false}) : query.find({status:true})
+        
+    }
     if(filter.sortType == 0) {
         tableSort = { '_id': filter.sortType };
     }
-    
-    const options = {
+        const options = {
         sort: tableSort,
         lean: true,
         page: filter.pageNumber, 

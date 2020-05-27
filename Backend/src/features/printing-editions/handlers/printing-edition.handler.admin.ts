@@ -3,7 +3,7 @@ import { Request, Response, NextFunction } from "express"
 
 export async function createAsync(req: Request, res: Response, next: NextFunction) {
     printingEditionService.createAsync(req.body)
-        .then(users => res.json(users))
+        .then(result => res.json(result))
         .catch(err => next(err));
      }
 
@@ -14,7 +14,7 @@ export async function removeAsync(req: Request, res: Response, next: NextFunctio
      }
 
 export async function updateAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.updateAsync(req.body)
+    printingEditionService.updateAsync(req.body.printingEdition,req.body._id)
         .then(users => res.json(users))
         .catch(err => next(err));
     }

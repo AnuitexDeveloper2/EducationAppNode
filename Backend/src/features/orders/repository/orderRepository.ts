@@ -1,6 +1,6 @@
 import ordersModel from "../../../dataAccess/entityModels/orders";
 import { OrderFilter } from "../../shared/filterModels/orderFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 
 
 
@@ -18,8 +18,8 @@ export async function getOrdersForAdminAsync(filter: OrderFilter) {
     let query;
     let count;
     let data = new Array<ordersModel>();
-     query = ordersModel.find().populate("user_id").populate("items.OrderItem.printing_edition_id");
-
+     query = ordersModel.find().populate("user_id").populate("items.printing_edition_id");
+     
     const options = {
         sort: "_id",
         lean: true,
@@ -31,12 +31,12 @@ export async function getOrdersForAdminAsync(filter: OrderFilter) {
         data =  result.docs
     }).catch();
     const response: BaseResponse<ordersModel>={data: data,count:count}
-    return response;;  
+    return response;
 }
 
-export async function getOrdersForUserAsync(id: number): Promise<Array<ordersModel>> {
+export async function getOrdersForUserAsync(id: string): Promise<Array<ordersModel>> {
 
-    const result = await ordersModel.find({user_id: id}).select("Items").populate("items.OrderItem.printing_edition_id");
+    const result = await ordersModel.find({user_id: id}).populate("items.printing_edition_id");
 
     if (result.length == 0) {
         return null

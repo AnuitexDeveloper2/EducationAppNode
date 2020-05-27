@@ -1,61 +1,82 @@
-import * as Auth from "../../services/authService";
-import React, { useState } from "react";
+import * as Auth from "../../services/auth";
+import React from "react";
 import { Form, Field } from "react-final-form";
-import { Modal, Button, ButtonToolbar } from "react-bootstrap";
-import './CSS/signIn.scss'
+import { Button, ButtonToolbar } from "react-bootstrap";
+import FacebookLogin from "react-facebook-login";
+import './CSS/signIn.css'
 import close from "../../assets/close.svg"
 import anonymus from "../../assets/anonymus.png"
-import Register from "../auth/register"
-import {  } from "react-router-modal";
-import { LoginState, LoginRequest } from "../../redux/logIn/types";
+import { HeaderState } from "../../Redux/header/types";
 
-export interface LoginProps {
-    doLogin: (data: LoginRequest) => object;
+export interface LoginState {
+  showLogIn: boolean,
+  showRegister: boolean
   }
  
- let show: boolean
- export class SignIn extends React.Component<any,LoginState,LoginProps> {
-   constructor(props: any) {
-        super(props)
-      
+ export class SignIn extends React.Component<any> {
+
+        state: HeaderState={
+          showLogIn: false,
+          showRegister: false,
+          showCart: false,
+          user: null,
+          showConfirm:false
+        }
+
+         responseFacebook = async(response) => {
+           const name = response.name.split(' ')
+           const user ={
+              userName: response.name,
+              email: response.email,
+              firstName: name[0],
+              lastName: name[1],
+              password: null
+            }
+
+            const result = await Auth.oauthSignIn(user);
+            if (result) {
+              this.successedLogIn(result)
+            }
+        }
+
+        showRegister = async () => {
+          debugger
+          this.closePopUp()
+          this.props.showRegisterAction()
+        }
+
+        closePopUp =()=> {
+        this.props.hideSignInAction()
+    }
+   
+        onSubmitLogIn = async (value: any) => {
+          debugger
+         const result = await Auth.signIn(value)
+         if (result.result) {
+            this.successedLogIn(result)
+          }
+         if (!result.result) {
+            alert(result.error)
+          }
     }
 
-    state: LoginState = {
-        email: "",
-        password: "",
-        error: "",
-        isLoading: false,
-      };
-    redirect = () => {
-        this.props.history.push('/bookList');
-    }
-
-    handle = (event: any) =>
-    this.setState({ [event.target.name]: event.target.value } as any);
-
-    onSubmit = async (value: LoginRequest) => {
-      const result = await Auth.signIn(value)
+     successedLogIn(result) {
+       debugger
       const token = result.AccessToken;
-      console.log(token);
-      };
-
-    onFacebookLogin = async () => {
-        Auth.moveFacebook();
-     } 
-
-    /* openRegister = () => {
-        debugger;
-        return(<Register/>)
-     }*/
-
+      const refresh = result.RefreshToken;
+      localStorage.setItem('AccessToken', token)
+      localStorage.setItem('RefreshToken',refresh)
+      localStorage.setItem('User',JSON.stringify(result.User))
+      window.location.assign('/main');
+    }
+      
     render() {
-        debugger;
-        return (
-     <div className="modalWindow">
-        <div className="modalContent">
+          return (
+     <div className="signin-modal">
+        <div className="signin-modal-inner">
            <div className="modalHeader">
               <div className="close">
-                 <img src={close} onClick={this.props.closePopup}/>
+                 <img src={close} alt="close" onClick={this.closePopUp}/>
              </div>
           </div>
             <div className="userImg">
@@ -67,24 +88,24 @@ export interface LoginProps {
             <div className="SignIn_form">
                 <div>
                    <Form
-                     onSubmit={this.onSubmit}
+                     onSubmit={this.onSubmitLogIn}
                      render={({handleSubmit,form,submitting,pristine,values}) => (
-                      <form onSubmit={handleSubmit}>
+                       <form onSubmit={handleSubmit}>
                         <div className="form-group">
                           <div className="form-row">
                             <div className="form-group col-md-6">
                               <label className="emailLabel">Email</label>
-                                <Field type="text" name="email" className="emailForm" component="input"/>
+                                <Field type="text" name="email" className="emailForm" component="input"  />
                            </div>
                             <div className="form-group col-md-6">
                                  <label className="passwordLabel ">Password</label>
-                                  <Field type="text" name="password" className="passworForm" component="input"/>
+                                  <Field type="text" name="password" className="passworForm" component="input" />
                             </div>
                         </div>
                     </div>
                        <div className="form-row">
                          <div className="form-group col-md-6">
-                             <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
+                             <button className="submit" type="submit"  disabled={submitting || pristine}   value="register">Sign In</button>
                          </div>
                          <div>
                              <input type="checkbox" className="checkbox"/>
@@ -96,40 +117,34 @@ export interface LoginProps {
                               New to Book Publishing Company?
                          </div>
                          <div className="form-group col-md-6">
-                             <ButtonToolbar>
-                                 <SignUpModal  />
-                              </ButtonToolbar>
+                           <ButtonToolbar >
+                             <div >
+                               <Button  className="signUpButton" variant="primary" onClick={this.showRegister.bind(this)} > 
+                                <div className="sign_up_button_name">
+                                    SignUp
+                               </div>
+                              </Button>
+                            </div>
+                            </ButtonToolbar>
                          </div>
                      </div>
                          </form>
                         )}
-                            />
+                        />
                             <div className="signUpLabel">
-                                     <button onClick={this.onFacebookLogin}>Facebook</button>
+                          </div>
+                          <div className="facebook-logIn">
+                            <FacebookLogin
+                              appId="869634570156556"
+                              autoLoad={false}
+                              fields="name,email,picture"
+                              callback={this.responseFacebook}
+                              icon="fa-facebook"
+                              />
                               </div>
                     </div>
                 </div>
              </div>
         </div>
         )
-      }
- }
-
- 
- export const SignUpModal = () => {
-    
-     let [modalShow, setModalShow] = useState(false);
-     return (
-         <ButtonToolbar >
-            <div >
-                <Button  className="signUpButton" variant="primary" onClick={() => setModalShow(true)}> 
-                <div className="sign_up_button_name">
-                    SignUp
-                </div>
-            <Register show={modalShow} onHide={() => setModalShow(false)}/>
-                </Button>
-            </div>
-      </ButtonToolbar>
-    );
-}
-export default SignIn
+ }}

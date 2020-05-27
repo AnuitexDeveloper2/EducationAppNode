@@ -1,11 +1,12 @@
 import authorModel from "../../../dataAccess/entityModels/author";
 import * as authorRepository from "../repositories/authorRepository"
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
-import { BaseResponse } from "../../shared/db-models/BaseResponse";
+import { BaseResponse } from "../../shared/models/baseResponse";
 import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
 import  authorVlidateSchema  from "../operations/AuthorRequest.schema.json";
 import idValidateSchema from "../../utils/IdRequest.schema.json";
 import logger from "../../utils/logger";
+import { logInAsync } from "../../auth/auth.service";
 
  let author = new authorModel();
 export async function createAsync(authorParam: authorModel): Promise<any>  {
@@ -21,15 +22,15 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
 
    if (!result) {
       logger.error(`>>>> authorService.create(), result = ${result}`)
-      return "aurhor did not create"
+      return false
    }
 
-   return "Ok";
+   return true;
 }
 
 export async function removeAsync(id: string): Promise<any> {
    const validateResult = validateWithJsonSchema(id,idValidateSchema)
-   logger.info(`>>>> authorService.create(), with: Id = ${JSON.stringify(id)}`)
+   logger.info(`>>>> authorService.remove(), with: Id = ${JSON.stringify(id)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.remove(), invalid data = ${validateResult.errors}`)
@@ -40,13 +41,14 @@ export async function removeAsync(id: string): Promise<any> {
 
    if (!result) {
       logger.error(`>>>> authorService.create(), result = ${result}`)
-      return "author did not remove";
+      return false;
    }
 
-   return result;
+   return true;
 }
 
 export async function updateAsync(authorParam: authorModel): Promise<any> {
+   console.log(authorParam)
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    logger.info(`>>>> authorService.update(), with: author = ${JSON.stringify(authorParam)}`)
 
@@ -59,10 +61,18 @@ export async function updateAsync(authorParam: authorModel): Promise<any> {
    const result = await authorRepository.updateAsync(authorParam);
    if (!result) {
       logger.error(`>>>> authorService.update(), result = ${result}`)
-      return "aurhor did not update"
+      return false
+   }
+   return true;
+}
+
+export async function getAsync() : Promise<Array<authorModel>> {
+   logger.info('>>>> authorService.get()');
+   const result =await authorRepository.GetAsync();
+   if (result.length==0) {
+      logger.error('>>>> authorService.get(), list of authors is empty')
    }
    return result;
-
 }
 
 export async function getAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {

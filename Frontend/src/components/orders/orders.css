@@ -1,0 +1,11 @@
+.page-label {
+    margin-top: -5%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #343434;
+}

@@ -1,127 +1,130 @@
 import React from 'react';
 import { Form, Field } from "react-final-form";
-import * as Auth from "./auth";
-import { RouteComponentProps, Link } from 'react-router-dom';
-import "./CSS/register.scss";
-import { Modal, ButtonToolbar } from 'react-bootstrap';
+import "./CSS/register.css";
 import close from "../../assets/close.svg";
+import  * as authService  from "../../services/auth";
+import anonymus from "../../assets/anonymus.png";
+import { formValidation } from "../../shared/validateForm/RegisterValidateForm";
 
-export interface UserParameters {
-    id: string,
-    userName: string,
-    firstName: string,
-    lastName: string,
-    email: string,
-    password: string,
-    avatar: string
-}
 
-type UserProps = UserParameters & Auth.UserProps &
- //typeof Auth.actionCreators & 
- RouteComponentProps<{}>;
 
 
 export class Register extends React.Component<any> {
-    constructor(props: any){
-        super(props)
+    
+    showLogIn = () => {
+      this.props.hideRegisterAction();
+      this.props.showSignInAction();
     }
     
+    closePopUp = () => {
+      this.props.hideRegisterAction();
+    }
+
+    onSubmitRegister = async (values: any) => {
+       const result = await authService.register(values)
+       debugger
+       if (result.result) {
+        this.props.hideRegisterAction();
+        this.props.showConfirmEmail()
+       }
+       if (!result.result) {
+         alert(result.error)
+       }
+    }
    
-    /*openForm() {
-        this.setState({
-            closed: false,
-        });
-    }
-
-    closeForm() {
-        this.setState({
-            closed: true,
-        });
-    }*/
-
-    redirect = () => {
-        this.props.history.push('/bookList');
-    }
-
-    onSubmit = async (values: any) => {
-        debugger;
-        console.log(values)
-        Auth.register(values,this.redirect)
-    }
 
     render() {
         return (
-           
-                <Modal
-                    {...this.props}
-                    size="lg"
-                    aria-labelledby="contained-modal-title-vcenter"
-                   centered
-                 >
-                <div className="modalWindow">
-                    <div className="modalContent">
-                       <Modal.Header closeButton >
-                          <div className="modalHeader">
-                              <div className="close">
-                                  <img src={close} onClick={this.props.onHide}/>
-                               </div>
-                            </div>
-                       </Modal.Header>
-                       <Modal.Body>
-                          <div className="userImg">
-                              
-                           </div>
-                            <div className="LogIn">
-                                SignIn
-                            </div>
-                            <div className="SignIn_form">
-                               <div>
-                                   <Form
-                                    onSubmit={this.onSubmit}
-                                    render={({handleSubmit,form,submitting,pristine,values}) => (
-                                   <form onSubmit={handleSubmit}>
-                                     <div className="form-group">
-                                       <div className="form-row">
-                                         <div className="form-group col-md-6">
-                                           <label className="emailLabel">Email</label>
-                                           <Field type="text" name="email" className="emailForm" component="input"/>
-                                         </div>
-                                         <div className="form-group col-md-6">
-                                            <label className="passwordLabel ">Password</label>
-                                             <Field type="text" name="passwordHash" className="passworForm" component="input"/>
-                                          </div>
-                                        </div>
-                                       </div>
-                                       <div className="form-row">
-                                            <div className="form-group col-md-6">
-                                                <button className="submit" type="submit" disabled={submitting || pristine}  value="register">Sign In</button>
-                                            </div>
-                                            <div>
-                                                <input type="checkbox" className="checkbox"/>
-                                            </div>
-                                            <div className="rememberMe">
-                                                Remember me
-                                            </div>
-                                            <div className="signUpLabel">
-                                                New to Book Publishing Company?
-                                            </div>
-                                            <div className="form-group col-md-6">
-                                             
-                                            </div>
-                                       </div>
-                                   </form>
-                                   )}
-                                       />
-                               </div>
-                           </div>
-                        </Modal.Body>
-                   <Modal.Footer>
-                   </Modal.Footer>
+          <div className="register-modal">
+              <div className="register-modal-inner">
+                <div className="registerHeader">
+                  <div className="close">
+                    <img src={close} alt="close" onClick={this.closePopUp.bind(this)}/>
                   </div>
+                  <div className="userImgRegister">
+                    <img src={anonymus} alt="user"/>
                 </div>
-            </Modal>
-                   )
-               }
-}
-
-export default Register;
+                <div className="createAccountLabel">
+                  Create Account
+              </div>
+              <Form
+               validate={(values) => formValidation.validateForm(values)}
+       onSubmit={this.onSubmitRegister}
+       render={({handleSubmit,form,submitting,pristine,values}) => (
+         <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <div className="form-row">
+              <div className="form-group col-md-6">
+                <label className="userNameLabel">Your UserName</label>
+                  <Field  name="userName" >
+                  {({ input, meta }) => (
+                  <div>
+                  <input className="userNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="userName_error">{"Please Enter Your UserName"}</span>}
+                </div>
+                  )}
+                  </Field>
+             </div>
+              <div className="form-group col-md-6">
+                   <label className="firstNameLabel ">Your First Name</label>
+                    <Field  name="firstName">
+                     {({ input, meta }) => (
+                  <div>
+                  <input className="firstNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="firstName_error">{"Please Enter Your First Name"}</span>}
+                </div>
+                  )}
+                    </Field>
+              </div>
+              <div className="form-group col-md-6">
+                   <label className="lastNameLabel ">Your Last Name</label>
+                    <Field  name="lastName" >
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="lastNameForm" {...input} />
+                  {meta.error && meta.touched && <span className="lastName_error">{"Please Enter Your First Name"}</span>}
+                </div>
+                  )}
+                    </Field>
+              </div>
+              <div className="form-group col-md-6">
+                   <label className="emailLabelRegister ">Email</label>
+                    <Field  name="email">
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="emailFormRegister" {...input} />
+                  {meta.error && meta.touched && <span className="email_error">{"Please Enter a valid email adress"}</span>}
+                </div>
+                  )}
+                    </Field>
+              </div>
+              <div className="form-group col-md-6">
+                   <label className="passwordLabelRegister ">Password</label>
+                    <Field type="text" name="passwordHash">
+                    {({ input, meta }) => (
+                  <div>
+                  <input className="passwordFormRegister" {...input} />
+                  {meta.error && meta.touched && <span className="password_error">{"Password must be at least 6 characters"}</span>}
+                </div>
+                  )}
+                    </Field>
+              </div>
+              <div className="form-group col-md-6">
+                   <label className="confirmPasswordLabel ">Confirm Password</label>
+                    <Field type="text" name="LoginRequest.password" className="confirmPasswordForm" component="input" />
+              </div>
+          </div>
+      </div>
+         <div className="form-row">
+           <div className="form-group col-md-6">
+               <button className="registerButton" type="submit"  disabled={submitting || pristine}   value="register"><span className="registerButtonLabel">SignUp Your Account</span></button>
+           </div>
+           <span className="alreadyRegister">Already have an account?</span>
+          <span className="moveToSignIn" onClick={this.showLogIn.bind(this)}>SignIn</span>
+       </div>
+      </form>)}
+          />
+     </div>
+    </div>
+   </div>
+  )}}

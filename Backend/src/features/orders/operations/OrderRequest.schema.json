@@ -21,18 +21,18 @@
 
             }]
         },
-        "payment_info": {
-            "Payment": {
-                "transaction_id": {
+             "transaction_id": {
                     "type": "string"
-                }
-            }
+        },
+        "amount": {
+            "type" : "number"
         }
     },
     "additionalProperties": false,
     "required": [
         "user_id",
         "items",
-        "payment_info"
+        "transaction_id",
+        "amount"
     ]
 }

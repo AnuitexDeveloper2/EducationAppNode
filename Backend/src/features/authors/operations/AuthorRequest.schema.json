@@ -10,10 +10,10 @@
             "type":"string"
         },
         "product_ids": {
-            "type": "string"
+            "type": "array"
         }
     },
-    "additionalProperties": false,
+    "additionalProperties": true,
     "required": [
         "name"
     ]
