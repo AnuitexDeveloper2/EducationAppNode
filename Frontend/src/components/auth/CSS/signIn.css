@@ -1,277 +1,276 @@
 .signin-modal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-color: rgba(0,0,0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .signin-modal-inner {
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 30%;
-    bottom: 25%;
-    margin: auto;
-    background: #3F3F3F;
-    width: 700px;
-    height: 600px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 30%;
+  bottom: 25%;
+  margin: auto;
+  background: #3f3f3f;
+  width: 700px;
+  height: 600px;
 }
 
-.inputLabel{
-    color: black
+.inputLabel {
+  color: black;
 }
 
 .modalHeader {
-height: 30px;
-background: #5D5C5C;
+  height: 30px;
+  background: #5d5c5c;
 }
 
 .close {
-text-align: right;
+  text-align: right;
 }
 
 .userImg {
-position: absolute;
-left: 45.79%;
-right: 50.33%;
-top: 12.17%;
-bottom: 73.48%;
-opacity: 0.5;
+  position: absolute;
+  left: 45.79%;
+  right: 50.33%;
+  top: 12.17%;
+  bottom: 73.48%;
+  opacity: 0.5;
 }
 
 .LogIn {
-position: absolute;
-left: 23.96%;
-right: 68.13%;
-top: 23.19%;
-bottom: 70.14%;
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 43px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-color: #FF6825;
+  position: absolute;
+  left: 23.96%;
+  right: 68.13%;
+  top: 23.19%;
+  bottom: 70.14%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff6825;
 }
 
-.emailLabel{
-position: absolute;
-left: 23.96%;
-right: 55.6%;
-top: 32.09%;
-bottom: 64.8%;
+.emailLabel {
+  position: absolute;
+  left: 23.96%;
+  right: 55.6%;
+  top: 32.09%;
+  bottom: 64.8%;
 
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 55px;
-color: #FEFEFE;
-opacity: 0.8;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #fefefe;
+  opacity: 0.8;
 }
 
 .emailForm {
-position: absolute;
-left: 23.96%;
-right: 15.38%;
-top: 36.45%;
-bottom: 56.07%;
-height: 30px;
- width: 400px;
-color: black;
-background: #e9e4e4;
-opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 36.45%;
+  bottom: 56.07%;
+  height: 30px;
+  width: 400px;
+  color: black;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .passwordLabel {
-position: absolute;
-left: 23.96%;
-right: 55.6%;
-top: 45.64%;
-bottom: 51.25%;
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 55px;
-color: #FFFFFF;
-opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 55.6%;
+  top: 45.64%;
+  bottom: 51.25%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .passworForm {
-position: absolute;
-left: 23.96%;
-right: 15.38%;
-top: 50%;
-height: 30px;
-width: 400px;
-bottom: 42.52%;
-background: #e9e4e4;
-opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 50%;
+  height: 30px;
+  width: 400px;
+  bottom: 42.52%;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .submit {
-position: absolute;
-left: 70.44%;
-right: 15.27%;
-top: 61.59%;
-bottom: 31.74%;
-font-family: Oswald;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 43px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-color: #FFFFFF;
-background-color: #FF6825;
-cursor: pointer;
+  position: absolute;
+  left: 70.44%;
+  right: 15.27%;
+  top: 61.59%;
+  bottom: 31.74%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #ff6825;
+  cursor: pointer;
 }
 
 .checkbox {
-    position: absolute;
-    left: 23.96%;
-    right: 74.29%;
-    top: 63.55%;
-    bottom: 33.96%;
-    border: 1px solid #ADADAD;
-    box-sizing: border-box;
+  position: absolute;
+  left: 23.96%;
+  right: 74.29%;
+  top: 63.55%;
+  bottom: 33.96%;
+  border: 1px solid #adadad;
+  box-sizing: border-box;
 }
 
 .rememberMe {
-    position: absolute;
-    left: 27.47%;
-    right: 52.09%;
-    top: 61.55%;
-    bottom: 36.42%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 55px;
-    color: #DBDBDB;
+  position: absolute;
+  left: 27.47%;
+  right: 52.09%;
+  top: 61.55%;
+  bottom: 36.42%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 55px;
+  color: #dbdbdb;
 }
 
 .signUpLabel {
-    position: absolute;
-    left: 36.43%;
-    right: 28.41%;
-    top: 63.53%;
-    bottom: 17.45%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #999999;
+  position: absolute;
+  left: 36.43%;
+  right: 28.41%;
+  top: 63.53%;
+  bottom: 17.45%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #999999;
 }
 
 .signUpButton {
-    position: absolute;
-    left: 36.43%;
-    right: 28.41%;
-    top: 75.58%;
-    bottom: 7.94%;
-    height: 50px;
-    width: 200px;
-    background-color: #3F3F3F;
-    border: 2px solid #F9621F;
-    cursor: pointer;
+  position: absolute;
+  left: 36.43%;
+  right: 28.41%;
+  top: 75.58%;
+  bottom: 7.94%;
+  height: 50px;
+  width: 200px;
+  background-color: #3f3f3f;
+  border: 2px solid #f9621f;
+  cursor: pointer;
 }
 
 .sign_up_button_name {
-    position: absolute;
-    left: 35.44%;
-    right: 49.76%;
-    top: 49.22%;
-    bottom: 49.44%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #B9B8B7;
+  position: absolute;
+  left: 35.44%;
+  right: 49.76%;
+  top: 49.22%;
+  bottom: 49.44%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b9b8b7;
 }
 
 .facebook-logIn {
-    text-align: center;
-    margin-top: 70%;
+  text-align: center;
+  margin-top: 70%;
 }
 
- /* errors */
+/* errors */
 
 .userName_error {
-position: absolute;
-left: 50.96%;
-right: 15.38%;
-top: 30.56%;
-bottom: 66%;
-height: 30px;
-width: 400px;
-opacity: 0.8;
-color: red;
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 30.56%;
+  bottom: 66%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
 }
 
 .firstName_error {
-position: absolute;
-left: 50.96%;
-right: 15.38%;
-top: 40.56%;
-bottom: 56%;
-height: 30px;
-width: 400px;
-opacity: 0.8;
-color: red
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 40.56%;
+  bottom: 56%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
 }
 
 .lastName_error {
-position: absolute;
-left: 50.96%;
-right: 15.38%;
-top: 50.56%;
-bottom: 56%;
-height: 30px;
-width: 400px;
-opacity: 0.8;
-color: red
-
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 50.56%;
+  bottom: 56%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
 }
 
 .email_error {
-position: absolute;
-left: 47.64%;
-right: 15.38%;
-top: 60.56%;
-bottom: 26%;
-height: 30px;
-width: 400px;
-opacity: 0.8;
-color: red
+  position: absolute;
+  left: 47.64%;
+  right: 15.38%;
+  top: 60.56%;
+  bottom: 26%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
 }
 
 .password_error {
-position: absolute;
-left: 41.64%;
-right: 15.38%;
-top: 70.56%;
-bottom: 26%;
-height: 30px;
-width: 400px;
-opacity: 0.8;
-color: red
+  position: absolute;
+  left: 41.64%;
+  right: 15.38%;
+  top: 70.56%;
+  bottom: 26%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
 }

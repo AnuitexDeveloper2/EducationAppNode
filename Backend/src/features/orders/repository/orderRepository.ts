@@ -4,7 +4,7 @@ import { BaseResponse } from "../../shared/models/baseResponse";
 
 
 
-export async function createOrderAsync(orderParam: ordersModel): Promise<boolean> {
+export async function createOrder(orderParam: ordersModel): Promise<boolean> {
     const result = await ordersModel.create(orderParam);
 
     if (result == null) {
@@ -14,29 +14,29 @@ export async function createOrderAsync(orderParam: ordersModel): Promise<boolean
     return true;
 }
 
-export async function getOrdersForAdminAsync(filter: OrderFilter) {
+export async function getOrdersForAdmin(filter: OrderFilter): Promise<BaseResponse<ordersModel>> {
     let query;
     let count;
     let data = new Array<ordersModel>();
-     query = ordersModel.find().populate("user_id").populate("items.printing_edition_id");
-     
+    query = ordersModel.find().populate("user_id").populate("items.printing_edition_id");
+
     const options = {
         sort: "_id",
         lean: true,
-        page: filter.pageNumber, 
+        page: filter.pageNumber,
         limit: filter.pageSize,
     }
-    await ordersModel.paginate(query,options).then(function(result){
+    await ordersModel.paginate(query, options).then(function (result) {
         count = result.total
-        data =  result.docs
+        data = result.docs
     }).catch();
-    const response: BaseResponse<ordersModel>={data: data,count:count}
+    const response: BaseResponse<ordersModel> = { data: data, count: count }
     return response;
 }
 
-export async function getOrdersForUserAsync(id: string): Promise<Array<ordersModel>> {
+export async function getOrdersForUser(id: string): Promise<Array<ordersModel>> {
 
-    const result = await ordersModel.find({user_id: id}).populate("items.printing_edition_id");
+    const result = await ordersModel.find({ user_id: id }).populate("items.printing_edition_id");
 
     if (result.length == 0) {
         return null

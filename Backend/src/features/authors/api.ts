@@ -1,5 +1,5 @@
 export interface Author {
-    name: String;
+    name: string;
     product_ids: Array<string>;
-    removed_at: Boolean;
+    removed_at: boolean;
 }

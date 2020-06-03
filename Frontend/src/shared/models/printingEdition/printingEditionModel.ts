@@ -20,7 +20,7 @@ export interface PrintingEditionModel {
     currency: Currency;
     productType: PrintingEditionType;
     author_ids: Array<AuthorModel>
-    cover_image:string
+    cover_image: string
 }
 
 export interface RequestPrintingEditionModel {

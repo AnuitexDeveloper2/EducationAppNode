@@ -5,32 +5,31 @@ import userModel from '../../../dataAccess/entityModels/user';
 import authorModel from '../../../dataAccess/entityModels/author';
 import Authors from '../../../dataAccess/entityModels/author';
 import printingEditionModel from '../../../dataAccess/entityModels/printing-edition';
-import  PrintingEditions  from '../../../dataAccess/entityModels/printing-edition';
-import { PrintingEdition } from '../../printing-editions/api';
-import { PrintingEditionType } from '../enums/printingEditionType';
-import { Currency } from '../enums/currency';
+import PrintingEditions from '../../../dataAccess/entityModels/printing-edition';
+import { PrintingEditionType } from '../../printing-editions/enums';
+import { Currency } from '../../printing-editions/enums';
 
 
 export class Init {
 
     admin: Users;
-    author: Authors; 
+    author: Authors;
     printingEdition: PrintingEditions;
-    private  checkModel = userModel;
+    private checkModel = userModel;
 
-   constructor () {
-       this.admin = new Users();
-       this.author = new Authors()
-       this.printingEdition = new PrintingEditions();
-   }
-    
-   public async Check() {
-       this.initAdmin();
-       this.initAuthor();
-       this.initProdiuct();
+    constructor() {
+        this.admin = new Users();
+        this.author = new Authors()
+        this.printingEdition = new PrintingEditions();
     }
-    
-     private async initAdmin(): Promise<userModel> {
+
+    public async Check() {
+        this.initAdmin();
+        this.initAuthor();
+        this.initProdiuct();
+    }
+
+    private async initAdmin(): Promise<userModel> {
 
         let result = await userModel.find();
         if (result.length == 0) {
@@ -42,9 +41,9 @@ export class Init {
                 role: Role.Admin,
                 passwordHash: '25012005'
             })
-            
+
             var salt = bcrypt.genSaltSync(10);
-            admin.passwordHash = bcrypt.hashSync('25012005',salt);
+            admin.passwordHash = bcrypt.hashSync('25012005', salt);
             admin.save();
             return admin;
         }
@@ -59,7 +58,7 @@ export class Init {
             })
             author.save();
             return author;
-                }
+        }
         return this.author;
     }
 
@@ -68,15 +67,15 @@ export class Init {
         let result = await printingEditionModel.find();
 
         if (result.length == 0) {
-            const printingEdition: printingEditionModel = new PrintingEditions ({
+            const printingEdition: printingEditionModel = new PrintingEditions({
                 title: 'The Colour of Magic',
                 description: 'The Colour of Magic is a 1983 comic fantasy novel by Terry Pratchett',
                 cover_image: 'http/:',
-                productType : PrintingEditionType[0],
+                productType: PrintingEditionType[0],
                 price: 25,
                 currency: Currency[0],
                 author_ids: '5e6f4443cfcd0a20ec2a87bb'
-            })          
+            })
             printingEdition.save();
             return printingEdition;
         }

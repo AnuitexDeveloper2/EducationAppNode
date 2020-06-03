@@ -1,121 +1,121 @@
 .create-author-modal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-color: rgba(0,0,0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .create-author-modal-inner {
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 25%;
-    bottom: 25%;
-    margin: auto;
-    background: #3F3F3F;
-    width: 500px;
-    height: 350px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: #3f3f3f;
+  width: 500px;
+  height: 350px;
 }
 
 .create-author-input {
-    position: absolute;
-    left: 23.88%;
-    right: 36.88%;
-    top: 50.66%;
-    bottom: 45.09%;
-    background: black;
-    opacity: 0.3;
-    width: 300px;
-    height: 20px;
-    color: white;
+  position: absolute;
+  left: 23.88%;
+  right: 36.88%;
+  top: 50.66%;
+  bottom: 45.09%;
+  background: black;
+  opacity: 0.3;
+  width: 300px;
+  height: 20px;
+  color: white;
 }
 
-::placeholder { 
-    color: white;
-    opacity: 1; 
-  }
+::placeholder {
+  color: white;
+  opacity: 1;
+}
 
-  .create-save-button {
-    position: absolute;
-    right: 20.43%;
-    left: 68.41%;
-    top: 84.58%;
-    bottom: 7.94%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 43px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    background-color: #FF6825;
-    height: 30px;
-    width: 100px;
+.create-save-button {
+  position: absolute;
+  right: 20.43%;
+  left: 68.41%;
+  top: 84.58%;
+  bottom: 7.94%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #ff6825;
+  height: 30px;
+  width: 100px;
 }
 
 .create-save-label {
-    position: absolute;
-    left: 30.94%;
-    right: 50.69%;
-    top: 50.8%;
-    bottom: 50.46%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 43px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
+  position: absolute;
+  left: 30.94%;
+  right: 50.69%;
+  top: 50.8%;
+  bottom: 50.46%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .create-cancel-button {
-    position: absolute;
-    left: 20.43%;
-    right: 68.41%;
-    top: 84.58%;
-    bottom: 7.94%;
-    height: 30px;
-    width: 100px;
-    background-color: #3F3F3F;
-    border: 2px solid #F9621F;
+  position: absolute;
+  left: 20.43%;
+  right: 68.41%;
+  top: 84.58%;
+  bottom: 7.94%;
+  height: 30px;
+  width: 100px;
+  background-color: #3f3f3f;
+  border: 2px solid #f9621f;
 }
 
 .create-cansel-label {
-    position: absolute;
-    left: 20.44%;
-    right: 50.76%;
-    top: 49.22%;
-    bottom: 49.44%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #B9B8B7;
+  position: absolute;
+  left: 20.44%;
+  right: 50.76%;
+  top: 49.22%;
+  bottom: 49.44%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #b9b8b7;
 }
 
 .add-product-title {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 43px;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FF6825;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff6825;
 }

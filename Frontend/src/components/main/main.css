@@ -1,36 +1,33 @@
 body {
-    padding: 50px;
-    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
-  }
-  
-.grid {
-    /* border: 5px solid rgb(111,41,97); */
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    width: 1000px;
-  }
-  
-.grid > * {
-    margin-top: 20%;
-    background-color: #e0d1d191;
-    border-radius: 100px;
-    padding: 100px;
-  }
+  padding: 50px;
+  font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 
-  
-  
-  .grid-title {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-    display: block;
-    /* text-align: center; */
-    color: #000000;
-    width: 394px;
-    height: 67px;
+.grid {
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  width: 1000px;
+}
+
+.grid > * {
+  margin-top: 20%;
+  background-color: #e0d1d191;
+  border-radius: 100px;
+  padding: 100px;
+}
+
+.grid-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  display: block;
+  /* text-align: center; */
+  color: #000000;
+  width: 394px;
+  height: 67px;
 }
 
 .grid-image {
@@ -49,7 +46,7 @@ body {
   width: 394px;
   height: 67px;
   color: rgba(0, 0, 0, 0.66);
-} 
+}
 
 .grid-price {
   font-family: Oswald;
@@ -60,7 +57,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FF6825;
+  color: #ff6825;
 }
 
 .grid-currency {
@@ -79,17 +76,17 @@ body {
   margin-top: -5%;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
-  overflow:hidden; /*make sure the wrapper has no dimension*/
-  margin-top:-5%;
+  overflow: hidden; /*make sure the wrapper has no dimension*/
+  margin-top: -5%;
 }
 
-.item{
-  float:left; 
-  width:100px;
-  height:100px;
-  margin:10px;
+.item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
 .main-catalog-label {
@@ -104,35 +101,35 @@ body {
   line-height: 20px;
   align-items: center;
   letter-spacing: 1.5px;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .main-currency {
   position: initial;
-  margin-left:  63%;
+  margin-left: 63%;
   /* margin-right:  27.14%; */
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #FF6825;
+  color: #ff6825;
 }
 
 .select-currency {
   position: initial;
-  margin-left:  10%;
+  margin-left: 10%;
 }
 
 .main-sort {
-  color: #FF6825;
+  color: #ff6825;
   position: initial;
-  margin-top:0.5%;
+  margin-top: 0.5%;
 }
 
 .select-sort {
   position: initial;
-  margin-top:  10%;
+  margin-top: 10%;
 }
 
 .container {
@@ -183,7 +180,7 @@ body {
 .min-price-label {
   position: initial;
   top: 55%;
-  left: 50%
+  left: 50%;
 }
 
 .max-price-form {
@@ -196,7 +193,7 @@ body {
 .max-price-label {
   position: initial;
   top: 65%;
-  left: 50%
+  left: 50%;
 }
 
 .price-slider {
@@ -258,7 +255,7 @@ ul.pagination li a.active {
 }
 
 .books-block {
-  cursor: pointer
+  cursor: pointer;
 }
 
 /* Slider*/
@@ -270,7 +267,7 @@ ul.pagination li a.active {
   width: 100%;
   border-radius: 6px;
   -ms-touch-action: none;
-      touch-action: none;
+  touch-action: none;
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -291,7 +288,7 @@ ul.pagination li a.active {
   left: 0;
   height: 4px;
   border-radius: 6px;
-  background-color: #FF6825;
+  background-color: #ff6825;
 }
 .rc-slider-handle {
   position: absolute;
@@ -302,27 +299,27 @@ ul.pagination li a.active {
   margin-top: -5px;
   cursor: grab;
   border-radius: 50%;
-  border: solid 2px #FF6825;
+  border: solid 2px #ff6825;
   background-color: #fff;
   -ms-touch-action: pan-x;
-      touch-action: pan-x;
+  touch-action: pan-x;
 }
 .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
-  border-color: #FF6825;
-  box-shadow: 0 0 0 5px #FF6825;
+  border-color: #ff6825;
+  box-shadow: 0 0 0 5px #ff6825;
 }
 .rc-slider-handle:focus {
   outline: none;
 }
 .rc-slider-handle-click-focused:focus {
-  border-color: #FF6825;
+  border-color: #ff6825;
   box-shadow: unset;
 }
 .rc-slider-handle:hover {
-  border-color: #FF6825;
+  border-color: #ff6825;
 }
 .rc-slider-handle:active {
-  border-color: #FF6825;
+  border-color: #ff6825;
   box-shadow: 0 0 5px #57c5f7;
   cursor: -webkit-grabbing;
   cursor: grabbing;
@@ -334,5 +331,3 @@ ul.pagination li a.active {
   width: 100%;
   font-size: 12px;
 }
-
-

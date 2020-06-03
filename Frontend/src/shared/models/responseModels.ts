@@ -7,7 +7,7 @@ export interface ResponseModel {
 }
 
 export interface LogInResponseModel {
-    result : boolean
+    result: boolean
     error: string
     AccessToken: string
     RefreshToken: string

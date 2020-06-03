@@ -1,86 +1,86 @@
 .product-body {
-    margin-top: -5%;
+  margin-top: -5%;
 }
 
 .product-container {
-    display: flex;
+  display: flex;
 }
 
 .product-image {
-    width: 600px;
-    height: 500px;
-    background-color: lavenderblush;
+  width: 600px;
+  height: 500px;
+  background-color: lavenderblush;
 }
 
 .current-image {
-    width: 300px;
-    height: 400px;
-    margin-left: 25%;
-    margin-top: 10%;
+  width: 300px;
+  height: 400px;
+  margin-left: 25%;
+  margin-top: 10%;
 }
 
 .product-title {
-    margin-top: 20%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 2px;
-    color: #000000;
+  margin-top: 20%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  color: #000000;
 }
 
 .product-authors {
-    margin-top: 10%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: rgba(0, 0, 0, 0.66);;
+  margin-top: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.66);
 }
 
 .product-quantity {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .product-quantity-label {
-    margin-top: 90%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FF6825;
+  margin-top: 90%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff6825;
 }
 
 .product-total-price {
-    margin-left: 5%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FF6825;
+  margin-left: 5%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff6825;
 }
 
 .product-cart-button {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .cart-button {
-    width: 260px;
-    height: 62px;
-    color: black;
-    background: lavenderblush;
+  width: 260px;
+  height: 62px;
+  color: black;
+  background: lavenderblush;
 }
 
 .cart-image {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }

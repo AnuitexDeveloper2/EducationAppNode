@@ -3,22 +3,21 @@ import * as authorRepository from "../repositories/authorRepository"
 import { AuthorFilterModel } from "../../shared/filterModels/authorFilterModel";
 import { BaseResponse } from "../../shared/models/baseResponse";
 import { validateWithJsonSchema } from "../../utils/validateWithJsonSchema";
-import  authorVlidateSchema  from "../operations/AuthorRequest.schema.json";
+import authorVlidateSchema from "../validateSchemas/AuthorRequest.schema.json";
 import idValidateSchema from "../../utils/IdRequest.schema.json";
 import logger from "../../utils/logger";
-import { logInAsync } from "../../auth/auth.service";
 
- let author = new authorModel();
-export async function createAsync(authorParam: authorModel): Promise<any>  {
+let author = new authorModel();
+export async function create(authorParam: authorModel): Promise<boolean> {
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    logger.info(`>>>> authorService.create(), with: author = ${JSON.stringify(authorParam)}`)
-    
-   if (!validateResult.valid) {
-       logger.error(`>>>> authorService.create(), invalid data = ${validateResult.errors}`)
-       return {message: "Invalid AuthorCreate request", error: validateResult.errors}
-    }
 
-   const result = await authorRepository.createAsync(authorParam);
+   if (!validateResult.valid) {
+      logger.error(`>>>> authorService.create(), invalid data = ${validateResult.errors}`)
+      return false
+   }
+
+   const result = await authorRepository.create(authorParam);
 
    if (!result) {
       logger.error(`>>>> authorService.create(), result = ${result}`)
@@ -28,16 +27,16 @@ export async function createAsync(authorParam: authorModel): Promise<any>  {
    return true;
 }
 
-export async function removeAsync(id: string): Promise<any> {
-   const validateResult = validateWithJsonSchema(id,idValidateSchema)
+export async function remove(id: string): Promise<boolean> {
+   const validateResult = validateWithJsonSchema(id, idValidateSchema)
    logger.info(`>>>> authorService.remove(), with: Id = ${JSON.stringify(id)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.remove(), invalid data = ${validateResult.errors}`)
-      return "id is not valid"
+      return false
    }
 
-   const result = await authorRepository.removeAsync(id);
+   const result = await authorRepository.remove(id);
 
    if (!result) {
       logger.error(`>>>> authorService.create(), result = ${result}`)
@@ -47,18 +46,18 @@ export async function removeAsync(id: string): Promise<any> {
    return true;
 }
 
-export async function updateAsync(authorParam: authorModel): Promise<any> {
+export async function update(authorParam: authorModel): Promise<boolean> {
    console.log(authorParam)
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    logger.info(`>>>> authorService.update(), with: author = ${JSON.stringify(authorParam)}`)
 
    if (!validateResult.valid) {
       logger.error(`>>>> authorService.update(), invalid data = ${validateResult.errors}`)
-      return {message: "Invalid Author Update request", error: validateResult.errors}
+      return false
    }
 
-  
-   const result = await authorRepository.updateAsync(authorParam);
+
+   const result = await authorRepository.update(authorParam);
    if (!result) {
       logger.error(`>>>> authorService.update(), result = ${result}`)
       return false
@@ -66,17 +65,17 @@ export async function updateAsync(authorParam: authorModel): Promise<any> {
    return true;
 }
 
-export async function getAsync() : Promise<Array<authorModel>> {
+export async function getAll(): Promise<Array<authorModel>> {
    logger.info('>>>> authorService.get()');
-   const result =await authorRepository.GetAsync();
-   if (result.length==0) {
+   const result = await authorRepository.GetAll();
+   if (result.length == 0) {
       logger.error('>>>> authorService.get(), list of authors is empty')
    }
    return result;
 }
 
-export async function getAuthorsAsync(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
+export async function getAuthors(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
    logger.info(`>>>> authorService.getAuthors(), with: filter = ${JSON.stringify(filter)}`)
-   const result = await authorRepository.GetAuthorsAsync(filter);
+   const result = await authorRepository.GetAuthors(filter);
    return result
 }

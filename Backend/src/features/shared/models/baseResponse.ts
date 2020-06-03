@@ -6,4 +6,4 @@ export interface BaseResponse<T> {
 export interface ResponseModel {
     result: boolean;
     error: string
-}   
+}

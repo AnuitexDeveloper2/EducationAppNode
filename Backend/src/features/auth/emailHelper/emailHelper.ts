@@ -1,4 +1,4 @@
-import * as nodemailer from "nodemailer";       
+import * as nodemailer from "nodemailer";
 import userModel from "../../../dataAccess/entityModels/user";
 
 const mailTransportert = nodemailer.createTransport({
@@ -12,17 +12,17 @@ const mailTransportert = nodemailer.createTransport({
     }
 })
 
-     export const sendingEmail = (user: userModel ): any => {
-        let mailOptions = {
-            from: 'morgenshtern1988@gmail.com', 
-            to: user.email,
-            subject: "// Subject line",
-            text: `Confirm registration by clicking on the link: http://localhost:3000/confirmedEmail?user=${user.id}`
-        };
-        mailTransportert.sendMail(mailOptions,(error,info)=> {
-            if (error) {
-               return error
-            }
-            return true;
-        })
+export const sendingEmail = (user: userModel): any => {
+    let mailOptions = {
+        from: 'morgenshtern1988@gmail.com',
+        to: user.email,
+        subject: "// Subject line",
+        text: `Confirm registration by clicking on the link: http://localhost:3000/confirmedEmail?user=${user.id}`
+    };
+    mailTransportert.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return error
+        }
+        return true;
+    })
 };

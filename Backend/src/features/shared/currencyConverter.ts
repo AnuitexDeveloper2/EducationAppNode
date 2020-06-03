@@ -1,10 +1,10 @@
-import { Currency } from "./enums/currency";
+import { Currency } from "../printing-editions/enums";
 
 interface Dictionary {
     [Key: string]: number;
 }
 
- class SearchParameters {
+class SearchParameters {
     SearchFor: Dictionary = {};
 }
 
@@ -18,8 +18,8 @@ convertor.SearchFor[Currency.CHF] = 1;
 
 
 export function Converter(from: Currency, to: Currency, price: number): number {
-    
-    const result = price/ convertor.SearchFor[from] * convertor.SearchFor[to];
-     
+
+    const result = price / convertor.SearchFor[from] * convertor.SearchFor[to];
+
     return Math.round(result)
 }

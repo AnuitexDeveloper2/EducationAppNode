@@ -1,26 +1,26 @@
 import * as printingEditionService from "../services/printingEditionService";
 import { Request, Response, NextFunction } from "express"
 
-export async function createAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.createAsync(req.body)
+export async function create(req: Request, res: Response, next: NextFunction) {
+    printingEditionService.create(req.body)
         .then(result => res.json(result))
         .catch(err => next(err));
-     }
+}
 
-export async function removeAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.removeAsync(req.body)
+export async function remove(req: Request, res: Response, next: NextFunction) {
+    printingEditionService.remove(req.body)
         .then(users => res.json(users))
         .catch(err => next(err));
-     }
+}
 
-export async function updateAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.updateAsync(req.body.printingEdition,req.body._id)
+export async function update(req: Request, res: Response, next: NextFunction) {
+    printingEditionService.update(req.body.printingEdition, req.body._id)
         .then(users => res.json(users))
         .catch(err => next(err));
-    }
+}
 
-export async function getPrintingEditionsForAdminHandlerAsync(req: Request, res: Response, next: NextFunction) {
-    printingEditionService.getPrintingEditionsAsync(req.body)
+export async function getPrintingEditionsForAdmin(req: Request, res: Response, next: NextFunction) {
+    printingEditionService.getPrintingEditions(req.body)
         .then(users => res.json(users))
         .catch(err => next(err));
-    }
+}

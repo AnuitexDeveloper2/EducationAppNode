@@ -2,7 +2,7 @@ export interface Orders {
     user_id: String;
     items: Array<OrderItem>;
     transaction_id: string;
-    amount:number;
+    amount: number;
 }
 
 export interface OrderItem {

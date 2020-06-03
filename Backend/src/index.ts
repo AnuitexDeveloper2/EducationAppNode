@@ -1,18 +1,18 @@
-import express, {Application} from 'express';
+import express, { Application } from 'express';
 import { Init } from "../src/features/shared/repositories/Initial";
 import bodyParser from 'body-parser';
-import { userRouter,adminRouter } from "../src/features/user/index";
+import { userRouter, adminRouter } from "../src/features/user/index";
 import { authorRouter } from "../src/features/authors/index";
 import { authRouter } from './features/auth';
 import * as env from 'dotenv';
 import { checkJwt } from './features/auth/jwtHelper/jwtHelper';
 import { adminProductRouter, userProductRouter } from './features/printing-editions';
-import  {connectdb}  from '../src/dataAccess/database/connectdb';
+import { connectdb } from '../src/dataAccess/database/connectdb';
 import * as swaggerDocument from "./swagger.json";
 import swaggerUi from 'swagger-ui-express';
 import logger from './features/utils/logger';
 import { orderUserRouter, orderAdminRouter } from './features/orders';
-import  cors  from "cors";
+import cors from "cors";
 
 env.config();
 const app: Application = express();
@@ -35,6 +35,6 @@ connectdb();
 const PORT = process.env.PORT || 8080;
 process.env.connectionString
 app.listen(PORT, () => {
-app.use('/swagger',swaggerUi.serve,swaggerUi.setup(swaggerDocument));
-logger.info(`server started listening on port ${PORT}`);
+    app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+    logger.info(`server started listening on port ${PORT}`);
 });

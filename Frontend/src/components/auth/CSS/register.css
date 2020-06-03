@@ -1,325 +1,324 @@
 .register-modal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-color: rgba(0,0,0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .register-modal-inner {
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 25%;
-    bottom: 25%;
-    margin: auto;
-    background: #3F3F3F;
-    width: 700px;
-    height: 600px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: #3f3f3f;
+  width: 700px;
+  height: 600px;
 }
 
 .register-header {
-    height: 30px;
-    background: #5D5C5C;
+  height: 30px;
+  background: #5d5c5c;
 }
 
 .userImgRegister {
-    position: absolute;
-    left: 45.79%;
-    right: 50.33%;
-    top: 5.17%;
-    bottom: 83.48%;
-    opacity: 0.5;
-    height: 70px;
-    width: 70px;
-    }
+  position: absolute;
+  left: 45.79%;
+  right: 50.33%;
+  top: 5.17%;
+  bottom: 83.48%;
+  opacity: 0.5;
+  height: 70px;
+  width: 70px;
+}
 
 .createAccountLabel {
-    margin-right: 50%;
-    margin-left: 25%;
-    margin-top: 10% ;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 43px;
-    align-items: center;
-    text-transform: capitalize;
-    color: #FF6825;
-    }
+  margin-right: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 43px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ff6825;
+}
 
 .userNameLabel {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 20%;
-    bottom: 76%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
-    }
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 20%;
+  bottom: 76%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
+}
 
 .userNameForm {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    line-height: 55px;
-    top: 26%;
-    bottom: 66%;
-    height: 20px;
-    width: 400px;
-    color: black;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  line-height: 55px;
+  top: 26%;
+  bottom: 66%;
+  height: 20px;
+  width: 400px;
+  color: black;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .firstNameLabel {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 30%;
-    bottom: 66%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 30%;
+  bottom: 66%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .firstNameForm {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 36%;
-    bottom: 56%;
-    height: 20px;
-    width: 400px;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 36%;
+  bottom: 56%;
+  height: 20px;
+  width: 400px;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .lastNameLabel {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 40%;
-    bottom: 56%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 40%;
+  bottom: 56%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .lastNameForm {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 46%;
-    bottom: 46%;
-    height: 20px;
-    width: 400px;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 46%;
+  bottom: 46%;
+  height: 20px;
+  width: 400px;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .emailLabelRegister {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 50%;
-    bottom: 46%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 50%;
+  bottom: 46%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .emailFormRegister {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 56%;
-    bottom: 36%;
-    height: 20px;
-    width: 400px;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 56%;
+  bottom: 36%;
+  height: 20px;
+  width: 400px;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .passwordLabelRegister {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 60%;
-    bottom: 36%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 60%;
+  bottom: 36%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .passwordFormRegister {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 66%;
-    bottom: 26%;
-    height: 20px;
-    width: 400px;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 66%;
+  bottom: 26%;
+  height: 20px;
+  width: 400px;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .confirmPasswordLabel {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 70%;
-    bottom: 26%;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 55px;
-    color: #FFFFFF;
-    opacity: 0.8;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 70%;
+  bottom: 26%;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 55px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 .confirmPasswordForm {
-    position: absolute;
-    left: 23.96%;
-    right: 15.38%;
-    top: 76%;
-    bottom: 16%;
-    height: 20px;
-    width: 400px;
-    background: #e9e4e4;
-    opacity: 0.3;
+  position: absolute;
+  left: 23.96%;
+  right: 15.38%;
+  top: 76%;
+  bottom: 16%;
+  height: 20px;
+  width: 400px;
+  background: #e9e4e4;
+  opacity: 0.3;
 }
 
 .registerButton {
-    position: absolute;
-    left: 53.44%;
-    right: 34.84%;
-    top: 82%;
-    bottom: 13%;
-    background: #FB7134;
+  position: absolute;
+  left: 53.44%;
+  right: 34.84%;
+  top: 82%;
+  bottom: 13%;
+  background: #fb7134;
 }
 
 .registerButtonLabel {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 .alreadyRegister {
-    position: absolute;
-    left: 10.96%;
-    right: 15.38%;
-    top: 91%;
-    bottom: 6%;
-    color: #999999;
+  position: absolute;
+  left: 10.96%;
+  right: 15.38%;
+  top: 91%;
+  bottom: 6%;
+  color: #999999;
 }
 
 .moveToSignIn {
-    position: absolute;
-    cursor: pointer;
-    left: 38.75%;
-    right: 57.45%;
-    top: 91%;
-    bottom: 6%;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #FB7134;
+  position: absolute;
+  cursor: pointer;
+  left: 38.75%;
+  right: 57.45%;
+  top: 91%;
+  bottom: 6%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #fb7134;
 }
 
- /* errors */
+/* errors */
 
-    .userName_error {
-        position: absolute;
-        left: 50.96%;
-        right: 15.38%;
-        top: 30.56%;
-        bottom: 66%;
-        height: 30px;
-        width: 400px;
-        opacity: 0.8;
-        color: red;
-    }
-    
-    .firstName_error {
-        position: absolute;
-        left: 50.96%;
-        right: 15.38%;
-        top: 40.56%;
-        bottom: 56%;
-        height: 30px;
-        width: 400px;
-        opacity: 0.8;
-        color: red
-    }
-    
-    .lastName_error {
-        position: absolute;
-        left: 50.96%;
-        right: 15.38%;
-        top: 50.56%;
-        bottom: 56%;
-        height: 30px;
-        width: 400px;
-        opacity: 0.8;
-        color: red
-        
-    }
-    
-    .email_error {
-        position: absolute;
-        left: 47.64%;
-        right: 15.38%;
-        top: 60.56%;
-        bottom: 26%;
-        height: 30px;
-        width: 400px;
-        opacity: 0.8;
-        color: red
-    }
-    
-    .password_error {
-        position: absolute;
-        left: 41.64%;
-        right: 15.38%;
-        top: 70.56%;
-        bottom: 26%;
-        height: 30px;
-        width: 400px;
-        opacity: 0.8;
-        color: red
-    }
+.userName_error {
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 30.56%;
+  bottom: 66%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
+}
+
+.firstName_error {
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 40.56%;
+  bottom: 56%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
+}
+
+.lastName_error {
+  position: absolute;
+  left: 50.96%;
+  right: 15.38%;
+  top: 50.56%;
+  bottom: 56%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
+}
+
+.email_error {
+  position: absolute;
+  left: 47.64%;
+  right: 15.38%;
+  top: 60.56%;
+  bottom: 26%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
+}
+
+.password_error {
+  position: absolute;
+  left: 41.64%;
+  right: 15.38%;
+  top: 70.56%;
+  bottom: 26%;
+  height: 30px;
+  width: 400px;
+  opacity: 0.8;
+  color: red;
+}

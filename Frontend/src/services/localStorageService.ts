@@ -4,26 +4,26 @@ import { UserModel } from "../shared/models/user/user";
 let items = new Array<OrderItemModelItem>();
 
 export function setCart(orderItemModelItem: OrderItemModelItem) {
-    let currentItems = getCart();
-     if (currentItems != null) {
-        items= currentItems;
-      }
-         items.push(orderItemModelItem);
-      localStorage.setItem('Cart', JSON.stringify(items));
+  let currentItems = getCart();
+  if (currentItems != null) {
+    items = currentItems;
+  }
+  items.push(orderItemModelItem);
+  localStorage.setItem('Cart', JSON.stringify(items));
 }
 
 export function getCart(): Array<OrderItemModelItem> {
-    let currentCart: Array<OrderItemModelItem>;
-    currentCart = JSON.parse(localStorage.getItem('Cart'));
-    if (currentCart === null) {
-      return null;
-    }
-    return currentCart;
+  let currentCart: Array<OrderItemModelItem>;
+  currentCart = JSON.parse(localStorage.getItem('Cart'));
+  if (currentCart === null) {
+    return null;
+  }
+  return currentCart;
 }
 
 export function removeItemFromCart(index: number) {
   const currentItems = getCart();
-  currentItems.splice(index,1);
+  currentItems.splice(index, 1);
   localStorage.setItem('Cart', JSON.stringify(currentItems))
 }
 
@@ -33,9 +33,9 @@ export function getAccessToken() {
 }
 
 export function setAccessToken(token: string) {
-  localStorage.setItem("AccessToken",token)
+  localStorage.setItem("AccessToken", token)
 }
 
 export function setUser(user: UserModel) {
-      localStorage.setItem("User",JSON.stringify(user))
+  localStorage.setItem("User", JSON.stringify(user))
 }

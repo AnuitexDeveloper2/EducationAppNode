@@ -1,18 +1,18 @@
 import { Router } from 'express';
-import { createOrderAsync, getOrderForUserAsync } from "./handlers/order.user.handler";
-import {  getOrdersAsync } from './handlers/order.admin.handler';
+import { createOrder, getOrderForUser } from "./handlers/order.user.handler";
+import { getOrders } from './handlers/order.admin.handler';
 import { Role } from '../shared/enums/role';
 import { checkPermission } from '../shared/accessControle/accessController';
 
 export const orderUserRouter = Router();
 
- orderUserRouter.use(checkPermission(Role.User))
+orderUserRouter.use(checkPermission(Role.User))
 
-orderUserRouter.post('/', createOrderAsync);
-orderUserRouter.post('/myOrders', getOrderForUserAsync)
+orderUserRouter.post('/', createOrder);
+orderUserRouter.post('/myOrders', getOrderForUser)
 
 export const orderAdminRouter = Router();
 
 orderAdminRouter.use(checkPermission(Role.Admin))
 
-orderAdminRouter.post('/', getOrdersAsync)
+orderAdminRouter.post('/', getOrders)

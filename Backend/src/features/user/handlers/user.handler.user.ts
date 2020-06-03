@@ -3,20 +3,20 @@ import * as userService from "../services/userService"
 
 
 
-export async function getProfileAsync(req: Request,res: Response,next: NextFunction) {
-   userService.getByIdAsync(req.body)
-  .then((user) =>res.json({user}))
-  .catch(err =>next(err))
+export async function getProfile(req: Request, res: Response, next: NextFunction) {
+  userService.getById(req.body)
+    .then((user) => res.json({ user }))
+    .catch(err => next(err))
 }
 
-export function editAsync(req: Request, res: Response, next: NextFunction) {
-  userService.editAsync(req.body)
-      .then((err) => res.json({err}))
-      .catch(err => next(err));
+export function edit(req: Request, res: Response, next: NextFunction) {
+  userService.edit(req.body)
+    .then((err) => res.json({ err }))
+    .catch(err => next(err));
 }
 
 export function changePassword(req: Request, res: Response, next: NextFunction) {
   userService.changePassword(req.body)
-      .then((err) => res.json({err}))
-      .catch(err => next(err));
+    .then((err) => res.json({ err }))
+    .catch(err => next(err));
 }

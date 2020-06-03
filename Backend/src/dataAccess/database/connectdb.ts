@@ -4,8 +4,7 @@ import mongoose from 'mongoose';
 env.config();
 
 
-const connectionString = process.env.connectionString;
+const connectionString = process.env.CONNECTION_STRING;
 export function connectdb() {
        mongoose.connect(connectionString, { useCreateIndex: true, useNewUrlParser: true })
-}  
-    
+}

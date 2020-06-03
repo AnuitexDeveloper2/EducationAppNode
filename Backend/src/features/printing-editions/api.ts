@@ -8,5 +8,6 @@ export interface PrintingEdition {
     currency: Currency;
     productType: PrintingEditionType;
     removed_at: boolean;
-    author_ids: Array<string>
+    author_ids: Array<string>;
+    cover_image: string;
 }

@@ -1,32 +1,32 @@
-import { Request,Response,NextFunction } from "express";
+import { Request, Response, NextFunction } from "express";
 import * as authorService from "../services/authorService";
 
-export async function createAsync(req: Request,res: Response,next: NextFunction) {
-     authorService.createAsync(req.body)
-    .then((result) =>res.json(result))
-    .catch(err =>next(err));
-  }
-
-export async function removeAsync(req: Request,res: Response,next: NextFunction) {
-    authorService.removeAsync(req.body)
-   .then((result) =>res.json(result))
-   .catch(err =>next(err));
-  }
-
-export async function updateAsync(req: Request, res: Response, next: NextFunction) {
-  authorService.updateAsync(req.body)
-  .then((result) =>res.json(result))
-  .catch((err) =>next(err));
+export async function create(req: Request, res: Response, next: NextFunction) {
+  authorService.create(req.body)
+    .then((result) => res.json(result))
+    .catch(err => next(err));
 }
 
-export async function getAuthorsAsync(req: Request, res: Response, next: NextFunction) {
-  authorService.getAuthorsAsync(req.body)
-  .then((result) =>res.json(result))
-  .catch((err) =>next(err));
+export async function remove(req: Request, res: Response, next: NextFunction) {
+  authorService.remove(req.body)
+    .then((result) => res.json(result))
+    .catch(err => next(err));
 }
 
-export async function getAsync(req: Request, res: Response, next: NextFunction) {
-  authorService.getAsync()
-  .then((result) =>res.json(result))
-  .catch((err) =>next(err));
+export async function update(req: Request, res: Response, next: NextFunction) {
+  authorService.update(req.body)
+    .then((result) => res.json(result))
+    .catch((err) => next(err));
+}
+
+export async function getAuthors(req: Request, res: Response, next: NextFunction) {
+  authorService.getAuthors(req.body)
+    .then((result) => res.json(result))
+    .catch((err) => next(err));
+}
+
+export async function getAll(req: Request, res: Response, next: NextFunction) {
+  authorService.getAll()
+    .then((result) => res.json(result))
+    .catch((err) => next(err));
 }
