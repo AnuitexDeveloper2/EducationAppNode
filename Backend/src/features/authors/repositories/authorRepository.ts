@@ -79,7 +79,7 @@ export async function GetAuthorsAsync(filter: AuthorFilterModel): Promise<BaseRe
     
     
     if (filter.searchString !=null) {
-        query = authorModel.find( { $and:[{ name: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });
+        query = authorModel.find( { $and:[{ nam: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });
     }
     
     if(filter.sortType == 0) {

@@ -81,7 +81,7 @@ export async function getUserAsync (userParam: User)  {
     }
 
     export async function findByEmail(email: string): Promise<any> {
-       let user = await userModel.findOne(email);
+       let user = await userModel.findOne({email});
 
        if (user == null) {
            return false;

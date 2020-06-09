@@ -146,7 +146,7 @@ export default function MainPage() {
              <input type="number" className="max-price-form" name="maxValue" onChange={priceInputFilter} value={price.maxValue}/>
               <span className="max-price-label">Max</span>
               <div className="price-slider">
-                <Range min={0} max={1000} defaultValue={[0, 1000]} onChange={priceFilter} tipFormatter={value=> `${value}%`} />
+                {/* <Range min={0} max={1000} defaultValue={[0, 1000]} onChange={priceFilter} tipFormatter={value=> `${value}%`} /> */}
               </div>
            </div>
        </div>
