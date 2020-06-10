@@ -17,7 +17,6 @@ import  cors  from "cors";
 env.config();
 const app: Application = express();
 
-var router = express.Router()
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -32,7 +31,7 @@ app.use('/admin/author', authorRouter);
 app.use('/user', userRouter);
 app.use('/admin/user', adminRouter);
 console.log(process.env.NODE_ENV)
-// connectdb();
+connectdb();
 
 const PORT = process.env.PORT || 8080;
 process.env.connectionString

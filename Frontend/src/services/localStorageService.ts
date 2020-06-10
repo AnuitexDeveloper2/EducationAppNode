@@ -27,7 +27,7 @@ export function removeItemFromCart(index: number) {
   localStorage.setItem('Cart', JSON.stringify(currentItems))
 }
 
-export function getAccessToken() {
+export function getAccessToken():string {
   const token = localStorage.getItem("AccessToken");
   return token
 }
