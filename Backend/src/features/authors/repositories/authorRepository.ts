@@ -72,12 +72,13 @@ export async function GetAll(): Promise<Array<authorModel>> {
 export async function GetAuthors(filter: AuthorFilterModel): Promise<BaseResponse<authorModel>> {
     let count;
     let query;
-    let tableSort: any = { 'name': filter.sortType };
-    let data = new Array<authorModel>();
 
-
-    if (filter.searchString != null) {
-        query = authorModel.find({ $and: [{ names: { $regex: new RegExp(filter.searchString, 'i') } }, { removed_at: false }] });
+    let tableSort: any = {'name':filter.sortType};
+    let data= new Array<authorModel>();
+    
+    
+    if (filter.searchString !=null) {
+        query = authorModel.find( { $and:[{ nam: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });
     }
 
     if (filter.sortType == 0) {

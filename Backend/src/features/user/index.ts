@@ -9,6 +9,7 @@ export const userRouter = Router();
 userRouter.use(checkPermission(Role.User))
 userRouter.post('/me', getProfile);
 userRouter.post('/edit', edit);
+
 userRouter.post('/editPassword', changePassword)
 
 export const adminRouter = Router();

@@ -38,7 +38,7 @@ export class Init {
                 firstName: 'Vladimir',
                 lastName: 'Goncharuk',
                 email: 'morgenshtern1988@gmail.com',
-                role: Role.Admin,
+                role: Role[0],
                 passwordHash: '25012005'
             })
 

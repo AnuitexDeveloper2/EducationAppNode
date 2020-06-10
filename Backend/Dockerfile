@@ -1,15 +1,17 @@
-FROM node
-ENV NPM_CONFIG_LOGLEVEL warn
-RUN mkdir -p /src/
+FROM node:10-alpine
 
-EXPOSE 3000
+RUN mkdir -p /home/node/app/dist/node_modules && chown -R node:node /home/node/app/dist
 
-WORKDIR /src/
+WORKDIR /home/node/app/dist
 
-ADD package.json /src/
+COPY package*.json ./
 
-RUN npm run dev
+USER node
 
-ADD . /src/
+RUN npm install
 
-ENTRYPOINT ["npm", "run", "dev"]
+COPY --chown=node:node . .
+
+EXPOSE 8080
+
+CMD [ "node", "dist/index.js" ]

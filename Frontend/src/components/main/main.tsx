@@ -255,7 +255,24 @@ export default function MainPage() {
               />
             </div>
           </div>
+<<<<<<< HEAD
         </div>
+=======
+          
+         <div className="price-slider-label">
+           Price
+           </div>
+           <div>
+             <input type="number" className="min-price-form" name="minValue" onChange={priceInputFilter} value={price.minValue}/>
+              <span className="min-price-label">Min</span>  
+             <input type="number" className="max-price-form" name="maxValue" onChange={priceInputFilter} value={price.maxValue}/>
+              <span className="max-price-label">Max</span>
+              <div className="price-slider">
+                {/* <Range min={0} max={1000} defaultValue={[0, 1000]} onChange={priceFilter} tipFormatter={value=> `${value}%`} /> */}
+              </div>
+           </div>
+       </div>
+>>>>>>> development
 
         <div className="grid">
           {state.data.map((item: PrintingEditionModel, i) => (
