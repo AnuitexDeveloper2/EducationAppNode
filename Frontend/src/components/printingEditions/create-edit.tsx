@@ -7,7 +7,6 @@ import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { getAuthors } from "../../services/authors";
 import {
   AuthorModel,
-  PrintingEditionModel,
   RequestPrintingEditionModel,
 } from "../../shared/models/printingEdition/printingEditionModel";
 import { Currency } from "../../shared/enums/Currency";
@@ -17,11 +16,6 @@ import {
 } from "../../services/printingEdition";
 import FileBase from "react-file-base64";
 
-interface CreateState {
-  printingEdition: PrintingEditionModel;
-  author: Array<AuthorModel>;
-  isLoaded: boolean;
-}
 
 const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
   const [image, setImage] = useState({
@@ -54,12 +48,12 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
   }
   const [state, setState] = useState({
     author: null,
-    isLoaded: false,
   });
   const category = enumSelector(PrintingEditionType);
   const currency = enumSelector(Currency);
 
-  const onSubmitCreate = async (data: any) => {
+  const onSubmitCreate = async (data) => {
+    debugger
     const authors = [] as string[];
     authors.push(data.author);
     const model: RequestPrintingEditionModel = {
@@ -89,7 +83,6 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     const authors = await getAuthors();
     setState({
       author: authors,
-      isLoaded: true,
     });
     return authors;
   };
@@ -98,12 +91,8 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     get();
   }, []);
 
-  //  const test= (event: any) =>{
-  //     debugger
-  //     setState({ [event.target.name]: event.target.value } as any);
-  // }
 
-  if (isShowing && state.isLoaded) {
+  if (isShowing) {
     return (
       <div className="popup">
         <div className="popup_inner">
@@ -185,8 +174,9 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
                           component="select"
                         >
                           {state.author.map((item: AuthorModel, i) => (
+                            
                             <option key={i} value={item._id}>
-                              {item.name}{" "}
+                              {item.name}
                             </option>
                           ))}
                         </Field>

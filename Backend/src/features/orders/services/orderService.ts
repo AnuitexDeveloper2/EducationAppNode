@@ -19,7 +19,7 @@ export async function createOrder(orderParam: ordersModel): Promise<boolean> {
     const result = await orderRepository.createOrder(orderParam);
 
     if (!result) {
-        logger.error(`>>>> orderService.createOrder(), result = ${result}`);
+        logger.error(`>>>> orderService.createOrder(), result = ${JSON.stringify(result)}`);
         return false
     }
 
@@ -29,7 +29,7 @@ export async function createOrder(orderParam: ordersModel): Promise<boolean> {
 
 export async function getOrdersForUser(id: string): Promise<Array<ordersModel>> {
     const validateResult = validateWithJsonSchema(id, idValidateSchema)
-    logger.info(`>>>> orderService.getOrdersForUser(), with: id = ${id}`)
+    logger.info(`>>>> orderService.getOrdersForUser(), with: id = ${JSON.stringify(id)}`)
 
     if (!validateResult) {
         logger.error(`>>>> orderService.getOrderForUser(), invalid data = ${validateResult.errors}`)

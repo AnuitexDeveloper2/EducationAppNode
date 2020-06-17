@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { OrderItemModelItem } from "../../shared/models/orderModel/OrderItemModel";
-import spinner from "../../assets/spinner.gif";
 import "./cart.css";
 import remove from "../../assets/delete.png";
 import { removeItemFromCart } from "../../services/localStorageService";
@@ -9,6 +8,7 @@ import { hideCartAction } from "../../Redux/header/actions";
 import StripeCheckout from "react-stripe-checkout";
 import { Orders } from "../../shared/models/order/orderModel";
 import { createOrder } from "../../services/order";
+import { Spinner } from "../waiter/spinner";
 
 export default function Cart({ outsideState }) {
   const dispatch = useDispatch();
@@ -64,13 +64,7 @@ export default function Cart({ outsideState }) {
 
   if (!state.isLoaded) {
     return (
-      <div className="loading-data">
-        <div className="spinner-grow text-primary" role="status">
-          <span className="sr-only">
-            <img src={spinner} alt="spinner"></img>
-          </span>
-        </div>
-      </div>
+      <Spinner/>
     );
   }
 

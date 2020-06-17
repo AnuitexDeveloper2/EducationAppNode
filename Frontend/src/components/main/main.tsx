@@ -1,11 +1,9 @@
 import React, { useState, useEffect, createContext } from "react";
-import { Range } from "rc-slider";
 import ReactPaginate from "react-paginate";
 import "./main.css";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import { getMainPage } from "../../services/printingEdition";
-import spinner from "../../assets/spinner.gif";
 import {
   PrintingEditionModel,
   AuthorModel,
@@ -15,22 +13,18 @@ import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 import SearchBar from "../searchBar/search";
+import { Spinner } from "../waiter/spinner";
 
 export const ProductContext = createContext(null);
 
 export default function MainPage() {
   useEffect(() => {
-    getData(
-      1,
-      Currency.USD,
-      SortType.None,
-      PrintingEditionSortType.Id,
-      0,
-      1000,
-      PrintingEditionType[4]
-    );
+    getData(1)
   }, []);
 
+  const category = enumSelector(PrintingEditionType);
+  const currencys = enumSelector(Currency);
+  
   const [state, setState] = useState({
     count: 0,
     data: null,
@@ -38,105 +32,61 @@ export default function MainPage() {
     showCreate: false,
   });
 
-  const [currency, setCurrency] = useState(Currency[0]);
-  const [direction, setDirection] = useState(SortType[0]);
-  const [sortType, setSortType] = useState(PrintingEditionSortType[0]);
   const [price, setPrice] = useState({ minValue: 0, maxValue: 1000 });
-  const [typeProduct, setTypeProduct] = useState(PrintingEditionType[4]);
+  
+  const [data, setData] = useState({
+    pageNumber: 1,
+    currency: Currency.USD,
+    sortType: SortType.None,
+    tableSort: PrintingEditionSortType.Id,
+    typeProduct: PrintingEditionType[4]
+  })
 
-  const category = enumSelector(PrintingEditionType);
-  const currencys = enumSelector(Currency);
-
-  const changeCurrency = (e) => {
-    const currentCurrency = Currency[e.target.value];
-    setCurrency(Currency[currentCurrency]);
-    getData(
-      1,
-      currentCurrency,
-      SortType[direction],
-      PrintingEditionSortType[sortType],
-      price.minValue,
-      price.maxValue,
-      typeProduct
-    );
-  };
-
-  const changeSort = (e) => {
-    const currentDirection = SortType[e.target.value];
-    getData(
-      1,
-      Currency[currency],
-      currentDirection,
-      PrintingEditionSortType.Price,
-      price.minValue,
-      price.maxValue,
-      typeProduct
-    );
-    setDirection(SortType[currentDirection]);
-    setSortType(PrintingEditionSortType[1]);
-  };
-
-  const priceFilter = (range) => {
-    setPrice({ minValue: range[0], maxValue: range[1] });
-    getData(
-      1,
-      Currency[currency],
-      SortType[direction],
-      PrintingEditionSortType[sortType],
-      price.minValue,
-      price.maxValue,
-      typeProduct
-    );
-  };
-
+  const handleSelect = async(event) => {
+    const filter: PrintingEditionFilterModel = {
+      searchString: "",
+      sortType: data.sortType,
+      pageNumber: 1,
+      pageSize: 6,
+      currency: data.currency,
+      tableSort: data.tableSort,
+      minPrice: price.minValue,
+      maxPrice: price.maxValue,
+      typeProduct: data.typeProduct as any,
+    };
+    if (event.target.name === 'currency') {
+      filter.currency = Currency[event.target.value] as any
+      setData({...data, currency: Currency[event.target.value] as any})
+    }
+    if (event.target.name === 'sortType') {
+      filter.sortType = SortType[event.target.value] as any
+      filter.tableSort = PrintingEditionSortType.Price
+      setData({...data,tableSort: PrintingEditionSortType.Price,sortType: SortType[event.target.value] as any})
+    }
+    if (event.target.name === 'typeProduct') {
+      filter.typeProduct = PrintingEditionType[event.target.value] as any
+      setData({...data, typeProduct: PrintingEditionType[event.target.value]})
+    }
+    const printingEdition = await getMainPage(filter);
+    setState({
+      data: printingEdition.data,
+      count: printingEdition.count,
+      isLoading: true,
+      showCreate: false,
+    });
+  }
+ 
+ const priceFilter = () => {
+      getData(data.pageNumber)
+ }
+ 
   const priceInputFilter = (event: any) => {
-    if (event.target.name === "minValue") {
-      setPrice({
-        minValue: event.target.value,
-        maxValue: price.maxValue,
-      } as any);
-    }
-    if (event.target.name === "maxValue") {
-      setPrice({
-        maxValue: event.target.value,
-        minValue: price.minValue,
-      } as any);
-    }
-    getData(
-      1,
-      Currency[currency],
-      SortType[direction],
-      PrintingEditionSortType[sortType],
-      price.minValue,
-      price.maxValue,
-      typeProduct
-    );
-  };
-
-  const typeProductChange = (e) => {
-    let currenttype = PrintingEditionType[e.target.value];
-    setTypeProduct(PrintingEditionType[e.target.value]);
-    getData(
-      1,
-      Currency[currency],
-      SortType[direction],
-      PrintingEditionSortType[sortType],
-      price.minValue,
-      price.maxValue,
-      currenttype
-    );
+    setPrice({ ...price, [event.target.name]: event.target.value })
   };
 
   const handlePageClick = (e) => {
-    getData(
-      e.selected + 1,
-      Currency[currency],
-      SortType[direction],
-      PrintingEditionSortType[sortType],
-      price.minValue,
-      price.maxValue,
-      typeProduct
-    );
+    setData({...data, pageNumber: e.selected +1})
+    getData(e.selected +1);
   };
 
   const purchcase = (item) => {
@@ -145,25 +95,17 @@ export default function MainPage() {
     window.location.assign("/book");
   };
 
-  const getData = async (
-    pageNumber,
-    currency,
-    direction,
-    tableSort,
-    minPrice,
-    maxPrice,
-    typeProduct
-  ) => {
+  const getData = async (pageNumber) => {
     const filter: PrintingEditionFilterModel = {
       searchString: "",
-      sortType: direction,
+      sortType: data.sortType,
       pageNumber: pageNumber,
       pageSize: 6,
-      currency: currency,
-      tableSort: tableSort,
-      minPrice: minPrice,
-      maxPrice: maxPrice,
-      typeProduct: typeProduct,
+      currency: data.currency,
+      tableSort: data.tableSort,
+      minPrice: price.minValue,
+      maxPrice: price.maxValue,
+      typeProduct: data.typeProduct as any,
     };
     const printingEdition = await getMainPage(filter);
     setState({
@@ -176,13 +118,7 @@ export default function MainPage() {
 
   if (!state.isLoading) {
     return (
-      <div className="loading-data">
-        <div className="spinner-grow text-primary" role="status">
-          <span className="sr-only">
-            <img src={spinner} alt="spinner"></img>
-          </span>
-        </div>
-      </div>
+      <Spinner/>
     );
   }
   return (
@@ -195,17 +131,17 @@ export default function MainPage() {
 
         <div className="main-currency">
           Currency
-          <select className="select-currency" onChange={changeCurrency}>
+          <select className="select-currency" name='currency' onChange={handleSelect}>
             {currencys.map((item: any, i) => (
               <option key={i} value={item}>
-                {item}{" "}
+                {item}
               </option>
             ))}
           </select>
         </div>
         <div className="main-sort">
           SortBy <br />
-          <select className="select-sort" onChange={changeSort}>
+          <select className="select-sort" name='sortType' onChange={handleSelect}>
             <option value="None">None</option>
             <option value="Asc">Price:Low to High</option>
             <option value="Desc">Price:High to Low</option>
@@ -217,7 +153,7 @@ export default function MainPage() {
           <div className="main-category-label">
             {" "}
             Category
-            <select id="" onChange={typeProductChange}>
+            <select id="" name='typeProduct' onChange={handleSelect}>
               <option value="All">All</option>
               {category.map((item: any, i) => (
                 <option key={i} value={item}>
@@ -245,34 +181,12 @@ export default function MainPage() {
               value={price.maxValue}
             />
             <span className="max-price-label">Max</span>
-            <div className="price-slider">
-              <Range
-                min={0}
-                max={1000}
-                defaultValue={[0, 1000]}
-                onChange={priceFilter}
-                tipFormatter={(value) => `${value}%`}
-              />
+            <div className="button-price-filter">
+              <button className="price-filter" onClick={priceFilter}>Submit</button>
             </div>
           </div>
-<<<<<<< HEAD
+
         </div>
-=======
-          
-         <div className="price-slider-label">
-           Price
-           </div>
-           <div>
-             <input type="number" className="min-price-form" name="minValue" onChange={priceInputFilter} value={price.minValue}/>
-              <span className="min-price-label">Min</span>  
-             <input type="number" className="max-price-form" name="maxValue" onChange={priceInputFilter} value={price.maxValue}/>
-              <span className="max-price-label">Max</span>
-              <div className="price-slider">
-                {/* <Range min={0} max={1000} defaultValue={[0, 1000]} onChange={priceFilter} tipFormatter={value=> `${value}%`} /> */}
-              </div>
-           </div>
-       </div>
->>>>>>> development
 
         <div className="grid">
           {state.data.map((item: PrintingEditionModel, i) => (
@@ -285,7 +199,7 @@ export default function MainPage() {
                 <img src={item.cover_image} alt="img" className="grid-image" />
               </span>
               <span className="grid-title">
-                <a href="/book">{item.title} </a>{" "}
+                <a href="/book" className="grid-title-ref">{item.title} </a>{" "}
               </span>
               <span className="grid-authors">
                 {item.author_ids.map((author: AuthorModel) => (
@@ -295,7 +209,7 @@ export default function MainPage() {
               <span className="grid-price">
                 {" "}
                 {item.price}
-                <span className="grid-currency">{currency}</span>
+                <span className="grid-currency">{Currency[data.currency]}</span>
               </span>
             </div>
           ))}

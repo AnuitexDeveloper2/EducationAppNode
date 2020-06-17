@@ -11,7 +11,7 @@ export const printingEditionSchema = new schema({
     description: { type: String, required: true },
     cover_image: { type: String },
     removed_at: { type: Boolean, default: false },
-    productType: { type: PrintingEditionType, required: true },
+    productType: { type: PrintingEditionType, default: PrintingEditionType[0] },
     price: { type: Number, required: true },
     currency: { type: Currency, default: Currency[0] },
     author_ids: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Author', required: true }],

@@ -27,7 +27,6 @@ export default function ConfirmedEmail() {
         values[key] = value;
         return values;
       }, {}) as any;
-    debugger;
     const user = await confirmedEmail(id.user);
     if (user !== null) {
       setState({ isLoaded: true, user: user });

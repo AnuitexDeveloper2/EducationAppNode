@@ -9,13 +9,11 @@ export function MyOrders() {
   });
 
   useEffect(() => {
-    getData(0);
+    getData();
   }, []);
 
-  const getData = async (pageNumber) => {
-    debugger;
+  const getData = async () => {
     const user = JSON.parse(localStorage.getItem("User"));
-    debugger;
     const result = await getMyOrder(user._id);
     if (result !== null) {
       setState({ data: result });

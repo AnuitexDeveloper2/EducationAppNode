@@ -70,7 +70,6 @@ export async function update(printingEditionParam: printingEditionModel, _id: st
 
 
 export async function getPrintingEditions(filter: PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
-    console.log(filter.currency)
     logger.info(`>>>> printingEditionService.get() with: params=${JSON.stringify(filter)}`)
     const result = await repository.getPrintingEditions(filter);
     result.data.map((item: PrintingEdition) => (

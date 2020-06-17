@@ -27,6 +27,7 @@ export async function updateOne(id: string, prop: any): Promise<any> {
     if (result === null) {
         return false;
     }
+    return result
 }
 
 

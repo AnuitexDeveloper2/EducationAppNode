@@ -22,7 +22,7 @@ export async function register(userParam: User): Promise<any> {
 
     const result = await repository.register(userParam);
     if (!result.result) {
-        logger.error(`>>>> authService.register(), result = ${result}`);
+        logger.error(`>>>> authService.register(), result = ${JSON.stringify(result)}`);
         return result
     }
 

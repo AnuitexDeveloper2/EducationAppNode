@@ -86,7 +86,6 @@ const UsersForAdmin = () => {
               className="search-Drop-Down"
               onClick={filterSearch}
             />
-            {/* {modal.showSearch&&<SearchBar params={setData} placeholder=""/>} */}
           </div>
         );
       },

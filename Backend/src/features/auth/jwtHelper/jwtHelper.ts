@@ -40,14 +40,12 @@ export const checkJwt = (req: Request, res: Response, next: NextFunction) => {
 
   } catch (err) {
     if (err.name == 'TokenExpiredError') {
-      res.status(403).send("access Token Expired")
       logger.info(`>>>> JWTHelper.checkJWT, with user err.name = ${JSON.stringify(err.name)}`);
-      return;
+      res.status(403).send("access Token Expired")
     }
     if (err.name == 'JsonWebTokenError') {
       logger.info(`>>>> JWTHelper.checkJWT, with user err.name = ${JSON.stringify(err.name)}`);
       res.status(401).send("token is not valid");
-      return;
     }
   }
   next()
@@ -61,7 +59,6 @@ export async function refreshTokens(res: Response, req: Request) {
     if (err.name == 'TokenExpiredError') {
       logger.info(`>>>> JWTHelper.refreshToken(), with user err.name = ${JSON.stringify(err.name)}`);
       res.status(401).send('refresh token is not valid');
-      return;
     }
   }
   const user = new userModel();

@@ -9,17 +9,17 @@ import add from "../../assets/add-button-inside-black-circle.svg";
 import { PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
 import CreateEditProduct from "./create-edit";
 import SearchBar from "../searchBar/search";
-import spinner from "../../assets/spinner.gif";
 import useModal from "../author/useModal";
 import LastColumn from "../lastColumn/lastColumn";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
+import { Spinner } from "../waiter/spinner";
 
 const PrintingEditionForAdmin = () => {
   const [state, setState] = useState({
     count: 0,
     data: null,
-    isLoaded: false,
+    isLoading: false,
     showCreate: false,
   });
 
@@ -50,7 +50,7 @@ const PrintingEditionForAdmin = () => {
     setState({
       data: printingEdition.data,
       count: printingEdition.count,
-      isLoaded: true,
+      isLoading: true,
       showCreate: false,
     });
   };
@@ -103,15 +103,9 @@ const PrintingEditionForAdmin = () => {
       },
     },
   ];
-  if (!state.isLoaded) {
+  if (!state.isLoading) {
     return (
-      <div className="loading-data">
-        <div className="spinner-grow text-primary" role="status">
-          <span className="sr-only">
-            <img src={spinner} alt="spinner"></img>
-          </span>
-        </div>
-      </div>
+      <Spinner/>
     );
   }
   return (

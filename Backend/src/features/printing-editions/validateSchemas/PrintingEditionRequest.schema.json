@@ -10,11 +10,8 @@
       "type": "string",
       "minLength": 4,
       "maxLength": 500
-    },
-    "productType": {
-      "type": "string"
     }
   },
   "additionalProperties": true,
-  "required": ["title", "description", "productType"]
+  "required": ["title", "description"]
 }

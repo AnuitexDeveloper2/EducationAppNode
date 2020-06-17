@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./product.css";
-import spinner from "../../assets/spinner.gif";
 import cart from "../../assets/iconmonstr-shopping-cart-3.svg";
 import { AuthorModel } from "../../shared/models/printingEdition/printingEditionModel";
 import { OrderItemModelItem } from "../../shared/models/orderModel/OrderItemModel";
 import { setCart } from "../../services/localStorageService";
 import Cart from "../cart/cart";
+import { Spinner } from "../waiter/spinner";
 
 export default function Product() {
   const [state, setState] = useState({
@@ -51,13 +51,7 @@ export default function Product() {
 
   if (!state.isLoading) {
     return (
-      <div className="loading-data">
-        <div className="spinner-grow text-primary" role="status">
-          <span className="sr-only">
-            <img src={spinner} alt="spinner"></img>
-          </span>
-        </div>
-      </div>
+     <Spinner/>
     );
   }
   return (

@@ -64,6 +64,7 @@ export async function getById(id: string): Promise<printingEditionModel> {
 }
 
 export async function getPrintingEditions(filter: PrintingEditionFilterModel): Promise<BaseResponse<PrintingEdition>> {
+    
     let data = new Array<PrintingEdition>();
     let count;
     let query;
@@ -78,7 +79,8 @@ export async function getPrintingEditions(filter: PrintingEditionFilterModel): P
                 $and: [
                     { title: { $regex: new RegExp(filter.searchString, 'i') } },
                     { removed_at: false },
-                    { price: { $gte: filter.minPrice } }, { price: { $lte: filter.maxPrice } },
+                    { price: { $gte: filter.minPrice } },
+                    { price: { $lte: filter.maxPrice } },
                     type
                 ]
             })

@@ -19,7 +19,7 @@ const Remove = ({ isShowing, hide, assigment, value }) => {
       result = await removeUser(value.item.id);
       debugger;
     }
-    if (result.result === true) {
+    if (result === true) {
       hide(false);
     }
   };

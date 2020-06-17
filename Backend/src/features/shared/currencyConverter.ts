@@ -20,6 +20,5 @@ convertor.SearchFor[Currency.CHF] = 1;
 export function Converter(from: Currency, to: Currency, price: number): number {
 
     const result = price / convertor.SearchFor[from] * convertor.SearchFor[to];
-
     return Math.round(result)
 }
