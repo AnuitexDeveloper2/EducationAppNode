@@ -1,7 +1,6 @@
 import * as Auth from "../../services/auth";
 import React from "react";
 import { Form, Field } from "react-final-form";
-import { Button, ButtonToolbar } from "react-bootstrap";
 import FacebookLogin from "react-facebook-login";
 import "./CSS/signIn.css";
 import close from "../../assets/close.svg";
@@ -14,6 +13,7 @@ export interface LoginState {
 }
 
 export class SignIn extends React.Component<any> {
+
   state: HeaderState = {
     showLogIn: false,
     showRegister: false,
@@ -135,17 +135,14 @@ export class SignIn extends React.Component<any> {
                         New to Book Publishing Company?
                       </div>
                       <div className="form-group col-md-6">
-                        <ButtonToolbar>
                           <div>
-                            <Button
+                            <button
                               className="signUpButton"
-                              variant="primary"
                               onClick={this.showRegister.bind(this)}
                             >
                               <div className="sign_up_button_name">SignUp</div>
-                            </Button>
+                            </button>
                           </div>
-                        </ButtonToolbar>
                       </div>
                     </div>
                   </form>

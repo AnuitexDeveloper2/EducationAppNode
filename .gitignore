@@ -1,8 +1,8 @@
-.vscode/
+.vs/
 node_modules/
 .gitignore/
 info.log
 error.log
 dist/
-vs/
 package-lock.json
+.vscode/
