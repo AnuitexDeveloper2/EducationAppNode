@@ -26,21 +26,17 @@ export default function Interceptor() {
     async function (error) {
       const originalRequest = error.config;
 
-      debugger;
       if (error.response.status === 401) {
         dispatch(signOutAction());
         localStorage.clear();
-        debugger;
         window.location.assign("/main");
       }
       if (error.response.status === 403 && !originalRequest._retry) {
         originalRequest._retry = true;
         const refreshToken = localStorage.getItem("RefreshToken");
-        debugger;
         return axios
           .post("http://localhost:8000/auth/refreshTokens", { refreshToken })
           .then((res) => {
-            debugger;
             if (res.status === 200) {
               const token = res.data.AccessToken;
               const refresh = res.data.RefreshToken;
