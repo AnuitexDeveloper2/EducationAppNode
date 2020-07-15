@@ -1,6 +1,7 @@
 import './config'
 import React from "react";
 import "./App.css";
+import "./tailwind.output.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "./Redux/store";

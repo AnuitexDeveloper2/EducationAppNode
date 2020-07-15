@@ -139,8 +139,10 @@ export default function MainPage() {
             ))}
           </select>
         </div>
-        <div className="main-sort">
-          SortBy <br />
+        <div className='main-sort'>
+          <div className="text-store-orange">
+            SortBy 
+          </div>
           <select className="select-sort" name='sortType' onChange={handleSelect}>
             <option value="None">None</option>
             <option value="Asc">Price:Low to High</option>
