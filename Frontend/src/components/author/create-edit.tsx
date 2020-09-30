@@ -16,7 +16,6 @@ const CreateEdit = ({ isShowing, hide, assigment, value }) => {
     title = "Add new Author";
   }
   if (assigment === "Edit") {
-    debugger;
     author.name = value.item.name;
     title = "Edit Author";
   }

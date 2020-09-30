@@ -75,7 +75,7 @@ export async function GetAuthors(filter: AuthorFilterModel): Promise<BaseRespons
 
     let tableSort: any = {'name':filter.sortType};
     let data= new Array<authorModel>();
-    
+    console.log(filter.pageNumber)
     
     if (filter.searchString !=null) {
         query = authorModel.find( { $and:[{ name: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });

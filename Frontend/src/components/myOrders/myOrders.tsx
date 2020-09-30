@@ -29,7 +29,6 @@ export function MyOrders() {
       Header: "Product",
       id: "printing_edition_id.productType",
       accessor: (data) => {
-        debugger;
         return (
           <>
             {data.items.map((product: any, i) => (

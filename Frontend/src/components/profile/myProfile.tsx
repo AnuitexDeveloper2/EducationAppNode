@@ -39,7 +39,6 @@ export function MyProfile() {
   }
 
   async function save() {
-    debugger;
     const user: UserModelRequest = {
       firstName: valueFirstName.current.value,
       email: valueEmail.current.value,

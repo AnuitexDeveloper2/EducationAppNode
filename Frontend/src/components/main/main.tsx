@@ -90,7 +90,6 @@ export default function MainPage() {
   };
 
   const purchcase = (item) => {
-    debugger;
     localStorage.setItem("Product", JSON.stringify(item));
     window.location.assign("/book");
   };

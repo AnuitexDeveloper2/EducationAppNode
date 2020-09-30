@@ -19,7 +19,7 @@ export const sendingEmail = (user: userModel): any => {
         subject: "// Subject line",
         text: `Confirm registration by clicking on the link: http://localhost:3000/confirmedEmail?user=${user.id}`
     };
-    mailTransportert.sendMail(mailOptions, (error, info) => {
+      mailTransportert.sendMail(mailOptions, (error, info) => {
         if (error) {
             return error
         }

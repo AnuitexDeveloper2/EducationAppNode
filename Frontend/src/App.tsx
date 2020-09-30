@@ -17,6 +17,7 @@ import { MyOrders } from "./components/myOrders/myOrders";
 import { Orders } from "./components/orders/orders";
 import Interceptor from "./components/Interceptor/axiosInterceptor";
 import ConfirmedEmail from "./components/auth/confirmedEmail";
+import { Footer } from './components/footer/footer';
 
 const store = configureStore();
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/orders" component={Orders} />
             <Route path="/confirmedEmail" component={ConfirmedEmail} />
             <Route path="/" component={Interceptor} />
+          {/* <Footer></Footer> */}
           </div>
         </Router>
       </Provider>

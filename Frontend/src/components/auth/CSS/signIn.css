@@ -66,7 +66,7 @@
   position: absolute;
   left: 23.96%;
   right: 55.6%;
-  top: 32.09%;
+  top: 30.09%;
   bottom: 64.8%;
 
   font-family: Oswald;
@@ -95,7 +95,7 @@
   position: absolute;
   left: 23.96%;
   right: 55.6%;
-  top: 45.64%;
+  top: 43.64%;
   bottom: 51.25%;
   font-family: Oswald;
   font-style: normal;
@@ -176,6 +176,7 @@
   display: flex;
   align-items: center;
   color: #999999;
+  cursor: pointer;
 }
 
 .signUpButton {

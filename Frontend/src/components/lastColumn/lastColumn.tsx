@@ -14,7 +14,6 @@ const LastColumn = ({ value, assigment }) => {
     isShowCreateProduct: false,
   });
   const showEdit = () => {
-    debugger;
     if (assigment === "author") {
       toggle("createAuthor");
       setState({

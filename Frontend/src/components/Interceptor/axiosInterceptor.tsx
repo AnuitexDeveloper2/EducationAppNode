@@ -3,6 +3,7 @@ import React from "react";
 import { getAccessToken } from "../../services/localStorageService";
 import { useDispatch } from "react-redux";
 import { signOutAction } from "../../Redux/header/actions";
+import { baseUrl } from "../../config";
 
 export default function Interceptor() {
   const dispatch = useDispatch();
@@ -25,8 +26,7 @@ export default function Interceptor() {
     },
     async function (error) {
       const originalRequest = error.config;
-
-      if (error.response.status === 401) {
+      if (error.response.status === 401 || error.response.status === undefined) {
         dispatch(signOutAction());
         localStorage.clear();
         window.location.assign("/main");
@@ -35,9 +35,9 @@ export default function Interceptor() {
         originalRequest._retry = true;
         const refreshToken = localStorage.getItem("RefreshToken");
         return axios
-          .post("http://localhost:8000/auth/refreshTokens", { refreshToken })
+          .post(`${baseUrl}/auth/refreshTokens`, { refreshToken })
           .then((res) => {
-            if (res.status === 200) {
+            if (res.status === 201) {
               const token = res.data.AccessToken;
               const refresh = res.data.RefreshToken;
               localStorage.setItem("AccessToken", token);

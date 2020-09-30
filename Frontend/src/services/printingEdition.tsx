@@ -13,7 +13,6 @@ export async function getPrintingEdition( filter: PrintingEditionFilterModel): P
 }
 
 export async function getMainPage( filter: PrintingEditionFilterModel ): Promise<PrintingEditionResoponseModel> {
-  debugger
   const result = await axios.post(`${baseUrl}/home`, filter);
   return result.data;
 }

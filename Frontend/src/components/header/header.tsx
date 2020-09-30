@@ -64,7 +64,7 @@ class Header extends Component<any, HeaderState> {
           <div className="signInButton">
             {this.state.user !== null && (
               <div>
-                {this.state.user.role === "User" && (
+                {this.state.user.role === 1 && (
                   <img
                     src={cart}
                     alt="cart"
@@ -76,8 +76,8 @@ class Header extends Component<any, HeaderState> {
                   <ul>
                     <li>
                       <img src={signIn} alt="menu" />
-                      {this.state.user.role === "Admin" && <AdminMenu />}
-                      {this.state.user.role === "User" && <UserMenu />}
+                      {this.state.user.role === 0 && <AdminMenu />}
+                      {this.state.user.role === 1 && <UserMenu />}
                     </li>
                   </ul>
                 </nav>

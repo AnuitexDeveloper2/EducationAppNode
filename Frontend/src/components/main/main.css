@@ -270,6 +270,7 @@ ul.pagination li a.active {
 
 .books-block {
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* Slider*/

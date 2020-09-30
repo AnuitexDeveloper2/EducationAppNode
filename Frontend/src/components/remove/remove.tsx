@@ -8,7 +8,6 @@ import { removeUser } from "../../services/users";
 const Remove = ({ isShowing, hide, assigment, value }) => {
   const deleteItem = async () => {
     let result;
-    debugger;
     if (assigment === "author") {
       result = await removeAuthor(value.item);
     }
@@ -17,7 +16,6 @@ const Remove = ({ isShowing, hide, assigment, value }) => {
     }
     if (assigment === "user") {
       result = await removeUser(value.item.id);
-      debugger;
     }
     if (result === true) {
       hide(false);

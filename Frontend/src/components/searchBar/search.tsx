@@ -10,7 +10,6 @@ import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortT
 
 const SearchBar = ({ placeholder, params, pageSize }) => {
   const getData = async (value: any) => {
-    debugger;
     const filter: PrintingEditionFilterModel = {
       searchString: value.searchString,
       pageNumber: 1,
@@ -23,7 +22,6 @@ const SearchBar = ({ placeholder, params, pageSize }) => {
       typeProduct: undefined,
     };
     if (placeholder === "Search Author") {
-      debugger;
       const authors = await getAuthorsForAdmin(filter);
       params({
         authors: authors.data,

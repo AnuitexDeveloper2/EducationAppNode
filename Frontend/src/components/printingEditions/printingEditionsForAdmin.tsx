@@ -18,7 +18,7 @@ import { Spinner } from "../waiter/spinner";
 const PrintingEditionForAdmin = () => {
   const [state, setState] = useState({
     count: 0,
-    data: null,
+    data: [],
     isLoading: false,
     showCreate: false,
   });
@@ -30,6 +30,7 @@ const PrintingEditionForAdmin = () => {
 
   const hide = () => {
     toggle("createProduct");
+    getData(0)
   };
   const { isShowing, toggle } = useModal();
   const getData = async (pageNumber) => {
@@ -103,11 +104,11 @@ const PrintingEditionForAdmin = () => {
       },
     },
   ];
-  if (!state.isLoading) {
-    return (
-      <Spinner/>
-    );
-  }
+  // if (!state.isLoading) {
+  //   return (
+  //     <Spinner/>
+  //   );
+  // }
   return (
     <div>
       <div className="App">
@@ -160,7 +161,6 @@ const PrintingEditionForAdmin = () => {
           manual
           pages={Math.floor(state.count / 10 + 1)}
           onFetchData={(state) => {
-            debugger;
             getData(state.page);
           }}
         />

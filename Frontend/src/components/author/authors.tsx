@@ -23,6 +23,7 @@ const AuthorsForAdmin = () => {
 
   const hide = () => {
     toggle("createAuthor");
+    getData(0)
   };
 
   const passData = (currentAuthor) => {
@@ -45,7 +46,6 @@ const AuthorsForAdmin = () => {
       sortType: SortType.None,
     };
     const authors = await getAuthorsForAdmin(filter);
-    debugger;
     setData({ authors: authors.data, pages: Math.floor(authors.count) });
   };
 
@@ -58,12 +58,14 @@ const AuthorsForAdmin = () => {
       Header: "Product",
       id: "author_ids",
       accessor: (data: AuthorModel) => {
+        
         return (
+          data.product_ids?
           <>
             {data.product_ids.map((product: any, i) => (
               <div key={i}> {product.title} </div>
             ))}
-          </>
+          </>:<></>
         );
       },
     },

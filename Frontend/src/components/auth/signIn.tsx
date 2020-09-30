@@ -39,7 +39,6 @@ export class SignIn extends React.Component<any> {
   };
 
   showRegister = async () => {
-    debugger;
     this.closePopUp();
     this.props.showRegisterAction();
   };
@@ -49,7 +48,6 @@ export class SignIn extends React.Component<any> {
   };
 
   onSubmitLogIn = async (value: any) => {
-    debugger;
     const result = await Auth.signIn(value);
     if (result.result) {
       this.successedLogIn(result);
@@ -60,7 +58,6 @@ export class SignIn extends React.Component<any> {
   };
 
   successedLogIn(result) {
-    debugger;
     const token = result.AccessToken;
     const refresh = result.RefreshToken;
     localStorage.setItem("AccessToken", token);

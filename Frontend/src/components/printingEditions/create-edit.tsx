@@ -53,7 +53,6 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
   const currency = enumSelector(Currency);
 
   const onSubmitCreate = async (data) => {
-    debugger
     const authors = [] as string[];
     authors.push(data.author);
     const model: RequestPrintingEditionModel = {

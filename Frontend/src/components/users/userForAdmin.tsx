@@ -173,7 +173,6 @@ const UsersForAdmin = () => {
 
 const PickStatus = ({ setData }) => {
   const selectStatus = async (e) => {
-    debugger;
     let idx;
     const type =
       e.target.value === "Active"
