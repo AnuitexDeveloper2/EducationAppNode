@@ -10,6 +10,7 @@ export async function getAuthors(): Promise<Array<AuthorModel>> {
 }
 
 export async function getAuthorsForAdmin( filter: BaseFilter): Promise<AuthorResponseModel> {
+  debugger
   const result = await axios.post(`${baseUrl}/admin/author`, filter);
   return result.data;
 }
@@ -25,7 +26,7 @@ export async function editAuthor(author: AuthorModel): Promise<boolean> {
 }
 
 export async function removeAuthor(author: AuthorModel): Promise<boolean> {
-  const _id = author._id;
+  const _id = author.id;
   const result = await axios.post(`${baseUrl}/admin/author/delete`, {_id});
   return result.data;
 }

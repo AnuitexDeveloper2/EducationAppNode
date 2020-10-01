@@ -6,7 +6,7 @@ import * as PrintingEditionService from "../../services/printingEdition";
 import { PrintingEditionFilterModel } from "../../shared/models/printingEdition/printingEditionFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import add from "../../assets/add-button-inside-black-circle.svg";
-import { PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
+import { AuthorModel, PrintingEditionModel } from "../../shared/models/printingEdition/printingEditionModel";
 import CreateEditProduct from "./create-edit";
 import SearchBar from "../searchBar/search";
 import useModal from "../author/useModal";
@@ -77,14 +77,14 @@ const PrintingEditionForAdmin = () => {
     },
     {
       Header: "Authors",
-      id: "author_ids",
+      id: "authors",
       accessor: (data: PrintingEditionModel) => {
         return (
-          <>
-            {data.author_ids.map((author: any, i) => (
+          data.authors?(<>
+            {data.authors.map((author: AuthorModel, i) => (
               <div key={i}> {author.name} </div>
             ))}
-          </>
+          </>): <></>
         );
       },
     },

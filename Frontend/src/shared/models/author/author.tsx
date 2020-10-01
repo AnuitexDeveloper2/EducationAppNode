@@ -1,7 +1,9 @@
+import { PrintingEditionModel } from "../printingEdition/printingEditionModel";
+
 export interface AuthorModel {
-  _id: string;
+  id: number;
   name: string;
-  product_ids: Array<string>;
+  books: Array<PrintingEditionModel>;
 }
 
 export interface AuthorResponseModel {

@@ -7,8 +7,8 @@ import { createAuthor, editAuthor } from "../../services/authors";
 const CreateEdit = ({ isShowing, hide, assigment, value }) => {
   let title: string;
   const author: AuthorModel = {
-    _id: "",
-    product_ids: [],
+    id: 0,
+    books: [],
     name: "",
   };
   if (assigment === "Add") {
@@ -24,15 +24,15 @@ const CreateEdit = ({ isShowing, hide, assigment, value }) => {
     const name = valueName.current.value;
     const model: AuthorModel = {
       name: name,
-      _id: "9877",
-      product_ids: [],
+      id: 9999999,
+      books: [],
     };
     let result: any;
     if (assigment === "Add") {
       result = await createAuthor(name);
     }
     if (assigment === "Edit") {
-      model._id = value.item.id;
+      model.id = value.item.id;
       result = await editAuthor(model);
     }
     if (result) {

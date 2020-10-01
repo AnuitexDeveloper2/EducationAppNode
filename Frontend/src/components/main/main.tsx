@@ -203,7 +203,7 @@ export default function MainPage() {
                 <a href="/book" className="grid-title-ref">{item.title} </a>{" "}
               </span>
               <span className="grid-authors">
-                {item.author_ids.map((author: AuthorModel) => (
+                {item.authors.map((author: AuthorModel) => (
                   <div>{author.name}</div>
                 ))}
               </span>

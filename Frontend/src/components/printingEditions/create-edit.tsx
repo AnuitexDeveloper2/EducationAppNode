@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./CSS/create.css";
 import close from "../../assets/close.svg";
 import { Form, Field } from "react-final-form";
-import { enumSelector } from "../../shared/extention/enum";
+import { enumDecoder, enumSelector } from "../../shared/extention/enum";
 import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { getAuthors } from "../../services/authors";
 import {
@@ -34,7 +34,7 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     price: 0,
     productType: PrintingEditionType.Book,
     currency: Currency.USD,
-    author_ids: [],
+    authors: [],
     cover_image: image.baseImage,
   };
   if (assigment === "Add") {
@@ -47,21 +47,26 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     title = "Edit Product";
   }
   const [state, setState] = useState({
-    author: null,
+    author: [],
   });
   const category = enumSelector(PrintingEditionType);
   const currency = enumSelector(Currency);
 
   const onSubmitCreate = async (data) => {
-    const authors = [] as string[];
-    authors.push(data.author);
+    const authors = new Array<AuthorModel>()
+    const author: AuthorModel ={
+      id: parseInt(data.author),
+      books: [],
+      name: ''
+    }
+    authors.push(author);
     const model: RequestPrintingEditionModel = {
       title: data.PrintingEdition.title,
       description: data.PrintingEdition.discription,
-      productType: data.PrintingEdition.category,
-      author_ids: authors,
+      productType: enumDecoder(data.PrintingEdition.category),
+      authors: authors,
       price: data.PrintingEdition.price as number,
-      currency: data.PrintingEdition.currency,
+      currency: enumDecoder(data.PrintingEdition.currency),
       cover_image: image.baseImage,
     };
     let result: boolean;
@@ -174,7 +179,7 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
                         >
                           {state.author.map((item: AuthorModel, i) => (
                             
-                            <option key={i} value={item._id}>
+                            <option key={i} value={item.id}>
                               {item.name}
                             </option>
                           ))}

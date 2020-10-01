@@ -17,7 +17,7 @@ export const AuthorColumns = [
     accessor: (data: AuthorModel) => {
       return (
         <>
-          {data.product_ids.map((product: any, i) => (
+          {data.books.map((product: any, i) => (
             <div key={i}> {product} </div>
           ))}
         </>
@@ -29,10 +29,10 @@ export const AuthorColumns = [
     Cell: (props) => {
       return (
         <div>
-          <img src={edit} className="img__button" title="Edit Author">
+          <img src={edit} alt='edit' className="img__button" title="Edit Author">
             {props.value}
           </img>
-          <img src={remove} className="img__button" title="Remove Author"></img>
+          <img src={remove} alt='remove' className="img__button" title="Remove Author"></img>
         </div>
       );
     },
@@ -58,7 +58,7 @@ export const PrintingEditionColumns = [
     accessor: (data: PrintingEditionModel) => {
       return (
         <>
-          {data.author_ids.map((author: any, i) => (
+          {data.authors.map((author: any, i) => (
             <div key={i}> {author.name} </div>
           ))}
         </>
