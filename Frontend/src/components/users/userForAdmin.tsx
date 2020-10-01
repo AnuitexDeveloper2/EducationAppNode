@@ -26,7 +26,7 @@ const UsersForAdmin = () => {
     item: {},
   });
   useEffect(() => {
-    getData(0, UserFilterType.All);
+    // getData(0, UserFilterType.All);
   }, []);
 
   const passData = (currentUser) => {

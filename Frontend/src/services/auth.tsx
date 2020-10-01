@@ -12,7 +12,7 @@ export async function register(user: any): Promise<ResponseModel> {
 }
 
 export async function signIn(user: any): Promise<LogInResponseModel> {
-  const result = await axios.post(`${baseUrl}/auth/logIn`, user);
+  const result = await axios.post(`${baseUrl}/auth/login`, user);
   return result.data;
 }
 
