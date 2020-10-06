@@ -6,7 +6,7 @@ import CreateEdit from "../author/create-edit";
 import Remove from "../remove/remove";
 import CreateEditProduct from "../printingEditions/create-edit";
 
-const LastColumn = ({ value, assigment }) => {
+const LastColumn = ({ value, assigment, getData }) => {
   const { isShowing, toggle } = useModal();
   const [state, setState] = useState({
     isShowRemove: false,
@@ -69,6 +69,7 @@ const LastColumn = ({ value, assigment }) => {
           hide={showRemove}
           assigment={assigment}
           value={value}
+          getData={getData}
         />
       )}
       {state.isShowCreateProduct && (

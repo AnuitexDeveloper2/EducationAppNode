@@ -5,7 +5,7 @@ import { removeAuthor } from "../../services/authors";
 import { removePrintinEdition } from "../../services/printingEdition";
 import { removeUser } from "../../services/users";
 
-const Remove = ({ isShowing, hide, assigment, value }) => {
+const Remove = ({ isShowing, hide, assigment, value, getData}) => {
   const deleteItem = async () => {
     let result;
     if (assigment === "author") {
@@ -19,6 +19,7 @@ const Remove = ({ isShowing, hide, assigment, value }) => {
     }
     if (result === true) {
       hide(false);
+      getData(0)
     }
   };
   if (isShowing) {

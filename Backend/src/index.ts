@@ -29,7 +29,6 @@ app.use('/admin/printing-edition', adminProductRouter)
 app.use('/admin/author', authorRouter);
 app.use('/user', userRouter);
 app.use('/admin/user', adminRouter);
-console.log(process.env.NODE_ENV)
 connectdb();
 
 const PORT = process.env.PORT || 8080;

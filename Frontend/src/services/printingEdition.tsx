@@ -3,6 +3,7 @@ import { PrintingEditionFilterModel } from "../shared/models/printingEdition/pri
 import {
   RequestPrintingEditionModel,
   PrintingEditionResoponseModel,
+   UpdatePrintingEditionModel
 } from "../shared/models/printingEdition/printingEditionModel";
 import { PrintingEditionState } from "../redux/printingEdition/types";
 import { baseUrl } from '../config';
@@ -23,13 +24,12 @@ export async function createPrintingEdition(printingEdition: RequestPrintingEdit
 }
 
 export async function removePrintinEdition( printingEdition: any): Promise<boolean> {
-  const _id = printingEdition.id;
-  const result = await axios.post(`${baseUrl}/admin/printing-edition/remove`,{ _id });
+  const result = await axios.delete(`${baseUrl}/admin/printing-edition/${printingEdition.id}`);
   return result.data;
 }
 
-export async function editPrintingEdition(printingEdition: RequestPrintingEditionModel,id: string): Promise<boolean> {
-  const data = { printingEdition: printingEdition, _id: id };
-  const result = await axios.post(`${baseUrl}/admin/printing-edition/update`,data);
+export async function editPrintingEdition(printingEdition: RequestPrintingEditionModel,id: number): Promise<boolean> {
+  const model: UpdatePrintingEditionModel = {...printingEdition, id: id}
+  const result = await axios.put(`${baseUrl}/admin/printing-edition`,model);
   return result.data;
 }

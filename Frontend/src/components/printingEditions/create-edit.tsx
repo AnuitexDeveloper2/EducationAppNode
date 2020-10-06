@@ -15,16 +15,18 @@ import {
   editPrintingEdition,
 } from "../../services/printingEdition";
 import FileBase from "react-file-base64";
-
+import { Multiselect } from "multiselect-react-dropdown";
 
 const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
   const [image, setImage] = useState({
     baseImage: "",
+    isSelected: false
   });
 
   const getBaseFile = (files) => {
     setImage({
       baseImage: files.base64,
+      isSelected: true
     });
   };
   let title: string;
@@ -41,10 +43,12 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     title = "Add new Product";
   }
   if (assigment === "Edit") {
-    product.title = value.item.name;
+    product.title = value.item.title;
     product.description = value.item.description;
     product.price = value.item.price;
+    product.cover_image = value.item.cover_image
     title = "Edit Product";
+
   }
   const [state, setState] = useState({
     author: [],
@@ -54,7 +58,7 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
 
   const onSubmitCreate = async (data) => {
     const authors = new Array<AuthorModel>()
-    const author: AuthorModel ={
+    const author: AuthorModel = {
       id: parseInt(data.author),
       books: [],
       name: ''
@@ -116,111 +120,118 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
                 pristine,
                 values,
               }) => (
-                <form onSubmit={handleSubmit}>
-                  <div className="create-book-form">
-                    <div className="up">
-                      <span className="create-title-label">title</span>
-                      <span>
-                        <Field
-                          type="text"
-                          name="PrintingEdition.title"
-                          className="create-title-form"
-                          defaultValue={product.title}
-                          component="textarea"
-                        />
+                  <form onSubmit={handleSubmit}>
+                    <div className="create-book-form">
+                      <div className="up">
+                        <span className="create-title-label">title</span>
+                        <span>
+                          <Field
+                            type="text"
+                            name="PrintingEdition.title"
+                            className="create-title-form"
+                            defaultValue={product.title}
+                            component="textarea"
+                          />
+                        </span>
+                        <span className="create-foto">
+                          <img
+                            src={image.isSelected ? image.baseImage : product.cover_image}
+                            alt=""
+                            className="process__image"
+                          />
+                          <FileBase
+                            type="file"
+                            multiple={false}
+                            onDone={getBaseFile}
+                          />
+                        </span>
+                      </div>
+                      <div className="down">
+                        <span className="create-discription-label">
+                          discription
                       </span>
-                      <span className="create-foto">
-                        <img
-                          src={image.baseImage}
-                          alt=""
-                          className="process__image"
-                        />
-                        <FileBase
-                          type="file"
-                          multiple={false}
-                          onDone={getBaseFile}
-                        />
-                      </span>
+                        <span>
+                          <Field
+                            type="text"
+                            name="PrintingEdition.discription"
+                            defaultValue={product.description}
+                            className="create-discription-form"
+                            component="textarea"
+                          />
+                        </span>
+                        <br />
+                        <span className="create-category-label">Category</span>
+                        <span>
+                          <Field
+                            type="text"
+                            name="PrintingEdition.category"
+                            className="create-category-form"
+                            component="select"
+                          >
+                            {category.map((item: any, i) => (
+                              <option key={i}>{item} </option>
+                            ))}
+                          </Field>
+                        </span>
+                        <span className="create-authors-label">Authors</span>
+                        <span>
+                          {/* <Multiselect
+                            options={state.author} // Options to display in the dropdown
+                            // selectedValues={this.state.selectedValue} // Preselected value to persist in dropdown
+                            // onSelect={this.onSelect} // Function will trigger on select event
+                            // onRemove={this.onRemove} // Function will trigger on remove event
+                            displayValue="name" // Property name to display in the dropdown options
+                          /> */}
+                          <Field
+                            type="text"
+                            name="author"
+                            className="create-authors-form"
+                            component="select"
+                          >
+                            {state.author.map((item: AuthorModel, i) => (
+
+                              <option key={i} value={item.id}>
+                                {item.name}
+                              </option>
+                            ))}
+                          </Field>
+                        </span>
+                        <span className="create-price-label">Price</span>
+                        <span>
+                          <Field
+                            type="number"
+                            name="PrintingEdition.price"
+                            className="create-price-form"
+                            defaultValue={product.price}
+                            component="input"
+                          />
+                        </span>
+                        <span className="create-currency-label">Currency</span>
+                        <span>
+                          <Field
+                            type="text"
+                            name="PrintingEdition.currency"
+                            className="create-currency-form"
+                            component="select"
+                          >
+                            {currency.map((item: any, i) => (
+                              <option key={i}>{item} </option>
+                            ))}
+                          </Field>
+                        </span>
+                        <button className="create-cancel-button" onClick={hide}>
+                          <div className="create-cansel-label">Cancel</div>
+                        </button>
+                        <button
+                          className="create-save-button"
+                          disabled={submitting || pristine}
+                        >
+                          <div className="create-save-label">Save</div>
+                        </button>
+                      </div>
                     </div>
-                    <div className="down">
-                      <span className="create-discription-label">
-                        discription
-                      </span>
-                      <span>
-                        <Field
-                          type="text"
-                          name="PrintingEdition.discription"
-                          defaultValue={product.description}
-                          className="create-discription-form"
-                          component="textarea"
-                        />
-                      </span>
-                      <br />
-                      <span className="create-category-label">Category</span>
-                      <span>
-                        <Field
-                          type="text"
-                          name="PrintingEdition.category"
-                          className="create-category-form"
-                          component="select"
-                        >
-                          {category.map((item: any, i) => (
-                            <option key={i}>{item} </option>
-                          ))}
-                        </Field>
-                      </span>
-                      <span className="create-authors-label">Authors</span>
-                      <span>
-                        <Field
-                          type="text"
-                          name="author"
-                          className="create-authors-form"
-                          component="select"
-                        >
-                          {state.author.map((item: AuthorModel, i) => (
-                            
-                            <option key={i} value={item.id}>
-                              {item.name}
-                            </option>
-                          ))}
-                        </Field>
-                      </span>
-                      <span className="create-price-label">Price</span>
-                      <span>
-                        <Field
-                          type="number"
-                          name="PrintingEdition.price"
-                          className="create-price-form"
-                          defaultValue={product.price}
-                          component="input"
-                        />
-                      </span>
-                      <span className="create-currency-label">Currency</span>
-                      <span>
-                        <Field
-                          type="text"
-                          name="PrintingEdition.currency"
-                          className="create-currency-form"
-                          component="select"
-                        >
-                          {currency.map((item: any, i) => (
-                            <option key={i}>{item} </option>
-                          ))}
-                        </Field>
-                      </span>
-                      <button className="create-cancel-button" onClick={hide}>
-                        <div className="create-cansel-label">Cancel</div>
-                      </button>
-                      <button
-                        className="create-save-button"
-                        disabled={submitting || pristine}
-                      >
-                        <div className="create-save-label">Save</div>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              )}
+                  </form>
+                )}
             />
           </div>
         </div>

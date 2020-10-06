@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ReactTable from "react-table-v6";
 import "./CSS/book.css";
 import "../../shared/css/table.css";
@@ -13,7 +13,7 @@ import useModal from "../author/useModal";
 import LastColumn from "../lastColumn/lastColumn";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
-import { Spinner } from "../waiter/spinner";
+import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 
 const PrintingEditionForAdmin = () => {
   const [state, setState] = useState({
@@ -24,16 +24,13 @@ const PrintingEditionForAdmin = () => {
   });
 
   const [product, setProduct] = useState({ item: {} });
-  useEffect(() => {
-    getData(1);
-  }, []);
 
   const hide = () => {
     toggle("createProduct");
     getData(0)
   };
   const { isShowing, toggle } = useModal();
-  const getData = async (pageNumber) => {
+  const getData = async (pageNumber: number) => {
     const filter: PrintingEditionFilterModel = {
       searchString: "",
       sortType: SortType.None,
@@ -57,8 +54,15 @@ const PrintingEditionForAdmin = () => {
   };
 
   const passData = (currentProduct) => {
+    let book;
+    state.data.forEach((item) => {
+      if (item.id === currentProduct.id) {
+        book = item
+        return
+      }
+    })
     setProduct({
-      item: currentProduct,
+      item: book,
     });
   };
 
@@ -73,18 +77,21 @@ const PrintingEditionForAdmin = () => {
     },
     {
       Header: "Category",
-      accessor: "productType",
+      id: "category",
+      accessor: (data: PrintingEditionModel) => {
+        return <div>{PrintingEditionType[data.category]}</div>
+      }
     },
     {
       Header: "Authors",
       id: "authors",
       accessor: (data: PrintingEditionModel) => {
         return (
-          data.authors?(<>
+          data.authors ? (<>
             {data.authors.map((author: AuthorModel, i) => (
               <div key={i}> {author.name} </div>
             ))}
-          </>): <></>
+          </>) : <></>
         );
       },
     },
@@ -98,7 +105,7 @@ const PrintingEditionForAdmin = () => {
       Cell: (props) => {
         return (
           <div>
-            <LastColumn value={product} assigment="product" />
+            <LastColumn value={product} assigment="product" getData={getData}/>
           </div>
         );
       },
@@ -159,7 +166,7 @@ const PrintingEditionForAdmin = () => {
           data={state.data}
           defaultPageSize={10}
           manual
-          pages={Math.floor(state.count / 10 + 1)}
+          pages={Math.floor(state.count / 11 + 1)}
           onFetchData={(state) => {
             getData(state.page);
           }}

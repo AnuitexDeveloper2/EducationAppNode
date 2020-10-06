@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ReactTable from "react-table-v6";
 import "../../shared/css/table.css";
 import { BaseFilter } from "../../shared/models/baseFilterModel";
@@ -34,10 +34,6 @@ const AuthorsForAdmin = () => {
 
   const { isShowing, toggle } = useModal();
 
-  useEffect(() => {
-    getData(0);
-  }, []);
-
   const getData = async (pageNumber) => {
     const filter: BaseFilter = {
       searchString: "",
@@ -46,7 +42,10 @@ const AuthorsForAdmin = () => {
       sortType: SortType.None,
     };
     const authors = await getAuthorsForAdmin(filter);
-    setData({ authors: authors.data, pages: Math.floor(authors.count) });
+    let pages = ~~(authors.count) / 10 + 1;
+    pages = pages % 2 === 0 ? pages-1 : pages
+    setData({ authors: authors.data, pages: Math.floor(pages) });
+
   };
 
   const columns = [
@@ -73,7 +72,7 @@ const AuthorsForAdmin = () => {
       Cell: (props) => {
         return (
           <>
-            <LastColumn value={author} assigment="author" />
+            <LastColumn value={author} assigment="author" getData={getData}/>
           </>
         );
       },

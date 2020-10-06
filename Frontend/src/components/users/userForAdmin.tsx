@@ -130,7 +130,7 @@ const UsersForAdmin = () => {
       Cell: (props) => {
         return (
           <>
-            <LastColumn value={user} assigment="user" />
+            <LastColumn value={user} assigment="user" getData={getData}/>
           </>
         );
       },

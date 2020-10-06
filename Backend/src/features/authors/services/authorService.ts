@@ -47,7 +47,6 @@ export async function remove(id: string): Promise<boolean> {
 }
 
 export async function update(authorParam: authorModel): Promise<boolean> {
-   console.log(authorParam)
    const validateResult = validateWithJsonSchema(authorParam, authorVlidateSchema)
    logger.info(`>>>> authorService.update(), with: author = ${JSON.stringify(authorParam)}`)
 

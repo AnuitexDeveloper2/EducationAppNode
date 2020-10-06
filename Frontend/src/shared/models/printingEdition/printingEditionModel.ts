@@ -18,7 +18,7 @@ export interface PrintingEditionModel {
     description: string;
     price: number;
     currency: Currency;
-    productType: PrintingEditionType;
+    category: PrintingEditionType;
     authors: Array<AuthorModel>
     cover_image: string
 }
@@ -31,5 +31,16 @@ export interface RequestPrintingEditionModel {
     productType: PrintingEditionType;
     authors: Array<AuthorModel>;
     cover_image: string
+}
+
+export interface UpdatePrintingEditionModel {
+    title: string;
+    description: string;
+    price: number;
+    currency: Currency;
+    productType: PrintingEditionType;
+    authors: Array<AuthorModel>;
+    cover_image: string
+    id: number;
 }
 

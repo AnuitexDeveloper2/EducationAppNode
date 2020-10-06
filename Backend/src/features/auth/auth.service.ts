@@ -40,7 +40,6 @@ export async function logIn(email: string, password: string): Promise<any> {
         return { result: false, error: validateResult.errors };
     }
     const result = await repository.signIn(email, password);
-    console.log(result)
     if (result.result === false) {
         logger.error(`>>>> authService.logIn(), result = ${result}`);
         return { result: false, error: result.error };
@@ -61,7 +60,6 @@ export function checkPassword(password: string, user: User) {
 }
 
 export async function confirmedEmail(id: string): Promise<any> {
-    console.log(id)
     const validateResult = validateWithJsonSchema(id, idValidateSchema);
     logger.info(`>>>> authService.confirmedEmail(), with: user id = ${JSON.stringify(id)}`);
 

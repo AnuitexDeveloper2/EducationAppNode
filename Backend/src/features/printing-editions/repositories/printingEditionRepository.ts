@@ -11,7 +11,6 @@ export async function create(printingEditionParam: printingEditionModel): Promis
     if (result == null) {
         return false;
     }
-    console.log(result)
     for (let index = 0; index < printingEditionParam.author_ids.length; index++) {
         authorRepository.addProduct(printingEditionParam.author_ids[index], result.id)
     }

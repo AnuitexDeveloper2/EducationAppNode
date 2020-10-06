@@ -34,7 +34,6 @@ export async function remove(id: string): Promise<boolean> {
 export async function update(authorParam: authorModel): Promise<boolean> {
     const author = authorModel.findById(authorParam._id);
     const result = await authorModel.update(author, authorParam);
-    console.log(result)
     if (result.nModified == 0) {
         return false
     }
@@ -75,7 +74,6 @@ export async function GetAuthors(filter: AuthorFilterModel): Promise<BaseRespons
 
     let tableSort: any = {'name':filter.sortType};
     let data= new Array<authorModel>();
-    console.log(filter.pageNumber)
     
     if (filter.searchString !=null) {
         query = authorModel.find( { $and:[{ name: { $regex:new RegExp( filter.searchString, 'i') } }, { removed_at: false }] });

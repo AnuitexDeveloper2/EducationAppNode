@@ -30,6 +30,7 @@
   font-size: 40px;
   line-height: 50px;
   display: flex;
+  white-space: nowrap;
   align-items: center;
   text-transform: capitalize;
   color: #343434;
