@@ -39,7 +39,7 @@ export default function Product() {
   const moveToCart = () => {
     const currentOrderItem: OrderItemModelItem = {
       currency: state.book.currency,
-      printing_edition_id: state.book.id,
+      bookId: state.book.id,
       printingEditionType: state.book.productType,
       count: state.amount / state.book.price,
       printingEditionName: state.book.title,
@@ -64,7 +64,7 @@ export default function Product() {
         <div className="product-details">
           <div className="product-title">{state.book.title}</div>
           <div className="product-authors">
-            {state.book.author_ids.map((author: AuthorModel) => (
+            {state.book.authors.map((author: AuthorModel) => (
               <span>{author.name}</span>
             ))}
           </div>

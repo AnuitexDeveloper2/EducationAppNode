@@ -29,12 +29,13 @@ export function MyProfile() {
 
   async function getData() {
     const currentUser = JSON.parse(localStorage.getItem("User"));
-    const user = await getUser(currentUser._id);
+    const user = await getUser(currentUser.id);
+
     setState({
-      firstName: user.user.firstName,
-      lastName: user.user.lastName,
-      email: user.user.email,
-      id: user.user._id,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      email: user.email,
+      id: user.id,
     });
   }
 

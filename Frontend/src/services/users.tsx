@@ -30,6 +30,6 @@ export async function changePassword(param: ResetPassword) {
 }
 
 export async function getUser(_id: string): Promise<any> {
-  const result = await axios.post(`${baseUrl}/user/me`, { _id });
+  const result = await axios.get(`${baseUrl}/user/${_id}`);
   return result.data;
 }

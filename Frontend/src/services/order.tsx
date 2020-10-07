@@ -12,8 +12,8 @@ export async function createOrder(order: Orders): Promise<boolean> {
   return result.data;
 }
 
-export async function getMyOrder(_id: string): Promise<Array<OrderItem>> {
-  const result = await axios.post(`${baseUrl}/order/myOrders`, {_id});
+export async function getMyOrder(id: string): Promise<Array<Orders>> {
+  const result = await axios.get(`${baseUrl}/order/${id}`);
   return result.data;
 }
 

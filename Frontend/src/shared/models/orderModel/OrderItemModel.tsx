@@ -2,7 +2,7 @@ import { Currency } from "../../enums/Currency";
 import { PrintingEditionType } from "../../enums/ptintingEditionType";
 
 export interface OrderItemModelItem {
-  printing_edition_id: string;
+  bookId: number;
   count: number;
   price: number;
   currency: Currency;

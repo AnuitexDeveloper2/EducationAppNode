@@ -1,12 +1,16 @@
+import { PrintingEditionModel } from "../printingEdition/printingEditionModel";
+
 export interface Orders {
-    user_id: String;
-    items: Array<OrderItem>;
-    transaction_id: string;
+    createdDate: string;
+    userId: number;
+    orderItem: Array<OrderItem>;
+    transactionId: string;
     amount: number;
+    description: string;
 }
 
 export interface OrderItem {
-    printing_edition_id: string;
+    book: PrintingEditionModel;
     count: number;
     price: number;
     currency: string;

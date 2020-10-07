@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import ReactTable from "react-table-v6";
 import "../../shared/css/table.css";
 import { getMyOrder } from "../../services/order";
+import { OrderItem, Orders } from "../../shared/models/order/orderModel";
+import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
+
 
 export function MyOrders() {
   const [state, setState] = useState({
-    data: [],
+    data: new Array<Orders>(),
   });
 
   useEffect(() => {
@@ -14,7 +17,7 @@ export function MyOrders() {
 
   const getData = async () => {
     const user = JSON.parse(localStorage.getItem("User"));
-    const result = await getMyOrder(user._id);
+    const result = await getMyOrder(user.id);
     if (result !== null) {
       setState({ data: result });
     }
@@ -23,16 +26,24 @@ export function MyOrders() {
   const columns = [
     {
       Header: "Date",
-      accessor: "createdDate",
+      id: "data.date",
+      accessor: (data: Orders) => {
+        const time = new Date().toLocaleDateString() +' '+new Date().toLocaleTimeString()
+        return (
+          <>
+          {time}
+          </>
+        )
+      }
     },
     {
       Header: "Product",
       id: "printing_edition_id.productType",
-      accessor: (data) => {
+      accessor: (data: Orders) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
-              <div key={i}> {product.printing_edition_id.productType} </div>
+            {data.orderItem.map((item: OrderItem, i) => (
+              <div key={i}> {PrintingEditionType[item.book.category]} </div>
             ))}
           </>
         );
@@ -44,8 +55,8 @@ export function MyOrders() {
       accessor: (data) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
-              <div key={i}> {product.printing_edition_id.title} </div>
+            {data.orderItem.map((item: OrderItem, i) => (
+              <div key={i}> {item.book.title} </div>
             ))}
           </>
         );
@@ -57,7 +68,7 @@ export function MyOrders() {
       accessor: (data) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
+            {data.orderItem.map((product: any, i) => (
               <div key={i}> {product.count} </div>
             ))}
           </>

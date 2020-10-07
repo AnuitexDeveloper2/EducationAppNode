@@ -37,10 +37,12 @@ export default function Cart({ outsideState }) {
   const buyNow = async (token) => {
     const user = JSON.parse(localStorage.getItem("User"));
     const order: Orders = {
-      user_id: user._id,
+      createdDate: null,
+      userId: user.id,
       amount: state.total,
-      transaction_id: token.id,
-      items: state.data,
+      transactionId: token.id,
+      orderItem: state.data,
+      description: 'some description'
     };
     const result = await createOrder(order);
     if (result) {

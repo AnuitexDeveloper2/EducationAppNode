@@ -34,7 +34,7 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     title: "",
     description: "",
     price: 0,
-    productType: PrintingEditionType.Book,
+    category: PrintingEditionType.Book,
     currency: Currency.USD,
     authors: [],
     cover_image: image.baseImage,
@@ -67,7 +67,7 @@ const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
     const model: RequestPrintingEditionModel = {
       title: data.PrintingEdition.title,
       description: data.PrintingEdition.discription,
-      productType: enumDecoder(data.PrintingEdition.category),
+      category: enumDecoder(data.PrintingEdition.category),
       authors: authors,
       price: data.PrintingEdition.price as number,
       currency: enumDecoder(data.PrintingEdition.currency),

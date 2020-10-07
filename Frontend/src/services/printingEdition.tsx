@@ -14,7 +14,7 @@ export async function getPrintingEdition( filter: PrintingEditionFilterModel): P
 }
 
 export async function getMainPage( filter: PrintingEditionFilterModel ): Promise<PrintingEditionResoponseModel> {
-  const result = await axios.post(`${baseUrl}/home`, filter);
+  const result = await axios.post(`${baseUrl}/user/home`, filter);
   return result.data;
 }
 
