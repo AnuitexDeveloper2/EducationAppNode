@@ -98,41 +98,44 @@ export function MyProfile() {
   }
 
   return (
+
     <div className="profile-container">
-      <div className="profile-label">My Profile</div>
-      <div className="profile-body">
-        <div className="profile-foto">
-          <img src={anonymus} className="profile-anonymus" alt="user" />
-          <div className="profile-edit-label">
-            edit profile <img src={pencil} alt="" />
+      <div className="profile-wrapper">
+        <div className='profile-title'>
+          My Profile
+          </div>
+        <div></div>
+        <div></div>
+        <div className="profile-photo">
+          <img src={anonymus} alt="" width={100} height={100} />
+          <div className="edit-profile">edit profile  {" "}
+            <img src={pencil} alt="" />
           </div>
         </div>
-        <div className="profile-data">
-          <span className="profile-name-label">Your First Name</span>
-          <div className="profile-name-form">
+        <div className="profile-inputs">
+          <div className="input-container">
+            <label className="profile-input-label">Your First Name</label>
             <input
               type="text"
-              defaultValue={state.firstName}
-              ref={valueFirstName}
               className="profile-input"
-            />
+              defaultValue={state.firstName}
+              ref={valueFirstName} />
           </div>
-          <div className="profile-surname-label">Your Last Name</div>
-          <div className="profile-surname-form">
+          <div className="input-container">
+            <label className="profile-input-label">Your Last Name</label>
             <input
               type="text"
+              className="profile-input"
               defaultValue={state.lastName}
               ref={valueLastName}
-              className="profile-input"
             />
           </div>
-          <div className="profile-email-label">E-mail</div>
-          <div className="profile-email-form">
-            <input
-              type="text"
-              defaultValue={state.email}
-              ref={valueEmail}
-              className="profile-input"
+          <div className="input-container">
+            <label className="profile-input-label"> E-mail</label>
+            <input 
+            type="text" 
+            className="profile-input"
+            defaultValue={state.email}
             />
           </div>
           <div
@@ -141,54 +144,117 @@ export function MyProfile() {
           >
             Change Password
           </div>
-          {showEdit && (
-            <div>
-              <div className="profile-password">Old Password</div>
-              <div className="profile-email-form">
-                <input
-                  type="password"
-                  className="profile-input"
-                  ref={oldPassword}
-                />
-              </div>
-              <div className="profile-password">
-                New Password
-                {!isPasswordValid && (
-                  <div className="confirm-validate">
-                    password contain 6 charackters
-                  </div>
-                )}
-              </div>
-              <div className="profile-email-form">
-                <input
-                  type="password"
-                  className="profile-input"
-                  ref={newPassword}
-                />
-              </div>
-              <div className="profile-password">
-                Confirm Password
-                {!isPasswordConfirmed && (
-                  <div className="confirm-validate">password did't match</div>
-                )}
-              </div>
-              <div className="profile-email-form">
-                <input
-                  type="password"
-                  className="profile-input"
-                  ref={confirmPassword}
-                />
-              </div>
-              <button onClick={changePass}>Change Password</button>
-            </div>
-          )}
-          <div className="profile-button-area">
-            <button className="profile-save-button" onClick={save}>
-              Save
-            </button>
-          </div>
         </div>
+        <div></div>
+        <div></div>
+        {showEdit&&<div className="profile-inputs edit">
+          <div className="input-container">
+            <label className="profile-input-label">Old Password</label>
+            <input type="text" className="profile-input" />
+          </div>
+          <div className="input-container">
+            <label className="profile-input-label">New Passwor</label>
+            <input type="text" className="profile-input" />
+          </div>
+          <div className="input-container">
+            <label className="profile-input-label"> Confirm Password</label>
+            <input type="text" className="profile-input" />
+          </div>
+        </div>}
+        <div></div>
       </div>
     </div>
+    // <div className="profile-container">
+    //   <div className="profile-label">My Profile</div>
+    //   <div className="profile-body">
+    //     <div className="profile-foto">
+    //       <img src={anonymus} className="profile-anonymus" alt="user" />
+    //       <div className="profile-edit-label">
+    //         edit profile <img src={pencil} alt="" />
+    //       </div>
+    //     </div>
+    //     <div className="profile-data">
+    //       <span className="profile-name-label">Your First Name</span>
+    //       <div className="profile-name-form">
+    //         <input
+    //           type="text"
+    //           defaultValue={state.firstName}
+    //           ref={valueFirstName}
+    //           className="profile-input"
+    //         />
+    //       </div>
+    //       <div className="profile-surname-label">Your Last Name</div>
+    //       <div className="profile-surname-form">
+    //         <input
+    //           type="text"
+    //           defaultValue={state.lastName}
+    //           ref={valueLastName}
+    //           className="profile-input"
+    //         />
+    //       </div>
+    //       <div className="profile-email-label">E-mail</div>
+    //       <div className="profile-email-form">
+    //         <input
+    //           type="text"
+    //           defaultValue={state.email}
+    //           ref={valueEmail}
+    //           className="profile-input"
+    //         />
+    //       </div>
+    //       <div
+    //         className="change-password-toggle"
+    //         onClick={changePasswordToggle}
+    //       >
+    //         Change Password
+    //       </div>
+    //       {showEdit && (
+    //         <div>
+    //           <div className="profile-password">Old Password</div>
+    //           <div className="profile-email-form">
+    //             <input
+    //               type="password"
+    //               className="profile-input"
+    //               ref={oldPassword}
+    //             />
+    //           </div>
+    //           <div className="profile-password">
+    //             New Password
+    //             {!isPasswordValid && (
+    //               <div className="confirm-validate">
+    //                 password contain 6 charackters
+    //               </div>
+    //             )}
+    //           </div>
+    //           <div className="profile-email-form">
+    //             <input
+    //               type="password"
+    //               className="profile-input"
+    //               ref={newPassword}
+    //             />
+    //           </div>
+    //           <div className="profile-password">
+    //             Confirm Password
+    //             {!isPasswordConfirmed && (
+    //               <div className="confirm-validate">password did't match</div>
+    //             )}
+    //           </div>
+    //           <div className="profile-email-form">
+    //             <input
+    //               type="password"
+    //               className="profile-input"
+    //               ref={confirmPassword}
+    //             />
+    //           </div>
+    //           <button onClick={changePass}>Change Password</button>
+    //         </div>
+    //       )}
+    //       <div className="profile-button-area">
+    //         <button className="profile-save-button" onClick={save}>
+    //           Save
+    //         </button>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 }

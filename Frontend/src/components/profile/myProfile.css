@@ -1,4 +1,72 @@
 .profile-container {
+  height: 600px;
+  margin: auto;
+  background-color: #3f3f3f;
+}
+
+.profile-wrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  color: #fb7134;
+  justify-self: right;
+}
+
+.profile-photo {
+  border: 1px solid #fb7134;
+  margin: 50px 40px ;
+  padding: 20px;
+  justify-self: right;
+}
+
+.edit-profile {
+  padding: 4px;
+}
+
+.profile-inputs {
+  justify-self: center;
+  margin-top: 30px;
+}
+
+.profile-inputs .edit {
+  margin: 0px;
+}
+
+.change-password-toggle {
+  cursor: pointer;
+  margin-top: 5%;
+  color: rgb(143, 68, 68);
+  padding: 10px;
+}
+
+.profile-input {
+  width: 350px;
+  height: 20px;
+  background-color: #868686
+}
+
+.input-container {
+  width: 250px;
+  padding: 10px;
+}
+
+.profile-input-label {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fefefe;
+}
+
+/* .profile-container {
   position: initial;
   background-color: #3f3f3f;
   width: 100%;
@@ -144,4 +212,4 @@
   font-size: 18px;
   margin-top: -10%;
   color: red;
-}
+} */
