@@ -1,7 +1,6 @@
 import axios from "axios";
 import {
   Orders,
-  OrderItem,
   OrderResponseModel,
 } from "../shared/models/order/orderModel";
 import { BaseFilter } from "../shared/models/baseFilterModel";

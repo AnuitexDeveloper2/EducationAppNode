@@ -1,7 +1,7 @@
 export interface UserModel {
     id: string;
     userName: string;
-    firstName:string;
+    firstName: string;
     lastName: string;
     email: string;
     removed_at: boolean;
@@ -11,14 +11,14 @@ export interface UserModel {
 }
 
 export interface UserModelRequest {
-    firstName:string;
+    firstName: string;
     lastName: string;
     email: string;
-    id:string
+    id: number
 }
 
 export interface ResetPassword {
-    id: string;
+    id: number;
     oldPassword: string;
     newPassword: string;
 }

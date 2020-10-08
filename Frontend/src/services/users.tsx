@@ -25,6 +25,7 @@ export async function editUser(user: UserModelRequest) {
 }
 
 export async function changePassword(param: ResetPassword) {
+  debugger
   const result = await axios.post(`${baseUrl}/user/editPassword`, param );
   return result.data;
 }

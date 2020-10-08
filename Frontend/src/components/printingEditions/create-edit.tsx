@@ -15,7 +15,7 @@ import {
   editPrintingEdition,
 } from "../../services/printingEdition";
 import FileBase from "react-file-base64";
-import { Multiselect } from "multiselect-react-dropdown";
+// import { Multiselect } from "multiselect-react-dropdown";
 
 const CreateEditProduct = ({ isShowing, hide, assigment, value }) => {
   const [image, setImage] = useState({

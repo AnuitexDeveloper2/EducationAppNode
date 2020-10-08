@@ -1,24 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, ChangeEvent } from "react";
 import "./myProfile.css";
 import anonymus from "../../assets/anonymus.png";
 import pencil from "../../assets/pencilWhite.png";
 import { UserModelRequest, ResetPassword } from "../../shared/models/user/user";
 import { editUser, getUser, changePassword } from "../../services/users";
+// import { Formik } from "formik";
 
 export function MyProfile() {
   const [state, setState] = useState({
     firstName: "",
     lastName: "",
     email: "",
-    id: "",
+    id: 0,
   });
   const [showEdit, setShowEdit] = useState(false);
+  const [isTruePassword, setIsTruePassword] = useState(true);
   const [isPasswordConfirmed, setIsPasswordConfirmed] = useState(true);
-  const [isPasswordValid, setIsPassworValid] = useState(true);
+  const [isNewPasswordValid, setIsNewPassworValid] = useState(true);
+  const [isOldPasswordValid, setIsOldPassworValid] = useState(true);
 
-  const valueFirstName = React.createRef() as any;
-  const valueEmail = React.createRef() as any;
-  const valueLastName = React.createRef() as any;
+
   const oldPassword = React.createRef() as any;
   const newPassword = React.createRef() as any;
   const confirmPassword = React.createRef() as any;
@@ -39,22 +40,22 @@ export function MyProfile() {
     });
   }
 
+  async function handleChange( event: ChangeEvent<HTMLInputElement>) {
+    setState({ ...state, [event.target.name]: event.target.value })
+  }
+
   async function save() {
     const user: UserModelRequest = {
-      firstName: valueFirstName.current.value,
-      email: valueEmail.current.value,
-      lastName: valueLastName.current.value,
+      firstName: state.firstName,
+      email: state.email,
+      lastName: state.lastName,
       id: state.id,
     };
     const result = await editUser(user);
-    if (result.err.error) {
-      let message;
-      result.err.error.forEach((item) => {
-        message = item.stack;
-      });
-      alert(message);
+    if (!result) {
+      alert('Something went wrong');
     }
-    if (result.err.status === true) {
+    if (result) {
       alert("Profile edited");
     }
     getData();
@@ -65,35 +66,30 @@ export function MyProfile() {
   }
 
   async function changePass() {
+    debugger
     const param: ResetPassword = {
       id: state.id,
       oldPassword: oldPassword.current.value,
       newPassword: newPassword.current.value,
     };
 
-    if (param.newPassword.toString().length < 6) {
-      setIsPassworValid(false);
-    }
-
+    param.oldPassword.toString().length < 6 ? setIsOldPassworValid(false) : setIsOldPassworValid(true);
+    param.newPassword.toString().length < 6 ? setIsNewPassworValid(false) : setIsNewPassworValid(newPassword);
+    param.newPassword !== confirmPassword.current.value?setIsPasswordConfirmed(false):setIsPasswordConfirmed(true);
     if (
       param.newPassword === confirmPassword.current.value &&
       param.newPassword.toString().length > 6
     ) {
       const result = await changePassword(param);
-      if (result.err.error) {
-        let message;
-        result.err.error.forEach((item) => {
-          message = item.stack;
-        });
-        alert(message);
+      if (!result) {
+        setIsTruePassword(false)
       }
-      if (result.err.status === true) {
+
+      if (result) {
+        setIsTruePassword(true)
         alert("Password edited");
       }
       setIsPasswordConfirmed(true);
-    }
-    if (param.newPassword !== confirmPassword.current.value) {
-      setIsPasswordConfirmed(false);
     }
   }
 
@@ -117,9 +113,11 @@ export function MyProfile() {
             <label className="profile-input-label">Your First Name</label>
             <input
               type="text"
+              name="firstName"
               className="profile-input"
               defaultValue={state.firstName}
-              ref={valueFirstName} />
+              onChange={handleChange}
+              />
           </div>
           <div className="input-container">
             <label className="profile-input-label">Your Last Name</label>
@@ -127,15 +125,18 @@ export function MyProfile() {
               type="text"
               className="profile-input"
               defaultValue={state.lastName}
-              ref={valueLastName}
+              name='lastName'
+              onChange={handleChange}
             />
           </div>
           <div className="input-container">
             <label className="profile-input-label"> E-mail</label>
-            <input 
-            type="text" 
-            className="profile-input"
-            defaultValue={state.email}
+            <input
+              type="text"
+              className="profile-input"
+              defaultValue={state.email}
+              name="email"
+              onChange={handleChange}
             />
           </div>
           <div
@@ -146,115 +147,49 @@ export function MyProfile() {
           </div>
         </div>
         <div></div>
+
         <div></div>
-        {showEdit&&<div className="profile-inputs edit">
+        <div className="profile-inputs edit">
+
+        {showEdit && <div className="profile-inputs edit">
           <div className="input-container">
             <label className="profile-input-label">Old Password</label>
-            <input type="text" className="profile-input" />
+            <input type="text" className="profile-input" ref={oldPassword}/>
+            {!isTruePassword&& <div className="confirm-validate">
+                  invalid Password
+              </div>}
+              {!isOldPasswordValid && (
+                  <div className="confirm-validate whitespace-no-wrap">
+                    password must contain at least 6 charackters
+                  </div>
+                )}
           </div>
           <div className="input-container">
             <label className="profile-input-label">New Passwor</label>
-            <input type="text" className="profile-input" />
+            <input type="text" className="profile-input" ref={newPassword}/>
+            {!isNewPasswordValid && (
+                  <div className="confirm-validate whitespace-no-wrap">
+                    password must contain at least 6 charackters
+                  </div>
+                )}
           </div>
           <div className="input-container">
             <label className="profile-input-label"> Confirm Password</label>
-            <input type="text" className="profile-input" />
+            <input type="text" className="profile-input" ref={confirmPassword}/>
+            {!isPasswordConfirmed && (
+                  <div className="confirm-validate">password did't match</div>
+                )}
           </div>
         </div>}
+        </div>
         <div></div>
+        <div></div>
+        <div className="profile-buttons">
+        <div></div>
+          {showEdit&&<button className="profile-cansel-button whitespace-no-wrap" onClick={changePass}>Change Password</button>}
+          <button className="profile-save-button" onClick={save}>Save</button>
+        </div>
       </div>
     </div>
-    // <div className="profile-container">
-    //   <div className="profile-label">My Profile</div>
-    //   <div className="profile-body">
-    //     <div className="profile-foto">
-    //       <img src={anonymus} className="profile-anonymus" alt="user" />
-    //       <div className="profile-edit-label">
-    //         edit profile <img src={pencil} alt="" />
-    //       </div>
-    //     </div>
-    //     <div className="profile-data">
-    //       <span className="profile-name-label">Your First Name</span>
-    //       <div className="profile-name-form">
-    //         <input
-    //           type="text"
-    //           defaultValue={state.firstName}
-    //           ref={valueFirstName}
-    //           className="profile-input"
-    //         />
-    //       </div>
-    //       <div className="profile-surname-label">Your Last Name</div>
-    //       <div className="profile-surname-form">
-    //         <input
-    //           type="text"
-    //           defaultValue={state.lastName}
-    //           ref={valueLastName}
-    //           className="profile-input"
-    //         />
-    //       </div>
-    //       <div className="profile-email-label">E-mail</div>
-    //       <div className="profile-email-form">
-    //         <input
-    //           type="text"
-    //           defaultValue={state.email}
-    //           ref={valueEmail}
-    //           className="profile-input"
-    //         />
-    //       </div>
-    //       <div
-    //         className="change-password-toggle"
-    //         onClick={changePasswordToggle}
-    //       >
-    //         Change Password
-    //       </div>
-    //       {showEdit && (
-    //         <div>
-    //           <div className="profile-password">Old Password</div>
-    //           <div className="profile-email-form">
-    //             <input
-    //               type="password"
-    //               className="profile-input"
-    //               ref={oldPassword}
-    //             />
-    //           </div>
-    //           <div className="profile-password">
-    //             New Password
-    //             {!isPasswordValid && (
-    //               <div className="confirm-validate">
-    //                 password contain 6 charackters
-    //               </div>
-    //             )}
-    //           </div>
-    //           <div className="profile-email-form">
-    //             <input
-    //               type="password"
-    //               className="profile-input"
-    //               ref={newPassword}
-    //             />
-    //           </div>
-    //           <div className="profile-password">
-    //             Confirm Password
-    //             {!isPasswordConfirmed && (
-    //               <div className="confirm-validate">password did't match</div>
-    //             )}
-    //           </div>
-    //           <div className="profile-email-form">
-    //             <input
-    //               type="password"
-    //               className="profile-input"
-    //               ref={confirmPassword}
-    //             />
-    //           </div>
-    //           <button onClick={changePass}>Change Password</button>
-    //         </div>
-    //       )}
-    //       <div className="profile-button-area">
-    //         <button className="profile-save-button" onClick={save}>
-    //           Save
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-  );
+    );
 }
