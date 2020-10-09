@@ -18,6 +18,7 @@ class Header extends Component<any, HeaderState> {
     showRegister: false,
     showCart: false,
     showConfirm: false,
+    showForgot: false,
     user: null,
   };
 

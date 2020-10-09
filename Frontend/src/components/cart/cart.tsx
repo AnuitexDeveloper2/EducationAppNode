@@ -6,7 +6,7 @@ import { removeItemFromCart } from "../../services/localStorageService";
 import { useDispatch } from "react-redux";
 import { hideCartAction } from "../../Redux/header/actions";
 import StripeCheckout from "react-stripe-checkout";
-import { Orders } from "../../shared/models/order/orderModel";
+import { Order } from "../../shared/models/order/orderModel";
 import { createOrder } from "../../services/order";
 import { Spinner } from "../waiter/spinner";
 
@@ -36,7 +36,8 @@ export default function Cart({ outsideState }) {
 
   const buyNow = async (token) => {
     const user = JSON.parse(localStorage.getItem("User"));
-    const order: Orders = {
+    const order: Order = {
+      user: null,
       createdDate: null,
       userId: user.id,
       amount: state.total,

@@ -39,7 +39,7 @@ export default function Product() {
   const moveToCart = () => {
     const currentOrderItem: OrderItemModelItem = {
       currency: state.book.currency,
-      bookId: state.book.id,
+      bookIds: state.book.id,
       printingEditionType: state.book.productType,
       count: state.amount / state.book.price,
       printingEditionName: state.book.title,

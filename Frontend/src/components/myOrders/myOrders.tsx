@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import ReactTable from "react-table-v6";
 import "../../shared/css/table.css";
 import { getMyOrder } from "../../services/order";
-import { OrderItem, Orders } from "../../shared/models/order/orderModel";
+import { OrderItem, Order } from "../../shared/models/order/orderModel";
 import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 
 
 export function MyOrders() {
   const [state, setState] = useState({
-    data: new Array<Orders>(),
+    data: new Array<Order>(),
   });
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export function MyOrders() {
     {
       Header: "Date",
       id: "data.date",
-      accessor: (data: Orders) => {
+      accessor: (data: Order) => {
         const time = new Date().toLocaleDateString() +' '+new Date().toLocaleTimeString()
         return (
           <>
@@ -39,7 +39,7 @@ export function MyOrders() {
     {
       Header: "Product",
       id: "printing_edition_id.productType",
-      accessor: (data: Orders) => {
+      accessor: (data: Order) => {
         return (
           <>
             {data.orderItem.map((item: OrderItem, i) => (

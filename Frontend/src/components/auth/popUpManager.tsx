@@ -4,19 +4,20 @@ import SignIn from "../../containers/signIn/signInContainers";
 import Register from "../../containers/register/registerConteiner";
 import Cart from "../cart/cart";
 import ConfirmEmail from "./confirmEmail";
+import ForgotPassword from "../forgotPassword/forgot-password";
 
 const PopUpManager: React.FC<any> = ({ popupState }) => {
   if (popupState.headermanager.showLogIn) {
     return (
       <div>
-        <SignIn></SignIn>
+        <SignIn/>
       </div>
     );
   }
   if (popupState.headermanager.showRegister) {
     return (
       <div>
-        <Register></Register>
+        <Register/>
       </div>
     );
   }
@@ -31,6 +32,13 @@ const PopUpManager: React.FC<any> = ({ popupState }) => {
     return (
       <div>
         <ConfirmEmail />
+      </div>
+    );
+  }
+  if (popupState.headermanager.showForgot) {
+    return (
+      <div>
+        <ForgotPassword />
       </div>
     );
   }

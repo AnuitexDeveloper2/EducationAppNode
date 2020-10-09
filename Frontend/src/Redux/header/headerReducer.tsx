@@ -5,6 +5,7 @@ const initialState: HeaderState = {
   showRegister: false,
   showCart: false,
   showConfirm: false,
+  showForgot: true,
   user: null,
 };
 
@@ -28,6 +29,10 @@ export function headerReducer(state: HeaderState = initialState, action: any) {
       return { ...state, showConfirm: true };
     case "HIDE_CONFIRM":
       return { ...state, showConfirm: false };
+    case "SHOW_FORGOT":
+      return { ...state, showForgot: true }
+    case "HIDE_FORGOT":
+      return { ...state, showForgot: false }
     default:
       return state;
   }

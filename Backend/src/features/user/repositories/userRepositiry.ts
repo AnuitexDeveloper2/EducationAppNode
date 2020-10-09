@@ -31,9 +31,9 @@ export async function updateOne(id: string, prop: any): Promise<any> {
 }
 
 
-    export async function findByEmail(email: string): Promise<any> {
-       let user = await userModel.findOne({email});
-    }
+export async function findByEmail(email: string): Promise<any> {
+    let user = await userModel.findOne({ email });
+}
 
 export async function blockUser(id: string): Promise<Boolean> {
     let model = new userModel();
@@ -86,7 +86,18 @@ export async function getUsers(filter: UserFilterModel) {
 
     if (filter.searchString != null) {
         query = userModel
-            .find({ $and: [{ $or: [{ lastName: { $regex: new RegExp(filter.searchString, 'i') } }, { firstName: { $regex: new RegExp(filter.searchString, 'i') } }] }, { removed_at: false }] });
+            .find({
+                $and:
+                    [
+                        {
+                            $or:
+                                [
+                                    { lastName: { $regex: new RegExp(filter.searchString, 'i') } },
+                                    { firstName: { $regex: new RegExp(filter.searchString, 'i') } }
+                                ]
+                        },
+                        { removed_at: false }]
+            });
     }
     if (filter.userType !== UserFilterType.All) {
         query = filter.userType === UserFilterType.Active ? query.find({ status: false }) : query.find({ status: true })

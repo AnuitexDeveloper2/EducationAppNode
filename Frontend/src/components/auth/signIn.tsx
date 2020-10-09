@@ -20,6 +20,7 @@ export class SignIn extends React.Component<any> {
     showCart: false,
     user: null,
     showConfirm: false,
+    showForgot: false
   };
 
   responseFacebook = async (response) => {
@@ -45,6 +46,7 @@ export class SignIn extends React.Component<any> {
 
   closePopUp = () => {
     this.props.hideSignInAction();
+    this.props.showForgot()
   };
 
   onSubmitLogIn = async (value: any) => {
@@ -56,6 +58,10 @@ export class SignIn extends React.Component<any> {
       alert(result.error);
     }
   };
+
+  showForgotPassword = () => {
+    this.closePopUp();
+  }
 
   successedLogIn(result) {
     const token = result.AccessToken;
@@ -103,7 +109,8 @@ export class SignIn extends React.Component<any> {
                           />
                         </div>
                         <div className="form-group col-md-6">
-                          <label className="passwordLabel ">Password</label>
+                          <label className="passwordLabel">Password</label>
+                          <label className="forgotPasswordLabel whitespace-no-wrap cursor-pointer" onClick={this.showForgotPassword}>Forgot Your password?</label>
                           <Field
                             type="text"
                             name="password"

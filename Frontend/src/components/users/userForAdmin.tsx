@@ -49,7 +49,7 @@ const UsersForAdmin = () => {
     });
   };
 
-  const changeStatus = async (id: string) => {
+  const changeStatus = async (id: number) => {
     const result = await blockUser(id);
     if (result) {
       getData(0, UserFilterType.All);
@@ -119,10 +119,11 @@ const UsersForAdmin = () => {
       },
       id: "status",
       accessor: (data: UserModel) => {
+        const status = data.status?true:false
         function some() {
           changeStatus(data.id);
         }
-        return <Toggle checked={data.status} onChange={some} />;
+        return <Toggle checked={status} onChange={some} />;
       },
     },
     {

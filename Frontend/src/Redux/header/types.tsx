@@ -6,4 +6,5 @@ export interface HeaderState {
   showCart: boolean;
   user: UserModel;
   showConfirm: boolean;
+  showForgot: boolean;
 }

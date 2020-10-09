@@ -106,6 +106,20 @@
   opacity: 0.8;
 }
 
+.forgotPasswordLabel {
+  position: absolute;
+  left: 65.96%;
+  right: 55.6%;
+  top: 46.64%;
+  bottom: 51.25%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #868686;
+}
+
 .passworForm {
   position: absolute;
   left: 23.96%;

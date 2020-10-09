@@ -66,7 +66,6 @@ export function MyProfile() {
   }
 
   async function changePass() {
-    debugger
     const param: ResetPassword = {
       id: state.id,
       oldPassword: oldPassword.current.value,

@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { getOrders } from "../../services/order";
 import { BaseFilter } from "../../shared/models/baseFilterModel";
 import { SortType } from "../../shared/enums/sortType";
 import "./orders.css";
 import "../../shared/css/table.css";
 import ReactTable from "react-table-v6";
+import { Order, OrderItem } from "../../shared/models/order/orderModel";
+import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 
 export function Orders() {
   const [state, setState] = useState({
-    data: [],
+    data: new Array<Order>(),
     pages: 0,
   });
-
-  useEffect(() => {
-    getData(0);
-  }, []);
-
   async function getData(pageNumber) {
     const filter: BaseFilter = {
       pageNumber: pageNumber + 1,
@@ -35,13 +32,13 @@ export function Orders() {
     {
       Header: "User Name",
       id: "user_id",
-      accessor: (data) => {
+      accessor: (data: Order) => {
         return (
           <>
             {
               <div>
                 {" "}
-                {data.user_id.firstName} {data.user_id.lastName}{" "}
+                {data.user.firstName} {data.user.lastName}{" "}
               </div>
             }
           </>
@@ -50,16 +47,16 @@ export function Orders() {
     },
     {
       Header: "User Email",
-      accessor: "user_id.email",
+      accessor: "user.email",
     },
     {
       Header: "Product",
       id: "printing_edition_id.productType",
-      accessor: (data) => {
+      accessor: (data: Order) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
-              <div key={i}> {product.printing_edition_id.productType} </div>
+            {data.orderItem.map((item: OrderItem, i) => (
+              <div key={i}> {PrintingEditionType[item.book.category]} </div>
             ))}
           </>
         );
@@ -68,11 +65,11 @@ export function Orders() {
     {
       Header: "Title",
       id: "printing_edition_id.title",
-      accessor: (data) => {
+      accessor: (data:Order) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
-              <div key={i}> {product.printing_edition_id.title} </div>
+            {data.orderItem.map((item: OrderItem, i) => (
+              <div key={i}> {item.book.title} </div>
             ))}
           </>
         );
@@ -81,11 +78,11 @@ export function Orders() {
     {
       Header: "Qty",
       id: "printing_edition_id.count",
-      accessor: (data) => {
+      accessor: (data: Order) => {
         return (
           <>
-            {data.items.map((product: any, i) => (
-              <div key={i}> {product.count} </div>
+            {data.orderItem.map((item: OrderItem, i) => (
+              <div key={i}> {item.count} </div>
             ))}
           </>
         );

@@ -1,17 +1,17 @@
 import axios from "axios";
 import {
-  Orders,
+  Order,
   OrderResponseModel,
 } from "../shared/models/order/orderModel";
 import { BaseFilter } from "../shared/models/baseFilterModel";
 import { baseUrl } from "../config";
 
-export async function createOrder(order: Orders): Promise<boolean> {
+export async function createOrder(order: Order): Promise<boolean> {
   const result = await axios.post(`${baseUrl}/order`, order);
   return result.data;
 }
 
-export async function getMyOrder(id: string): Promise<Array<Orders>> {
+export async function getMyOrder(id: string): Promise<Array<Order>> {
   const result = await axios.get(`${baseUrl}/order/${id}`);
   return result.data;
 }

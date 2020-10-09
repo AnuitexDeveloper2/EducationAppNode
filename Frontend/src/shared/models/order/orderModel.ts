@@ -1,8 +1,10 @@
 import { PrintingEditionModel } from "../printingEdition/printingEditionModel";
+import { UserModel } from "../user/user";
 
-export interface Orders {
+export interface Order {
     createdDate: string;
     userId: number;
+    user: UserModel;
     orderItem: Array<OrderItem>;
     transactionId: string;
     amount: number;
@@ -22,5 +24,5 @@ export interface Payment {
 
 export interface OrderResponseModel {
     count: number;
-    data: Array<Orders>
+    data: Array<Order>
 }

@@ -4,12 +4,16 @@ import {
   hideSignInAction,
   showRegisterAction,
   signInAction,
+  showForgot,
+  hideForgot
 } from "../../Redux/header/actions";
 
 const mapDispatchToProps = {
   hideSignInAction,
   showRegisterAction,
   signInAction,
+  showForgot,
+  hideForgot
 };
 
 export default connect(null, mapDispatchToProps)(SignIn);

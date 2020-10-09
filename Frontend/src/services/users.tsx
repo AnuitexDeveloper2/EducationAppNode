@@ -14,8 +14,8 @@ export async function removeUser(id: string): Promise<Boolean> {
   return result.data;
 }
 
-export async function blockUser(_id: string): Promise<boolean> {
-  const result = await axios.post(`${baseUrl}/admin/user/block`, {_id,});
+export async function blockUser(id: number): Promise<boolean> {
+  const result = await axios.post(`${baseUrl}/admin/block`, {id,});
   return result.data;
 }
 
@@ -25,7 +25,6 @@ export async function editUser(user: UserModelRequest) {
 }
 
 export async function changePassword(param: ResetPassword) {
-  debugger
   const result = await axios.post(`${baseUrl}/user/editPassword`, param );
   return result.data;
 }

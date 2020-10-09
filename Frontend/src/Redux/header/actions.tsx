@@ -40,6 +40,14 @@ export function hideConfirmEmail() {
   return { type: "HIDE_CONFIRM" };
 }
 
+export function showForgot() {
+  return { type: "SHOW_FORGOT" };
+}
+
+export function hideForgot() {
+  return { type: "HIDE_FORGOT" };
+}
+
 export function showErrorAction(message: string) {
   return { type: "SHOW_ERROR", payload: message };
 }
