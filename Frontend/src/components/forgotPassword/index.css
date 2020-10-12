@@ -37,7 +37,7 @@
 }
 
 section div {
-  margin: 30px 50px 0 50px;
+  margin: 20px 100px 0 100px;
   display: flex;
   align-items: center;
 }
@@ -66,6 +66,7 @@ section div {
 }
 
 .forgot-label {
+  display: block;
   font-family: Oswald;
   font-style: normal;
   font-weight: 600;
@@ -73,4 +74,35 @@ section div {
   line-height: 55px;
   color: #fefefe;
   opacity: 0.8;
+}
+
+.forgot-input {
+  margin: 0px;
+  height: 52px;
+  width: 100%;
+  color: black;
+  font-size: 16px;
+  background: #e9e4e4;
+  opacity: 0.8;
+}
+
+.forgot-button-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgot-button {
+  width: 210px;
+  height: 48px;
+  background: #ff6825;
+}
+
+.forgot-button-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+  color: #ffffff;
+  border-radius: 8px;
 }

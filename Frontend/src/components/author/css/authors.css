@@ -18,6 +18,10 @@
   margin-top: 7%;
 }
 
+.author-name {
+  color: black;
+}
+
 .authors-title {
   position: absolute;
   left: 7.24%;

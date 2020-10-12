@@ -20,7 +20,8 @@ export class SignIn extends React.Component<any> {
     showCart: false,
     user: null,
     showConfirm: false,
-    showForgot: false
+    showForgot: false,
+    isHidden: false
   };
 
   responseFacebook = async (response) => {
@@ -46,7 +47,6 @@ export class SignIn extends React.Component<any> {
 
   closePopUp = () => {
     this.props.hideSignInAction();
-    this.props.showForgot()
   };
 
   onSubmitLogIn = async (value: any) => {
@@ -61,6 +61,8 @@ export class SignIn extends React.Component<any> {
 
   showForgotPassword = () => {
     this.closePopUp();
+    this.props.showForgot()
+
   }
 
   successedLogIn(result) {

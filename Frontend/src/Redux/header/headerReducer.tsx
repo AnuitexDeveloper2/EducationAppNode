@@ -5,8 +5,9 @@ const initialState: HeaderState = {
   showRegister: false,
   showCart: false,
   showConfirm: false,
-  showForgot: true,
+  showForgot: false,
   user: null,
+  isHidden: false
 };
 
 export function headerReducer(state: HeaderState = initialState, action: any) {

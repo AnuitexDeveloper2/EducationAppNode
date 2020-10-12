@@ -11,19 +11,25 @@ import useModal from "./useModal";
 import CreateEdit from "./create-edit";
 import SearchBar from "../searchBar/search";
 import LastColumn from "../lastColumn/lastColumn";
+import poligon from "../../assets/Polygon.png";
 
 const AuthorsForAdmin = () => {
   const [data, setData] = useState({
     authors: [],
     pages: 0,
   });
+
+  const [sort, setSort] = useState({
+    sortType: SortType.None,
+    count: 0
+  })
   const [author, setAuthor] = useState({
     item: {},
   });
 
   const hide = () => {
     toggle("createAuthor");
-    getData(0)
+    getData(0, SortType.None)
   };
 
   const passData = (currentAuthor) => {
@@ -32,26 +38,46 @@ const AuthorsForAdmin = () => {
     });
   };
 
+  const useSort = () => {
+    const currentSort = sort.count % 2 === 0 ? SortType.Asc : SortType.Desc
+    setSort({ count: ++sort.count, sortType: currentSort })
+    getData(0, currentSort)
+  }
+
   const { isShowing, toggle } = useModal();
 
-  const getData = async (pageNumber) => {
+  const getData = async (pageNumber: number, sortType: SortType) => {
     const filter: BaseFilter = {
       searchString: "",
       pageNumber: pageNumber + 1,
       pageSize: 10,
-      sortType: SortType.None,
+      sortType: sortType,
     };
     const authors = await getAuthorsForAdmin(filter);
     let pages = ~~(authors.count) / 10 + 1;
-    pages = pages % 2 === 0 ? pages-1 : pages
+    pages = pages % 2 === 0 ? pages - 1 : pages
     setData({ authors: authors.data, pages: Math.floor(pages) });
 
   };
 
   const columns = [
     {
-      Header: "Author",
-      accessor: "name",
+      Header: () => {
+        return (
+          <div className="text-center">
+            Author
+            <img src={poligon} className="search-Drop-Down" alt="sort" onClick={useSort} />
+          </div>
+        )
+      },
+      id: "author.name",
+      accessor: (data: AuthorModel) => {
+        return (
+          <div className="author-name">
+            {data.name}
+          </div>
+        )
+      }
     },
     {
       Header: "Product",
@@ -72,7 +98,7 @@ const AuthorsForAdmin = () => {
       Cell: (props) => {
         return (
           <>
-            <LastColumn value={author} assigment="author" getData={getData}/>
+            <LastColumn value={author} assigment="author" getData={getData} />
           </>
         );
       },
@@ -130,7 +156,7 @@ const AuthorsForAdmin = () => {
           manual
           pages={data.pages}
           onFetchData={(state) => {
-            getData(state.page);
+            getData(state.page, sort.sortType);
           }}
         />
       </div>

@@ -107,7 +107,7 @@
 
 .ReactTable .rt-thead .rt-th.-cursor-pointer,
 .ReactTable .rt-thead .rt-td.-cursor-pointer {
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .ReactTable .rt-thead .rt-th:last-child,
 .ReactTable .rt-thead .rt-td:last-child {

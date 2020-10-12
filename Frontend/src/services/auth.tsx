@@ -21,7 +21,12 @@ export async function oauthSignIn(user: any): Promise<LogInResponseModel> {
   return result.data;
 }
 
-export async function confirmedEmail(id: string): Promise<UserResponseModel> {
+export async function forgotPassword(email: string): Promise<boolean> {
+  const result = await axios.get(`${baseUrl}/auth/${email}`)
+  return result.data
+}
+
+export async function confirmedEmail(id: number): Promise<UserResponseModel> {
   const _id = id;
   const result = await axios.post(`${baseUrl}/auth/confirmedEmail`, {_id});
   return result.data;

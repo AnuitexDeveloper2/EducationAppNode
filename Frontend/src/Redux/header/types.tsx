@@ -7,4 +7,5 @@ export interface HeaderState {
   user: UserModel;
   showConfirm: boolean;
   showForgot: boolean;
+  isHidden: boolean;
 }

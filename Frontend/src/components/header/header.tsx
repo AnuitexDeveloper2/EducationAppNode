@@ -20,6 +20,7 @@ class Header extends Component<any, HeaderState> {
     showConfirm: false,
     showForgot: false,
     user: null,
+    isHidden: false
   };
 
   showSigInForm = (event: any) => {
@@ -36,14 +37,37 @@ class Header extends Component<any, HeaderState> {
     window.location.assign("/main");
   };
 
+  componentDidMount() {
+    if (typeof window == 'object') {
+      window.addEventListener('scroll', this.hideBar);
+    }
+  }
+
   UNSAFE_componentWillMount = () => {
+    if (typeof window == 'object') {
+      window.removeEventListener('scroll', this.hideBar);
+    }
     const user = JSON.parse(localStorage.getItem("User"));
     this.setState({ user: user });
   };
+
+  hideBar=() => {
+    const nav = document.querySelector(".header") as any
+
+    if (window.scrollY > nav.offsetHeight) {
+      window.scrollY > 100 ?
+         this.setState({ isHidden: true })
+        :
+        this.setState({ isHidden: false });
+    }
+  }
+
+  
   render() {
+    const hideHeader = this.state.isHidden? 'hidden': ''
     return (
       <div>
-        <div className="header">
+        <div className={`header ${hideHeader}`}>
           <div className="bookLogo">
             <a href="/main">
               {" "}
@@ -51,8 +75,7 @@ class Header extends Component<any, HeaderState> {
             </a>
           </div>
 
-          {/* eslint-disable-next-line */}
-          <a className="move-signin">
+          <div className="move-signin cursor-pointer">
             <div className="signIn" onClick={this.showSigInForm.bind(this)}>
               {this.state.user === null && <div>SignIn</div>}
             </div>
@@ -61,7 +84,7 @@ class Header extends Component<any, HeaderState> {
                 <div onClick={this.logOut.bind(this)}>LogOut</div>
               )}
             </div>
-          </a>
+          </div>
           <div className="signInButton">
             {this.state.user !== null && (
               <div>
@@ -69,7 +92,7 @@ class Header extends Component<any, HeaderState> {
                   <img
                     src={cart}
                     alt="cart"
-                    className="shopping-cart"
+                    className="shopping-cart cursor-pointer"
                     onClick={this.showCart}
                   />
                 )}
