@@ -13,7 +13,9 @@ import { PrintingEditionType } from "../../shared/enums/ptintingEditionType";
 import { Currency } from "../../shared/enums/Currency";
 import { PrintingEditionSortType } from "../../shared/enums/printingEditionSortType";
 import SearchBar from "../searchBar/search";
-import { Spinner } from "../waiter/spinner";
+// import { Spinner } from "../waiter/spinner";
+import spinner from "../../assets/spinner.gif";
+
 
 export const ProductContext = createContext(null);
 
@@ -117,12 +119,17 @@ export default function MainPage() {
 
   if (!state.isLoading) {
     return (
-      <Spinner/>
+      <div className="flex items-center justify-center">
+
+        <img src={spinner} alt=""/>
+      </div>
     );
   }
   return (
     <div>
+  
       <SearchBar placeholder="Search Product" params={setState} pageSize={6} />
+      <hr/>
       <div className="wrapper">
         <div className="item">
           <span className="main-catalog-label">Catalog</span>
@@ -196,22 +203,22 @@ export default function MainPage() {
               key={i}
               onClick={() => purchcase(item)}
             >
-              <span className="grid-image">
+              <div className="grid-image">
                 <img src={item.cover_image} alt="img" className="grid-image" />
-              </span>
-              <span className="grid-title">
-                <a href="/book" className="grid-title-ref">{item.title} </a>{" "}
-              </span>
-              <span className="grid-authors">
-                {item.authors.map((author: AuthorModel) => (
-                  <div>{author.name}</div>
+              </div>
+              <div className="grid-title">
+                <i  className="grid-title-ref">{item.title} </i>{" "}
+              </div>
+              <div className="grid-authors">
+                {item.authors.map((author: AuthorModel,i) => (
+                  <div key={i}>{author.name}</div>
                 ))}
-              </span>
-              <span className="grid-price">
+              </div>
+              <div className="grid-price">
                 {" "}
                 {item.price}
                 <span className="grid-currency">{Currency[data.currency]}</span>
-              </span>
+              </div>
             </div>
           ))}
         </div>

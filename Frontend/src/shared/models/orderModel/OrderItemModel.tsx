@@ -8,4 +8,5 @@ export interface OrderItemModelItem {
   currency: Currency;
   printingEditionType: PrintingEditionType;
   printingEditionName: string;
+  printingEditionImage: string;
 }

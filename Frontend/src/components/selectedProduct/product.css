@@ -1,86 +1,73 @@
-.product-body {
-  margin-top: -5%;
-}
-
-.product-container {
-  display: flex;
-}
-
-.product-image {
+.selected-section-left {
+  background-color: #f9f9f9;
+  height: 600px;
   width: 600px;
-  height: 500px;
-  background-color: lavenderblush;
+  justify-content: center;
 }
 
-.current-image {
-  width: 300px;
-  height: 400px;
-  margin-left: 25%;
-  margin-top: 10%;
+.selected-img {
+  box-shadow: -25px -5px 10px #888888;
+}
+
+.selected-section-right {
+  display: block;
+  padding: 50px;
 }
 
 .product-title {
-  margin-top: 20%;
   font-family: Oswald;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 2px;
-  color: #000000;
 }
 
 .product-authors {
-  margin-top: 10%;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  text-transform: capitalize;
-  color: rgba(0, 0, 0, 0.66);
+  line-height: 100px;
 }
 
 .product-quantity {
-  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .product-quantity-label {
-  margin-top: 90%;
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #ff6825;
+}
+.select-qty {
+  background: #f9f9f9;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
 }
 
 .product-total-price {
-  margin-left: 5%;
+  color: #ff6825;
   font-family: Oswald;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ff6825;
-}
-
-.product-cart-button {
-  margin-top: 40%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 55px;
 }
 
 .cart-button {
-  width: 260px;
-  height: 62px;
-  color: black;
-  background: lavenderblush;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.cart-image {
-  background-color: white;
-  color: black;
+.button-title {
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 20px;
 }

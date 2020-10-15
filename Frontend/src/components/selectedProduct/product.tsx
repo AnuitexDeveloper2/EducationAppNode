@@ -44,6 +44,7 @@ export default function Product() {
       count: state.amount / state.book.price,
       printingEditionName: state.book.title,
       price: state.book.price,
+      printingEditionImage: state.book.cover_image
     };
     setCart(currentOrderItem);
     setShowCart(true);
@@ -51,46 +52,52 @@ export default function Product() {
 
   if (!state.isLoading) {
     return (
-     <Spinner/>
+      <Spinner />
     );
   }
   return (
-    <div className="product-body">
+    <div className="m-auto">
       {showCart && <Cart outsideState={setShowCart} />}
-      <div className="product-container">
-        <div className="product-image">
-          <img src={state.book.cover_image} alt="" className="current-image" />
+      <section className="flex">
+        <div className="selected-section-left">
+          <img width="300px" className="selected-img" src={state.book.cover_image} alt="" />
         </div>
-        <div className="product-details">
-          <div className="product-title">{state.book.title}</div>
-          <div className="product-authors">
-            {state.book.authors.map((author: AuthorModel) => (
-              <span>{author.name}</span>
+        <div className="selected-section-right">
+          <div className="product-title whitespace-no-wrap">{state.book.title}</div>
+          <div className="flex text-center justify-center p-8">
+            {state.book.authors.map((author: AuthorModel, i: number) => (
+              <span className="product-authors" key={i}>{author.name}</span>
             ))}
           </div>
           <div className="product-quantity">
             <span className="product-quantity-label">Qty</span>
             <span>
-              <select id="" onChange={selectQty}>
-                {[1, 2, 3, 4, 5].map((item) => (
-                  <option value={item}>{item}</option>
+              <select id="" onChange={selectQty} className='bg-store-lighter-grey'>
+                {[1, 2, 3, 4, 5].map((item: number, i: number) => (
+                  <option value={item} key={i}>{item}</option>
                 ))}
               </select>
             </span>
             <span className="product-total-price">${state.amount}</span>
-            <div className="product-cart-button">
-              {user.user !== null && (
-                <button className="cart-button" onClick={moveToCart}>
-                  {" "}
-                  <img className="cart-image" alt="cart" src={cart} /> Add to
-                  cart
-                </button>
-              )}
-            </div>
+          </div>
+          <div className="product-cart-button">
+            {user.user !== null && (
+              <button className="cart-button" onClick={moveToCart}>
+                <img className="cart-image" alt="cart" src={cart} />
+                <span className="button-title"> Add to cart </span>
+              </button>
+            )}
+          </div>
+          <div>
           </div>
         </div>
-      </div>
-      <div>{state.book.description}</div>
+      </section>
+      <hr className="my-10"/>
+      <section className="selected-description">
+        <div>
+          {state.book.description}
+        </div>
+      </section>
     </div>
   );
 }

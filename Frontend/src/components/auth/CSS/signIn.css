@@ -1,38 +1,18 @@
-.signin-modal {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.signin-modal-inner {
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 30%;
-  bottom: 25%;
-  margin: auto;
-  background: #3f3f3f;
-  width: 700px;
-  height: 600px;
-}
 
 .inputLabel {
   color: black;
 }
 
 .modalHeader {
-  height: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   background: #5d5c5c;
 }
 
 .close {
-  text-align: right;
+  margin-right: 20px;
 }
 
 .userImg {
@@ -225,7 +205,9 @@
 
 .facebook-logIn {
   text-align: center;
-  margin-top: 70%;
+  margin-top: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* errors */
@@ -289,3 +271,19 @@
   opacity: 0.8;
   color: red;
 }
+
+.google-login {
+  font-family: Helvetica,sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4285F4;
+    font-size: calc(.27548vw + 12.71074px);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .3s,border-color .3s;
+    padding: calc(.34435vw + 13.38843px) calc(.34435vw + 18.38843px);
+}
+

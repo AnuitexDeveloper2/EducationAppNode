@@ -51,20 +51,20 @@ class Header extends Component<any, HeaderState> {
     this.setState({ user: user });
   };
 
-  hideBar=() => {
+  hideBar = () => {
     const nav = document.querySelector(".header") as any
 
     if (window.scrollY > nav.offsetHeight) {
       window.scrollY > 100 ?
-         this.setState({ isHidden: true })
+        this.setState({ isHidden: true })
         :
         this.setState({ isHidden: false });
     }
   }
 
-  
+
   render() {
-    const hideHeader = this.state.isHidden? 'hidden': ''
+    const hideHeader = this.state.isHidden ? 'hidden' : ''
     return (
       <div>
         <div className={`header ${hideHeader}`}>
@@ -74,39 +74,41 @@ class Header extends Component<any, HeaderState> {
               <img src={bookLogo} alt="to Main paige" />{" "}
             </a>
           </div>
-
-          <div className="move-signin cursor-pointer">
-            <div className="signIn" onClick={this.showSigInForm.bind(this)}>
-              {this.state.user === null && <div>SignIn</div>}
+          <div className="flex items-center mr-16">
+            <div className="signInButton cursor-pointer">
+              {this.state.user !== null && (
+                <div className="flex items-center">
+                  {this.state.user.role === 1 && (
+                    <img
+                      src={cart}
+                      alt="cart"
+                      className="shopping-cart cursor-pointer"
+                      onClick={this.showCart}
+                    />
+                  )}
+                  <nav>
+                    <ul>
+                      <li>
+                        <img src={signIn} alt="menu" />
+                        {this.state.user.role === 0 && <AdminMenu />}
+                        {this.state.user.role === 1 && <UserMenu />}
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              )}
             </div>
-            <div className="logOut">
+            <div className="move-signin  cursor-pointer">
+              <div className="signIn" onClick={this.showSigInForm.bind(this)}>
+                {this.state.user === null && <div>SignIn</div>}
+              </div>
+            </div>
+            <div className="logOut cursor-wait">
+
               {this.state.user !== null && (
                 <div onClick={this.logOut.bind(this)}>LogOut</div>
               )}
             </div>
-          </div>
-          <div className="signInButton">
-            {this.state.user !== null && (
-              <div>
-                {this.state.user.role === 1 && (
-                  <img
-                    src={cart}
-                    alt="cart"
-                    className="shopping-cart cursor-pointer"
-                    onClick={this.showCart}
-                  />
-                )}
-                <nav>
-                  <ul>
-                    <li>
-                      <img src={signIn} alt="menu" />
-                      {this.state.user.role === 0 && <AdminMenu />}
-                      {this.state.user.role === 1 && <UserMenu />}
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            )}
           </div>
         </div>
         <PopUpManager />
@@ -140,29 +142,31 @@ const UserMenu = () => {
 
 const AdminMenu = () => {
   return (
-    <div className="option-menu">
-      <ul className="option-item">
-        <li>
-          <a href="/users">
-            <option>Users</option>
-          </a>
-        </li>
-        <li>
-          <a href="/books">
-            <option>Products</option>
-          </a>
-        </li>
-        <li>
-          <a href="/authors">
-            <option value="">Authors</option>
-          </a>
-        </li>
-        <li>
-          <a href="/orders">
-            <option value="">Orders</option>
-          </a>
-        </li>
-      </ul>
+    <div>
+      <div className="option-menu">
+        <ul className="option-item">
+          <li>
+            <a href="/users">
+              <option>Users</option>
+            </a>
+          </li>
+          <li>
+            <a href="/books">
+              <option>Products</option>
+            </a>
+          </li>
+          <li>
+            <a href="/authors">
+              <option value="">Authors</option>
+            </a>
+          </li>
+          <li>
+            <a href="/orders">
+              <option value="">Orders</option>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

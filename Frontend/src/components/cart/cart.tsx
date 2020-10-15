@@ -9,6 +9,7 @@ import StripeCheckout from "react-stripe-checkout";
 import { Order } from "../../shared/models/order/orderModel";
 import { createOrder } from "../../services/order";
 import { Spinner } from "../waiter/spinner";
+import Modal from "react-modal";
 
 export default function Cart({ outsideState }) {
   const dispatch = useDispatch();
@@ -21,6 +22,22 @@ export default function Cart({ outsideState }) {
   useEffect(() => {
     getData();
   }, []);
+
+  const customStyles = {
+    content: {
+      top: "40%",
+      left: "50%",
+      right: "0%",
+      bottom: "10%",
+      transform: 'translate(-50%, -50%)',
+      padding: "0px",
+      border: "none",
+      minHeight: "600px"
+    },
+    overlay: {
+      background: "rgba(0, 0, 0, 0.5)"
+    }
+  };
 
   const cancel = () => {
     dispatch(hideCartAction());
@@ -66,59 +83,60 @@ export default function Cart({ outsideState }) {
 
   if (!state.isLoaded) {
     return (
-      <Spinner/>
+      <Spinner />
     );
   }
 
   return (
-    <div className="cart-popup">
-      <div className="cart-popup-inner">
-        <table className="table-style-three">
-          <thead>
-            <tr>
-              <th>Product</th>
-              <th>Unit price</th>
-              <th>Qty</th>
-              <th>Order Amount</th>
-              <th></th>
+    <Modal ariaHideApp={false} isOpen={true} style={customStyles}>
+      <table className="cart-table">
+        <thead>
+          <tr>
+            <th className="font-bold text-xl opacity-50">PRODUCT</th>
+            <th className="cart-th">Unit price</th>
+            <th className="cart-th">Qty</th>
+            <th className="cart-th">Order Amount</th>
+            <th className="cart-th"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="h-10"></tr>
+          {state.data.map((item: OrderItemModelItem, i) => {
+            return(
+            <tr key={i} className="h-30 cart-row">
+              <td className="cart-title"> <div className="flex items-center justify-evenly"> <img src={item.printingEditionImage} className="p-4" width={60} height={80} alt="book"/> <div className="cart-book-title">{item.printingEditionName}<div></div></div></div></td>
+              <td className="cart-unit-price">{item.price}</td>
+              <td className="cart-unit-price">{item.count}</td>
+              <td>
+                <div className="tr-amount">${item.price * item.count}</div>
+              </td>
+              <td>
+                <img
+                  src={remove}
+                  alt="remove"
+                  className="tr-image mr-4"
+                  onClick={() => removeItem(i)}
+                />
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            {state.data.map((item: OrderItemModelItem, i) => (
-              <tr key={i}>
-                <td>{item.printingEditionName}</td>
-                <td>{item.price}</td>
-                <td>{item.count}</td>
-                <td>
-                  <div className="tr-amount">${item.price * item.count}</div>
-                </td>
-                <td>
-                  <img
-                    src={remove}
-                    alt="remove"
-                    className="tr-image"
-                    onClick={() => removeItem(i)}
-                  />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <div>
-          Total Price <span className="total-price"> ${state.total} </span>
-        </div>
-        <button className="cart-cancel-button" onClick={cancel}>
-          <span className="car-cancel-label">Cancel</span>
-        </button>
-        <div className="cart-buy-button">
-          <StripeCheckout
-            token={(token) => {
-              buyNow(token);
-            }}
-            stripeKey="pk_test_uM7l1xcvkra93O8DCsRRCGzg00DLGeT0Tr"
-          />
-        </div>
+          )})}
+        </tbody>
+      </table>
+      <div className="flex justify-end items-center mt-4 mr-4">
+       <span className="cart-total-price mr-4"> Total Price </span> <span className="total-price"> ${state.total} </span>
       </div>
-    </div>
+      <div className="flex justify-around items-center my-4">
+      <button className="cart-cancel-button" onClick={cancel}>
+        <span className="car-cancel-label">Cancel</span>
+      </button>
+        <StripeCheckout
+          token={(token) => {
+            buyNow(token);
+          }}
+          stripeKey="pk_test_uM7l1xcvkra93O8DCsRRCGzg00DLGeT0Tr"
+        >
+        </StripeCheckout>
+      </div>
+    </Modal>
   );
 }

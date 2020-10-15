@@ -469,3 +469,8 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.rt-td {
+  vertical-align: middle;
+  text-align: center;
+}

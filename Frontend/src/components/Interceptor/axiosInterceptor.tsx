@@ -26,6 +26,7 @@ export default function Interceptor() {
     },
     async function (error) {
       const originalRequest = error.config;
+      if (error.response.status) {
       if (error.response.status === 401 || error.response.status === undefined) {
         dispatch(signOutAction());
         localStorage.clear();
@@ -51,6 +52,7 @@ export default function Interceptor() {
             }
           });
       }
+    }
       return Promise.reject(error);
     }
   );

@@ -42,7 +42,7 @@ const SearchBar = ({ placeholder, params, pageSize }) => {
     <div className="search">
       <Form
         onSubmit={getData}
-        render={({ handleSubmit, submitting, pristine }) => (
+        render={({ handleSubmit }) => (
           <form onSubmit={handleSubmit}>
             <Field
               type="text"
@@ -50,7 +50,7 @@ const SearchBar = ({ placeholder, params, pageSize }) => {
               placeholder={placeholder || "Enter value"}
               component="input"
             />
-            <button type="submit" disabled={submitting || pristine}>
+            <button type="submit">
               {"Search"}
             </button>
           </form>
