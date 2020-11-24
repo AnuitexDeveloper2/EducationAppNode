@@ -97,6 +97,9 @@ export default function MainPage() {
   };
 
   const getData = async (pageNumber) => {
+    debugger
+    const str = "Some<p> Text<p/>"
+    const test = str.replace("<p>","")
     const filter: PrintingEditionFilterModel = {
       searchString: "",
       sortType: data.sortType,
