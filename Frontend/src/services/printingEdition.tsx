@@ -4,10 +4,9 @@ import {
   RequestPrintingEditionModel,
   PrintingEditionResoponseModel,
 } from "../shared/models/printingEdition/printingEditionModel";
-import { PrintingEditionState } from "../redux/printingEdition/types";
 import { baseUrl } from '../config';
 
-export async function getPrintingEdition( filter: PrintingEditionFilterModel): Promise<PrintingEditionState> {
+export async function getPrintingEdition( filter: PrintingEditionFilterModel): Promise<any> {
   const result = await axios.post( `${baseUrl}/admin/printing-edition`, filter);
   return result.data;
 }
